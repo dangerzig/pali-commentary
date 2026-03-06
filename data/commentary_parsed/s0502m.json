@@ -1,0 +1,5571 @@
+{
+  "id": "s0502m",
+  "title_pali": "s0502m",
+  "collection": "canon",
+  "segments": [
+    {
+      "id": "s0502m:1",
+      "pali": "Namo tassa bhagavato arahato sammāsambuddhassa"
+    },
+    {
+      "id": "s0502m:2",
+      "pali": "1. Yamakavaggo"
+    },
+    {
+      "id": "s0502m:3",
+      "pali": "1 ."
+    },
+    {
+      "id": "s0502m:4",
+      "pali": "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā;"
+    },
+    {
+      "id": "s0502m:5",
+      "pali": "Manasā ce paduṭṭhena, bhāsati vā karoti vā;"
+    },
+    {
+      "id": "s0502m:6",
+      "pali": "Tato naṃ dukkhamanveti, cakkaṃva vahato padaṃ."
+    },
+    {
+      "id": "s0502m:7",
+      "pali": "2 ."
+    },
+    {
+      "id": "s0502m:8",
+      "pali": "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā;"
+    },
+    {
+      "id": "s0502m:9",
+      "pali": "Manasā ce pasannena, bhāsati vā karoti vā;"
+    },
+    {
+      "id": "s0502m:10",
+      "pali": "Tato naṃ sukhamanveti, chāyāva anapāyinī ."
+    },
+    {
+      "id": "s0502m:11",
+      "pali": "3 ."
+    },
+    {
+      "id": "s0502m:12",
+      "pali": "Akkocchi maṃ avadhi maṃ, ajini maṃ ahāsi me;"
+    },
+    {
+      "id": "s0502m:13",
+      "pali": "Ye ca taṃ upanayhanti, veraṃ tesaṃ na sammati."
+    },
+    {
+      "id": "s0502m:14",
+      "pali": "4 ."
+    },
+    {
+      "id": "s0502m:15",
+      "pali": "Akkocchi maṃ avadhi maṃ, ajini maṃ ahāsi me;"
+    },
+    {
+      "id": "s0502m:16",
+      "pali": "Ye ca taṃ nupanayhanti, veraṃ tesūpasammati."
+    },
+    {
+      "id": "s0502m:17",
+      "pali": "5 ."
+    },
+    {
+      "id": "s0502m:18",
+      "pali": "Na hi verena verāni, sammantīdha kudācanaṃ;"
+    },
+    {
+      "id": "s0502m:19",
+      "pali": "Averena ca sammanti, esa dhammo sanantano."
+    },
+    {
+      "id": "s0502m:20",
+      "pali": "6 ."
+    },
+    {
+      "id": "s0502m:21",
+      "pali": "Pare ca na vijānanti, mayamettha yamāmase;"
+    },
+    {
+      "id": "s0502m:22",
+      "pali": "Ye ca tattha vijānanti, tato sammanti medhagā."
+    },
+    {
+      "id": "s0502m:23",
+      "pali": "7 ."
+    },
+    {
+      "id": "s0502m:24",
+      "pali": "Subhānupassiṃ viharantaṃ, indriyesu asaṃvutaṃ;"
+    },
+    {
+      "id": "s0502m:25",
+      "pali": "Bhojanamhi cāmattaññuṃ, kusītaṃ hīnavīriyaṃ;"
+    },
+    {
+      "id": "s0502m:26",
+      "pali": "Taṃ ve pasahati māro, vāto rukkhaṃva dubbalaṃ."
+    },
+    {
+      "id": "s0502m:27",
+      "pali": "8 ."
+    },
+    {
+      "id": "s0502m:28",
+      "pali": "Asubhānupassiṃ viharantaṃ, indriyesu susaṃvutaṃ;"
+    },
+    {
+      "id": "s0502m:29",
+      "pali": "Bhojanamhi ca mattaññuṃ, saddhaṃ āraddhavīriyaṃ;"
+    },
+    {
+      "id": "s0502m:30",
+      "pali": "Taṃ ve nappasahati māro, vāto selaṃva pabbataṃ."
+    },
+    {
+      "id": "s0502m:31",
+      "pali": "9 ."
+    },
+    {
+      "id": "s0502m:32",
+      "pali": "Anikkasāvo kāsāvaṃ, yo vatthaṃ paridahissati;"
+    },
+    {
+      "id": "s0502m:33",
+      "pali": "Apeto damasaccena, na so kāsāvamarahati."
+    },
+    {
+      "id": "s0502m:34",
+      "pali": "10 ."
+    },
+    {
+      "id": "s0502m:35",
+      "pali": "Yo ca vantakasāvassa, sīlesu susamāhito;"
+    },
+    {
+      "id": "s0502m:36",
+      "pali": "Upeto damasaccena, sa ve kāsāvamarahati."
+    },
+    {
+      "id": "s0502m:37",
+      "pali": "11 ."
+    },
+    {
+      "id": "s0502m:38",
+      "pali": "Asāre sāramatino, sāre cāsāradassino;"
+    },
+    {
+      "id": "s0502m:39",
+      "pali": "Te sāraṃ nādhigacchanti, micchāsaṅkappagocarā."
+    },
+    {
+      "id": "s0502m:40",
+      "pali": "12 ."
+    },
+    {
+      "id": "s0502m:41",
+      "pali": "Sārañca sārato ñatvā, asārañca asārato;"
+    },
+    {
+      "id": "s0502m:42",
+      "pali": "Te sāraṃ adhigacchanti, sammāsaṅkappagocarā."
+    },
+    {
+      "id": "s0502m:43",
+      "pali": "13 ."
+    },
+    {
+      "id": "s0502m:44",
+      "pali": "Yathā agāraṃ ducchannaṃ, vuṭṭhī samativijjhati;"
+    },
+    {
+      "id": "s0502m:45",
+      "pali": "Evaṃ abhāvitaṃ cittaṃ, rāgo samativijjhati."
+    },
+    {
+      "id": "s0502m:46",
+      "pali": "14 ."
+    },
+    {
+      "id": "s0502m:47",
+      "pali": "Yathā agāraṃ suchannaṃ, vuṭṭhī na samativijjhati;"
+    },
+    {
+      "id": "s0502m:48",
+      "pali": "Evaṃ subhāvitaṃ cittaṃ, rāgo na samativijjhati."
+    },
+    {
+      "id": "s0502m:49",
+      "pali": "15 ."
+    },
+    {
+      "id": "s0502m:50",
+      "pali": "Idha socati pecca socati, pāpakārī ubhayattha socati;"
+    },
+    {
+      "id": "s0502m:51",
+      "pali": "So socati so vihaññati, disvā kammakiliṭṭhamattano."
+    },
+    {
+      "id": "s0502m:52",
+      "pali": "16 ."
+    },
+    {
+      "id": "s0502m:53",
+      "pali": "Idha modati pecca modati, katapuñño ubhayattha modati;"
+    },
+    {
+      "id": "s0502m:54",
+      "pali": "So modati so pamodati, disvā kammavisuddhimattano."
+    },
+    {
+      "id": "s0502m:55",
+      "pali": "17 ."
+    },
+    {
+      "id": "s0502m:56",
+      "pali": "Idha tappati pecca tappati, pāpakārī ubhayattha tappati;"
+    },
+    {
+      "id": "s0502m:57",
+      "pali": "‘‘Pāpaṃ me kata’’nti tappati, bhiyyo tappati duggatiṃ gato."
+    },
+    {
+      "id": "s0502m:58",
+      "pali": "18 ."
+    },
+    {
+      "id": "s0502m:59",
+      "pali": "Idha nandati pecca nandati, katapuñño ubhayattha nandati;"
+    },
+    {
+      "id": "s0502m:60",
+      "pali": "‘‘Puññaṃ me kata’’nti nandati, bhiyyo nandati suggatiṃ gato."
+    },
+    {
+      "id": "s0502m:61",
+      "pali": "19 ."
+    },
+    {
+      "id": "s0502m:62",
+      "pali": "Bahumpi ce saṃhita bhāsamāno, na takkaro hoti naro pamatto;"
+    },
+    {
+      "id": "s0502m:63",
+      "pali": "Gopova gāvo gaṇayaṃ paresaṃ, na bhāgavā sāmaññassa hoti."
+    },
+    {
+      "id": "s0502m:64",
+      "pali": "20 ."
+    },
+    {
+      "id": "s0502m:65",
+      "pali": "Appampi ce saṃhita bhāsamāno, dhammassa hoti anudhammacārī;"
+    },
+    {
+      "id": "s0502m:66",
+      "pali": "Rāgañca dosañca pahāya mohaṃ, sammappajāno suvimuttacitto;"
+    },
+    {
+      "id": "s0502m:67",
+      "pali": "Anupādiyāno idha vā huraṃ vā, sa bhāgavā sāmaññassa hoti."
+    },
+    {
+      "id": "s0502m:68",
+      "pali": "Yamakavaggo paṭhamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:69",
+      "pali": "2. Appamādavaggo"
+    },
+    {
+      "id": "s0502m:70",
+      "pali": "21 ."
+    },
+    {
+      "id": "s0502m:71",
+      "pali": "Appamādo amatapadaṃ , pamādo maccuno padaṃ;"
+    },
+    {
+      "id": "s0502m:72",
+      "pali": "Appamattā na mīyanti, ye pamattā yathā matā."
+    },
+    {
+      "id": "s0502m:73",
+      "pali": "22 ."
+    },
+    {
+      "id": "s0502m:74",
+      "pali": "Evaṃ visesato ñatvā, appamādamhi paṇḍitā;"
+    },
+    {
+      "id": "s0502m:75",
+      "pali": "Appamāde pamodanti, ariyānaṃ gocare ratā."
+    },
+    {
+      "id": "s0502m:76",
+      "pali": "23 ."
+    },
+    {
+      "id": "s0502m:77",
+      "pali": "Te jhāyino sātatikā, niccaṃ daḷhaparakkamā;"
+    },
+    {
+      "id": "s0502m:78",
+      "pali": "Phusanti dhīrā nibbānaṃ, yogakkhemaṃ anuttaraṃ."
+    },
+    {
+      "id": "s0502m:79",
+      "pali": "24 ."
+    },
+    {
+      "id": "s0502m:80",
+      "pali": "Uṭṭhānavato satīmato , sucikammassa nisammakārino;"
+    },
+    {
+      "id": "s0502m:81",
+      "pali": "Saññatassa dhammajīvino, appamattassa yasobhivaḍḍhati."
+    },
+    {
+      "id": "s0502m:82",
+      "pali": "25 ."
+    },
+    {
+      "id": "s0502m:83",
+      "pali": "Uṭṭhānenappamādena , saṃyamena damena ca;"
+    },
+    {
+      "id": "s0502m:84",
+      "pali": "Dīpaṃ kayirātha medhāvī, yaṃ ogho nābhikīrati."
+    },
+    {
+      "id": "s0502m:85",
+      "pali": "26 ."
+    },
+    {
+      "id": "s0502m:86",
+      "pali": "Pamādamanuyuñjanti, bālā dummedhino janā;"
+    },
+    {
+      "id": "s0502m:87",
+      "pali": "Appamādañca medhāvī, dhanaṃ seṭṭhaṃva rakkhati."
+    },
+    {
+      "id": "s0502m:88",
+      "pali": "27 ."
+    },
+    {
+      "id": "s0502m:89",
+      "pali": "Mā pamādamanuyuñjetha, mā kāmaratisanthavaṃ ;"
+    },
+    {
+      "id": "s0502m:90",
+      "pali": "Appamatto hi jhāyanto, pappoti vipulaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:91",
+      "pali": "28 ."
+    },
+    {
+      "id": "s0502m:92",
+      "pali": "Pamādaṃ appamādena, yadā nudati paṇḍito;"
+    },
+    {
+      "id": "s0502m:93",
+      "pali": "Paññāpāsādamāruyha, asoko sokiniṃ pajaṃ;"
+    },
+    {
+      "id": "s0502m:94",
+      "pali": "Pabbataṭṭhova bhūmaṭṭhe , dhīro bāle avekkhati."
+    },
+    {
+      "id": "s0502m:95",
+      "pali": "29 ."
+    },
+    {
+      "id": "s0502m:96",
+      "pali": "Appamatto pamattesu, suttesu bahujāgaro;"
+    },
+    {
+      "id": "s0502m:97",
+      "pali": "Abalassaṃva sīghasso, hitvā yāti sumedhaso."
+    },
+    {
+      "id": "s0502m:98",
+      "pali": "30 ."
+    },
+    {
+      "id": "s0502m:99",
+      "pali": "Appamādena maghavā, devānaṃ seṭṭhataṃ gato;"
+    },
+    {
+      "id": "s0502m:100",
+      "pali": "Appamādaṃ pasaṃsanti, pamādo garahito sadā."
+    },
+    {
+      "id": "s0502m:101",
+      "pali": "31 ."
+    },
+    {
+      "id": "s0502m:102",
+      "pali": "Appamādarato bhikkhu, pamāde bhayadassi vā;"
+    },
+    {
+      "id": "s0502m:103",
+      "pali": "Saṃyojanaṃ aṇuṃ thūlaṃ, ḍahaṃ aggīva gacchati."
+    },
+    {
+      "id": "s0502m:104",
+      "pali": "32 ."
+    },
+    {
+      "id": "s0502m:105",
+      "pali": "Appamādarato bhikkhu, pamāde bhayadassi vā;"
+    },
+    {
+      "id": "s0502m:106",
+      "pali": "Abhabbo parihānāya, nibbānasseva santike."
+    },
+    {
+      "id": "s0502m:107",
+      "pali": "Appamādavaggo dutiyo niṭṭhito."
+    },
+    {
+      "id": "s0502m:108",
+      "pali": "3. Cittavaggo"
+    },
+    {
+      "id": "s0502m:109",
+      "pali": "33 ."
+    },
+    {
+      "id": "s0502m:110",
+      "pali": "Phandanaṃ capalaṃ cittaṃ, dūrakkhaṃ dunnivārayaṃ;"
+    },
+    {
+      "id": "s0502m:111",
+      "pali": "Ujuṃ karoti medhāvī, usukārova tejanaṃ."
+    },
+    {
+      "id": "s0502m:112",
+      "pali": "34 ."
+    },
+    {
+      "id": "s0502m:113",
+      "pali": "Vārijova thale khitto, okamokataubbhato;"
+    },
+    {
+      "id": "s0502m:114",
+      "pali": "Pariphandatidaṃ cittaṃ, māradheyyaṃ pahātave."
+    },
+    {
+      "id": "s0502m:115",
+      "pali": "35 ."
+    },
+    {
+      "id": "s0502m:116",
+      "pali": "Dunniggahassa lahuno, yatthakāmanipātino;"
+    },
+    {
+      "id": "s0502m:117",
+      "pali": "Cittassa damatho sādhu, cittaṃ dantaṃ sukhāvahaṃ."
+    },
+    {
+      "id": "s0502m:118",
+      "pali": "36 ."
+    },
+    {
+      "id": "s0502m:119",
+      "pali": "Sududdasaṃ sunipuṇaṃ, yatthakāmanipātinaṃ;"
+    },
+    {
+      "id": "s0502m:120",
+      "pali": "Cittaṃ rakkhetha medhāvī, cittaṃ guttaṃ sukhāvahaṃ."
+    },
+    {
+      "id": "s0502m:121",
+      "pali": "37 ."
+    },
+    {
+      "id": "s0502m:122",
+      "pali": "Dūraṅgamaṃ ekacaraṃ , asarīraṃ guhāsayaṃ;"
+    },
+    {
+      "id": "s0502m:123",
+      "pali": "Ye cittaṃ saṃyamessanti, mokkhanti mārabandhanā."
+    },
+    {
+      "id": "s0502m:124",
+      "pali": "38 ."
+    },
+    {
+      "id": "s0502m:125",
+      "pali": "Anavaṭṭhitacittassa, saddhammaṃ avijānato;"
+    },
+    {
+      "id": "s0502m:126",
+      "pali": "Pariplavapasādassa, paññā na paripūrati."
+    },
+    {
+      "id": "s0502m:127",
+      "pali": "39 ."
+    },
+    {
+      "id": "s0502m:128",
+      "pali": "Anavassutacittassa, ananvāhatacetaso;"
+    },
+    {
+      "id": "s0502m:129",
+      "pali": "Puññapāpapahīnassa, natthi jāgarato bhayaṃ."
+    },
+    {
+      "id": "s0502m:130",
+      "pali": "40 ."
+    },
+    {
+      "id": "s0502m:131",
+      "pali": "Kumbhūpamaṃ kāyamimaṃ viditvā, nagarūpamaṃ cittamidaṃ ṭhapetvā;"
+    },
+    {
+      "id": "s0502m:132",
+      "pali": "Yodhetha māraṃ paññāvudhena, jitañca rakkhe anivesano siyā."
+    },
+    {
+      "id": "s0502m:133",
+      "pali": "41 ."
+    },
+    {
+      "id": "s0502m:134",
+      "pali": "Aciraṃ vatayaṃ kāyo, pathaviṃ adhisessati;"
+    },
+    {
+      "id": "s0502m:135",
+      "pali": "Chuddho apetaviññāṇo, niratthaṃva kaliṅgaraṃ."
+    },
+    {
+      "id": "s0502m:136",
+      "pali": "42 ."
+    },
+    {
+      "id": "s0502m:137",
+      "pali": "Diso disaṃ yaṃ taṃ kayirā, verī vā pana verinaṃ;"
+    },
+    {
+      "id": "s0502m:138",
+      "pali": "Micchāpaṇihitaṃ cittaṃ, pāpiyo naṃ tato kare."
+    },
+    {
+      "id": "s0502m:139",
+      "pali": "43 ."
+    },
+    {
+      "id": "s0502m:140",
+      "pali": "Na taṃ mātā pitā kayirā, aññe vāpi ca ñātakā;"
+    },
+    {
+      "id": "s0502m:141",
+      "pali": "Sammāpaṇihitaṃ cittaṃ, seyyaso naṃ tato kare."
+    },
+    {
+      "id": "s0502m:142",
+      "pali": "Cittavaggo tatiyo niṭṭhito."
+    },
+    {
+      "id": "s0502m:143",
+      "pali": "4. Pupphavaggo"
+    },
+    {
+      "id": "s0502m:144",
+      "pali": "44 ."
+    },
+    {
+      "id": "s0502m:145",
+      "pali": "Ko imaṃ pathaviṃ vicessati , yamalokañca imaṃ sadevakaṃ;"
+    },
+    {
+      "id": "s0502m:146",
+      "pali": "Ko dhammapadaṃ sudesitaṃ, kusalo pupphamiva pacessati ."
+    },
+    {
+      "id": "s0502m:147",
+      "pali": "45 ."
+    },
+    {
+      "id": "s0502m:148",
+      "pali": "Sekho pathaviṃ vicessati, yamalokañca imaṃ sadevakaṃ;"
+    },
+    {
+      "id": "s0502m:149",
+      "pali": "Sekho dhammapadaṃ sudesitaṃ, kusalo pupphamiva pacessati."
+    },
+    {
+      "id": "s0502m:150",
+      "pali": "46 ."
+    },
+    {
+      "id": "s0502m:151",
+      "pali": "Pheṇūpamaṃ kāyamimaṃ viditvā, marīcidhammaṃ abhisambudhāno;"
+    },
+    {
+      "id": "s0502m:152",
+      "pali": "Chetvāna mārassa papupphakāni , adassanaṃ maccurājassa gacche."
+    },
+    {
+      "id": "s0502m:153",
+      "pali": "47 ."
+    },
+    {
+      "id": "s0502m:154",
+      "pali": "Pupphāni heva pacinantaṃ, byāsattamanasaṃ naraṃ;"
+    },
+    {
+      "id": "s0502m:155",
+      "pali": "Suttaṃ gāmaṃ mahoghova, maccu ādāya gacchati."
+    },
+    {
+      "id": "s0502m:156",
+      "pali": "48 ."
+    },
+    {
+      "id": "s0502m:157",
+      "pali": "Pupphāni heva pacinantaṃ, byāsattamanasaṃ naraṃ;"
+    },
+    {
+      "id": "s0502m:158",
+      "pali": "Atittaññeva kāmesu, antako kurute vasaṃ."
+    },
+    {
+      "id": "s0502m:159",
+      "pali": "49 ."
+    },
+    {
+      "id": "s0502m:160",
+      "pali": "Yathāpi bhamaro pupphaṃ, vaṇṇagandhamaheṭhayaṃ ;"
+    },
+    {
+      "id": "s0502m:161",
+      "pali": "Paleti rasamādāya, evaṃ gāme munī care."
+    },
+    {
+      "id": "s0502m:162",
+      "pali": "50 ."
+    },
+    {
+      "id": "s0502m:163",
+      "pali": "Na paresaṃ vilomāni, na paresaṃ katākataṃ;"
+    },
+    {
+      "id": "s0502m:164",
+      "pali": "Attanova avekkheyya, katāni akatāni ca."
+    },
+    {
+      "id": "s0502m:165",
+      "pali": "51 ."
+    },
+    {
+      "id": "s0502m:166",
+      "pali": "Yathāpi ruciraṃ pupphaṃ, vaṇṇavantaṃ agandhakaṃ;"
+    },
+    {
+      "id": "s0502m:167",
+      "pali": "Evaṃ subhāsitā vācā, aphalā hoti akubbato."
+    },
+    {
+      "id": "s0502m:168",
+      "pali": "52 ."
+    },
+    {
+      "id": "s0502m:169",
+      "pali": "Yathāpi ruciraṃ pupphaṃ, vaṇṇavantaṃ sugandhakaṃ ;"
+    },
+    {
+      "id": "s0502m:170",
+      "pali": "Evaṃ subhāsitā vācā, saphalā hoti kubbato ."
+    },
+    {
+      "id": "s0502m:171",
+      "pali": "53 ."
+    },
+    {
+      "id": "s0502m:172",
+      "pali": "Yathāpi puppharāsimhā, kayirā mālāguṇe bahū;"
+    },
+    {
+      "id": "s0502m:173",
+      "pali": "Evaṃ jātena maccena, kattabbaṃ kusalaṃ bahuṃ."
+    },
+    {
+      "id": "s0502m:174",
+      "pali": "54 ."
+    },
+    {
+      "id": "s0502m:175",
+      "pali": "Na pupphagandho paṭivātameti, na candanaṃ tagaramallikā ;"
+    },
+    {
+      "id": "s0502m:176",
+      "pali": "Satañca gandho paṭivātameti, sabbā disā sappuriso pavāyati."
+    },
+    {
+      "id": "s0502m:177",
+      "pali": "55 ."
+    },
+    {
+      "id": "s0502m:178",
+      "pali": "Candanaṃ tagaraṃ vāpi, uppalaṃ atha vassikī;"
+    },
+    {
+      "id": "s0502m:179",
+      "pali": "Etesaṃ gandhajātānaṃ, sīlagandho anuttaro."
+    },
+    {
+      "id": "s0502m:180",
+      "pali": "56 ."
+    },
+    {
+      "id": "s0502m:181",
+      "pali": "Appamatto ayaṃ gandho, yvāyaṃ tagaracandanaṃ ;"
+    },
+    {
+      "id": "s0502m:182",
+      "pali": "Yo ca sīlavataṃ gandho, vāti devesu uttamo."
+    },
+    {
+      "id": "s0502m:183",
+      "pali": "57 ."
+    },
+    {
+      "id": "s0502m:184",
+      "pali": "Tesaṃ sampannasīlānaṃ, appamādavihārinaṃ;"
+    },
+    {
+      "id": "s0502m:185",
+      "pali": "Sammadaññā vimuttānaṃ, māro maggaṃ na vindati."
+    },
+    {
+      "id": "s0502m:186",
+      "pali": "58 ."
+    },
+    {
+      "id": "s0502m:187",
+      "pali": "Yathā saṅkāraṭhānasmiṃ , ujjhitasmiṃ mahāpathe;"
+    },
+    {
+      "id": "s0502m:188",
+      "pali": "Padumaṃ tattha jāyetha, sucigandhaṃ manoramaṃ."
+    },
+    {
+      "id": "s0502m:189",
+      "pali": "59 ."
+    },
+    {
+      "id": "s0502m:190",
+      "pali": "Evaṃ saṅkārabhūtesu, andhabhūte puthujjane;"
+    },
+    {
+      "id": "s0502m:191",
+      "pali": "Atirocati paññāya, sammāsambuddhasāvako."
+    },
+    {
+      "id": "s0502m:192",
+      "pali": "Pupphavaggo catuttho niṭṭhito."
+    },
+    {
+      "id": "s0502m:193",
+      "pali": "5. Bālavaggo"
+    },
+    {
+      "id": "s0502m:194",
+      "pali": "60 ."
+    },
+    {
+      "id": "s0502m:195",
+      "pali": "Dīghā jāgarato ratti, dīghaṃ santassa yojanaṃ;"
+    },
+    {
+      "id": "s0502m:196",
+      "pali": "Dīgho bālānaṃ saṃsāro, saddhammaṃ avijānataṃ."
+    },
+    {
+      "id": "s0502m:197",
+      "pali": "61 ."
+    },
+    {
+      "id": "s0502m:198",
+      "pali": "Carañce nādhigaccheyya, seyyaṃ sadisamattano;"
+    },
+    {
+      "id": "s0502m:199",
+      "pali": "Ekacariyaṃ daḷhaṃ kayirā, natthi bāle sahāyatā."
+    },
+    {
+      "id": "s0502m:200",
+      "pali": "62 ."
+    },
+    {
+      "id": "s0502m:201",
+      "pali": "Puttā matthi dhanammatthi , iti bālo vihaññati;"
+    },
+    {
+      "id": "s0502m:202",
+      "pali": "Attā hi attano natthi, kuto puttā kuto dhanaṃ."
+    },
+    {
+      "id": "s0502m:203",
+      "pali": "63 ."
+    },
+    {
+      "id": "s0502m:204",
+      "pali": "Yo bālo maññati bālyaṃ, paṇḍito vāpi tena so;"
+    },
+    {
+      "id": "s0502m:205",
+      "pali": "Bālo ca paṇḍitamānī, sa ve ‘‘bālo’’ti vuccati."
+    },
+    {
+      "id": "s0502m:206",
+      "pali": "64 ."
+    },
+    {
+      "id": "s0502m:207",
+      "pali": "Yāvajīvampi ce bālo, paṇḍitaṃ payirupāsati;"
+    },
+    {
+      "id": "s0502m:208",
+      "pali": "Na so dhammaṃ vijānāti, dabbī sūparasaṃ yathā."
+    },
+    {
+      "id": "s0502m:209",
+      "pali": "65 ."
+    },
+    {
+      "id": "s0502m:210",
+      "pali": "Muhuttamapi ce viññū, paṇḍitaṃ payirupāsati;"
+    },
+    {
+      "id": "s0502m:211",
+      "pali": "Khippaṃ dhammaṃ vijānāti, jivhā sūparasaṃ yathā."
+    },
+    {
+      "id": "s0502m:212",
+      "pali": "66 ."
+    },
+    {
+      "id": "s0502m:213",
+      "pali": "Caranti bālā dummedhā, amitteneva attanā;"
+    },
+    {
+      "id": "s0502m:214",
+      "pali": "Karontā pāpakaṃ kammaṃ, yaṃ hoti kaṭukapphalaṃ."
+    },
+    {
+      "id": "s0502m:215",
+      "pali": "67 ."
+    },
+    {
+      "id": "s0502m:216",
+      "pali": "Na taṃ kammaṃ kataṃ sādhu, yaṃ katvā anutappati;"
+    },
+    {
+      "id": "s0502m:217",
+      "pali": "Yassa assumukho rodaṃ, vipākaṃ paṭisevati."
+    },
+    {
+      "id": "s0502m:218",
+      "pali": "68 ."
+    },
+    {
+      "id": "s0502m:219",
+      "pali": "Tañca kammaṃ kataṃ sādhu, yaṃ katvā nānutappati;"
+    },
+    {
+      "id": "s0502m:220",
+      "pali": "Yassa patīto sumano, vipākaṃ paṭisevati."
+    },
+    {
+      "id": "s0502m:221",
+      "pali": "69 ."
+    },
+    {
+      "id": "s0502m:222",
+      "pali": "Madhuvā maññati bālo, yāva pāpaṃ na paccati;"
+    },
+    {
+      "id": "s0502m:223",
+      "pali": "Yadā ca paccati pāpaṃ, bālo dukkhaṃ nigacchati."
+    },
+    {
+      "id": "s0502m:224",
+      "pali": "70 ."
+    },
+    {
+      "id": "s0502m:225",
+      "pali": "Māse māse kusaggena, bālo bhuñjeyya bhojanaṃ;"
+    },
+    {
+      "id": "s0502m:226",
+      "pali": "Na so saṅkhātadhammānaṃ , kalaṃ agghati soḷasiṃ."
+    },
+    {
+      "id": "s0502m:227",
+      "pali": "71 ."
+    },
+    {
+      "id": "s0502m:228",
+      "pali": "Na hi pāpaṃ kataṃ kammaṃ, sajju khīraṃva muccati;"
+    },
+    {
+      "id": "s0502m:229",
+      "pali": "Ḍahantaṃ bālamanveti, bhasmacchannova pāvako."
+    },
+    {
+      "id": "s0502m:230",
+      "pali": "72 ."
+    },
+    {
+      "id": "s0502m:231",
+      "pali": "Yāvadeva anatthāya, ñattaṃ bālassa jāyati;"
+    },
+    {
+      "id": "s0502m:232",
+      "pali": "Hanti bālassa sukkaṃsaṃ, muddhamassa vipātayaṃ."
+    },
+    {
+      "id": "s0502m:233",
+      "pali": "73 ."
+    },
+    {
+      "id": "s0502m:234",
+      "pali": "Asantaṃ bhāvanamiccheyya , purekkhārañca bhikkhusu;"
+    },
+    {
+      "id": "s0502m:235",
+      "pali": "Āvāsesu ca issariyaṃ, pūjā parakulesu ca."
+    },
+    {
+      "id": "s0502m:236",
+      "pali": "74 ."
+    },
+    {
+      "id": "s0502m:237",
+      "pali": "Mameva kata maññantu, gihīpabbajitā ubho;"
+    },
+    {
+      "id": "s0502m:238",
+      "pali": "Mamevātivasā assu, kiccākiccesu kismici;"
+    },
+    {
+      "id": "s0502m:239",
+      "pali": "Iti bālassa saṅkappo, icchā māno ca vaḍḍhati."
+    },
+    {
+      "id": "s0502m:240",
+      "pali": "75 ."
+    },
+    {
+      "id": "s0502m:241",
+      "pali": "Aññā hi lābhūpanisā, aññā nibbānagāminī;"
+    },
+    {
+      "id": "s0502m:242",
+      "pali": "Evametaṃ abhiññāya, bhikkhu buddhassa sāvako;"
+    },
+    {
+      "id": "s0502m:243",
+      "pali": "Sakkāraṃ nābhinandeyya, vivekamanubrūhaye."
+    },
+    {
+      "id": "s0502m:244",
+      "pali": "Bālavaggo pañcamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:245",
+      "pali": "6. Paṇḍitavaggo"
+    },
+    {
+      "id": "s0502m:246",
+      "pali": "76 ."
+    },
+    {
+      "id": "s0502m:247",
+      "pali": "Nidhīnaṃva pavattāraṃ, yaṃ passe vajjadassinaṃ;"
+    },
+    {
+      "id": "s0502m:248",
+      "pali": "Niggayhavādiṃ medhāviṃ, tādisaṃ paṇḍitaṃ bhaje;"
+    },
+    {
+      "id": "s0502m:249",
+      "pali": "Tādisaṃ bhajamānassa, seyyo hoti na pāpiyo."
+    },
+    {
+      "id": "s0502m:250",
+      "pali": "77 ."
+    },
+    {
+      "id": "s0502m:251",
+      "pali": "Ovadeyyānusāseyya, asabbhā ca nivāraye;"
+    },
+    {
+      "id": "s0502m:252",
+      "pali": "Satañhi so piyo hoti, asataṃ hoti appiyo."
+    },
+    {
+      "id": "s0502m:253",
+      "pali": "78 ."
+    },
+    {
+      "id": "s0502m:254",
+      "pali": "Na bhaje pāpake mitte, na bhaje purisādhame;"
+    },
+    {
+      "id": "s0502m:255",
+      "pali": "Bhajetha mitte kalyāṇe, bhajetha purisuttame."
+    },
+    {
+      "id": "s0502m:256",
+      "pali": "79 ."
+    },
+    {
+      "id": "s0502m:257",
+      "pali": "Dhammapīti sukhaṃ seti, vippasannena cetasā;"
+    },
+    {
+      "id": "s0502m:258",
+      "pali": "Ariyappavedite dhamme, sadā ramati paṇḍito."
+    },
+    {
+      "id": "s0502m:259",
+      "pali": "80 ."
+    },
+    {
+      "id": "s0502m:260",
+      "pali": "Udakañhi nayanti nettikā, usukārā namayanti tejanaṃ;"
+    },
+    {
+      "id": "s0502m:261",
+      "pali": "Dāruṃ namayanti tacchakā, attānaṃ damayanti paṇḍitā."
+    },
+    {
+      "id": "s0502m:262",
+      "pali": "81 ."
+    },
+    {
+      "id": "s0502m:263",
+      "pali": "Selo yathā ekaghano , vātena na samīrati;"
+    },
+    {
+      "id": "s0502m:264",
+      "pali": "Evaṃ nindāpasaṃsāsu, na samiñjanti paṇḍitā."
+    },
+    {
+      "id": "s0502m:265",
+      "pali": "82 ."
+    },
+    {
+      "id": "s0502m:266",
+      "pali": "Yathāpi rahado gambhīro, vippasanno anāvilo;"
+    },
+    {
+      "id": "s0502m:267",
+      "pali": "Evaṃ dhammāni sutvāna, vippasīdanti paṇḍitā."
+    },
+    {
+      "id": "s0502m:268",
+      "pali": "83 ."
+    },
+    {
+      "id": "s0502m:269",
+      "pali": "Sabbattha ve sappurisā cajanti, na kāmakāmā lapayanti santo;"
+    },
+    {
+      "id": "s0502m:270",
+      "pali": "Sukhena phuṭṭhā atha vā dukhena, na uccāvacaṃ paṇḍitā dassayanti."
+    },
+    {
+      "id": "s0502m:271",
+      "pali": "84 ."
+    },
+    {
+      "id": "s0502m:272",
+      "pali": "Na attahetu na parassa hetu, na puttamicche na dhanaṃ na raṭṭhaṃ;"
+    },
+    {
+      "id": "s0502m:273",
+      "pali": "Na iccheyya adhammena samiddhimattano, sa sīlavā paññavā dhammiko siyā."
+    },
+    {
+      "id": "s0502m:274",
+      "pali": "85 ."
+    },
+    {
+      "id": "s0502m:275",
+      "pali": "Appakā te manussesu, ye janā pāragāmino;"
+    },
+    {
+      "id": "s0502m:276",
+      "pali": "Athāyaṃ itarā pajā, tīramevānudhāvati."
+    },
+    {
+      "id": "s0502m:277",
+      "pali": "86 ."
+    },
+    {
+      "id": "s0502m:278",
+      "pali": "Ye ca kho sammadakkhāte, dhamme dhammānuvattino;"
+    },
+    {
+      "id": "s0502m:279",
+      "pali": "Te janā pāramessanti, maccudheyyaṃ suduttaraṃ."
+    },
+    {
+      "id": "s0502m:280",
+      "pali": "87 ."
+    },
+    {
+      "id": "s0502m:281",
+      "pali": "Kaṇhaṃ dhammaṃ vippahāya, sukkaṃ bhāvetha paṇḍito;"
+    },
+    {
+      "id": "s0502m:282",
+      "pali": "Okā anokamāgamma, viveke yattha dūramaṃ."
+    },
+    {
+      "id": "s0502m:283",
+      "pali": "88 ."
+    },
+    {
+      "id": "s0502m:284",
+      "pali": "Tatrābhiratimiccheyya, hitvā kāme akiñcano;"
+    },
+    {
+      "id": "s0502m:285",
+      "pali": "Pariyodapeyya attānaṃ, cittaklesehi paṇḍito."
+    },
+    {
+      "id": "s0502m:286",
+      "pali": "89 ."
+    },
+    {
+      "id": "s0502m:287",
+      "pali": "Yesaṃ sambodhiyaṅgesu, sammā cittaṃ subhāvitaṃ;"
+    },
+    {
+      "id": "s0502m:288",
+      "pali": "Ādānapaṭinissagge, anupādāya ye ratā;"
+    },
+    {
+      "id": "s0502m:289",
+      "pali": "Khīṇāsavā jutimanto, te loke parinibbutā."
+    },
+    {
+      "id": "s0502m:290",
+      "pali": "Paṇḍitavaggo chaṭṭho niṭṭhito."
+    },
+    {
+      "id": "s0502m:291",
+      "pali": "7. Arahantavaggo"
+    },
+    {
+      "id": "s0502m:292",
+      "pali": "90 ."
+    },
+    {
+      "id": "s0502m:293",
+      "pali": "Gataddhino visokassa, vippamuttassa sabbadhi;"
+    },
+    {
+      "id": "s0502m:294",
+      "pali": "Sabbaganthappahīnassa, pariḷāho na vijjati."
+    },
+    {
+      "id": "s0502m:295",
+      "pali": "91 ."
+    },
+    {
+      "id": "s0502m:296",
+      "pali": "Uyyuñjanti satīmanto, na nikete ramanti te;"
+    },
+    {
+      "id": "s0502m:297",
+      "pali": "Haṃsāva pallalaṃ hitvā, okamokaṃ jahanti te."
+    },
+    {
+      "id": "s0502m:298",
+      "pali": "92 ."
+    },
+    {
+      "id": "s0502m:299",
+      "pali": "Yesaṃ sannicayo natthi, ye pariññātabhojanā;"
+    },
+    {
+      "id": "s0502m:300",
+      "pali": "Suññato animitto ca, vimokkho yesaṃ gocaro;"
+    },
+    {
+      "id": "s0502m:301",
+      "pali": "Ākāse va sakuntānaṃ , gati tesaṃ durannayā."
+    },
+    {
+      "id": "s0502m:302",
+      "pali": "93 ."
+    },
+    {
+      "id": "s0502m:303",
+      "pali": "Yassāsavā parikkhīṇā, āhāre ca anissito;"
+    },
+    {
+      "id": "s0502m:304",
+      "pali": "Suññato animitto ca, vimokkho yassa gocaro;"
+    },
+    {
+      "id": "s0502m:305",
+      "pali": "Ākāse va sakuntānaṃ, padaṃ tassa durannayaṃ."
+    },
+    {
+      "id": "s0502m:306",
+      "pali": "94 ."
+    },
+    {
+      "id": "s0502m:307",
+      "pali": "Yassindriyāni samathaṅgatāni , assā yathā sārathinā sudantā;"
+    },
+    {
+      "id": "s0502m:308",
+      "pali": "Pahīnamānassa anāsavassa, devāpi tassa pihayanti tādino."
+    },
+    {
+      "id": "s0502m:309",
+      "pali": "95 ."
+    },
+    {
+      "id": "s0502m:310",
+      "pali": "Pathavisamo no virujjhati, indakhilupamo tādi subbato;"
+    },
+    {
+      "id": "s0502m:311",
+      "pali": "Rahadova apetakaddamo, saṃsārā na bhavanti tādino."
+    },
+    {
+      "id": "s0502m:312",
+      "pali": "96 ."
+    },
+    {
+      "id": "s0502m:313",
+      "pali": "Santaṃ tassa manaṃ hoti, santā vācā ca kamma ca;"
+    },
+    {
+      "id": "s0502m:314",
+      "pali": "Sammadaññā vimuttassa, upasantassa tādino."
+    },
+    {
+      "id": "s0502m:315",
+      "pali": "97 ."
+    },
+    {
+      "id": "s0502m:316",
+      "pali": "Assaddho akataññū ca, sandhicchedo ca yo naro;"
+    },
+    {
+      "id": "s0502m:317",
+      "pali": "Hatāvakāso vantāso, sa ve uttamaporiso."
+    },
+    {
+      "id": "s0502m:318",
+      "pali": "98 ."
+    },
+    {
+      "id": "s0502m:319",
+      "pali": "Gāme vā yadi vāraññe, ninne vā yadi vā thale;"
+    },
+    {
+      "id": "s0502m:320",
+      "pali": "Yattha arahanto viharanti, taṃ bhūmirāmaṇeyyakaṃ."
+    },
+    {
+      "id": "s0502m:321",
+      "pali": "99 ."
+    },
+    {
+      "id": "s0502m:322",
+      "pali": "Ramaṇīyāni araññāni, yattha na ramatī jano;"
+    },
+    {
+      "id": "s0502m:323",
+      "pali": "Vītarāgā ramissanti, na te kāmagavesino."
+    },
+    {
+      "id": "s0502m:324",
+      "pali": "Arahantavaggo sattamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:325",
+      "pali": "8. Sahassavaggo"
+    },
+    {
+      "id": "s0502m:326",
+      "pali": "100 ."
+    },
+    {
+      "id": "s0502m:327",
+      "pali": "Sahassamapi ce vācā, anatthapadasaṃhitā;"
+    },
+    {
+      "id": "s0502m:328",
+      "pali": "Ekaṃ atthapadaṃ seyyo, yaṃ sutvā upasammati."
+    },
+    {
+      "id": "s0502m:329",
+      "pali": "101 ."
+    },
+    {
+      "id": "s0502m:330",
+      "pali": "Sahassamapi ce gāthā, anatthapadasaṃhitā;"
+    },
+    {
+      "id": "s0502m:331",
+      "pali": "Ekaṃ gāthāpadaṃ seyyo, yaṃ sutvā upasammati."
+    },
+    {
+      "id": "s0502m:332",
+      "pali": "102 ."
+    },
+    {
+      "id": "s0502m:333",
+      "pali": "Yo ca gāthā sataṃ bhāse, anatthapadasaṃhitā ;"
+    },
+    {
+      "id": "s0502m:334",
+      "pali": "Ekaṃ dhammapadaṃ seyyo, yaṃ sutvā upasammati."
+    },
+    {
+      "id": "s0502m:335",
+      "pali": "103 ."
+    },
+    {
+      "id": "s0502m:336",
+      "pali": "Yo sahassaṃ sahassena, saṅgāme mānuse jine;"
+    },
+    {
+      "id": "s0502m:337",
+      "pali": "Ekañca jeyyamattānaṃ , sa ve saṅgāmajuttamo."
+    },
+    {
+      "id": "s0502m:338",
+      "pali": "104 ."
+    },
+    {
+      "id": "s0502m:339",
+      "pali": "Attā have jitaṃ seyyo, yā cāyaṃ itarā pajā;"
+    },
+    {
+      "id": "s0502m:340",
+      "pali": "Attadantassa posassa, niccaṃ saññatacārino."
+    },
+    {
+      "id": "s0502m:341",
+      "pali": "105 ."
+    },
+    {
+      "id": "s0502m:342",
+      "pali": "Neva devo na gandhabbo, na māro saha brahmunā;"
+    },
+    {
+      "id": "s0502m:343",
+      "pali": "Jitaṃ apajitaṃ kayirā, tathārūpassa jantuno."
+    },
+    {
+      "id": "s0502m:344",
+      "pali": "106 ."
+    },
+    {
+      "id": "s0502m:345",
+      "pali": "Māse māse sahassena, yo yajetha sataṃ samaṃ;"
+    },
+    {
+      "id": "s0502m:346",
+      "pali": "Ekañca bhāvitattānaṃ, muhuttamapi pūjaye;"
+    },
+    {
+      "id": "s0502m:347",
+      "pali": "Sāyeva pūjanā seyyo, yañce vassasataṃ hutaṃ."
+    },
+    {
+      "id": "s0502m:348",
+      "pali": "107 ."
+    },
+    {
+      "id": "s0502m:349",
+      "pali": "Yo ca vassasataṃ jantu, aggiṃ paricare vane;"
+    },
+    {
+      "id": "s0502m:350",
+      "pali": "Ekañca bhāvitattānaṃ, muhuttamapi pūjaye;"
+    },
+    {
+      "id": "s0502m:351",
+      "pali": "Sāyeva pūjanā seyyo, yañce vassasataṃ hutaṃ."
+    },
+    {
+      "id": "s0502m:352",
+      "pali": "108 ."
+    },
+    {
+      "id": "s0502m:353",
+      "pali": "Yaṃ kiñci yiṭṭhaṃ va hutaṃ va loke, saṃvaccharaṃ yajetha puññapekkho;"
+    },
+    {
+      "id": "s0502m:354",
+      "pali": "Sabbampi taṃ na catubhāgameti, abhivādanā ujjugatesu seyyo."
+    },
+    {
+      "id": "s0502m:355",
+      "pali": "109 ."
+    },
+    {
+      "id": "s0502m:356",
+      "pali": "Abhivādanasīlissa, niccaṃ vuḍḍhāpacāyino ;"
+    },
+    {
+      "id": "s0502m:357",
+      "pali": "Cattāro dhammā vaḍḍhanti, āyu vaṇṇo sukhaṃ balaṃ."
+    },
+    {
+      "id": "s0502m:358",
+      "pali": "110 ."
+    },
+    {
+      "id": "s0502m:359",
+      "pali": "Yo ca vassasataṃ jīve, dussīlo asamāhito;"
+    },
+    {
+      "id": "s0502m:360",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, sīlavantassa jhāyino."
+    },
+    {
+      "id": "s0502m:361",
+      "pali": "111 ."
+    },
+    {
+      "id": "s0502m:362",
+      "pali": "Yo ca vassasataṃ jīve, duppañño asamāhito;"
+    },
+    {
+      "id": "s0502m:363",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, paññavantassa jhāyino."
+    },
+    {
+      "id": "s0502m:364",
+      "pali": "112 ."
+    },
+    {
+      "id": "s0502m:365",
+      "pali": "Yo ca vassasataṃ jīve, kusīto hīnavīriyo;"
+    },
+    {
+      "id": "s0502m:366",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, vīriyamārabhato daḷhaṃ."
+    },
+    {
+      "id": "s0502m:367",
+      "pali": "113 ."
+    },
+    {
+      "id": "s0502m:368",
+      "pali": "Yo ca vassasataṃ jīve, apassaṃ udayabbayaṃ;"
+    },
+    {
+      "id": "s0502m:369",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, passato udayabbayaṃ."
+    },
+    {
+      "id": "s0502m:370",
+      "pali": "114 ."
+    },
+    {
+      "id": "s0502m:371",
+      "pali": "Yo ca vassasataṃ jīve, apassaṃ amataṃ padaṃ;"
+    },
+    {
+      "id": "s0502m:372",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, passato amataṃ padaṃ."
+    },
+    {
+      "id": "s0502m:373",
+      "pali": "115 ."
+    },
+    {
+      "id": "s0502m:374",
+      "pali": "Yo ca vassasataṃ jīve, apassaṃ dhammamuttamaṃ;"
+    },
+    {
+      "id": "s0502m:375",
+      "pali": "Ekāhaṃ jīvitaṃ seyyo, passato dhammamuttamaṃ."
+    },
+    {
+      "id": "s0502m:376",
+      "pali": "Sahassavaggo aṭṭhamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:377",
+      "pali": "9. Pāpavaggo"
+    },
+    {
+      "id": "s0502m:378",
+      "pali": "116 ."
+    },
+    {
+      "id": "s0502m:379",
+      "pali": "Abhittharetha kalyāṇe, pāpā cittaṃ nivāraye;"
+    },
+    {
+      "id": "s0502m:380",
+      "pali": "Dandhañhi karoto puññaṃ, pāpasmiṃ ramatī mano."
+    },
+    {
+      "id": "s0502m:381",
+      "pali": "117 ."
+    },
+    {
+      "id": "s0502m:382",
+      "pali": "Pāpañce puriso kayirā, na naṃ kayirā punappunaṃ;"
+    },
+    {
+      "id": "s0502m:383",
+      "pali": "Na tamhi chandaṃ kayirātha, dukkho pāpassa uccayo."
+    },
+    {
+      "id": "s0502m:384",
+      "pali": "118 ."
+    },
+    {
+      "id": "s0502m:385",
+      "pali": "Puññañce puriso kayirā, kayirā naṃ punappunaṃ;"
+    },
+    {
+      "id": "s0502m:386",
+      "pali": "Tamhi chandaṃ kayirātha, sukho puññassa uccayo."
+    },
+    {
+      "id": "s0502m:387",
+      "pali": "119 ."
+    },
+    {
+      "id": "s0502m:388",
+      "pali": "Pāpopi passati bhadraṃ, yāva pāpaṃ na paccati;"
+    },
+    {
+      "id": "s0502m:389",
+      "pali": "Yadā ca paccati pāpaṃ, atha pāpo pāpāni passati."
+    },
+    {
+      "id": "s0502m:390",
+      "pali": "120 ."
+    },
+    {
+      "id": "s0502m:391",
+      "pali": "Bhadropi passati pāpaṃ, yāva bhadraṃ na paccati;"
+    },
+    {
+      "id": "s0502m:392",
+      "pali": "Yadā ca paccati bhadraṃ, atha bhadro bhadrāni passati."
+    },
+    {
+      "id": "s0502m:393",
+      "pali": "121 ."
+    },
+    {
+      "id": "s0502m:394",
+      "pali": "Māvamaññetha pāpassa, na mantaṃ āgamissati;"
+    },
+    {
+      "id": "s0502m:395",
+      "pali": "Udabindunipātena, udakumbhopi pūrati;"
+    },
+    {
+      "id": "s0502m:396",
+      "pali": "Bālo pūrati pāpassa, thokaṃ thokampi ācinaṃ."
+    },
+    {
+      "id": "s0502m:397",
+      "pali": "122 ."
+    },
+    {
+      "id": "s0502m:398",
+      "pali": "Māvamaññetha puññassa, na mantaṃ āgamissati;"
+    },
+    {
+      "id": "s0502m:399",
+      "pali": "Udabindunipātena, udakumbhopi pūrati;"
+    },
+    {
+      "id": "s0502m:400",
+      "pali": "Dhīro pūrati puññassa, thokaṃ thokampi ācinaṃ."
+    },
+    {
+      "id": "s0502m:401",
+      "pali": "123 ."
+    },
+    {
+      "id": "s0502m:402",
+      "pali": "Vāṇijova bhayaṃ maggaṃ, appasattho mahaddhano;"
+    },
+    {
+      "id": "s0502m:403",
+      "pali": "Visaṃ jīvitukāmova, pāpāni parivajjaye."
+    },
+    {
+      "id": "s0502m:404",
+      "pali": "124 ."
+    },
+    {
+      "id": "s0502m:405",
+      "pali": "Pāṇimhi ce vaṇo nāssa, hareyya pāṇinā visaṃ;"
+    },
+    {
+      "id": "s0502m:406",
+      "pali": "Nābbaṇaṃ visamanveti, natthi pāpaṃ akubbato."
+    },
+    {
+      "id": "s0502m:407",
+      "pali": "125 ."
+    },
+    {
+      "id": "s0502m:408",
+      "pali": "Yo appaduṭṭhassa narassa dussati, suddhassa posassa anaṅgaṇassa;"
+    },
+    {
+      "id": "s0502m:409",
+      "pali": "Tameva bālaṃ pacceti pāpaṃ, sukhumo rajo paṭivātaṃva khitto."
+    },
+    {
+      "id": "s0502m:410",
+      "pali": "126 ."
+    },
+    {
+      "id": "s0502m:411",
+      "pali": "Gabbhameke uppajjanti, nirayaṃ pāpakammino;"
+    },
+    {
+      "id": "s0502m:412",
+      "pali": "Saggaṃ sugatino yanti, parinibbanti anāsavā."
+    },
+    {
+      "id": "s0502m:413",
+      "pali": "127 ."
+    },
+    {
+      "id": "s0502m:414",
+      "pali": "Na antalikkhe na samuddamajjhe, na pabbatānaṃ vivaraṃ pavissa ;"
+    },
+    {
+      "id": "s0502m:415",
+      "pali": "Na vijjatī so jagatippadeso, yatthaṭṭhito mucceyya pāpakammā."
+    },
+    {
+      "id": "s0502m:416",
+      "pali": "128 ."
+    },
+    {
+      "id": "s0502m:417",
+      "pali": "Na antalikkhe na samuddamajjhe, na pabbatānaṃ vivaraṃ pavissa;"
+    },
+    {
+      "id": "s0502m:418",
+      "pali": "Na vijjatī so jagatippadeso, yatthaṭṭhitaṃ nappasaheyya maccu."
+    },
+    {
+      "id": "s0502m:419",
+      "pali": "Pāpavaggo navamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:420",
+      "pali": "10. Daṇḍavaggo"
+    },
+    {
+      "id": "s0502m:421",
+      "pali": "129 ."
+    },
+    {
+      "id": "s0502m:422",
+      "pali": "Sabbe tasanti daṇḍassa, sabbe bhāyanti maccuno;"
+    },
+    {
+      "id": "s0502m:423",
+      "pali": "Attānaṃ upamaṃ katvā, na haneyya na ghātaye."
+    },
+    {
+      "id": "s0502m:424",
+      "pali": "130 ."
+    },
+    {
+      "id": "s0502m:425",
+      "pali": "Sabbe tasanti daṇḍassa, sabbesaṃ jīvitaṃ piyaṃ;"
+    },
+    {
+      "id": "s0502m:426",
+      "pali": "Attānaṃ upamaṃ katvā, na haneyya na ghātaye."
+    },
+    {
+      "id": "s0502m:427",
+      "pali": "131 ."
+    },
+    {
+      "id": "s0502m:428",
+      "pali": "Sukhakāmāni bhūtāni, yo daṇḍena vihiṃsati;"
+    },
+    {
+      "id": "s0502m:429",
+      "pali": "Attano sukhamesāno, pecca so na labhate sukhaṃ."
+    },
+    {
+      "id": "s0502m:430",
+      "pali": "132 ."
+    },
+    {
+      "id": "s0502m:431",
+      "pali": "Sukhakāmāni bhūtāni, yo daṇḍena na hiṃsati;"
+    },
+    {
+      "id": "s0502m:432",
+      "pali": "Attano sukhamesāno, pecca so labhate sukhaṃ."
+    },
+    {
+      "id": "s0502m:433",
+      "pali": "133 ."
+    },
+    {
+      "id": "s0502m:434",
+      "pali": "Māvoca pharusaṃ kañci, vuttā paṭivadeyyu taṃ ;"
+    },
+    {
+      "id": "s0502m:435",
+      "pali": "Dukkhā hi sārambhakathā, paṭidaṇḍā phuseyyu taṃ ."
+    },
+    {
+      "id": "s0502m:436",
+      "pali": "134 ."
+    },
+    {
+      "id": "s0502m:437",
+      "pali": "Sace neresi attānaṃ, kaṃso upahato yathā;"
+    },
+    {
+      "id": "s0502m:438",
+      "pali": "Esa pattosi nibbānaṃ, sārambho te na vijjati."
+    },
+    {
+      "id": "s0502m:439",
+      "pali": "135 ."
+    },
+    {
+      "id": "s0502m:440",
+      "pali": "Yathā daṇḍena gopālo, gāvo pājeti gocaraṃ;"
+    },
+    {
+      "id": "s0502m:441",
+      "pali": "Evaṃ jarā ca maccu ca, āyuṃ pājenti pāṇinaṃ."
+    },
+    {
+      "id": "s0502m:442",
+      "pali": "136 ."
+    },
+    {
+      "id": "s0502m:443",
+      "pali": "Atha pāpāni kammāni, karaṃ bālo na bujjhati;"
+    },
+    {
+      "id": "s0502m:444",
+      "pali": "Sehi kammehi dummedho, aggidaḍḍhova tappati."
+    },
+    {
+      "id": "s0502m:445",
+      "pali": "137 ."
+    },
+    {
+      "id": "s0502m:446",
+      "pali": "Yo daṇḍena adaṇḍesu, appaduṭṭhesu dussati;"
+    },
+    {
+      "id": "s0502m:447",
+      "pali": "Dasannamaññataraṃ ṭhānaṃ, khippameva nigacchati."
+    },
+    {
+      "id": "s0502m:448",
+      "pali": "138 ."
+    },
+    {
+      "id": "s0502m:449",
+      "pali": "Vedanaṃ pharusaṃ jāniṃ, sarīrassa ca bhedanaṃ ;"
+    },
+    {
+      "id": "s0502m:450",
+      "pali": "Garukaṃ vāpi ābādhaṃ, cittakkhepañca pāpuṇe."
+    },
+    {
+      "id": "s0502m:451",
+      "pali": "139 ."
+    },
+    {
+      "id": "s0502m:452",
+      "pali": "Rājato vā upasaggaṃ , abbhakkhānañca dāruṇaṃ;"
+    },
+    {
+      "id": "s0502m:453",
+      "pali": "Parikkhayañca ñātīnaṃ, bhogānañca pabhaṅguraṃ ."
+    },
+    {
+      "id": "s0502m:454",
+      "pali": "140 ."
+    },
+    {
+      "id": "s0502m:455",
+      "pali": "Atha vāssa agārāni, aggi ḍahati pāvako;"
+    },
+    {
+      "id": "s0502m:456",
+      "pali": "Kāyassa bhedā duppañño, nirayaṃ sopapajjati ."
+    },
+    {
+      "id": "s0502m:457",
+      "pali": "141 ."
+    },
+    {
+      "id": "s0502m:458",
+      "pali": "Na naggacariyā na jaṭā na paṅkā, nānāsakā thaṇḍilasāyikā vā;"
+    },
+    {
+      "id": "s0502m:459",
+      "pali": "Rajojallaṃ ukkuṭikappadhānaṃ, sodhenti maccaṃ avitiṇṇakaṅkhaṃ."
+    },
+    {
+      "id": "s0502m:460",
+      "pali": "142 ."
+    },
+    {
+      "id": "s0502m:461",
+      "pali": "Alaṅkato cepi samaṃ careyya, santo danto niyato brahmacārī;"
+    },
+    {
+      "id": "s0502m:462",
+      "pali": "Sabbesu bhūtesu nidhāya daṇḍaṃ, so brāhmaṇo so samaṇo sa bhikkhu."
+    },
+    {
+      "id": "s0502m:463",
+      "pali": "143 ."
+    },
+    {
+      "id": "s0502m:464",
+      "pali": "Hirīnisedho puriso, koci lokasmi vijjati;"
+    },
+    {
+      "id": "s0502m:465",
+      "pali": "Yo niddaṃ apabodheti , asso bhadro kasāmiva."
+    },
+    {
+      "id": "s0502m:466",
+      "pali": "144 ."
+    },
+    {
+      "id": "s0502m:467",
+      "pali": "Asso yathā bhadro kasāniviṭṭho, ātāpino saṃvegino bhavātha;"
+    },
+    {
+      "id": "s0502m:468",
+      "pali": "Saddhāya sīlena ca vīriyena ca, samādhinā dhammavinicchayena ca;"
+    },
+    {
+      "id": "s0502m:469",
+      "pali": "Sampannavijjācaraṇā patissatā, jahissatha dukkhamidaṃ anappakaṃ."
+    },
+    {
+      "id": "s0502m:470",
+      "pali": "145 ."
+    },
+    {
+      "id": "s0502m:471",
+      "pali": "Udakañhi nayanti nettikā, usukārā namayanti tejanaṃ;"
+    },
+    {
+      "id": "s0502m:472",
+      "pali": "Dāruṃ namayanti tacchakā, attānaṃ damayanti subbatā."
+    },
+    {
+      "id": "s0502m:473",
+      "pali": "Daṇḍavaggo dasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:474",
+      "pali": "11. Jarāvaggo"
+    },
+    {
+      "id": "s0502m:475",
+      "pali": "146 ."
+    },
+    {
+      "id": "s0502m:476",
+      "pali": "Ko nu hāso kimānando, niccaṃ pajjalite sati;"
+    },
+    {
+      "id": "s0502m:477",
+      "pali": "Andhakārena onaddhā, padīpaṃ na gavesatha."
+    },
+    {
+      "id": "s0502m:478",
+      "pali": "147 ."
+    },
+    {
+      "id": "s0502m:479",
+      "pali": "Passa cittakataṃ bimbaṃ, arukāyaṃ samussitaṃ;"
+    },
+    {
+      "id": "s0502m:480",
+      "pali": "Āturaṃ bahusaṅkappaṃ, yassa natthi dhuvaṃ ṭhiti."
+    },
+    {
+      "id": "s0502m:481",
+      "pali": "148 ."
+    },
+    {
+      "id": "s0502m:482",
+      "pali": "Parijiṇṇamidaṃ rūpaṃ, roganīḷaṃ pabhaṅguraṃ;"
+    },
+    {
+      "id": "s0502m:483",
+      "pali": "Bhijjati pūtisandeho, maraṇantañhi jīvitaṃ."
+    },
+    {
+      "id": "s0502m:484",
+      "pali": "149 ."
+    },
+    {
+      "id": "s0502m:485",
+      "pali": "Yānimāni apatthāni , alābūneva sārade;"
+    },
+    {
+      "id": "s0502m:486",
+      "pali": "Kāpotakāni aṭṭhīni, tāni disvāna kā rati."
+    },
+    {
+      "id": "s0502m:487",
+      "pali": "150 ."
+    },
+    {
+      "id": "s0502m:488",
+      "pali": "Aṭṭhīnaṃ nagaraṃ kataṃ, maṃsalohitalepanaṃ;"
+    },
+    {
+      "id": "s0502m:489",
+      "pali": "Yattha jarā ca maccu ca, māno makkho ca ohito."
+    },
+    {
+      "id": "s0502m:490",
+      "pali": "151 ."
+    },
+    {
+      "id": "s0502m:491",
+      "pali": "Jīranti ve rājarathā sucittā, atho sarīrampi jaraṃ upeti;"
+    },
+    {
+      "id": "s0502m:492",
+      "pali": "Satañca dhammo na jaraṃ upeti, santo have sabbhi pavedayanti."
+    },
+    {
+      "id": "s0502m:493",
+      "pali": "152 ."
+    },
+    {
+      "id": "s0502m:494",
+      "pali": "Appassutāyaṃ puriso, balibaddhova jīrati;"
+    },
+    {
+      "id": "s0502m:495",
+      "pali": "Maṃsāni tassa vaḍḍhanti, paññā tassa na vaḍḍhati."
+    },
+    {
+      "id": "s0502m:496",
+      "pali": "153 ."
+    },
+    {
+      "id": "s0502m:497",
+      "pali": "Anekajātisaṃsāraṃ , sandhāvissaṃ anibbisaṃ;"
+    },
+    {
+      "id": "s0502m:498",
+      "pali": "Gahakāraṃ gavesanto, dukkhā jāti punappunaṃ."
+    },
+    {
+      "id": "s0502m:499",
+      "pali": "154 ."
+    },
+    {
+      "id": "s0502m:500",
+      "pali": "Gahakāraka diṭṭhosi, puna gehaṃ na kāhasi;"
+    },
+    {
+      "id": "s0502m:501",
+      "pali": "Sabbā te phāsukā bhaggā, gahakūṭaṃ visaṅkhataṃ;"
+    },
+    {
+      "id": "s0502m:502",
+      "pali": "Visaṅkhāragataṃ cittaṃ, taṇhānaṃ khayamajjhagā."
+    },
+    {
+      "id": "s0502m:503",
+      "pali": "155 ."
+    },
+    {
+      "id": "s0502m:504",
+      "pali": "Acaritvā brahmacariyaṃ, aladdhā yobbane dhanaṃ;"
+    },
+    {
+      "id": "s0502m:505",
+      "pali": "Jiṇṇakoñcāva jhāyanti, khīṇamaccheva pallale."
+    },
+    {
+      "id": "s0502m:506",
+      "pali": "156 ."
+    },
+    {
+      "id": "s0502m:507",
+      "pali": "Acaritvā brahmacariyaṃ, aladdhā yobbane dhanaṃ;"
+    },
+    {
+      "id": "s0502m:508",
+      "pali": "Senti cāpātikhīṇāva, purāṇāni anutthunaṃ."
+    },
+    {
+      "id": "s0502m:509",
+      "pali": "Jarāvaggo ekādasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:510",
+      "pali": "12. Attavaggo"
+    },
+    {
+      "id": "s0502m:511",
+      "pali": "157 ."
+    },
+    {
+      "id": "s0502m:512",
+      "pali": "Attānañce piyaṃ jaññā, rakkheyya naṃ surakkhitaṃ;"
+    },
+    {
+      "id": "s0502m:513",
+      "pali": "Tiṇṇaṃ aññataraṃ yāmaṃ, paṭijaggeyya paṇḍito."
+    },
+    {
+      "id": "s0502m:514",
+      "pali": "158 ."
+    },
+    {
+      "id": "s0502m:515",
+      "pali": "Attānameva paṭhamaṃ, patirūpe nivesaye;"
+    },
+    {
+      "id": "s0502m:516",
+      "pali": "Athaññamanusāseyya, na kilisseyya paṇḍito."
+    },
+    {
+      "id": "s0502m:517",
+      "pali": "159 ."
+    },
+    {
+      "id": "s0502m:518",
+      "pali": "Attānaṃ ce tathā kayirā, yathāññamanusāsati;"
+    },
+    {
+      "id": "s0502m:519",
+      "pali": "Sudanto vata dametha, attā hi kira duddamo."
+    },
+    {
+      "id": "s0502m:520",
+      "pali": "160 ."
+    },
+    {
+      "id": "s0502m:521",
+      "pali": "Attā hi attano nātho, ko hi nātho paro siyā;"
+    },
+    {
+      "id": "s0502m:522",
+      "pali": "Attanā hi sudantena, nāthaṃ labhati dullabhaṃ."
+    },
+    {
+      "id": "s0502m:523",
+      "pali": "161 ."
+    },
+    {
+      "id": "s0502m:524",
+      "pali": "Attanā hi kataṃ pāpaṃ, attajaṃ attasambhavaṃ;"
+    },
+    {
+      "id": "s0502m:525",
+      "pali": "Abhimatthati dummedhaṃ, vajiraṃ vasmamayaṃ maṇiṃ."
+    },
+    {
+      "id": "s0502m:526",
+      "pali": "162 ."
+    },
+    {
+      "id": "s0502m:527",
+      "pali": "Yassa accantadussīlyaṃ, māluvā sālamivotthataṃ;"
+    },
+    {
+      "id": "s0502m:528",
+      "pali": "Karoti so tathattānaṃ, yathā naṃ icchatī diso."
+    },
+    {
+      "id": "s0502m:529",
+      "pali": "163 ."
+    },
+    {
+      "id": "s0502m:530",
+      "pali": "Sukarāni asādhūni, attano ahitāni ca;"
+    },
+    {
+      "id": "s0502m:531",
+      "pali": "Yaṃ ve hitañca sādhuñca, taṃ ve paramadukkaraṃ."
+    },
+    {
+      "id": "s0502m:532",
+      "pali": "164 ."
+    },
+    {
+      "id": "s0502m:533",
+      "pali": "Yo sāsanaṃ arahataṃ, ariyānaṃ dhammajīvinaṃ;"
+    },
+    {
+      "id": "s0502m:534",
+      "pali": "Paṭikkosati dummedho, diṭṭhiṃ nissāya pāpikaṃ;"
+    },
+    {
+      "id": "s0502m:535",
+      "pali": "Phalāni kaṭṭhakasseva, attaghātāya phallati."
+    },
+    {
+      "id": "s0502m:536",
+      "pali": "165 ."
+    },
+    {
+      "id": "s0502m:537",
+      "pali": "Attanā hi kataṃ pāpaṃ, attanā saṃkilissati;"
+    },
+    {
+      "id": "s0502m:538",
+      "pali": "Attanā akataṃ pāpaṃ, attanāva visujjhati;"
+    },
+    {
+      "id": "s0502m:539",
+      "pali": "Suddhī asuddhi paccattaṃ, nāñño aññaṃ visodhaye."
+    },
+    {
+      "id": "s0502m:540",
+      "pali": "166 ."
+    },
+    {
+      "id": "s0502m:541",
+      "pali": "Attadatthaṃ paratthena, bahunāpi na hāpaye;"
+    },
+    {
+      "id": "s0502m:542",
+      "pali": "Attadatthamabhiññāya, sadatthapasuto siyā."
+    },
+    {
+      "id": "s0502m:543",
+      "pali": "Attavaggo dvādasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:544",
+      "pali": "13. Lokavaggo"
+    },
+    {
+      "id": "s0502m:545",
+      "pali": "167 ."
+    },
+    {
+      "id": "s0502m:546",
+      "pali": "Hīnaṃ dhammaṃ na seveyya, pamādena na saṃvase;"
+    },
+    {
+      "id": "s0502m:547",
+      "pali": "Micchādiṭṭhiṃ na seveyya, na siyā lokavaḍḍhano."
+    },
+    {
+      "id": "s0502m:548",
+      "pali": "168 ."
+    },
+    {
+      "id": "s0502m:549",
+      "pali": "Uttiṭṭhe nappamajjeyya, dhammaṃ sucaritaṃ care;"
+    },
+    {
+      "id": "s0502m:550",
+      "pali": "Dhammacārī sukhaṃ seti, asmiṃ loke paramhi ca."
+    },
+    {
+      "id": "s0502m:551",
+      "pali": "169 ."
+    },
+    {
+      "id": "s0502m:552",
+      "pali": "Dhammaṃ care sucaritaṃ, na naṃ duccaritaṃ care;"
+    },
+    {
+      "id": "s0502m:553",
+      "pali": "Dhammacārī sukhaṃ seti, asmiṃ loke paramhi ca."
+    },
+    {
+      "id": "s0502m:554",
+      "pali": "170 ."
+    },
+    {
+      "id": "s0502m:555",
+      "pali": "Yathā pubbuḷakaṃ passe, yathā passe marīcikaṃ;"
+    },
+    {
+      "id": "s0502m:556",
+      "pali": "Evaṃ lokaṃ avekkhantaṃ, maccurājā na passati."
+    },
+    {
+      "id": "s0502m:557",
+      "pali": "171 ."
+    },
+    {
+      "id": "s0502m:558",
+      "pali": "Etha passathimaṃ lokaṃ, cittaṃ rājarathūpamaṃ;"
+    },
+    {
+      "id": "s0502m:559",
+      "pali": "Yattha bālā visīdanti, natthi saṅgo vijānataṃ."
+    },
+    {
+      "id": "s0502m:560",
+      "pali": "172 ."
+    },
+    {
+      "id": "s0502m:561",
+      "pali": "Yo ca pubbe pamajjitvā, pacchā so nappamajjati;"
+    },
+    {
+      "id": "s0502m:562",
+      "pali": "Somaṃ lokaṃ pabhāseti, abbhā muttova candimā."
+    },
+    {
+      "id": "s0502m:563",
+      "pali": "173 ."
+    },
+    {
+      "id": "s0502m:564",
+      "pali": "Yassa pāpaṃ kataṃ kammaṃ, kusalena pidhīyati ;"
+    },
+    {
+      "id": "s0502m:565",
+      "pali": "Somaṃ lokaṃ pabhāseti, abbhā muttova candimā."
+    },
+    {
+      "id": "s0502m:566",
+      "pali": "174 ."
+    },
+    {
+      "id": "s0502m:567",
+      "pali": "Andhabhūto ayaṃ loko, tanukettha vipassati;"
+    },
+    {
+      "id": "s0502m:568",
+      "pali": "Sakuṇo jālamuttova, appo saggāya gacchati."
+    },
+    {
+      "id": "s0502m:569",
+      "pali": "175 ."
+    },
+    {
+      "id": "s0502m:570",
+      "pali": "Haṃsādiccapathe yanti, ākāse yanti iddhiyā;"
+    },
+    {
+      "id": "s0502m:571",
+      "pali": "Nīyanti dhīrā lokamhā, jetvā māraṃ savāhiniṃ ."
+    },
+    {
+      "id": "s0502m:572",
+      "pali": "176 ."
+    },
+    {
+      "id": "s0502m:573",
+      "pali": "Ekaṃ dhammaṃ atītassa, musāvādissa jantuno;"
+    },
+    {
+      "id": "s0502m:574",
+      "pali": "Vitiṇṇaparalokassa, natthi pāpaṃ akāriyaṃ."
+    },
+    {
+      "id": "s0502m:575",
+      "pali": "177 ."
+    },
+    {
+      "id": "s0502m:576",
+      "pali": "Na ve kadariyā devalokaṃ vajanti, bālā have nappasaṃsanti dānaṃ;"
+    },
+    {
+      "id": "s0502m:577",
+      "pali": "Dhīro ca dānaṃ anumodamāno, teneva so hoti sukhī parattha."
+    },
+    {
+      "id": "s0502m:578",
+      "pali": "178 ."
+    },
+    {
+      "id": "s0502m:579",
+      "pali": "Pathabyā ekarajjena, saggassa gamanena vā;"
+    },
+    {
+      "id": "s0502m:580",
+      "pali": "Sabbalokādhipaccena, sotāpattiphalaṃ varaṃ."
+    },
+    {
+      "id": "s0502m:581",
+      "pali": "Lokavaggo terasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:582",
+      "pali": "14. Buddhavaggo"
+    },
+    {
+      "id": "s0502m:583",
+      "pali": "179 ."
+    },
+    {
+      "id": "s0502m:584",
+      "pali": "Yassa jitaṃ nāvajīyati, jitaṃ yassa no yāti koci loke;"
+    },
+    {
+      "id": "s0502m:585",
+      "pali": "Taṃ buddhamanantagocaraṃ, apadaṃ kena padena nessatha."
+    },
+    {
+      "id": "s0502m:586",
+      "pali": "180 ."
+    },
+    {
+      "id": "s0502m:587",
+      "pali": "Yassa jālinī visattikā, taṇhā natthi kuhiñci netave;"
+    },
+    {
+      "id": "s0502m:588",
+      "pali": "Taṃ buddhamanantagocaraṃ, apadaṃ kena padena nessatha."
+    },
+    {
+      "id": "s0502m:589",
+      "pali": "181 ."
+    },
+    {
+      "id": "s0502m:590",
+      "pali": "Ye jhānapasutā dhīrā, nekkhammūpasame ratā;"
+    },
+    {
+      "id": "s0502m:591",
+      "pali": "Devāpi tesaṃ pihayanti, sambuddhānaṃ satīmataṃ."
+    },
+    {
+      "id": "s0502m:592",
+      "pali": "182 ."
+    },
+    {
+      "id": "s0502m:593",
+      "pali": "Kiccho manussapaṭilābho, kicchaṃ maccāna jīvitaṃ;"
+    },
+    {
+      "id": "s0502m:594",
+      "pali": "Kicchaṃ saddhammassavanaṃ, kiccho buddhānamuppādo."
+    },
+    {
+      "id": "s0502m:595",
+      "pali": "183 ."
+    },
+    {
+      "id": "s0502m:596",
+      "pali": "Sabbapāpassa akaraṇaṃ, kusalassa upasampadā ;"
+    },
+    {
+      "id": "s0502m:597",
+      "pali": "Sacittapariyodapanaṃ , etaṃ buddhāna sāsanaṃ."
+    },
+    {
+      "id": "s0502m:598",
+      "pali": "184 ."
+    },
+    {
+      "id": "s0502m:599",
+      "pali": "Khantī paramaṃ tapo titikkhā, nibbānaṃ paramaṃ vadanti buddhā;"
+    },
+    {
+      "id": "s0502m:600",
+      "pali": "Na hi pabbajito parūpaghātī, na samaṇo hoti paraṃ viheṭhayanto."
+    },
+    {
+      "id": "s0502m:601",
+      "pali": "185 ."
+    },
+    {
+      "id": "s0502m:602",
+      "pali": "Anūpavādo anūpaghāto , pātimokkhe ca saṃvaro;"
+    },
+    {
+      "id": "s0502m:603",
+      "pali": "Mattaññutā ca bhattasmiṃ, pantañca sayanāsanaṃ;"
+    },
+    {
+      "id": "s0502m:604",
+      "pali": "Adhicitte ca āyogo, etaṃ buddhāna sāsanaṃ."
+    },
+    {
+      "id": "s0502m:605",
+      "pali": "186 ."
+    },
+    {
+      "id": "s0502m:606",
+      "pali": "Na kahāpaṇavassena, titti kāmesu vijjati;"
+    },
+    {
+      "id": "s0502m:607",
+      "pali": "Appassādā dukhā kāmā, iti viññāya paṇḍito."
+    },
+    {
+      "id": "s0502m:608",
+      "pali": "187 ."
+    },
+    {
+      "id": "s0502m:609",
+      "pali": "Api dibbesu kāmesu, ratiṃ so nādhigacchati;"
+    },
+    {
+      "id": "s0502m:610",
+      "pali": "Taṇhakkhayarato hoti, sammāsambuddhasāvako."
+    },
+    {
+      "id": "s0502m:611",
+      "pali": "188 ."
+    },
+    {
+      "id": "s0502m:612",
+      "pali": "Bahuṃ ve saraṇaṃ yanti, pabbatāni vanāni ca;"
+    },
+    {
+      "id": "s0502m:613",
+      "pali": "Ārāmarukkhacetyāni, manussā bhayatajjitā."
+    },
+    {
+      "id": "s0502m:614",
+      "pali": "189 ."
+    },
+    {
+      "id": "s0502m:615",
+      "pali": "Netaṃ kho saraṇaṃ khemaṃ, netaṃ saraṇamuttamaṃ;"
+    },
+    {
+      "id": "s0502m:616",
+      "pali": "Netaṃ saraṇamāgamma, sabbadukkhā pamuccati."
+    },
+    {
+      "id": "s0502m:617",
+      "pali": "190 ."
+    },
+    {
+      "id": "s0502m:618",
+      "pali": "Yo ca buddhañca dhammañca, saṅghañca saraṇaṃ gato;"
+    },
+    {
+      "id": "s0502m:619",
+      "pali": "Cattāri ariyasaccāni, sammappaññāya passati."
+    },
+    {
+      "id": "s0502m:620",
+      "pali": "191 ."
+    },
+    {
+      "id": "s0502m:621",
+      "pali": "Dukkhaṃ dukkhasamuppādaṃ, dukkhassa ca atikkamaṃ;"
+    },
+    {
+      "id": "s0502m:622",
+      "pali": "Ariyaṃ caṭṭhaṅgikaṃ maggaṃ, dukkhūpasamagāminaṃ."
+    },
+    {
+      "id": "s0502m:623",
+      "pali": "192 ."
+    },
+    {
+      "id": "s0502m:624",
+      "pali": "Etaṃ kho saraṇaṃ khemaṃ, etaṃ saraṇamuttamaṃ;"
+    },
+    {
+      "id": "s0502m:625",
+      "pali": "Etaṃ saraṇamāgamma, sabbadukkhā pamuccati."
+    },
+    {
+      "id": "s0502m:626",
+      "pali": "193 ."
+    },
+    {
+      "id": "s0502m:627",
+      "pali": "Dullabho purisājañño, na so sabbattha jāyati;"
+    },
+    {
+      "id": "s0502m:628",
+      "pali": "Yattha so jāyati dhīro, taṃ kulaṃ sukhamedhati."
+    },
+    {
+      "id": "s0502m:629",
+      "pali": "194 ."
+    },
+    {
+      "id": "s0502m:630",
+      "pali": "Sukho buddhānamuppādo, sukhā saddhammadesanā;"
+    },
+    {
+      "id": "s0502m:631",
+      "pali": "Sukhā saṅghassa sāmaggī, samaggānaṃ tapo sukho."
+    },
+    {
+      "id": "s0502m:632",
+      "pali": "195 ."
+    },
+    {
+      "id": "s0502m:633",
+      "pali": "Pūjārahe pūjayato, buddhe yadi va sāvake;"
+    },
+    {
+      "id": "s0502m:634",
+      "pali": "Papañcasamatikkante, tiṇṇasokapariddave."
+    },
+    {
+      "id": "s0502m:635",
+      "pali": "196 ."
+    },
+    {
+      "id": "s0502m:636",
+      "pali": "Te tādise pūjayato, nibbute akutobhaye;"
+    },
+    {
+      "id": "s0502m:637",
+      "pali": "Na sakkā puññaṃ saṅkhātuṃ, imettamapi kenaci."
+    },
+    {
+      "id": "s0502m:638",
+      "pali": "Buddhavaggo cuddasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:639",
+      "pali": "15. Sukhavaggo"
+    },
+    {
+      "id": "s0502m:640",
+      "pali": "197 ."
+    },
+    {
+      "id": "s0502m:641",
+      "pali": "Susukhaṃ vata jīvāma, verinesu averino;"
+    },
+    {
+      "id": "s0502m:642",
+      "pali": "Verinesu manussesu, viharāma averino."
+    },
+    {
+      "id": "s0502m:643",
+      "pali": "198 ."
+    },
+    {
+      "id": "s0502m:644",
+      "pali": "Susukhaṃ vata jīvāma, āturesu anāturā;"
+    },
+    {
+      "id": "s0502m:645",
+      "pali": "Āturesu manussesu, viharāma anāturā."
+    },
+    {
+      "id": "s0502m:646",
+      "pali": "199 ."
+    },
+    {
+      "id": "s0502m:647",
+      "pali": "Susukhaṃ vata jīvāma, ussukesu anussukā;"
+    },
+    {
+      "id": "s0502m:648",
+      "pali": "Ussukesu manassesu, viharāma anussukā."
+    },
+    {
+      "id": "s0502m:649",
+      "pali": "200 ."
+    },
+    {
+      "id": "s0502m:650",
+      "pali": "Susukhaṃ vata jīvāma, yesaṃ no natthi kiñcanaṃ;"
+    },
+    {
+      "id": "s0502m:651",
+      "pali": "Pītibhakkhā bhavissāma, devā ābhassarā yathā."
+    },
+    {
+      "id": "s0502m:652",
+      "pali": "201 ."
+    },
+    {
+      "id": "s0502m:653",
+      "pali": "Jayaṃ veraṃ pasavati, dukkhaṃ seti parājito;"
+    },
+    {
+      "id": "s0502m:654",
+      "pali": "Upasanto sukhaṃ seti, hitvā jayaparājayaṃ."
+    },
+    {
+      "id": "s0502m:655",
+      "pali": "202 ."
+    },
+    {
+      "id": "s0502m:656",
+      "pali": "Natthi rāgasamo aggi, natthi dosasamo kali;"
+    },
+    {
+      "id": "s0502m:657",
+      "pali": "Natthi khandhasamā dukkhā, natthi santiparaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:658",
+      "pali": "203 ."
+    },
+    {
+      "id": "s0502m:659",
+      "pali": "Jighacchāparamā rogā, saṅkhāraparamā dukhā;"
+    },
+    {
+      "id": "s0502m:660",
+      "pali": "Etaṃ ñatvā yathābhūtaṃ, nibbānaṃ paramaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:661",
+      "pali": "204 ."
+    },
+    {
+      "id": "s0502m:662",
+      "pali": "Ārogyaparamā lābhā, santuṭṭhiparamaṃ dhanaṃ;"
+    },
+    {
+      "id": "s0502m:663",
+      "pali": "Vissāsaparamā ñāti , nibbānaṃ paramaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:664",
+      "pali": "205 ."
+    },
+    {
+      "id": "s0502m:665",
+      "pali": "Pavivekarasaṃ pitvā , rasaṃ upasamassa ca;"
+    },
+    {
+      "id": "s0502m:666",
+      "pali": "Niddaro hoti nippāpo, dhammapītirasaṃ pivaṃ."
+    },
+    {
+      "id": "s0502m:667",
+      "pali": "206 ."
+    },
+    {
+      "id": "s0502m:668",
+      "pali": "Sāhu dassanamariyānaṃ, sannivāso sadā sukho;"
+    },
+    {
+      "id": "s0502m:669",
+      "pali": "Adassanena bālānaṃ, niccameva sukhī siyā."
+    },
+    {
+      "id": "s0502m:670",
+      "pali": "207 ."
+    },
+    {
+      "id": "s0502m:671",
+      "pali": "Bālasaṅgatacārī hi, dīghamaddhāna socati;"
+    },
+    {
+      "id": "s0502m:672",
+      "pali": "Dukkho bālehi saṃvāso, amitteneva sabbadā;"
+    },
+    {
+      "id": "s0502m:673",
+      "pali": "Dhīro ca sukhasaṃvāso, ñātīnaṃva samāgamo."
+    },
+    {
+      "id": "s0502m:674",
+      "pali": "208 ."
+    },
+    {
+      "id": "s0502m:675",
+      "pali": "Tasmā hi –"
+    },
+    {
+      "id": "s0502m:676",
+      "pali": "Dhīrañca paññañca bahussutañca, dhorayhasīlaṃ vatavantamariyaṃ;"
+    },
+    {
+      "id": "s0502m:677",
+      "pali": "Taṃ tādisaṃ sappurisaṃ sumedhaṃ, bhajetha nakkhattapathaṃva candimā ."
+    },
+    {
+      "id": "s0502m:678",
+      "pali": "Sukhavaggo pannarasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:679",
+      "pali": "16. Piyavaggo"
+    },
+    {
+      "id": "s0502m:680",
+      "pali": "209 ."
+    },
+    {
+      "id": "s0502m:681",
+      "pali": "Ayoge yuñjamattānaṃ, yogasmiñca ayojayaṃ;"
+    },
+    {
+      "id": "s0502m:682",
+      "pali": "Atthaṃ hitvā piyaggāhī, pihetattānuyoginaṃ."
+    },
+    {
+      "id": "s0502m:683",
+      "pali": "210 ."
+    },
+    {
+      "id": "s0502m:684",
+      "pali": "Mā piyehi samāgañchi, appiyehi kudācanaṃ;"
+    },
+    {
+      "id": "s0502m:685",
+      "pali": "Piyānaṃ adassanaṃ dukkhaṃ, appiyānañca dassanaṃ."
+    },
+    {
+      "id": "s0502m:686",
+      "pali": "211 ."
+    },
+    {
+      "id": "s0502m:687",
+      "pali": "Tasmā piyaṃ na kayirātha, piyāpāyo hi pāpako;"
+    },
+    {
+      "id": "s0502m:688",
+      "pali": "Ganthā tesaṃ na vijjanti, yesaṃ natthi piyāppiyaṃ."
+    },
+    {
+      "id": "s0502m:689",
+      "pali": "212 ."
+    },
+    {
+      "id": "s0502m:690",
+      "pali": "Piyato jāyatī soko, piyato jāyatī bhayaṃ;"
+    },
+    {
+      "id": "s0502m:691",
+      "pali": "Piyato vippamuttassa, natthi soko kuto bhayaṃ."
+    },
+    {
+      "id": "s0502m:692",
+      "pali": "213 ."
+    },
+    {
+      "id": "s0502m:693",
+      "pali": "Pemato jāyatī soko, pemato jāyatī bhayaṃ;"
+    },
+    {
+      "id": "s0502m:694",
+      "pali": "Pemato vippamuttassa, natthi soko kuto bhayaṃ."
+    },
+    {
+      "id": "s0502m:695",
+      "pali": "214 ."
+    },
+    {
+      "id": "s0502m:696",
+      "pali": "Ratiyā jāyatī soko, ratiyā jāyatī bhayaṃ;"
+    },
+    {
+      "id": "s0502m:697",
+      "pali": "Ratiyā vippamuttassa, natthi soko kuto bhayaṃ."
+    },
+    {
+      "id": "s0502m:698",
+      "pali": "215 ."
+    },
+    {
+      "id": "s0502m:699",
+      "pali": "Kāmato jāyatī soko, kāmato jāyatī bhayaṃ;"
+    },
+    {
+      "id": "s0502m:700",
+      "pali": "Kāmato vippamuttassa, natthi soko kuto bhayaṃ."
+    },
+    {
+      "id": "s0502m:701",
+      "pali": "216 ."
+    },
+    {
+      "id": "s0502m:702",
+      "pali": "Taṇhāya jāyatī soko, taṇhāya jāyatī bhayaṃ;"
+    },
+    {
+      "id": "s0502m:703",
+      "pali": "Taṇhāya vippamuttassa, natthi soko kuto bhayaṃ."
+    },
+    {
+      "id": "s0502m:704",
+      "pali": "217 ."
+    },
+    {
+      "id": "s0502m:705",
+      "pali": "Sīladassanasampannaṃ , dhammaṭṭhaṃ saccavedinaṃ;"
+    },
+    {
+      "id": "s0502m:706",
+      "pali": "Attano kamma kubbānaṃ, taṃ jano kurute piyaṃ."
+    },
+    {
+      "id": "s0502m:707",
+      "pali": "218 ."
+    },
+    {
+      "id": "s0502m:708",
+      "pali": "Chandajāto anakkhāte, manasā ca phuṭo siyā;"
+    },
+    {
+      "id": "s0502m:709",
+      "pali": "Kāmesu ca appaṭibaddhacitto , uddhaṃsototi vuccati."
+    },
+    {
+      "id": "s0502m:710",
+      "pali": "219 ."
+    },
+    {
+      "id": "s0502m:711",
+      "pali": "Cirappavāsiṃ purisaṃ, dūrato sotthimāgataṃ;"
+    },
+    {
+      "id": "s0502m:712",
+      "pali": "Ñātimittā suhajjā ca, abhinandanti āgataṃ."
+    },
+    {
+      "id": "s0502m:713",
+      "pali": "220 ."
+    },
+    {
+      "id": "s0502m:714",
+      "pali": "Tatheva katapuññampi, asmā lokā paraṃ gataṃ;"
+    },
+    {
+      "id": "s0502m:715",
+      "pali": "Puññāni paṭigaṇhanti, piyaṃ ñātīva āgataṃ."
+    },
+    {
+      "id": "s0502m:716",
+      "pali": "Piyavaggo soḷasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:717",
+      "pali": "17. Kodhavaggo"
+    },
+    {
+      "id": "s0502m:718",
+      "pali": "221 ."
+    },
+    {
+      "id": "s0502m:719",
+      "pali": "Kodhaṃ jahe vippajaheyya mānaṃ, saṃyojanaṃ sabbamatikkameyya;"
+    },
+    {
+      "id": "s0502m:720",
+      "pali": "Taṃ nāmarūpasmimasajjamānaṃ, akiñcanaṃ nānupatanti dukkhā."
+    },
+    {
+      "id": "s0502m:721",
+      "pali": "222 ."
+    },
+    {
+      "id": "s0502m:722",
+      "pali": "Yo ve uppatitaṃ kodhaṃ, rathaṃ bhantaṃva vāraye ;"
+    },
+    {
+      "id": "s0502m:723",
+      "pali": "Tamahaṃ sārathiṃ brūmi, rasmiggāho itaro jano."
+    },
+    {
+      "id": "s0502m:724",
+      "pali": "223 ."
+    },
+    {
+      "id": "s0502m:725",
+      "pali": "Akkodhena jine kodhaṃ, asādhuṃ sādhunā jine;"
+    },
+    {
+      "id": "s0502m:726",
+      "pali": "Jine kadariyaṃ dānena, saccenālikavādinaṃ."
+    },
+    {
+      "id": "s0502m:727",
+      "pali": "224 ."
+    },
+    {
+      "id": "s0502m:728",
+      "pali": "Saccaṃ bhaṇe na kujjheyya, dajjā appampi yācito;"
+    },
+    {
+      "id": "s0502m:729",
+      "pali": "Etehi tīhi ṭhānehi, gacche devāna santike."
+    },
+    {
+      "id": "s0502m:730",
+      "pali": "225 ."
+    },
+    {
+      "id": "s0502m:731",
+      "pali": "Ahiṃsakā ye munayo , niccaṃ kāyena saṃvutā;"
+    },
+    {
+      "id": "s0502m:732",
+      "pali": "Te yanti accutaṃ ṭhānaṃ, yattha gantvā na socare."
+    },
+    {
+      "id": "s0502m:733",
+      "pali": "226 ."
+    },
+    {
+      "id": "s0502m:734",
+      "pali": "Sadā jāgaramānānaṃ, ahorattānusikkhinaṃ;"
+    },
+    {
+      "id": "s0502m:735",
+      "pali": "Nibbānaṃ adhimuttānaṃ, atthaṃ gacchanti āsavā."
+    },
+    {
+      "id": "s0502m:736",
+      "pali": "227 ."
+    },
+    {
+      "id": "s0502m:737",
+      "pali": "Porāṇametaṃ atula, netaṃ ajjatanāmiva;"
+    },
+    {
+      "id": "s0502m:738",
+      "pali": "Nindanti tuṇhimāsīnaṃ, nindanti bahubhāṇinaṃ;"
+    },
+    {
+      "id": "s0502m:739",
+      "pali": "Mitabhāṇimpi nindanti, natthi loke anindito."
+    },
+    {
+      "id": "s0502m:740",
+      "pali": "228 ."
+    },
+    {
+      "id": "s0502m:741",
+      "pali": "Na cāhu na ca bhavissati, na cetarahi vijjati;"
+    },
+    {
+      "id": "s0502m:742",
+      "pali": "Ekantaṃ nindito poso, ekantaṃ vā pasaṃsito."
+    },
+    {
+      "id": "s0502m:743",
+      "pali": "229 ."
+    },
+    {
+      "id": "s0502m:744",
+      "pali": "Yaṃ ce viññū pasaṃsanti, anuvicca suve suve;"
+    },
+    {
+      "id": "s0502m:745",
+      "pali": "Acchiddavuttiṃ medhāviṃ, paññāsīlasamāhitaṃ."
+    },
+    {
+      "id": "s0502m:746",
+      "pali": "230 ."
+    },
+    {
+      "id": "s0502m:747",
+      "pali": "Nikkhaṃ jambonadasseva, ko taṃ ninditumarahati;"
+    },
+    {
+      "id": "s0502m:748",
+      "pali": "Devāpi naṃ pasaṃsanti, brahmunāpi pasaṃsito."
+    },
+    {
+      "id": "s0502m:749",
+      "pali": "231 ."
+    },
+    {
+      "id": "s0502m:750",
+      "pali": "Kāyappakopaṃ rakkheyya, kāyena saṃvuto siyā;"
+    },
+    {
+      "id": "s0502m:751",
+      "pali": "Kāyaduccaritaṃ hitvā, kāyena sucaritaṃ care."
+    },
+    {
+      "id": "s0502m:752",
+      "pali": "232 ."
+    },
+    {
+      "id": "s0502m:753",
+      "pali": "Vacīpakopaṃ rakkheyya, vācāya saṃvuto siyā;"
+    },
+    {
+      "id": "s0502m:754",
+      "pali": "Vacīduccaritaṃ hitvā, vācāya sucaritaṃ care."
+    },
+    {
+      "id": "s0502m:755",
+      "pali": "233 ."
+    },
+    {
+      "id": "s0502m:756",
+      "pali": "Manopakopaṃ rakkheyya, manasā saṃvuto siyā;"
+    },
+    {
+      "id": "s0502m:757",
+      "pali": "Manoduccaritaṃ hitvā, manasā sucaritaṃ care."
+    },
+    {
+      "id": "s0502m:758",
+      "pali": "234 ."
+    },
+    {
+      "id": "s0502m:759",
+      "pali": "Kāyena saṃvutā dhīrā, atho vācāya saṃvutā;"
+    },
+    {
+      "id": "s0502m:760",
+      "pali": "Manasā saṃvutā dhīrā, te ve suparisaṃvutā."
+    },
+    {
+      "id": "s0502m:761",
+      "pali": "Kodhavaggo sattarasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:762",
+      "pali": "18. Malavaggo"
+    },
+    {
+      "id": "s0502m:763",
+      "pali": "235 ."
+    },
+    {
+      "id": "s0502m:764",
+      "pali": "Paṇḍupalāsova dānisi, yamapurisāpi ca te upaṭṭhitā;"
+    },
+    {
+      "id": "s0502m:765",
+      "pali": "Uyyogamukhe ca tiṭṭhasi, pātheyyampi ca te na vijjati."
+    },
+    {
+      "id": "s0502m:766",
+      "pali": "236 ."
+    },
+    {
+      "id": "s0502m:767",
+      "pali": "So karohi dīpamattano, khippaṃ vāyama paṇḍito bhava;"
+    },
+    {
+      "id": "s0502m:768",
+      "pali": "Niddhantamalo anaṅgaṇo, dibbaṃ ariyabhūmiṃ upehisi ."
+    },
+    {
+      "id": "s0502m:769",
+      "pali": "237 ."
+    },
+    {
+      "id": "s0502m:770",
+      "pali": "Upanītavayo ca dānisi, sampayātosi yamassa santike;"
+    },
+    {
+      "id": "s0502m:771",
+      "pali": "Vāso te natthi antarā, pātheyyampi ca te na vijjati."
+    },
+    {
+      "id": "s0502m:772",
+      "pali": "238 ."
+    },
+    {
+      "id": "s0502m:773",
+      "pali": "So karohi dīpamattano, khippaṃ vāyama paṇḍito bhava;"
+    },
+    {
+      "id": "s0502m:774",
+      "pali": "Niddhantamalo anaṅgaṇo, na punaṃ jātijaraṃ upehisi."
+    },
+    {
+      "id": "s0502m:775",
+      "pali": "239 ."
+    },
+    {
+      "id": "s0502m:776",
+      "pali": "Anupubbena medhāvī, thokaṃ thokaṃ khaṇe khaṇe;"
+    },
+    {
+      "id": "s0502m:777",
+      "pali": "Kammāro rajatasseva, niddhame malamattano."
+    },
+    {
+      "id": "s0502m:778",
+      "pali": "240 ."
+    },
+    {
+      "id": "s0502m:779",
+      "pali": "Ayasāva malaṃ samuṭṭhitaṃ , tatuṭṭhāya tameva khādati;"
+    },
+    {
+      "id": "s0502m:780",
+      "pali": "Evaṃ atidhonacārinaṃ, sāni kammāni nayanti duggatiṃ."
+    },
+    {
+      "id": "s0502m:781",
+      "pali": "241 ."
+    },
+    {
+      "id": "s0502m:782",
+      "pali": "Asajjhāyamalā mantā, anuṭṭhānamalā gharā;"
+    },
+    {
+      "id": "s0502m:783",
+      "pali": "Malaṃ vaṇṇassa kosajjaṃ, pamādo rakkhato malaṃ."
+    },
+    {
+      "id": "s0502m:784",
+      "pali": "242 ."
+    },
+    {
+      "id": "s0502m:785",
+      "pali": "Malitthiyā duccaritaṃ, maccheraṃ dadato malaṃ;"
+    },
+    {
+      "id": "s0502m:786",
+      "pali": "Malā ve pāpakā dhammā, asmiṃ loke paramhi ca."
+    },
+    {
+      "id": "s0502m:787",
+      "pali": "243 ."
+    },
+    {
+      "id": "s0502m:788",
+      "pali": "Tato malā malataraṃ, avijjā paramaṃ malaṃ;"
+    },
+    {
+      "id": "s0502m:789",
+      "pali": "Etaṃ malaṃ pahantvāna, nimmalā hotha bhikkhavo."
+    },
+    {
+      "id": "s0502m:790",
+      "pali": "244 ."
+    },
+    {
+      "id": "s0502m:791",
+      "pali": "Sujīvaṃ ahirikena, kākasūrena dhaṃsinā;"
+    },
+    {
+      "id": "s0502m:792",
+      "pali": "Pakkhandinā pagabbhena, saṃkiliṭṭhena jīvitaṃ."
+    },
+    {
+      "id": "s0502m:793",
+      "pali": "245 ."
+    },
+    {
+      "id": "s0502m:794",
+      "pali": "Hirīmatā ca dujjīvaṃ, niccaṃ sucigavesinā;"
+    },
+    {
+      "id": "s0502m:795",
+      "pali": "Alīnenāppagabbhena, suddhājīvena passatā."
+    },
+    {
+      "id": "s0502m:796",
+      "pali": "246 ."
+    },
+    {
+      "id": "s0502m:797",
+      "pali": "Yo pāṇamatipāteti, musāvādañca bhāsati;"
+    },
+    {
+      "id": "s0502m:798",
+      "pali": "Loke adinnamādiyati, paradārañca gacchati."
+    },
+    {
+      "id": "s0502m:799",
+      "pali": "247 ."
+    },
+    {
+      "id": "s0502m:800",
+      "pali": "Surāmerayapānañca, yo naro anuyuñjati;"
+    },
+    {
+      "id": "s0502m:801",
+      "pali": "Idhevameso lokasmiṃ, mūlaṃ khaṇati attano."
+    },
+    {
+      "id": "s0502m:802",
+      "pali": "248 ."
+    },
+    {
+      "id": "s0502m:803",
+      "pali": "Evaṃ bho purisa jānāhi, pāpadhammā asaññatā;"
+    },
+    {
+      "id": "s0502m:804",
+      "pali": "Mā taṃ lobho adhammo ca, ciraṃ dukkhāya randhayuṃ."
+    },
+    {
+      "id": "s0502m:805",
+      "pali": "249 ."
+    },
+    {
+      "id": "s0502m:806",
+      "pali": "Dadāti ve yathāsaddhaṃ, yathāpasādanaṃ jano;"
+    },
+    {
+      "id": "s0502m:807",
+      "pali": "Tattha yo maṅku bhavati , paresaṃ pānabhojane;"
+    },
+    {
+      "id": "s0502m:808",
+      "pali": "Na so divā vā rattiṃ vā, samādhimadhigacchati."
+    },
+    {
+      "id": "s0502m:809",
+      "pali": "250 ."
+    },
+    {
+      "id": "s0502m:810",
+      "pali": "Yassa cetaṃ samucchinnaṃ, mūlaghaccaṃ samūhataṃ;"
+    },
+    {
+      "id": "s0502m:811",
+      "pali": "Sa ve divā vā rattiṃ vā, samādhimadhigacchati."
+    },
+    {
+      "id": "s0502m:812",
+      "pali": "251 ."
+    },
+    {
+      "id": "s0502m:813",
+      "pali": "Natthi rāgasamo aggi, natthi dosasamo gaho;"
+    },
+    {
+      "id": "s0502m:814",
+      "pali": "Natthi mohasamaṃ jālaṃ, natthi taṇhāsamā nadī."
+    },
+    {
+      "id": "s0502m:815",
+      "pali": "252 ."
+    },
+    {
+      "id": "s0502m:816",
+      "pali": "Sudassaṃ vajjamaññesaṃ, attano pana duddasaṃ;"
+    },
+    {
+      "id": "s0502m:817",
+      "pali": "Paresaṃ hi so vajjāni, opunāti yathā bhusaṃ;"
+    },
+    {
+      "id": "s0502m:818",
+      "pali": "Attano pana chādeti, kaliṃva kitavā saṭho."
+    },
+    {
+      "id": "s0502m:819",
+      "pali": "253 ."
+    },
+    {
+      "id": "s0502m:820",
+      "pali": "Paravajjānupassissa , niccaṃ ujjhānasaññino;"
+    },
+    {
+      "id": "s0502m:821",
+      "pali": "Āsavā tassa vaḍḍhanti, ārā so āsavakkhayā."
+    },
+    {
+      "id": "s0502m:822",
+      "pali": "254 ."
+    },
+    {
+      "id": "s0502m:823",
+      "pali": "Ākāseva padaṃ natthi, samaṇo natthi bāhire;"
+    },
+    {
+      "id": "s0502m:824",
+      "pali": "Papañcābhiratā pajā, nippapañcā tathāgatā."
+    },
+    {
+      "id": "s0502m:825",
+      "pali": "255 ."
+    },
+    {
+      "id": "s0502m:826",
+      "pali": "Ākāseva padaṃ natthi, samaṇo natthi bāhire;"
+    },
+    {
+      "id": "s0502m:827",
+      "pali": "Saṅkhārā sassatā natthi, natthi buddhānamiñjitaṃ."
+    },
+    {
+      "id": "s0502m:828",
+      "pali": "Malavaggo aṭṭhārasamo niṭṭhito."
+    },
+    {
+      "id": "s0502m:829",
+      "pali": "19. Dhammaṭṭhavaggo"
+    },
+    {
+      "id": "s0502m:830",
+      "pali": "256 ."
+    },
+    {
+      "id": "s0502m:831",
+      "pali": "Na tena hoti dhammaṭṭho, yenatthaṃ sāhasā naye;"
+    },
+    {
+      "id": "s0502m:832",
+      "pali": "Yo ca atthaṃ anatthañca, ubho niccheyya paṇḍito."
+    },
+    {
+      "id": "s0502m:833",
+      "pali": "257 ."
+    },
+    {
+      "id": "s0502m:834",
+      "pali": "Asāhasena dhammena, samena nayatī pare;"
+    },
+    {
+      "id": "s0502m:835",
+      "pali": "Dhammassa gutto medhāvī, ‘‘dhammaṭṭho’’ti pavuccati."
+    },
+    {
+      "id": "s0502m:836",
+      "pali": "258 ."
+    },
+    {
+      "id": "s0502m:837",
+      "pali": "Na tena paṇḍito hoti, yāvatā bahu bhāsati;"
+    },
+    {
+      "id": "s0502m:838",
+      "pali": "Khemī averī abhayo, ‘‘paṇḍito’’ti pavuccati."
+    },
+    {
+      "id": "s0502m:839",
+      "pali": "259 ."
+    },
+    {
+      "id": "s0502m:840",
+      "pali": "Na tāvatā dhammadharo, yāvatā bahu bhāsati;"
+    },
+    {
+      "id": "s0502m:841",
+      "pali": "Yo ca appampi sutvāna, dhammaṃ kāyena passati;"
+    },
+    {
+      "id": "s0502m:842",
+      "pali": "Sa ve dhammadharo hoti, yo dhammaṃ nappamajjati."
+    },
+    {
+      "id": "s0502m:843",
+      "pali": "260 ."
+    },
+    {
+      "id": "s0502m:844",
+      "pali": "Na tena thero so hoti , yenassa palitaṃ siro;"
+    },
+    {
+      "id": "s0502m:845",
+      "pali": "Paripakko vayo tassa, ‘‘moghajiṇṇo’’ti vuccati."
+    },
+    {
+      "id": "s0502m:846",
+      "pali": "261 ."
+    },
+    {
+      "id": "s0502m:847",
+      "pali": "Yamhi saccañca dhammo ca, ahiṃsā saṃyamo damo;"
+    },
+    {
+      "id": "s0502m:848",
+      "pali": "Sa ve vantamalo dhīro, ‘‘thero’’ iti pavuccati."
+    },
+    {
+      "id": "s0502m:849",
+      "pali": "262 ."
+    },
+    {
+      "id": "s0502m:850",
+      "pali": "Na vākkaraṇamattena, vaṇṇapokkharatāya vā;"
+    },
+    {
+      "id": "s0502m:851",
+      "pali": "Sādhurūpo naro hoti, issukī maccharī saṭho."
+    },
+    {
+      "id": "s0502m:852",
+      "pali": "263 ."
+    },
+    {
+      "id": "s0502m:853",
+      "pali": "Yassa cetaṃ samucchinnaṃ, mūlaghaccaṃ samūhataṃ;"
+    },
+    {
+      "id": "s0502m:854",
+      "pali": "Sa vantadoso medhāvī, ‘‘sādhurūpo’’ti vuccati."
+    },
+    {
+      "id": "s0502m:855",
+      "pali": "264 ."
+    },
+    {
+      "id": "s0502m:856",
+      "pali": "Na muṇḍakena samaṇo, abbato alikaṃ bhaṇaṃ;"
+    },
+    {
+      "id": "s0502m:857",
+      "pali": "Icchālobhasamāpanno, samaṇo kiṃ bhavissati."
+    },
+    {
+      "id": "s0502m:858",
+      "pali": "265 ."
+    },
+    {
+      "id": "s0502m:859",
+      "pali": "Yo ca sameti pāpāni, aṇuṃ thūlāni sabbaso;"
+    },
+    {
+      "id": "s0502m:860",
+      "pali": "Samitattā hi pāpānaṃ, ‘‘samaṇo’’ti pavuccati."
+    },
+    {
+      "id": "s0502m:861",
+      "pali": "266 ."
+    },
+    {
+      "id": "s0502m:862",
+      "pali": "Na tena bhikkhu so hoti, yāvatā bhikkhate pare;"
+    },
+    {
+      "id": "s0502m:863",
+      "pali": "Vissaṃ dhammaṃ samādāya, bhikkhu hoti na tāvatā."
+    },
+    {
+      "id": "s0502m:864",
+      "pali": "267 ."
+    },
+    {
+      "id": "s0502m:865",
+      "pali": "Yodha puññañca pāpañca, bāhetvā brahmacariyavā ;"
+    },
+    {
+      "id": "s0502m:866",
+      "pali": "Saṅkhāya loke carati, sa ve ‘‘bhikkhū’’ti vuccati."
+    },
+    {
+      "id": "s0502m:867",
+      "pali": "268 ."
+    },
+    {
+      "id": "s0502m:868",
+      "pali": "Na monena munī hoti, mūḷharūpo aviddasu;"
+    },
+    {
+      "id": "s0502m:869",
+      "pali": "Yo ca tulaṃva paggayha, varamādāya paṇḍito."
+    },
+    {
+      "id": "s0502m:870",
+      "pali": "269 ."
+    },
+    {
+      "id": "s0502m:871",
+      "pali": "Pāpāni parivajjeti, sa munī tena so muni;"
+    },
+    {
+      "id": "s0502m:872",
+      "pali": "Yo munāti ubho loke, ‘‘muni’’ tena pavuccati."
+    },
+    {
+      "id": "s0502m:873",
+      "pali": "270 ."
+    },
+    {
+      "id": "s0502m:874",
+      "pali": "Na tena ariyo hoti, yena pāṇāni hiṃsati;"
+    },
+    {
+      "id": "s0502m:875",
+      "pali": "Ahiṃsā sabbapāṇānaṃ, ‘‘ariyo’’ti pavuccati."
+    },
+    {
+      "id": "s0502m:876",
+      "pali": "271 ."
+    },
+    {
+      "id": "s0502m:877",
+      "pali": "Na sīlabbatamattena, bāhusaccena vā pana;"
+    },
+    {
+      "id": "s0502m:878",
+      "pali": "Atha vā samādhilābhena, vivittasayanena vā."
+    },
+    {
+      "id": "s0502m:879",
+      "pali": "272 ."
+    },
+    {
+      "id": "s0502m:880",
+      "pali": "Phusāmi nekkhammasukhaṃ, aputhujjanasevitaṃ;"
+    },
+    {
+      "id": "s0502m:881",
+      "pali": "Bhikkhu vissāsamāpādi, appatto āsavakkhayaṃ."
+    },
+    {
+      "id": "s0502m:882",
+      "pali": "Dhammaṭṭhavaggo ekūnavīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:883",
+      "pali": "20. Maggavaggo"
+    },
+    {
+      "id": "s0502m:884",
+      "pali": "273 ."
+    },
+    {
+      "id": "s0502m:885",
+      "pali": "Maggānaṭṭhaṅgiko seṭṭho, saccānaṃ caturo padā;"
+    },
+    {
+      "id": "s0502m:886",
+      "pali": "Virāgo seṭṭho dhammānaṃ, dvipadānañca cakkhumā."
+    },
+    {
+      "id": "s0502m:887",
+      "pali": "274 ."
+    },
+    {
+      "id": "s0502m:888",
+      "pali": "Eseva maggo natthañño, dassanassa visuddhiyā;"
+    },
+    {
+      "id": "s0502m:889",
+      "pali": "Etañhi tumhe paṭipajjatha, mārassetaṃ pamohanaṃ."
+    },
+    {
+      "id": "s0502m:890",
+      "pali": "275 ."
+    },
+    {
+      "id": "s0502m:891",
+      "pali": "Etañhi tumhe paṭipannā, dukkhassantaṃ karissatha;"
+    },
+    {
+      "id": "s0502m:892",
+      "pali": "Akkhāto vo mayā maggo, aññāya sallakantanaṃ ."
+    },
+    {
+      "id": "s0502m:893",
+      "pali": "276 ."
+    },
+    {
+      "id": "s0502m:894",
+      "pali": "Tumhehi kiccamātappaṃ, akkhātāro tathāgatā;"
+    },
+    {
+      "id": "s0502m:895",
+      "pali": "Paṭipannā pamokkhanti, jhāyino mārabandhanā."
+    },
+    {
+      "id": "s0502m:896",
+      "pali": "277 ."
+    },
+    {
+      "id": "s0502m:897",
+      "pali": "‘‘Sabbe saṅkhārā aniccā’’ti, yadā paññāya passati;"
+    },
+    {
+      "id": "s0502m:898",
+      "pali": "Atha nibbindati dukkhe, esa maggo visuddhiyā."
+    },
+    {
+      "id": "s0502m:899",
+      "pali": "278 ."
+    },
+    {
+      "id": "s0502m:900",
+      "pali": "‘‘Sabbe saṅkhārā dukkhā’’ti, yadā paññāya passati;"
+    },
+    {
+      "id": "s0502m:901",
+      "pali": "Atha nibbindati dukkhe, esa maggo visuddhiyā."
+    },
+    {
+      "id": "s0502m:902",
+      "pali": "279 ."
+    },
+    {
+      "id": "s0502m:903",
+      "pali": "‘‘Sabbe dhammā anattā’’ti, yadā paññāya passati;"
+    },
+    {
+      "id": "s0502m:904",
+      "pali": "Atha nibbindati dukkhe, esa maggo visuddhiyā."
+    },
+    {
+      "id": "s0502m:905",
+      "pali": "280 ."
+    },
+    {
+      "id": "s0502m:906",
+      "pali": "Uṭṭhānakālamhi anuṭṭhahāno, yuvā balī ālasiyaṃ upeto;"
+    },
+    {
+      "id": "s0502m:907",
+      "pali": "Saṃsannasaṅkappamano kusīto, paññāya maggaṃ alaso na vindati."
+    },
+    {
+      "id": "s0502m:908",
+      "pali": "281 ."
+    },
+    {
+      "id": "s0502m:909",
+      "pali": "Vācānurakkhī manasā susaṃvuto, kāyena ca nākusalaṃ kayirā ;"
+    },
+    {
+      "id": "s0502m:910",
+      "pali": "Ete tayo kammapathe visodhaye, ārādhaye maggamisippaveditaṃ."
+    },
+    {
+      "id": "s0502m:911",
+      "pali": "282 ."
+    },
+    {
+      "id": "s0502m:912",
+      "pali": "Yogā ve jāyatī bhūri, ayogā bhūrisaṅkhayo;"
+    },
+    {
+      "id": "s0502m:913",
+      "pali": "Etaṃ dvedhāpathaṃ ñatvā, bhavāya vibhavāya ca;"
+    },
+    {
+      "id": "s0502m:914",
+      "pali": "Tathāttānaṃ niveseyya, yathā bhūri pavaḍḍhati."
+    },
+    {
+      "id": "s0502m:915",
+      "pali": "283 ."
+    },
+    {
+      "id": "s0502m:916",
+      "pali": "Vanaṃ chindatha mā rukkhaṃ, vanato jāyate bhayaṃ;"
+    },
+    {
+      "id": "s0502m:917",
+      "pali": "Chetvā vanañca vanathañca, nibbanā hotha bhikkhavo."
+    },
+    {
+      "id": "s0502m:918",
+      "pali": "284 ."
+    },
+    {
+      "id": "s0502m:919",
+      "pali": "Yāva hi vanatho na chijjati, aṇumattopi narassa nārisu;"
+    },
+    {
+      "id": "s0502m:920",
+      "pali": "Paṭibaddhamanova tāva so, vaccho khīrapakova mātari."
+    },
+    {
+      "id": "s0502m:921",
+      "pali": "285 ."
+    },
+    {
+      "id": "s0502m:922",
+      "pali": "Ucchinda sinehamattano kumudaṃ sāradikaṃva ;"
+    },
+    {
+      "id": "s0502m:923",
+      "pali": "Santimaggameva brūhaya, nibbānaṃ sugatena desitaṃ."
+    },
+    {
+      "id": "s0502m:924",
+      "pali": "286 ."
+    },
+    {
+      "id": "s0502m:925",
+      "pali": "Idha vassaṃ vasissāmi, idha hemantagimhisu;"
+    },
+    {
+      "id": "s0502m:926",
+      "pali": "Iti bālo vicinteti, antarāyaṃ na bujjhati."
+    },
+    {
+      "id": "s0502m:927",
+      "pali": "287 ."
+    },
+    {
+      "id": "s0502m:928",
+      "pali": "Taṃ puttapasusammattaṃ, byāsattamanasaṃ naraṃ;"
+    },
+    {
+      "id": "s0502m:929",
+      "pali": "Suttaṃ gāmaṃ mahoghova, maccu ādāya gacchati."
+    },
+    {
+      "id": "s0502m:930",
+      "pali": "288 ."
+    },
+    {
+      "id": "s0502m:931",
+      "pali": "Na santi puttā tāṇāya, na pitā nāpi bandhavā;"
+    },
+    {
+      "id": "s0502m:932",
+      "pali": "Antakenādhipannassa, natthi ñātīsu tāṇatā."
+    },
+    {
+      "id": "s0502m:933",
+      "pali": "289 ."
+    },
+    {
+      "id": "s0502m:934",
+      "pali": "Etamatthavasaṃ ñatvā, paṇḍito sīlasaṃvuto;"
+    },
+    {
+      "id": "s0502m:935",
+      "pali": "Nibbānagamanaṃ maggaṃ, khippameva visodhaye."
+    },
+    {
+      "id": "s0502m:936",
+      "pali": "Maggavaggo vīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:937",
+      "pali": "21. Pakiṇṇakavaggo"
+    },
+    {
+      "id": "s0502m:938",
+      "pali": "290 ."
+    },
+    {
+      "id": "s0502m:939",
+      "pali": "Mattāsukhapariccāgā , passe ce vipulaṃ sukhaṃ;"
+    },
+    {
+      "id": "s0502m:940",
+      "pali": "Caje mattāsukhaṃ dhīro, sampassaṃ vipulaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:941",
+      "pali": "291 ."
+    },
+    {
+      "id": "s0502m:942",
+      "pali": "Paradukkhūpadhānena, attano sukhamicchati;"
+    },
+    {
+      "id": "s0502m:943",
+      "pali": "Verasaṃsaggasaṃsaṭṭho, verā so na parimuccati."
+    },
+    {
+      "id": "s0502m:944",
+      "pali": "292 ."
+    },
+    {
+      "id": "s0502m:945",
+      "pali": "Yañhi kiccaṃ apaviddhaṃ , akiccaṃ pana kayirati;"
+    },
+    {
+      "id": "s0502m:946",
+      "pali": "Unnaḷānaṃ pamattānaṃ, tesaṃ vaḍḍhanti āsavā."
+    },
+    {
+      "id": "s0502m:947",
+      "pali": "293 ."
+    },
+    {
+      "id": "s0502m:948",
+      "pali": "Yesañca susamāraddhā, niccaṃ kāyagatā sati;"
+    },
+    {
+      "id": "s0502m:949",
+      "pali": "Akiccaṃ te na sevanti, kicce sātaccakārino;"
+    },
+    {
+      "id": "s0502m:950",
+      "pali": "Satānaṃ sampajānānaṃ, atthaṃ gacchanti āsavā."
+    },
+    {
+      "id": "s0502m:951",
+      "pali": "294 ."
+    },
+    {
+      "id": "s0502m:952",
+      "pali": "Mātaraṃ pitaraṃ hantvā, rājāno dve ca khattiye;"
+    },
+    {
+      "id": "s0502m:953",
+      "pali": "Raṭṭhaṃ sānucaraṃ hantvā, anīgho yāti brāhmaṇo."
+    },
+    {
+      "id": "s0502m:954",
+      "pali": "295 ."
+    },
+    {
+      "id": "s0502m:955",
+      "pali": "Mātaraṃ pitaraṃ hantvā, rājāno dve ca sotthiye;"
+    },
+    {
+      "id": "s0502m:956",
+      "pali": "Veyagghapañcamaṃ hantvā, anīgho yāti brāhmaṇo."
+    },
+    {
+      "id": "s0502m:957",
+      "pali": "296 ."
+    },
+    {
+      "id": "s0502m:958",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:959",
+      "pali": "Yesaṃ divā ca ratto ca, niccaṃ buddhagatā sati."
+    },
+    {
+      "id": "s0502m:960",
+      "pali": "297 ."
+    },
+    {
+      "id": "s0502m:961",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:962",
+      "pali": "Yesaṃ divā ca ratto ca, niccaṃ dhammagatā sati."
+    },
+    {
+      "id": "s0502m:963",
+      "pali": "298 ."
+    },
+    {
+      "id": "s0502m:964",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:965",
+      "pali": "Yesaṃ divā ca ratto ca, niccaṃ saṅghagatā sati."
+    },
+    {
+      "id": "s0502m:966",
+      "pali": "299 ."
+    },
+    {
+      "id": "s0502m:967",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:968",
+      "pali": "Yesaṃ divā ca ratto ca, niccaṃ kāyagatā sati."
+    },
+    {
+      "id": "s0502m:969",
+      "pali": "300 ."
+    },
+    {
+      "id": "s0502m:970",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:971",
+      "pali": "Yesaṃ divā ca ratto ca, ahiṃsāya rato mano."
+    },
+    {
+      "id": "s0502m:972",
+      "pali": "301 ."
+    },
+    {
+      "id": "s0502m:973",
+      "pali": "Suppabuddhaṃ pabujjhanti, sadā gotamasāvakā;"
+    },
+    {
+      "id": "s0502m:974",
+      "pali": "Yesaṃ divā ca ratto ca, bhāvanāya rato mano."
+    },
+    {
+      "id": "s0502m:975",
+      "pali": "302 ."
+    },
+    {
+      "id": "s0502m:976",
+      "pali": "Duppabbajjaṃ durabhiramaṃ, durāvāsā gharā dukhā;"
+    },
+    {
+      "id": "s0502m:977",
+      "pali": "Dukkhosamānasaṃvāso, dukkhānupatitaddhagū;"
+    },
+    {
+      "id": "s0502m:978",
+      "pali": "Tasmā na caddhagū siyā, na ca dukkhānupatito siyā ."
+    },
+    {
+      "id": "s0502m:979",
+      "pali": "303 ."
+    },
+    {
+      "id": "s0502m:980",
+      "pali": "Saddho sīlena sampanno, yasobhogasamappito;"
+    },
+    {
+      "id": "s0502m:981",
+      "pali": "Yaṃ yaṃ padesaṃ bhajati, tattha tattheva pūjito."
+    },
+    {
+      "id": "s0502m:982",
+      "pali": "304 ."
+    },
+    {
+      "id": "s0502m:983",
+      "pali": "Dūre santo pakāsenti, himavantova pabbato;"
+    },
+    {
+      "id": "s0502m:984",
+      "pali": "Asantettha na dissanti, rattiṃ khittā yathā sarā."
+    },
+    {
+      "id": "s0502m:985",
+      "pali": "305 ."
+    },
+    {
+      "id": "s0502m:986",
+      "pali": "Ekāsanaṃ ekaseyyaṃ, eko caramatandito;"
+    },
+    {
+      "id": "s0502m:987",
+      "pali": "Eko damayamattānaṃ, vanante ramito siyā."
+    },
+    {
+      "id": "s0502m:988",
+      "pali": "Pakiṇṇakavaggo ekavīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:989",
+      "pali": "22. Nirayavaggo"
+    },
+    {
+      "id": "s0502m:990",
+      "pali": "306 ."
+    },
+    {
+      "id": "s0502m:991",
+      "pali": "Abhūtavādī nirayaṃ upeti, yo vāpi katvā na karomi cāha ;"
+    },
+    {
+      "id": "s0502m:992",
+      "pali": "Ubhopi te pecca samā bhavanti, nihīnakammā manujā parattha."
+    },
+    {
+      "id": "s0502m:993",
+      "pali": "307 ."
+    },
+    {
+      "id": "s0502m:994",
+      "pali": "Kāsāvakaṇṭhā bahavo, pāpadhammā asaññatā;"
+    },
+    {
+      "id": "s0502m:995",
+      "pali": "Pāpā pāpehi kammehi, nirayaṃ te upapajjare."
+    },
+    {
+      "id": "s0502m:996",
+      "pali": "308 ."
+    },
+    {
+      "id": "s0502m:997",
+      "pali": "Seyyo ayoguḷo bhutto, tatto aggisikhūpamo;"
+    },
+    {
+      "id": "s0502m:998",
+      "pali": "Yañce bhuñjeyya dussīlo, raṭṭhapiṇḍamasaññato."
+    },
+    {
+      "id": "s0502m:999",
+      "pali": "309 ."
+    },
+    {
+      "id": "s0502m:1000",
+      "pali": "Cattāri ṭhānāni naro pamatto, āpajjati paradārūpasevī;"
+    },
+    {
+      "id": "s0502m:1001",
+      "pali": "Apuññalābhaṃ na nikāmaseyyaṃ, nindaṃ tatīyaṃ nirayaṃ catutthaṃ."
+    },
+    {
+      "id": "s0502m:1002",
+      "pali": "310 ."
+    },
+    {
+      "id": "s0502m:1003",
+      "pali": "Apuññalābho ca gatī ca pāpikā, bhītassa bhītāya ratī ca thokikā;"
+    },
+    {
+      "id": "s0502m:1004",
+      "pali": "Rājā ca daṇḍaṃ garukaṃ paṇeti, tasmā naro paradāraṃ na seve."
+    },
+    {
+      "id": "s0502m:1005",
+      "pali": "311 ."
+    },
+    {
+      "id": "s0502m:1006",
+      "pali": "Kuso yathā duggahito, hatthamevānukantati;"
+    },
+    {
+      "id": "s0502m:1007",
+      "pali": "Sāmaññaṃ dupparāmaṭṭhaṃ, nirayāyupakaḍḍhati."
+    },
+    {
+      "id": "s0502m:1008",
+      "pali": "312 ."
+    },
+    {
+      "id": "s0502m:1009",
+      "pali": "Yaṃ kiñci sithilaṃ kammaṃ, saṃkiliṭṭhañca yaṃ vataṃ;"
+    },
+    {
+      "id": "s0502m:1010",
+      "pali": "Saṅkassaraṃ brahmacariyaṃ, na taṃ hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0502m:1011",
+      "pali": "313 ."
+    },
+    {
+      "id": "s0502m:1012",
+      "pali": "Kayirā ce kayirāthenaṃ , daḷhamenaṃ parakkame;"
+    },
+    {
+      "id": "s0502m:1013",
+      "pali": "Sithilo hi paribbājo, bhiyyo ākirate rajaṃ."
+    },
+    {
+      "id": "s0502m:1014",
+      "pali": "314 ."
+    },
+    {
+      "id": "s0502m:1015",
+      "pali": "Akataṃ dukkaṭaṃ seyyo, pacchā tappati dukkaṭaṃ;"
+    },
+    {
+      "id": "s0502m:1016",
+      "pali": "Katañca sukataṃ seyyo, yaṃ katvā nānutappati."
+    },
+    {
+      "id": "s0502m:1017",
+      "pali": "315 ."
+    },
+    {
+      "id": "s0502m:1018",
+      "pali": "Nagaraṃ yathā paccantaṃ, guttaṃ santarabāhiraṃ;"
+    },
+    {
+      "id": "s0502m:1019",
+      "pali": "Evaṃ gopetha attānaṃ, khaṇo vo mā upaccagā;"
+    },
+    {
+      "id": "s0502m:1020",
+      "pali": "Khaṇātītā hi socanti, nirayamhi samappitā."
+    },
+    {
+      "id": "s0502m:1021",
+      "pali": "316 ."
+    },
+    {
+      "id": "s0502m:1022",
+      "pali": "Alajjitāye lajjanti, lajjitāye na lajjare;"
+    },
+    {
+      "id": "s0502m:1023",
+      "pali": "Micchādiṭṭhisamādānā, sattā gacchanti duggatiṃ."
+    },
+    {
+      "id": "s0502m:1024",
+      "pali": "317 ."
+    },
+    {
+      "id": "s0502m:1025",
+      "pali": "Abhaye bhayadassino, bhaye cābhayadassino;"
+    },
+    {
+      "id": "s0502m:1026",
+      "pali": "Micchādiṭṭhisamādānā, sattā gacchanti duggatiṃ."
+    },
+    {
+      "id": "s0502m:1027",
+      "pali": "318 ."
+    },
+    {
+      "id": "s0502m:1028",
+      "pali": "Avajje vajjamatino, vajje cāvajjadassino;"
+    },
+    {
+      "id": "s0502m:1029",
+      "pali": "Micchādiṭṭhisamādānā, sattā gacchanti duggatiṃ."
+    },
+    {
+      "id": "s0502m:1030",
+      "pali": "319 ."
+    },
+    {
+      "id": "s0502m:1031",
+      "pali": "Vajjañca vajjato ñatvā, avajjañca avajjato;"
+    },
+    {
+      "id": "s0502m:1032",
+      "pali": "Sammādiṭṭhisamādānā, sattā gacchanti suggatiṃ."
+    },
+    {
+      "id": "s0502m:1033",
+      "pali": "Nirayavaggo dvāvīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:1034",
+      "pali": "23. Nāgavaggo"
+    },
+    {
+      "id": "s0502m:1035",
+      "pali": "320 ."
+    },
+    {
+      "id": "s0502m:1036",
+      "pali": "Ahaṃ nāgova saṅgāme, cāpato patitaṃ saraṃ;"
+    },
+    {
+      "id": "s0502m:1037",
+      "pali": "Ativākyaṃ titikkhissaṃ, dussīlo hi bahujjano."
+    },
+    {
+      "id": "s0502m:1038",
+      "pali": "321 ."
+    },
+    {
+      "id": "s0502m:1039",
+      "pali": "Dantaṃ nayanti samitiṃ, dantaṃ rājābhirūhati;"
+    },
+    {
+      "id": "s0502m:1040",
+      "pali": "Danto seṭṭho manussesu, yotivākyaṃ titikkhati."
+    },
+    {
+      "id": "s0502m:1041",
+      "pali": "322 ."
+    },
+    {
+      "id": "s0502m:1042",
+      "pali": "Varamassatarā dantā, ājānīyā ca sindhavā;"
+    },
+    {
+      "id": "s0502m:1043",
+      "pali": "Kuñjarā ca mahānāgā, attadanto tato varaṃ."
+    },
+    {
+      "id": "s0502m:1044",
+      "pali": "323 ."
+    },
+    {
+      "id": "s0502m:1045",
+      "pali": "Na hi etehi yānehi, gaccheyya agataṃ disaṃ;"
+    },
+    {
+      "id": "s0502m:1046",
+      "pali": "Yathāttanā sudantena, danto dantena gacchati."
+    },
+    {
+      "id": "s0502m:1047",
+      "pali": "324 ."
+    },
+    {
+      "id": "s0502m:1048",
+      "pali": "Dhanapālo nāma kuñjaro, kaṭukabhedano dunnivārayo;"
+    },
+    {
+      "id": "s0502m:1049",
+      "pali": "Baddho kabaḷaṃ na bhuñjati, sumarati nāgavanassa kuñjaro."
+    },
+    {
+      "id": "s0502m:1050",
+      "pali": "325 ."
+    },
+    {
+      "id": "s0502m:1051",
+      "pali": "Middhī yadā hoti mahagghaso ca, niddāyitā samparivattasāyī;"
+    },
+    {
+      "id": "s0502m:1052",
+      "pali": "Mahāvarāhova nivāpapuṭṭho, punappunaṃ gabbhamupeti mando."
+    },
+    {
+      "id": "s0502m:1053",
+      "pali": "326 ."
+    },
+    {
+      "id": "s0502m:1054",
+      "pali": "Idaṃ pure cittamacāri cārikaṃ, yenicchakaṃ yatthakāmaṃ yathāsukhaṃ;"
+    },
+    {
+      "id": "s0502m:1055",
+      "pali": "Tadajjahaṃ niggahessāmi yoniso, hatthippabhinnaṃ viya aṅkusaggaho."
+    },
+    {
+      "id": "s0502m:1056",
+      "pali": "327 ."
+    },
+    {
+      "id": "s0502m:1057",
+      "pali": "Appamādaratā hotha, sacittamanurakkhatha;"
+    },
+    {
+      "id": "s0502m:1058",
+      "pali": "Duggā uddharathattānaṃ, paṅke sannova kuñjaro."
+    },
+    {
+      "id": "s0502m:1059",
+      "pali": "328 ."
+    },
+    {
+      "id": "s0502m:1060",
+      "pali": "Sace labhetha nipakaṃ sahāyaṃ, saddhiṃ caraṃ sādhuvihāridhīraṃ;"
+    },
+    {
+      "id": "s0502m:1061",
+      "pali": "Abhibhuyya sabbāni parissayāni, careyya tenattamano satīmā."
+    },
+    {
+      "id": "s0502m:1062",
+      "pali": "329 ."
+    },
+    {
+      "id": "s0502m:1063",
+      "pali": "No ce labhetha nipakaṃ sahāyaṃ, saddhiṃ caraṃ sādhuvihāridhīraṃ;"
+    },
+    {
+      "id": "s0502m:1064",
+      "pali": "Rājāva raṭṭhaṃ vijitaṃ pahāya, eko care mātaṅgaraññeva nāgo."
+    },
+    {
+      "id": "s0502m:1065",
+      "pali": "330 ."
+    },
+    {
+      "id": "s0502m:1066",
+      "pali": "Ekassa caritaṃ seyyo, natthi bāle sahāyatā;"
+    },
+    {
+      "id": "s0502m:1067",
+      "pali": "Eko care na ca pāpāni kayirā, appossukko mātaṅgaraññeva nāgo."
+    },
+    {
+      "id": "s0502m:1068",
+      "pali": "331 ."
+    },
+    {
+      "id": "s0502m:1069",
+      "pali": "Atthamhi jātamhi sukhā sahāyā, tuṭṭhī sukhā yā itarītarena;"
+    },
+    {
+      "id": "s0502m:1070",
+      "pali": "Puññaṃ sukhaṃ jīvitasaṅkhayamhi, sabbassa dukkhassa sukhaṃ pahānaṃ."
+    },
+    {
+      "id": "s0502m:1071",
+      "pali": "332 ."
+    },
+    {
+      "id": "s0502m:1072",
+      "pali": "Sukhā matteyyatā loke, atho petteyyatā sukhā;"
+    },
+    {
+      "id": "s0502m:1073",
+      "pali": "Sukhā sāmaññatā loke, atho brahmaññatā sukhā."
+    },
+    {
+      "id": "s0502m:1074",
+      "pali": "333 ."
+    },
+    {
+      "id": "s0502m:1075",
+      "pali": "Sukhaṃ yāva jarā sīlaṃ, sukhā saddhā patiṭṭhitā;"
+    },
+    {
+      "id": "s0502m:1076",
+      "pali": "Sukho paññāya paṭilābho, pāpānaṃ akaraṇaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:1077",
+      "pali": "Nāgavaggo tevīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:1078",
+      "pali": "24. Taṇhāvaggo"
+    },
+    {
+      "id": "s0502m:1079",
+      "pali": "334 ."
+    },
+    {
+      "id": "s0502m:1080",
+      "pali": "Manujassa pamattacārino, taṇhā vaḍḍhati māluvā viya;"
+    },
+    {
+      "id": "s0502m:1081",
+      "pali": "So plavatī hurā huraṃ, phalamicchaṃva vanasmi vānaro."
+    },
+    {
+      "id": "s0502m:1082",
+      "pali": "335 ."
+    },
+    {
+      "id": "s0502m:1083",
+      "pali": "Yaṃ esā sahate jammī, taṇhā loke visattikā;"
+    },
+    {
+      "id": "s0502m:1084",
+      "pali": "Sokā tassa pavaḍḍhanti, abhivaṭṭhaṃva bīraṇaṃ."
+    },
+    {
+      "id": "s0502m:1085",
+      "pali": "336 ."
+    },
+    {
+      "id": "s0502m:1086",
+      "pali": "Yo cetaṃ sahate jammiṃ, taṇhaṃ loke duraccayaṃ;"
+    },
+    {
+      "id": "s0502m:1087",
+      "pali": "Sokā tamhā papatanti, udabinduva pokkharā."
+    },
+    {
+      "id": "s0502m:1088",
+      "pali": "337 ."
+    },
+    {
+      "id": "s0502m:1089",
+      "pali": "Taṃ vo vadāmi bhaddaṃ vo, yāvantettha samāgatā;"
+    },
+    {
+      "id": "s0502m:1090",
+      "pali": "Taṇhāya mūlaṃ khaṇatha, usīratthova bīraṇaṃ;"
+    },
+    {
+      "id": "s0502m:1091",
+      "pali": "Mā vo naḷaṃva sotova, māro bhañji punappunaṃ."
+    },
+    {
+      "id": "s0502m:1092",
+      "pali": "338 ."
+    },
+    {
+      "id": "s0502m:1093",
+      "pali": "Yathāpi mūle anupaddave daḷhe, chinnopi rukkho punareva rūhati;"
+    },
+    {
+      "id": "s0502m:1094",
+      "pali": "Evampi taṇhānusaye anūhate, nibbattatī dukkhamidaṃ punappunaṃ."
+    },
+    {
+      "id": "s0502m:1095",
+      "pali": "339 ."
+    },
+    {
+      "id": "s0502m:1096",
+      "pali": "Yassa chattiṃsati sotā, manāpasavanā bhusā;"
+    },
+    {
+      "id": "s0502m:1097",
+      "pali": "Māhā vahanti duddiṭṭhiṃ, saṅkappā rāganissitā."
+    },
+    {
+      "id": "s0502m:1098",
+      "pali": "340 ."
+    },
+    {
+      "id": "s0502m:1099",
+      "pali": "Savanti sabbadhi sotā, latā uppajja tiṭṭhati;"
+    },
+    {
+      "id": "s0502m:1100",
+      "pali": "Tañca disvā lataṃ jātaṃ, mūlaṃ paññāya chindatha."
+    },
+    {
+      "id": "s0502m:1101",
+      "pali": "341 ."
+    },
+    {
+      "id": "s0502m:1102",
+      "pali": "Saritāni sinehitāni ca, somanassāni bhavanti jantuno;"
+    },
+    {
+      "id": "s0502m:1103",
+      "pali": "Te sātasitā sukhesino, te ve jātijarūpagā narā."
+    },
+    {
+      "id": "s0502m:1104",
+      "pali": "342 ."
+    },
+    {
+      "id": "s0502m:1105",
+      "pali": "Tasiṇāya purakkhatā pajā, parisappanti sasova bandhito ;"
+    },
+    {
+      "id": "s0502m:1106",
+      "pali": "Saṃyojanasaṅgasattakā, dukkhamupenti punappunaṃ cirāya."
+    },
+    {
+      "id": "s0502m:1107",
+      "pali": "343 ."
+    },
+    {
+      "id": "s0502m:1108",
+      "pali": "Tasiṇāya purakkhatā pajā, parisappanti sasova bandhito;"
+    },
+    {
+      "id": "s0502m:1109",
+      "pali": "Tasmā tasiṇaṃ vinodaye, ākaṅkhanta virāgamattano."
+    },
+    {
+      "id": "s0502m:1110",
+      "pali": "344 ."
+    },
+    {
+      "id": "s0502m:1111",
+      "pali": "Yo nibbanatho vanādhimutto, vanamutto vanameva dhāvati;"
+    },
+    {
+      "id": "s0502m:1112",
+      "pali": "Taṃ puggalametha passatha, mutto bandhanameva dhāvati."
+    },
+    {
+      "id": "s0502m:1113",
+      "pali": "345 ."
+    },
+    {
+      "id": "s0502m:1114",
+      "pali": "Na taṃ daḷhaṃ bandhanamāhu dhīrā, yadāyasaṃ dārujapabbajañca ;"
+    },
+    {
+      "id": "s0502m:1115",
+      "pali": "Sārattarattā maṇikuṇḍalesu, puttesu dāresu ca yā apekkhā."
+    },
+    {
+      "id": "s0502m:1116",
+      "pali": "346 ."
+    },
+    {
+      "id": "s0502m:1117",
+      "pali": "Etaṃ daḷhaṃ bandhanamāhu dhīrā, ohārinaṃ sithilaṃ duppamuñcaṃ;"
+    },
+    {
+      "id": "s0502m:1118",
+      "pali": "Etampi chetvāna paribbajanti, anapekkhino kāmasukhaṃ pahāya."
+    },
+    {
+      "id": "s0502m:1119",
+      "pali": "347 ."
+    },
+    {
+      "id": "s0502m:1120",
+      "pali": "Ye rāgarattānupatanti sotaṃ, sayaṃkataṃ makkaṭakova jālaṃ;"
+    },
+    {
+      "id": "s0502m:1121",
+      "pali": "Etampi chetvāna vajanti dhīrā, anapekkhino sabbadukkhaṃ pahāya."
+    },
+    {
+      "id": "s0502m:1122",
+      "pali": "348 ."
+    },
+    {
+      "id": "s0502m:1123",
+      "pali": "Muñca pure muñca pacchato, majjhe muñca bhavassa pāragū;"
+    },
+    {
+      "id": "s0502m:1124",
+      "pali": "Sabbattha vimuttamānaso, na punaṃ jātijaraṃ upehisi."
+    },
+    {
+      "id": "s0502m:1125",
+      "pali": "349 ."
+    },
+    {
+      "id": "s0502m:1126",
+      "pali": "Vitakkamathitassa jantuno, tibbarāgassa subhānupassino;"
+    },
+    {
+      "id": "s0502m:1127",
+      "pali": "Bhiyyo taṇhā pavaḍḍhati, esa kho daḷhaṃ karoti bandhanaṃ."
+    },
+    {
+      "id": "s0502m:1128",
+      "pali": "350 ."
+    },
+    {
+      "id": "s0502m:1129",
+      "pali": "Vitakkūpasame ca yo rato, asubhaṃ bhāvayate sadā sato;"
+    },
+    {
+      "id": "s0502m:1130",
+      "pali": "Esa kho byanti kāhiti, esa checchati mārabandhanaṃ."
+    },
+    {
+      "id": "s0502m:1131",
+      "pali": "351 ."
+    },
+    {
+      "id": "s0502m:1132",
+      "pali": "Niṭṭhaṅgato asantāsī, vītataṇho anaṅgaṇo;"
+    },
+    {
+      "id": "s0502m:1133",
+      "pali": "Acchindi bhavasallāni, antimoyaṃ samussayo."
+    },
+    {
+      "id": "s0502m:1134",
+      "pali": "352 ."
+    },
+    {
+      "id": "s0502m:1135",
+      "pali": "Vītataṇho anādāno, niruttipadakovido;"
+    },
+    {
+      "id": "s0502m:1136",
+      "pali": "Akkharānaṃ sannipātaṃ, jaññā pubbāparāni ca;"
+    },
+    {
+      "id": "s0502m:1137",
+      "pali": "Sa ve ‘‘antimasārīro, mahāpañño mahāpuriso’’ti vuccati."
+    },
+    {
+      "id": "s0502m:1138",
+      "pali": "353 ."
+    },
+    {
+      "id": "s0502m:1139",
+      "pali": "Sabbābhibhū sabbavidūhamasmi, sabbesu dhammesu anūpalitto;"
+    },
+    {
+      "id": "s0502m:1140",
+      "pali": "Sabbañjaho taṇhakkhaye vimutto, sayaṃ abhiññāya kamuddiseyyaṃ."
+    },
+    {
+      "id": "s0502m:1141",
+      "pali": "354 ."
+    },
+    {
+      "id": "s0502m:1142",
+      "pali": "Sabbadānaṃ dhammadānaṃ jināti, sabbarasaṃ dhammaraso jināti;"
+    },
+    {
+      "id": "s0502m:1143",
+      "pali": "Sabbaratiṃ dhammarati jināti, taṇhakkhayo sabbadukkhaṃ jināti."
+    },
+    {
+      "id": "s0502m:1144",
+      "pali": "355 ."
+    },
+    {
+      "id": "s0502m:1145",
+      "pali": "Hananti bhogā dummedhaṃ, no ca pāragavesino;"
+    },
+    {
+      "id": "s0502m:1146",
+      "pali": "Bhogataṇhāya dummedho, hanti aññeva attanaṃ."
+    },
+    {
+      "id": "s0502m:1147",
+      "pali": "356 ."
+    },
+    {
+      "id": "s0502m:1148",
+      "pali": "Tiṇadosāni khettāni, rāgadosā ayaṃ pajā;"
+    },
+    {
+      "id": "s0502m:1149",
+      "pali": "Tasmā hi vītarāgesu, dinnaṃ hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0502m:1150",
+      "pali": "357 ."
+    },
+    {
+      "id": "s0502m:1151",
+      "pali": "Tiṇadosāni khettāni, dosadosā ayaṃ pajā;"
+    },
+    {
+      "id": "s0502m:1152",
+      "pali": "Tasmā hi vītadosesu, dinnaṃ hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0502m:1153",
+      "pali": "358 ."
+    },
+    {
+      "id": "s0502m:1154",
+      "pali": "Tiṇadosāni khettāni, mohadosā ayaṃ pajā;"
+    },
+    {
+      "id": "s0502m:1155",
+      "pali": "Tasmā hi vītamohesu, dinnaṃ hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0502m:1156",
+      "pali": "359 ."
+    },
+    {
+      "id": "s0502m:1157",
+      "pali": "(Tiṇadosāni khettāni, icchādosā ayaṃ pajā;"
+    },
+    {
+      "id": "s0502m:1158",
+      "pali": "Tasmā hi vigaticchesu, dinnaṃ hoti mahapphalaṃ.)"
+    },
+    {
+      "id": "s0502m:1159",
+      "pali": "Tiṇadosāni khettāni, taṇhādosā ayaṃ pajā;"
+    },
+    {
+      "id": "s0502m:1160",
+      "pali": "Tasmā hi vītataṇhesu, dinnaṃ hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0502m:1161",
+      "pali": "Taṇhāvaggo catuvīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:1162",
+      "pali": "25. Bhikkhuvaggo"
+    },
+    {
+      "id": "s0502m:1163",
+      "pali": "360 ."
+    },
+    {
+      "id": "s0502m:1164",
+      "pali": "Cakkhunā saṃvaro sādhu, sādhu sotena saṃvaro;"
+    },
+    {
+      "id": "s0502m:1165",
+      "pali": "Ghānena saṃvaro sādhu, sādhu jivhāya saṃvaro."
+    },
+    {
+      "id": "s0502m:1166",
+      "pali": "361 ."
+    },
+    {
+      "id": "s0502m:1167",
+      "pali": "Kāyena saṃvaro sādhu, sādhu vācāya saṃvaro;"
+    },
+    {
+      "id": "s0502m:1168",
+      "pali": "Manasā saṃvaro sādhu, sādhu sabbattha saṃvaro;"
+    },
+    {
+      "id": "s0502m:1169",
+      "pali": "Sabbattha saṃvuto bhikkhu, sabbadukkhā pamuccati."
+    },
+    {
+      "id": "s0502m:1170",
+      "pali": "362 ."
+    },
+    {
+      "id": "s0502m:1171",
+      "pali": "Hatthasaṃyato pādasaṃyato, vācāsaṃyato saṃyatuttamo;"
+    },
+    {
+      "id": "s0502m:1172",
+      "pali": "Ajjhattarato samāhito, eko santusito tamāhu bhikkhuṃ."
+    },
+    {
+      "id": "s0502m:1173",
+      "pali": "363 ."
+    },
+    {
+      "id": "s0502m:1174",
+      "pali": "Yo mukhasaṃyato bhikkhu, mantabhāṇī anuddhato;"
+    },
+    {
+      "id": "s0502m:1175",
+      "pali": "Atthaṃ dhammañca dīpeti, madhuraṃ tassa bhāsitaṃ."
+    },
+    {
+      "id": "s0502m:1176",
+      "pali": "364 ."
+    },
+    {
+      "id": "s0502m:1177",
+      "pali": "Dhammārāmo dhammarato, dhammaṃ anuvicintayaṃ;"
+    },
+    {
+      "id": "s0502m:1178",
+      "pali": "Dhammaṃ anussaraṃ bhikkhu, saddhammā na parihāyati."
+    },
+    {
+      "id": "s0502m:1179",
+      "pali": "365 ."
+    },
+    {
+      "id": "s0502m:1180",
+      "pali": "Salābhaṃ nātimaññeyya, nāññesaṃ pihayaṃ care;"
+    },
+    {
+      "id": "s0502m:1181",
+      "pali": "Aññesaṃ pihayaṃ bhikkhu, samādhiṃ nādhigacchati."
+    },
+    {
+      "id": "s0502m:1182",
+      "pali": "366 ."
+    },
+    {
+      "id": "s0502m:1183",
+      "pali": "Appalābhopi ce bhikkhu, salābhaṃ nātimaññati;"
+    },
+    {
+      "id": "s0502m:1184",
+      "pali": "Taṃ ve devā pasaṃsanti, suddhājīviṃ atanditaṃ."
+    },
+    {
+      "id": "s0502m:1185",
+      "pali": "367 ."
+    },
+    {
+      "id": "s0502m:1186",
+      "pali": "Sabbaso nāmarūpasmiṃ, yassa natthi mamāyitaṃ;"
+    },
+    {
+      "id": "s0502m:1187",
+      "pali": "Asatā ca na socati, sa ve ‘‘bhikkhū’’ti vuccati."
+    },
+    {
+      "id": "s0502m:1188",
+      "pali": "368 ."
+    },
+    {
+      "id": "s0502m:1189",
+      "pali": "Mettāvihārī yo bhikkhu, pasanno buddhasāsane;"
+    },
+    {
+      "id": "s0502m:1190",
+      "pali": "Adhigacche padaṃ santaṃ, saṅkhārūpasamaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:1191",
+      "pali": "369 ."
+    },
+    {
+      "id": "s0502m:1192",
+      "pali": "Siñca bhikkhu imaṃ nāvaṃ, sittā te lahumessati;"
+    },
+    {
+      "id": "s0502m:1193",
+      "pali": "Chetvā rāgañca dosañca, tato nibbānamehisi."
+    },
+    {
+      "id": "s0502m:1194",
+      "pali": "370 ."
+    },
+    {
+      "id": "s0502m:1195",
+      "pali": "Pañca chinde pañca jahe, pañca cuttari bhāvaye;"
+    },
+    {
+      "id": "s0502m:1196",
+      "pali": "Pañca saṅgātigo bhikkhu, ‘‘oghatiṇṇo’’ti vuccati."
+    },
+    {
+      "id": "s0502m:1197",
+      "pali": "371 ."
+    },
+    {
+      "id": "s0502m:1198",
+      "pali": "Jhāya bhikkhu mā pamādo , mā te kāmaguṇe ramessu cittaṃ;"
+    },
+    {
+      "id": "s0502m:1199",
+      "pali": "Mā lohaguḷaṃ gilī pamatto, mā kandi ‘‘dukkhamida’’nti ḍayhamāno."
+    },
+    {
+      "id": "s0502m:1200",
+      "pali": "372 ."
+    },
+    {
+      "id": "s0502m:1201",
+      "pali": "Natthi jhānaṃ apaññassa, paññā natthi ajhāyato ;"
+    },
+    {
+      "id": "s0502m:1202",
+      "pali": "Yamhi jhānañca paññā ca, sa ve nibbānasantike."
+    },
+    {
+      "id": "s0502m:1203",
+      "pali": "373 ."
+    },
+    {
+      "id": "s0502m:1204",
+      "pali": "Suññāgāraṃ paviṭṭhassa, santacittassa bhikkhuno;"
+    },
+    {
+      "id": "s0502m:1205",
+      "pali": "Amānusī rati hoti, sammā dhammaṃ vipassato."
+    },
+    {
+      "id": "s0502m:1206",
+      "pali": "374 ."
+    },
+    {
+      "id": "s0502m:1207",
+      "pali": "Yato yato sammasati, khandhānaṃ udayabbayaṃ;"
+    },
+    {
+      "id": "s0502m:1208",
+      "pali": "Labhatī pītipāmojjaṃ, amataṃ taṃ vijānataṃ."
+    },
+    {
+      "id": "s0502m:1209",
+      "pali": "375 ."
+    },
+    {
+      "id": "s0502m:1210",
+      "pali": "Tatrāyamādi bhavati, idha paññassa bhikkhuno;"
+    },
+    {
+      "id": "s0502m:1211",
+      "pali": "Indriyagutti santuṭṭhi, pātimokkhe ca saṃvaro."
+    },
+    {
+      "id": "s0502m:1212",
+      "pali": "376 ."
+    },
+    {
+      "id": "s0502m:1213",
+      "pali": "Mitte bhajassu kalyāṇe, suddhājīve atandite;"
+    },
+    {
+      "id": "s0502m:1214",
+      "pali": "Paṭisanthāravutyassa , ācārakusalo siyā;"
+    },
+    {
+      "id": "s0502m:1215",
+      "pali": "Tato pāmojjabahulo, dukkhassantaṃ karissati."
+    },
+    {
+      "id": "s0502m:1216",
+      "pali": "377 ."
+    },
+    {
+      "id": "s0502m:1217",
+      "pali": "Vassikā viya pupphāni, maddavāni pamuñcati;"
+    },
+    {
+      "id": "s0502m:1218",
+      "pali": "Evaṃ rāgañca dosañca, vippamuñcetha bhikkhavo."
+    },
+    {
+      "id": "s0502m:1219",
+      "pali": "378 ."
+    },
+    {
+      "id": "s0502m:1220",
+      "pali": "Santakāyo santavāco, santavā susamāhito ;"
+    },
+    {
+      "id": "s0502m:1221",
+      "pali": "Vantalokāmiso bhikkhu, ‘‘upasanto’’ti vuccati."
+    },
+    {
+      "id": "s0502m:1222",
+      "pali": "379 ."
+    },
+    {
+      "id": "s0502m:1223",
+      "pali": "Attanā codayattānaṃ, paṭimaṃsetha attanā ;"
+    },
+    {
+      "id": "s0502m:1224",
+      "pali": "So attagutto satimā, sukhaṃ bhikkhu vihāhisi."
+    },
+    {
+      "id": "s0502m:1225",
+      "pali": "380 ."
+    },
+    {
+      "id": "s0502m:1226",
+      "pali": "Attā hi attano nātho, (ko hi nātho paro siyā)"
+    },
+    {
+      "id": "s0502m:1227",
+      "pali": "Attā hi attano gati;"
+    },
+    {
+      "id": "s0502m:1228",
+      "pali": "Tasmā saṃyamamattānaṃ , assaṃ bhadraṃva vāṇijo."
+    },
+    {
+      "id": "s0502m:1229",
+      "pali": "381 ."
+    },
+    {
+      "id": "s0502m:1230",
+      "pali": "Pāmojjabahulo bhikkhu, pasanno buddhasāsane;"
+    },
+    {
+      "id": "s0502m:1231",
+      "pali": "Adhigacche padaṃ santaṃ, saṅkhārūpasamaṃ sukhaṃ."
+    },
+    {
+      "id": "s0502m:1232",
+      "pali": "382 ."
+    },
+    {
+      "id": "s0502m:1233",
+      "pali": "Yo have daharo bhikkhu, yuñjati buddhasāsane;"
+    },
+    {
+      "id": "s0502m:1234",
+      "pali": "Somaṃ lokaṃ pabhāseti, abbhā muttova candimā."
+    },
+    {
+      "id": "s0502m:1235",
+      "pali": "Bhikkhuvaggo pañcavīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:1236",
+      "pali": "26. Brāhmaṇavaggo"
+    },
+    {
+      "id": "s0502m:1237",
+      "pali": "383 ."
+    },
+    {
+      "id": "s0502m:1238",
+      "pali": "Chinda sotaṃ parakkamma, kāme panuda brāhmaṇa;"
+    },
+    {
+      "id": "s0502m:1239",
+      "pali": "Saṅkhārānaṃ khayaṃ ñatvā, akataññūsi brāhmaṇa."
+    },
+    {
+      "id": "s0502m:1240",
+      "pali": "384 ."
+    },
+    {
+      "id": "s0502m:1241",
+      "pali": "Yadā dvayesu dhammesu, pāragū hoti brāhmaṇo;"
+    },
+    {
+      "id": "s0502m:1242",
+      "pali": "Athassa sabbe saṃyogā, atthaṃ gacchanti jānato."
+    },
+    {
+      "id": "s0502m:1243",
+      "pali": "385 ."
+    },
+    {
+      "id": "s0502m:1244",
+      "pali": "Yassa pāraṃ apāraṃ vā, pārāpāraṃ na vijjati;"
+    },
+    {
+      "id": "s0502m:1245",
+      "pali": "Vītaddaraṃ visaṃyuttaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1246",
+      "pali": "386 ."
+    },
+    {
+      "id": "s0502m:1247",
+      "pali": "Jhāyiṃ virajamāsīnaṃ, katakiccamanāsavaṃ;"
+    },
+    {
+      "id": "s0502m:1248",
+      "pali": "Uttamatthamanuppattaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1249",
+      "pali": "387 ."
+    },
+    {
+      "id": "s0502m:1250",
+      "pali": "Divā tapati ādicco, rattimābhāti candimā;"
+    },
+    {
+      "id": "s0502m:1251",
+      "pali": "Sannaddho khattiyo tapati, jhāyī tapati brāhmaṇo;"
+    },
+    {
+      "id": "s0502m:1252",
+      "pali": "Atha sabbamahorattiṃ , buddho tapati tejasā."
+    },
+    {
+      "id": "s0502m:1253",
+      "pali": "388 ."
+    },
+    {
+      "id": "s0502m:1254",
+      "pali": "Bāhitapāpoti brāhmaṇo, samacariyā samaṇoti vuccati;"
+    },
+    {
+      "id": "s0502m:1255",
+      "pali": "Pabbājayamattano malaṃ, tasmā ‘‘pabbajito’’ti vuccati."
+    },
+    {
+      "id": "s0502m:1256",
+      "pali": "389 ."
+    },
+    {
+      "id": "s0502m:1257",
+      "pali": "Na brāhmaṇassa pahareyya, nāssa muñcetha brāhmaṇo;"
+    },
+    {
+      "id": "s0502m:1258",
+      "pali": "Dhī brāhmaṇassa hantāraṃ, tato dhī yassa muñcati."
+    },
+    {
+      "id": "s0502m:1259",
+      "pali": "390 ."
+    },
+    {
+      "id": "s0502m:1260",
+      "pali": "Na brāhmaṇassetadakiñci seyyo, yadā nisedho manaso piyehi;"
+    },
+    {
+      "id": "s0502m:1261",
+      "pali": "Yato yato hiṃsamano nivattati, tato tato sammatimeva dukkhaṃ."
+    },
+    {
+      "id": "s0502m:1262",
+      "pali": "391 ."
+    },
+    {
+      "id": "s0502m:1263",
+      "pali": "Yassa kāyena vācāya, manasā natthi dukkaṭaṃ;"
+    },
+    {
+      "id": "s0502m:1264",
+      "pali": "Saṃvutaṃ tīhi ṭhānehi, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1265",
+      "pali": "392 ."
+    },
+    {
+      "id": "s0502m:1266",
+      "pali": "Yamhā dhammaṃ vijāneyya, sammāsambuddhadesitaṃ;"
+    },
+    {
+      "id": "s0502m:1267",
+      "pali": "Sakkaccaṃ taṃ namasseyya, aggihuttaṃva brāhmaṇo."
+    },
+    {
+      "id": "s0502m:1268",
+      "pali": "393 ."
+    },
+    {
+      "id": "s0502m:1269",
+      "pali": "Na jaṭāhi na gottena, na jaccā hoti brāhmaṇo;"
+    },
+    {
+      "id": "s0502m:1270",
+      "pali": "Yamhi saccañca dhammo ca, so sucī so ca brāhmaṇo."
+    },
+    {
+      "id": "s0502m:1271",
+      "pali": "394 ."
+    },
+    {
+      "id": "s0502m:1272",
+      "pali": "Kiṃ te jaṭāhi dummedha, kiṃ te ajinasāṭiyā;"
+    },
+    {
+      "id": "s0502m:1273",
+      "pali": "Abbhantaraṃ te gahanaṃ, bāhiraṃ parimajjasi."
+    },
+    {
+      "id": "s0502m:1274",
+      "pali": "395 ."
+    },
+    {
+      "id": "s0502m:1275",
+      "pali": "Paṃsukūladharaṃ jantuṃ, kisaṃ dhamanisanthataṃ;"
+    },
+    {
+      "id": "s0502m:1276",
+      "pali": "Ekaṃ vanasmiṃ jhāyantaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1277",
+      "pali": "396 ."
+    },
+    {
+      "id": "s0502m:1278",
+      "pali": "Na cāhaṃ brāhmaṇaṃ brūmi, yonijaṃ mattisambhavaṃ;"
+    },
+    {
+      "id": "s0502m:1279",
+      "pali": "Bhovādi nāma so hoti, sace hoti sakiñcano;"
+    },
+    {
+      "id": "s0502m:1280",
+      "pali": "Akiñcanaṃ anādānaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1281",
+      "pali": "397 ."
+    },
+    {
+      "id": "s0502m:1282",
+      "pali": "Sabbasaṃyojanaṃ chetvā, yo ve na paritassati;"
+    },
+    {
+      "id": "s0502m:1283",
+      "pali": "Saṅgātigaṃ visaṃyuttaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1284",
+      "pali": "398 ."
+    },
+    {
+      "id": "s0502m:1285",
+      "pali": "Chetvā naddhiṃ varattañca, sandānaṃ sahanukkamaṃ;"
+    },
+    {
+      "id": "s0502m:1286",
+      "pali": "Ukkhittapalighaṃ buddhaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1287",
+      "pali": "399 ."
+    },
+    {
+      "id": "s0502m:1288",
+      "pali": "Akkosaṃ vadhabandhañca, aduṭṭho yo titikkhati;"
+    },
+    {
+      "id": "s0502m:1289",
+      "pali": "Khantībalaṃ balānīkaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1290",
+      "pali": "400 ."
+    },
+    {
+      "id": "s0502m:1291",
+      "pali": "Akkodhanaṃ vatavantaṃ, sīlavantaṃ anussadaṃ;"
+    },
+    {
+      "id": "s0502m:1292",
+      "pali": "Dantaṃ antimasārīraṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1293",
+      "pali": "401 ."
+    },
+    {
+      "id": "s0502m:1294",
+      "pali": "Vāri pokkharapatteva, āraggeriva sāsapo;"
+    },
+    {
+      "id": "s0502m:1295",
+      "pali": "Yo na limpati kāmesu, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1296",
+      "pali": "402 ."
+    },
+    {
+      "id": "s0502m:1297",
+      "pali": "Yo dukkhassa pajānāti, idheva khayamattano;"
+    },
+    {
+      "id": "s0502m:1298",
+      "pali": "Pannabhāraṃ visaṃyuttaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1299",
+      "pali": "403 ."
+    },
+    {
+      "id": "s0502m:1300",
+      "pali": "Gambhīrapaññaṃ medhāviṃ, maggāmaggassa kovidaṃ;"
+    },
+    {
+      "id": "s0502m:1301",
+      "pali": "Uttamatthamanuppattaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1302",
+      "pali": "404 ."
+    },
+    {
+      "id": "s0502m:1303",
+      "pali": "Asaṃsaṭṭhaṃ gahaṭṭhehi, anāgārehi cūbhayaṃ;"
+    },
+    {
+      "id": "s0502m:1304",
+      "pali": "Anokasārimappicchaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1305",
+      "pali": "405 ."
+    },
+    {
+      "id": "s0502m:1306",
+      "pali": "Nidhāya daṇḍaṃ bhūtesu, tasesu thāvaresu ca;"
+    },
+    {
+      "id": "s0502m:1307",
+      "pali": "Yo na hanti na ghāteti, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1308",
+      "pali": "406 ."
+    },
+    {
+      "id": "s0502m:1309",
+      "pali": "Aviruddhaṃ viruddhesu, attadaṇḍesu nibbutaṃ;"
+    },
+    {
+      "id": "s0502m:1310",
+      "pali": "Sādānesu anādānaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1311",
+      "pali": "407 ."
+    },
+    {
+      "id": "s0502m:1312",
+      "pali": "Yassa rāgo ca doso ca, māno makkho ca pātito;"
+    },
+    {
+      "id": "s0502m:1313",
+      "pali": "Sāsaporiva āraggā , tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1314",
+      "pali": "408 ."
+    },
+    {
+      "id": "s0502m:1315",
+      "pali": "Akakkasaṃ viññāpaniṃ, giraṃ saccamudīraye;"
+    },
+    {
+      "id": "s0502m:1316",
+      "pali": "Yāya nābhisaje kañci , tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1317",
+      "pali": "409 ."
+    },
+    {
+      "id": "s0502m:1318",
+      "pali": "Yodha dīghaṃ va rassaṃ vā, aṇuṃ thūlaṃ subhāsubhaṃ;"
+    },
+    {
+      "id": "s0502m:1319",
+      "pali": "Loke adinnaṃ nādiyati , tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1320",
+      "pali": "410 ."
+    },
+    {
+      "id": "s0502m:1321",
+      "pali": "Āsā yassa na vijjanti, asmiṃ loke paramhi ca;"
+    },
+    {
+      "id": "s0502m:1322",
+      "pali": "Nirāsāsaṃ visaṃyuttaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1323",
+      "pali": "411 ."
+    },
+    {
+      "id": "s0502m:1324",
+      "pali": "Yassālayā na vijjanti, aññāya akathaṃkathī;"
+    },
+    {
+      "id": "s0502m:1325",
+      "pali": "Amatogadhamanuppattaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1326",
+      "pali": "412 ."
+    },
+    {
+      "id": "s0502m:1327",
+      "pali": "Yodha puññañca pāpañca, ubho saṅgamupaccagā;"
+    },
+    {
+      "id": "s0502m:1328",
+      "pali": "Asokaṃ virajaṃ suddhaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1329",
+      "pali": "413 ."
+    },
+    {
+      "id": "s0502m:1330",
+      "pali": "Candaṃva vimalaṃ suddhaṃ, vippasannamanāvilaṃ;"
+    },
+    {
+      "id": "s0502m:1331",
+      "pali": "Nandībhavaparikkhīṇaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1332",
+      "pali": "414 ."
+    },
+    {
+      "id": "s0502m:1333",
+      "pali": "Yomaṃ palipathaṃ duggaṃ, saṃsāraṃ mohamaccagā;"
+    },
+    {
+      "id": "s0502m:1334",
+      "pali": "Tiṇṇo pāragato jhāyī, anejo akathaṃkathī;"
+    },
+    {
+      "id": "s0502m:1335",
+      "pali": "Anupādāya nibbuto, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1336",
+      "pali": "415 ."
+    },
+    {
+      "id": "s0502m:1337",
+      "pali": "Yodha kāme pahantvāna , anāgāro paribbaje;"
+    },
+    {
+      "id": "s0502m:1338",
+      "pali": "Kāmabhavaparikkhīṇaṃ, tamahaṃ brūmi brāhmaṇaṃ ."
+    },
+    {
+      "id": "s0502m:1339",
+      "pali": "416 ."
+    },
+    {
+      "id": "s0502m:1340",
+      "pali": "Yodha taṇhaṃ pahantvāna, anāgāro paribbaje;"
+    },
+    {
+      "id": "s0502m:1341",
+      "pali": "Taṇhābhavaparikkhīṇaṃ , tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1342",
+      "pali": "417 ."
+    },
+    {
+      "id": "s0502m:1343",
+      "pali": "Hitvā mānusakaṃ yogaṃ, dibbaṃ yogaṃ upaccagā;"
+    },
+    {
+      "id": "s0502m:1344",
+      "pali": "Sabbayogavisaṃyuttaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1345",
+      "pali": "418 ."
+    },
+    {
+      "id": "s0502m:1346",
+      "pali": "Hitvā ratiñca aratiñca, sītibhūtaṃ nirūpadhiṃ;"
+    },
+    {
+      "id": "s0502m:1347",
+      "pali": "Sabbalokābhibhuṃ vīraṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1348",
+      "pali": "419 ."
+    },
+    {
+      "id": "s0502m:1349",
+      "pali": "Cutiṃ yo vedi sattānaṃ, upapattiñca sabbaso;"
+    },
+    {
+      "id": "s0502m:1350",
+      "pali": "Asattaṃ sugataṃ buddhaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1351",
+      "pali": "420 ."
+    },
+    {
+      "id": "s0502m:1352",
+      "pali": "Yassa gatiṃ na jānanti, devā gandhabbamānusā;"
+    },
+    {
+      "id": "s0502m:1353",
+      "pali": "Khīṇāsavaṃ arahantaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1354",
+      "pali": "421 ."
+    },
+    {
+      "id": "s0502m:1355",
+      "pali": "Yassa pure ca pacchā ca, majjhe ca natthi kiñcanaṃ;"
+    },
+    {
+      "id": "s0502m:1356",
+      "pali": "Akiñcanaṃ anādānaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1357",
+      "pali": "422 ."
+    },
+    {
+      "id": "s0502m:1358",
+      "pali": "Usabhaṃ pavaraṃ vīraṃ, mahesiṃ vijitāvinaṃ;"
+    },
+    {
+      "id": "s0502m:1359",
+      "pali": "Anejaṃ nhātakaṃ buddhaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1360",
+      "pali": "423 ."
+    },
+    {
+      "id": "s0502m:1361",
+      "pali": "Pubbenivāsaṃ yo vedi, saggāpāyañca passati,"
+    },
+    {
+      "id": "s0502m:1362",
+      "pali": "Atho jātikkhayaṃ patto, abhiññāvosito muni;"
+    },
+    {
+      "id": "s0502m:1363",
+      "pali": "Sabbavositavosānaṃ, tamahaṃ brūmi brāhmaṇaṃ."
+    },
+    {
+      "id": "s0502m:1364",
+      "pali": "Brāhmaṇavaggo chabbīsatimo niṭṭhito."
+    },
+    {
+      "id": "s0502m:1365",
+      "pali": "(Ettāvatā sabbapaṭhame yamakavagge cuddasa vatthūni, appamādavagge nava, cittavagge nava, pupphavagge dvādasa, bālavagge pannarasa, paṇḍitavagge ekādasa, arahantavagge dasa, sahassavagge cuddasa, pāpavagge dvādasa, daṇḍavagge ekādasa, jarāvagge nava, attavagge dasa, lokavagge ekādasa, buddhavagge nava , sukhavagge aṭṭha, piyavagge nava, kodhavagge aṭṭha, malavagge dvādasa, dhammaṭṭhavagge dasa, maggavagge dvādasa, pakiṇṇakavagge nava, nirayavagge nava, nāgavagge aṭṭha, taṇhāvagge dvādasa, bhikkhuvagge dvādasa, brāhmaṇavagge cattālīsāti pañcādhikāni tīṇi vatthusatāni."
+    },
+    {
+      "id": "s0502m:1366",
+      "pali": "Satevīsacatussatā, catusaccavibhāvinā;"
+    },
+    {
+      "id": "s0502m:1367",
+      "pali": "Satattayañca vatthūnaṃ, pañcādhikaṃ samuṭṭhitāti) ."
+    },
+    {
+      "id": "s0502m:1368",
+      "pali": "Dhammapade vaggānamuddānaṃ –"
+    },
+    {
+      "id": "s0502m:1369",
+      "pali": "Yamakappamādo cittaṃ, pupphaṃ bālena paṇḍito;"
+    },
+    {
+      "id": "s0502m:1370",
+      "pali": "Arahanto sahassañca, pāpaṃ daṇḍena te dasa."
+    },
+    {
+      "id": "s0502m:1371",
+      "pali": "Jarā attā ca loko ca, buddho sukhaṃ piyena ca;"
+    },
+    {
+      "id": "s0502m:1372",
+      "pali": "Kodho malañca dhammaṭṭho, maggavaggena vīsati."
+    },
+    {
+      "id": "s0502m:1373",
+      "pali": "Pakiṇṇaṃ nirayo nāgo, taṇhā bhikkhu ca brāhmaṇo;"
+    },
+    {
+      "id": "s0502m:1374",
+      "pali": "Ete chabbīsati vaggā, desitādiccabandhunā."
+    },
+    {
+      "id": "s0502m:1375",
+      "pali": "Gāthānamuddānaṃ –"
+    },
+    {
+      "id": "s0502m:1376",
+      "pali": "Yamake vīsati gāthā, appamādamhi dvādasa;"
+    },
+    {
+      "id": "s0502m:1377",
+      "pali": "Ekādasa cittavagge, pupphavaggamhi soḷasa."
+    },
+    {
+      "id": "s0502m:1378",
+      "pali": "Bāle ca soḷasa gāthā, paṇḍitamhi catuddasa;"
+    },
+    {
+      "id": "s0502m:1379",
+      "pali": "Arahante dasa gāthā, sahasse honti soḷasa."
+    },
+    {
+      "id": "s0502m:1380",
+      "pali": "Terasa pāpavaggamhi, daṇḍamhi dasa satta ca;"
+    },
+    {
+      "id": "s0502m:1381",
+      "pali": "Ekādasa jarā vagge, attavaggamhi tā dasa."
+    },
+    {
+      "id": "s0502m:1382",
+      "pali": "Dvādasa lokavaggamhi, buddhavaggamhi ṭhārasa ;"
+    },
+    {
+      "id": "s0502m:1383",
+      "pali": "Sukhe ca piyavagge ca, gāthāyo honti dvādasa."
+    },
+    {
+      "id": "s0502m:1384",
+      "pali": "Cuddasa kodhavaggamhi, malavaggekavīsati;"
+    },
+    {
+      "id": "s0502m:1385",
+      "pali": "Sattarasa ca dhammaṭṭhe, maggavagge sattarasa."
+    },
+    {
+      "id": "s0502m:1386",
+      "pali": "Pakiṇṇe soḷasa gāthā, niraye nāge ca cuddasa;"
+    },
+    {
+      "id": "s0502m:1387",
+      "pali": "Chabbīsa taṇhāvaggamhi, tevīsa bhikkhuvaggikā."
+    },
+    {
+      "id": "s0502m:1388",
+      "pali": "Ekatālīsagāthāyo, brāhmaṇe vaggamuttame;"
+    },
+    {
+      "id": "s0502m:1389",
+      "pali": "Gāthāsatāni cattāri, tevīsa ca punāpare;"
+    },
+    {
+      "id": "s0502m:1390",
+      "pali": "Dhammapade nipātamhi, desitādiccabandhunāti."
+    },
+    {
+      "id": "s0502m:1391",
+      "pali": "Dhammapadapāḷi niṭṭhitā."
+    }
+  ]
+}

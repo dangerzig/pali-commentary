@@ -1,0 +1,4767 @@
+{
+  "id": "s0504m",
+  "title_pali": "s0504m",
+  "collection": "canon",
+  "segments": [
+    {
+      "id": "s0504m:1",
+      "pali": "Namo tassa bhagavato arahato sammāsambuddhassa"
+    },
+    {
+      "id": "s0504m:2",
+      "pali": "1. Ekakanipāto"
+    },
+    {
+      "id": "s0504m:3",
+      "pali": "1. Paṭhamavaggo"
+    },
+    {
+      "id": "s0504m:4",
+      "pali": "1. Lobhasuttaṃ"
+    },
+    {
+      "id": "s0504m:5",
+      "pali": "1 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:6",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Lobhaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:7",
+      "pali": "‘‘Yena lobhena luddhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:8",
+      "pali": "Taṃ lobhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:9",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:10",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:11",
+      "pali": "2. Dosasuttaṃ"
+    },
+    {
+      "id": "s0504m:12",
+      "pali": "2 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:13",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Dosaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:14",
+      "pali": "‘‘Yena dosena duṭṭhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:15",
+      "pali": "Taṃ dosaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:16",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:17",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:18",
+      "pali": "3. Mohasuttaṃ"
+    },
+    {
+      "id": "s0504m:19",
+      "pali": "3 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:20",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Mohaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:21",
+      "pali": "‘‘Yena mohena mūḷhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:22",
+      "pali": "Taṃ mohaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:23",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:24",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:25",
+      "pali": "4. Kodhasuttaṃ"
+    },
+    {
+      "id": "s0504m:26",
+      "pali": "4 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:27",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Kodhaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:28",
+      "pali": "‘‘Yena kodhena kuddhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:29",
+      "pali": "Taṃ kodhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:30",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:31",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:32",
+      "pali": "5. Makkhasuttaṃ"
+    },
+    {
+      "id": "s0504m:33",
+      "pali": "5 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:34",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Makkhaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:35",
+      "pali": "‘‘Yena makkhena makkhāse , sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:36",
+      "pali": "Taṃ makkhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:37",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:38",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:39",
+      "pali": "6. Mānasuttaṃ"
+    },
+    {
+      "id": "s0504m:40",
+      "pali": "6 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:41",
+      "pali": "‘‘Ekadhammaṃ, bhikkhave, pajahatha; ahaṃ vo pāṭibhogo anāgāmitāya. Katamaṃ ekadhammaṃ? Mānaṃ, bhikkhave, ekadhammaṃ pajahatha; ahaṃ vo pāṭibhogo anāgāmitāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:42",
+      "pali": "‘‘Yena mānena mattāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:43",
+      "pali": "Taṃ mānaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:44",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:45",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:46",
+      "pali": "7. Sabbapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:47",
+      "pali": "7 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:48",
+      "pali": "‘‘Sabbaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Sabbañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:49",
+      "pali": "‘‘Yo sabbaṃ sabbato ñatvā, sabbatthesu na rajjati;"
+    },
+    {
+      "id": "s0504m:50",
+      "pali": "Sa ve sabbapariññā so, sabbadukkhamupaccagā’’ti ."
+    },
+    {
+      "id": "s0504m:51",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:52",
+      "pali": "8. Mānapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:53",
+      "pali": "8 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:54",
+      "pali": "‘‘Mānaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya . Mānañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:55",
+      "pali": "‘‘Mānupetā ayaṃ pajā, mānaganthā bhave ratā;"
+    },
+    {
+      "id": "s0504m:56",
+      "pali": "Mānaṃ aparijānantā, āgantāro punabbhavaṃ."
+    },
+    {
+      "id": "s0504m:57",
+      "pali": "‘‘Ye ca mānaṃ pahantvāna, vimuttā mānasaṅkhaye;"
+    },
+    {
+      "id": "s0504m:58",
+      "pali": "Te mānaganthābhibhuno, sabbadukkhamupaccagu’’nti ."
+    },
+    {
+      "id": "s0504m:59",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:60",
+      "pali": "9. Lobhapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:61",
+      "pali": "9 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:62",
+      "pali": "‘‘Lobhaṃ, bhikkhave , anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Lobhañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:63",
+      "pali": "‘‘Yena lobhena luddhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:64",
+      "pali": "Taṃ lobhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:65",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:66",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:67",
+      "pali": "10. Dosapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:68",
+      "pali": "10 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:69",
+      "pali": "‘‘Dosaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Dosañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:70",
+      "pali": "‘‘Yena dosena duṭṭhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:71",
+      "pali": "Taṃ dosaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:72",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:73",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:74",
+      "pali": "Paṭhamo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:75",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:76",
+      "pali": "Rāgadosā atha moho, kodhamakkhā mānaṃ sabbaṃ;"
+    },
+    {
+      "id": "s0504m:77",
+      "pali": "Mānato rāgadosā puna dve, pakāsitā vaggamāhu paṭhamanti."
+    },
+    {
+      "id": "s0504m:78",
+      "pali": "2. Dutiyavaggo"
+    },
+    {
+      "id": "s0504m:79",
+      "pali": "1. Mohapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:80",
+      "pali": "11 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:81",
+      "pali": "‘‘Mohaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Mohañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:82",
+      "pali": "‘‘Yena mohena mūḷhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:83",
+      "pali": "Taṃ mohaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:84",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:85",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:86",
+      "pali": "2. Kodhapariññāsuttaṃ"
+    },
+    {
+      "id": "s0504m:87",
+      "pali": "12 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:88",
+      "pali": "‘‘Kodhaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Kodhañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:89",
+      "pali": "‘‘Yena kodhena kuddhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:90",
+      "pali": "Taṃ kodhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:91",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:92",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:93",
+      "pali": "13 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:94",
+      "pali": "‘‘Makkhaṃ, bhikkhave, anabhijānaṃ aparijānaṃ tattha cittaṃ avirājayaṃ appajahaṃ abhabbo dukkhakkhayāya. Makkhañca kho, bhikkhave, abhijānaṃ parijānaṃ tattha cittaṃ virājayaṃ pajahaṃ bhabbo dukkhakkhayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:95",
+      "pali": "‘‘Yena makkhena makkhāse, sattā gacchanti duggatiṃ;"
+    },
+    {
+      "id": "s0504m:96",
+      "pali": "Taṃ makkhaṃ sammadaññāya, pajahanti vipassino;"
+    },
+    {
+      "id": "s0504m:97",
+      "pali": "Pahāya na punāyanti, imaṃ lokaṃ kudācana’’nti."
+    },
+    {
+      "id": "s0504m:98",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:99",
+      "pali": "4. Avijjānīvaraṇasuttaṃ"
+    },
+    {
+      "id": "s0504m:100",
+      "pali": "14 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:101",
+      "pali": "‘‘Nāhaṃ, bhikkhave, aññaṃ ekanīvaraṇampi samanupassāmi yena nīvaraṇena nivutā pajā dīgharattaṃ sandhāvanti saṃsaranti yathayidaṃ, bhikkhave, avijjānīvaraṇaṃ . Avijjānīvaraṇena hi, bhikkhave, nivutā pajā dīgharattaṃ sandhāvanti saṃsarantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:102",
+      "pali": "‘‘Natthañño ekadhammopi, yenevaṃ nivutā pajā;"
+    },
+    {
+      "id": "s0504m:103",
+      "pali": "Saṃsaranti ahorattaṃ, yathā mohena āvutā."
+    },
+    {
+      "id": "s0504m:104",
+      "pali": "‘‘Ye ca mohaṃ pahantvāna, tamokhandhaṃ padālayuṃ;"
+    },
+    {
+      "id": "s0504m:105",
+      "pali": "Na te puna saṃsaranti, hetu tesaṃ na vijjatī’’ti."
+    },
+    {
+      "id": "s0504m:106",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:107",
+      "pali": "5. Taṇhāsaṃyojanasuttaṃ"
+    },
+    {
+      "id": "s0504m:108",
+      "pali": "15 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:109",
+      "pali": "‘‘Nāhaṃ, bhikkhave, aññaṃ ekasaṃyojanampi samanupassāmi yena saṃyojanena saṃyuttā sattā dīgharattaṃ sandhāvanti saṃsaranti yathayidaṃ, bhikkhave, taṇhāsaṃyojanaṃ . Taṇhāsaṃyojanena hi, bhikkhave, saṃyuttā sattā dīgharattaṃ sandhāvanti saṃsarantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:110",
+      "pali": "‘‘Taṇhādutiyo puriso, dīghamaddhāna saṃsaraṃ;"
+    },
+    {
+      "id": "s0504m:111",
+      "pali": "Itthabhāvaññathābhāvaṃ , saṃsāraṃ nātivattati."
+    },
+    {
+      "id": "s0504m:112",
+      "pali": "‘‘Etamādīnavaṃ ñatvā, taṇhaṃ dukkhassa sambhavaṃ;"
+    },
+    {
+      "id": "s0504m:113",
+      "pali": "Vītataṇho anādāno, sato bhikkhu paribbaje’’ti."
+    },
+    {
+      "id": "s0504m:114",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:115",
+      "pali": "6. Paṭhamasekhasuttaṃ"
+    },
+    {
+      "id": "s0504m:116",
+      "pali": "16 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:117",
+      "pali": "‘‘Sekhassa, bhikkhave, bhikkhuno appattamānasassa anuttaraṃ yogakkhemaṃ patthayamānassa viharato ajjhattikaṃ aṅganti karitvā nāññaṃ ekaṅgampi samanupassāmi yaṃ evaṃ bahūpakāraṃ yathayidaṃ, bhikkhave, yoniso manasikāro. Yoniso, bhikkhave, bhikkhu manasi karonto akusalaṃ pajahati , kusalaṃ bhāvetī’’ti . Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:118",
+      "pali": "‘‘Yoniso manasikāro, dhammo sekhassa bhikkhuno;"
+    },
+    {
+      "id": "s0504m:119",
+      "pali": "Natthañño evaṃ bahukāro, uttamatthassa pattiyā;"
+    },
+    {
+      "id": "s0504m:120",
+      "pali": "Yoniso padahaṃ bhikkhu, khayaṃ dukkhassa pāpuṇe’’ti."
+    },
+    {
+      "id": "s0504m:121",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:122",
+      "pali": "7. Dutiyasekhasuttaṃ"
+    },
+    {
+      "id": "s0504m:123",
+      "pali": "17 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:124",
+      "pali": "‘‘Sekhassa, bhikkhave, bhikkhuno appattamānasassa anuttaraṃ yogakkhemaṃ patthayamānassa viharato bāhiraṃ aṅganti karitvā nāññaṃ ekaṅgampi samanupassāmi yaṃ evaṃ bahūpakāraṃ yathayidaṃ, bhikkhave, kalyāṇamittatā. Kalyāṇamitto, bhikkhave, bhikkhu akusalaṃ pajahati, kusalaṃ bhāvetī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:125",
+      "pali": "‘‘Kalyāṇamitto yo bhikkhu, sappatisso sagāravo;"
+    },
+    {
+      "id": "s0504m:126",
+      "pali": "Karaṃ mittānaṃ vacanaṃ, sampajāno patissato;"
+    },
+    {
+      "id": "s0504m:127",
+      "pali": "Pāpuṇe anupubbena, sabbasaṃyojanakkhaya’’nti."
+    },
+    {
+      "id": "s0504m:128",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:129",
+      "pali": "8. Saṅghabhedasuttaṃ"
+    },
+    {
+      "id": "s0504m:130",
+      "pali": "18 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:131",
+      "pali": "‘‘Ekadhammo, bhikkhave, loke uppajjamāno uppajjati bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṃ. Katamo ekadhammo? Saṅghabhedo. Saṅghe kho pana, bhikkhave, bhinne aññamaññaṃ bhaṇḍanāni ceva honti, aññamaññaṃ paribhāsā ca honti , aññamaññaṃ parikkhepā ca honti, aññamaññaṃ pariccajanā ca honti. Tattha appasannā ceva nappasīdanti, pasannānañca ekaccānaṃ aññathattaṃ hotī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:132",
+      "pali": "‘‘Āpāyiko nerayiko, kappaṭṭho saṅghabhedako;"
+    },
+    {
+      "id": "s0504m:133",
+      "pali": "Vaggārāmo adhammaṭṭho, yogakkhemā padhaṃsati ;"
+    },
+    {
+      "id": "s0504m:134",
+      "pali": "Saṅghaṃ samaggaṃ bhetvāna , kappaṃ nirayamhi paccatī’’ti."
+    },
+    {
+      "id": "s0504m:135",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:136",
+      "pali": "9. Saṅghasāmaggīsuttaṃ"
+    },
+    {
+      "id": "s0504m:137",
+      "pali": "19 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:138",
+      "pali": "‘‘Ekadhammo, bhikkhave, loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya bahuno janassa atthāya hitāya sukhāya devamanussānaṃ. Katamo ekadhammo ? Saṅghasāmaggī. Saṅghe kho pana, bhikkhave, samagge na ceva aññamaññaṃ bhaṇḍanāni honti, na ca aññamaññaṃ paribhāsā honti, na ca aññamaññaṃ parikkhepā honti, na ca aññamaññaṃ pariccajanā honti. Tattha appasannā ceva pasīdanti, pasannānañca bhiyyobhāvo hotī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:139",
+      "pali": "‘‘Sukhā saṅghassa sāmaggī, samaggānañcanuggaho;"
+    },
+    {
+      "id": "s0504m:140",
+      "pali": "Samaggarato dhammaṭṭho, yogakkhemā na dhaṃsati;"
+    },
+    {
+      "id": "s0504m:141",
+      "pali": "Saṅghaṃ samaggaṃ katvāna, kappaṃ saggamhi modatī’’ti."
+    },
+    {
+      "id": "s0504m:142",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:143",
+      "pali": "10. Paduṭṭhacittasuttaṃ"
+    },
+    {
+      "id": "s0504m:144",
+      "pali": "20 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:145",
+      "pali": "‘‘Idhāhaṃ, bhikkhave, ekaccaṃ puggalaṃ paduṭṭhacittaṃ evaṃ cetasā ceto paricca pajānāmi – ‘imamhi cāyaṃ samaye puggalo kālaṅkareyya yathābhataṃ nikkhitto evaṃ niraye’. Taṃ kissa hetu? Cittaṃ hissa, bhikkhave, paduṭṭhaṃ. Cetopadosahetu kho pana, bhikkhave, evamidhekacce sattā kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapajjantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:146",
+      "pali": "‘‘Paduṭṭhacittaṃ ñatvāna, ekaccaṃ idha puggalaṃ;"
+    },
+    {
+      "id": "s0504m:147",
+      "pali": "Etamatthañca byākāsi, buddho bhikkhūna santike."
+    },
+    {
+      "id": "s0504m:148",
+      "pali": "‘‘Imamhi cāyaṃ samaye, kālaṃ kayirātha puggalo;"
+    },
+    {
+      "id": "s0504m:149",
+      "pali": "Nirayaṃ upapajjeyya, cittaṃ hissa padūsitaṃ."
+    },
+    {
+      "id": "s0504m:150",
+      "pali": "‘‘Yathā haritvā nikkhipeyya, evameva tathāvidho;"
+    },
+    {
+      "id": "s0504m:151",
+      "pali": "Cetopadosahetu hi, sattā gacchanti duggati’’nti."
+    },
+    {
+      "id": "s0504m:152",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:153",
+      "pali": "Dutiyo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:154",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:155",
+      "pali": "Moho kodho atha makkho, vijjā taṇhā sekhaduve ca;"
+    },
+    {
+      "id": "s0504m:156",
+      "pali": "Bhedo sāmaggipuggalo , vaggamāhu dutiyanti vuccatīti."
+    },
+    {
+      "id": "s0504m:157",
+      "pali": "3. Tatiyavaggo"
+    },
+    {
+      "id": "s0504m:158",
+      "pali": "1. Pasannacittasuttaṃ"
+    },
+    {
+      "id": "s0504m:159",
+      "pali": "21 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:160",
+      "pali": "‘‘Idhāhaṃ, bhikkhave, ekaccaṃ puggalaṃ pasannacittaṃ evaṃ cetasā ceto paricca pajānāmi – ‘imamhi cāyaṃ samaye puggalo kālaṃ kareyya yathābhataṃ nikkhitto evaṃ sagge’. Taṃ kissa hetu? Cittaṃ hissa, bhikkhave, pasannaṃ. Cetopasādahetu kho pana, bhikkhave, evamidhekacce sattā kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:161",
+      "pali": "‘‘Pasannacittaṃ ñatvāna, ekaccaṃ idha puggalaṃ;"
+    },
+    {
+      "id": "s0504m:162",
+      "pali": "Etamatthañca byākāsi, buddho bhikkhūna santike."
+    },
+    {
+      "id": "s0504m:163",
+      "pali": "‘‘Imamhi cāyaṃ samaye, kālaṃ kayirātha puggalo;"
+    },
+    {
+      "id": "s0504m:164",
+      "pali": "Sugatiṃ upapajjeyya, cittaṃ hissa pasāditaṃ."
+    },
+    {
+      "id": "s0504m:165",
+      "pali": "‘‘Yathā haritvā nikkhipeyya, evameva tathāvidho;"
+    },
+    {
+      "id": "s0504m:166",
+      "pali": "Cetopasādahetu hi, sattā gacchanti suggati’’nti."
+    },
+    {
+      "id": "s0504m:167",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:168",
+      "pali": "2. Mettasuttaṃ"
+    },
+    {
+      "id": "s0504m:169",
+      "pali": "22 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:170",
+      "pali": "‘‘Mā, bhikkhave, puññānaṃ bhāyittha . Sukhassetaṃ, bhikkhave, adhivacanaṃ iṭṭhassa kantassa piyassa manāpassa yadidaṃ puññāni . Abhijānāmi kho panāhaṃ, bhikkhave, dīgharattaṃ katānaṃ puññānaṃ iṭṭhaṃ kantaṃ piyaṃ manāpaṃ vipākaṃ paccanubhūtaṃ. Satta vassāni mettacittaṃ bhāvetvā satta saṃvaṭṭavivaṭṭakappe nayimaṃ lokaṃ punarāgamāsiṃ. Saṃvaṭṭamāne sudaṃ, bhikkhave, kappe ābhassarūpago homi; vivaṭṭamāne kappe suññaṃ brahmavimānaṃ upapajjāmi."
+    },
+    {
+      "id": "s0504m:171",
+      "pali": "‘‘Tatra sudaṃ, bhikkhave, brahmā homi mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī. Chattiṃsakkhattuṃ kho panāhaṃ, bhikkhave, sakko ahosiṃ devānamindo; anekasatakkhattuṃ rājā ahosiṃ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. Ko pana vādo padesarajjassa!"
+    },
+    {
+      "id": "s0504m:172",
+      "pali": "‘‘Tassa mayhaṃ, bhikkhave, etadahosi – ‘kissa nu kho me idaṃ kammassa phalaṃ, kissa kammassa vipāko, yenāhaṃ etarahi evaṃmahiddhiko evaṃmahānubhāvo’ti? Tassa mayhaṃ, bhikkhave, etadahosi – ‘tiṇṇaṃ kho me idaṃ kammānaṃ phalaṃ, tiṇṇaṃ kammānaṃ vipāko, yenāhaṃ etarahi evaṃmahiddhiko evaṃmahānubhāvoti, seyyathidaṃ – dānassa, damassa, saññamassā’’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:173",
+      "pali": "‘‘Puññameva so sikkheyya, āyataggaṃ sukhudrayaṃ;"
+    },
+    {
+      "id": "s0504m:174",
+      "pali": "Dānañca samacariyañca, mettacittañca bhāvaye."
+    },
+    {
+      "id": "s0504m:175",
+      "pali": "‘‘Ete dhamme bhāvayitvā, tayo sukhasamuddaye ;"
+    },
+    {
+      "id": "s0504m:176",
+      "pali": "Abyāpajjhaṃ sukhaṃ lokaṃ, paṇḍito upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:177",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:178",
+      "pali": "3. Ubhayatthasuttaṃ"
+    },
+    {
+      "id": "s0504m:179",
+      "pali": "23 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:180",
+      "pali": "‘‘Ekadhammo , bhikkhave, bhāvito bahulīkato ubho atthe samadhigayha tiṭṭhati – diṭṭhadhammikañceva atthaṃ samparāyikañca. Katamo ekadhammo? Appamādo kusalesu dhammesu. Ayaṃ kho, bhikkhave, ekadhammo bhāvito bahulīkato ubho atthe samadhigayha tiṭṭhati – diṭṭhadhammikañceva atthaṃ samparāyikañcā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:181",
+      "pali": "‘‘Appamādaṃ pasaṃsanti, puññakiriyāsu paṇḍitā;"
+    },
+    {
+      "id": "s0504m:182",
+      "pali": "Appamatto ubho atthe, adhigaṇhāti paṇḍito."
+    },
+    {
+      "id": "s0504m:183",
+      "pali": "‘‘Diṭṭhe dhamme ca yo attho, yo cattho samparāyiko;"
+    },
+    {
+      "id": "s0504m:184",
+      "pali": "Atthābhisamayā dhīro, paṇḍitoti pavuccatī’’ti."
+    },
+    {
+      "id": "s0504m:185",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:186",
+      "pali": "4. Aṭṭhipuñjasuttaṃ"
+    },
+    {
+      "id": "s0504m:187",
+      "pali": "24 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:188",
+      "pali": "‘‘Ekapuggalassa, bhikkhave, kappaṃ sandhāvato saṃsarato siyā evaṃ mahā aṭṭhikaṅkalo aṭṭhipuñjo aṭṭhirāsi yathāyaṃ vepullo pabbatoः sace saṃhārako assa, sambhatañca na vinasseyyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:189",
+      "pali": "‘‘Ekassekena kappena, puggalassaṭṭhisañcayo;"
+    },
+    {
+      "id": "s0504m:190",
+      "pali": "Siyā pabbatasamo rāsi, iti vuttaṃ mahesinā."
+    },
+    {
+      "id": "s0504m:191",
+      "pali": "‘‘So kho panāyaṃ akkhāto, vepullo pabbato mahā;"
+    },
+    {
+      "id": "s0504m:192",
+      "pali": "Uttaro gijjhakūṭassa, magadhānaṃ giribbaje."
+    },
+    {
+      "id": "s0504m:193",
+      "pali": "‘‘Yato ca ariyasaccāni, sammappaññāya passati;"
+    },
+    {
+      "id": "s0504m:194",
+      "pali": "Dukkhaṃ dukkhasamuppādaṃ, dukkhassa ca atikkamaṃ;"
+    },
+    {
+      "id": "s0504m:195",
+      "pali": "Ariyañcaṭṭhaṅgikaṃ maggaṃ, dukkhūpasamagāminaṃ."
+    },
+    {
+      "id": "s0504m:196",
+      "pali": "‘‘Sa sattakkhattuṃ paramaṃ, sandhāvitvāna puggalo;"
+    },
+    {
+      "id": "s0504m:197",
+      "pali": "Dukkhassantakaro hoti, sabbasaṃyojanakkhayā’’ti."
+    },
+    {
+      "id": "s0504m:198",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:199",
+      "pali": "5. Musāvādasuttaṃ"
+    },
+    {
+      "id": "s0504m:200",
+      "pali": "25 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:201",
+      "pali": "‘‘Ekadhammaṃ atītassa, bhikkhave, purisapuggalassa nāhaṃ tassa kiñci pāpakammaṃ akaraṇīyanti vadāmi. Katamaṃ ekadhammaṃ? Yadidaṃ bhikkhave, sampajānamusāvādo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:202",
+      "pali": "‘‘Ekadhammaṃ atītassa, musāvādissa jantuno;"
+    },
+    {
+      "id": "s0504m:203",
+      "pali": "Vitiṇṇaparalokassa, natthi pāpaṃ akāriya’’nti."
+    },
+    {
+      "id": "s0504m:204",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:205",
+      "pali": "6. Dānasuttaṃ"
+    },
+    {
+      "id": "s0504m:206",
+      "pali": "26 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:207",
+      "pali": "‘‘Evañce, bhikkhave, sattā jāneyyuṃ dānasaṃvibhāgassa vipākaṃ yathāhaṃ jānāmi, na adatvā bhuñjeyyuṃ, na ca nesaṃ maccheramalaṃ cittaṃ pariyādāya tiṭṭheyya. Yopi nesaṃ assa carimo ālopo carimaṃ kabaḷaṃ, tatopi na asaṃvibhajitvā bhuñjeyyuṃ, sace nesaṃ paṭiggāhakā assu. Yasmā ca kho, bhikkhave, sattā na evaṃ jānanti dānasaṃvibhāgassa vipākaṃ yathāhaṃ jānāmi, tasmā adatvā bhuñjanti, maccheramalañca nesaṃ cittaṃ pariyādāya tiṭṭhatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:208",
+      "pali": "‘‘Evaṃ ce sattā jāneyyuṃ, yathāvuttaṃ mahesinā;"
+    },
+    {
+      "id": "s0504m:209",
+      "pali": "Vipākaṃ saṃvibhāgassa, yathā hoti mahapphalaṃ."
+    },
+    {
+      "id": "s0504m:210",
+      "pali": "‘‘Vineyya maccheramalaṃ, vippasannena cetasā;"
+    },
+    {
+      "id": "s0504m:211",
+      "pali": "Dajjuṃ kālena ariyesu, yattha dinnaṃ mahapphalaṃ."
+    },
+    {
+      "id": "s0504m:212",
+      "pali": "‘‘Annañca datvā bahuno, dakkhiṇeyyesu dakkhiṇaṃ;"
+    },
+    {
+      "id": "s0504m:213",
+      "pali": "Ito cutā manussattā, saggaṃ gacchanti dāyakā."
+    },
+    {
+      "id": "s0504m:214",
+      "pali": "‘‘Te ca saggagatā tattha, modanti kāmakāmino;"
+    },
+    {
+      "id": "s0504m:215",
+      "pali": "Vipākaṃ saṃvibhāgassa, anubhonti amaccharā’’ti."
+    },
+    {
+      "id": "s0504m:216",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:217",
+      "pali": "7. Mettābhāvanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:218",
+      "pali": "27 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:219",
+      "pali": "‘‘Yāni kānici, bhikkhave, opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṃ nāgghanti soḷasiṃ. Mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca."
+    },
+    {
+      "id": "s0504m:220",
+      "pali": "‘‘Seyyathāpi, bhikkhave, yā kāci tārakarūpānaṃ pabhā sabbā tā candiyā pabhāya kalaṃ nāgghanti soḷasiṃ, candapabhāyeva tā adhiggahetvā bhāsate ca tapate ca virocati ca; evameva kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṃ nāgghanti soḷasiṃ, mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca."
+    },
+    {
+      "id": "s0504m:221",
+      "pali": "‘‘Seyyathāpi, bhikkhave, vassānaṃ pacchime māse saradasamaye viddhe vigatavalāhake deve ādicco nabhaṃ abbhussakkamāno sabbaṃ ākāsagataṃ tamagataṃ abhivihacca bhāsate ca tapate ca virocati ca; evameva kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṃ nāgghanti soḷasiṃ, mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca."
+    },
+    {
+      "id": "s0504m:222",
+      "pali": "‘‘Seyyathāpi , bhikkhave, rattiyā paccūsasamayaṃ osadhitārakā bhāsate ca tapate ca virocati ca; evameva kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṃ nāgghanti soḷasiṃ , mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati cā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:223",
+      "pali": "‘‘Yo ca mettaṃ bhāvayati, appamāṇaṃ paṭissato;"
+    },
+    {
+      "id": "s0504m:224",
+      "pali": "Tanū saṃyojanā honti, passato upadhikkhayaṃ."
+    },
+    {
+      "id": "s0504m:225",
+      "pali": "‘‘Ekampi ce pāṇamaduṭṭhacitto, mettāyati kusalo tena hoti;"
+    },
+    {
+      "id": "s0504m:226",
+      "pali": "Sabbe ca pāṇe manasānukampaṃ, pahūtamariyo pakaroti puññaṃ."
+    },
+    {
+      "id": "s0504m:227",
+      "pali": "‘‘Ye sattasaṇḍaṃ pathaviṃ vijitvā, rājisayo yajamānānupariyagā;"
+    },
+    {
+      "id": "s0504m:228",
+      "pali": "Assamedhaṃ purisamedhaṃ, sammāpāsaṃ vājapeyyaṃ niraggaḷaṃ."
+    },
+    {
+      "id": "s0504m:229",
+      "pali": "‘‘Mettassa cittassa subhāvitassa, kalampi te nānubhavanti soḷasiṃ;"
+    },
+    {
+      "id": "s0504m:230",
+      "pali": "Candappabhā tāragaṇāva sabbe."
+    },
+    {
+      "id": "s0504m:231",
+      "pali": "‘‘Yo na hanti na ghāteti, na jināti na jāpaye;"
+    },
+    {
+      "id": "s0504m:232",
+      "pali": "Mettaṃso sabbabhūtesu, veraṃ tassa na kenacī’’ti."
+    },
+    {
+      "id": "s0504m:233",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:234",
+      "pali": "Tatiyo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:235",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:236",
+      "pali": "Cittaṃ mettaṃ ubho atthe, puñjaṃ vepullapabbataṃ;"
+    },
+    {
+      "id": "s0504m:237",
+      "pali": "Sampajānamusāvādo, dānañca mettabhāvanā ."
+    },
+    {
+      "id": "s0504m:238",
+      "pali": "Sattimāni ca suttāni, purimāni ca vīsati;"
+    },
+    {
+      "id": "s0504m:239",
+      "pali": "Ekadhammesu suttantā, sattavīsatisaṅgahāti."
+    },
+    {
+      "id": "s0504m:240",
+      "pali": "Ekakanipāto niṭṭhito."
+    },
+    {
+      "id": "s0504m:241",
+      "pali": "2. Dukanipāto"
+    },
+    {
+      "id": "s0504m:242",
+      "pali": "1. Paṭhamavaggo"
+    },
+    {
+      "id": "s0504m:243",
+      "pali": "1. Dukkhavihārasuttaṃ"
+    },
+    {
+      "id": "s0504m:244",
+      "pali": "28 . (Dve dhamme anukkaṭi) vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:245",
+      "pali": "‘‘Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme dukkhaṃ viharati savighātaṃ saupāyāsaṃ sapariḷāhaṃ; kāyassa bhedā paraṃ maraṇā duggati pāṭikaṅkhā. Katamehi dvīhi? Indriyesu aguttadvāratāya ca, bhojane amattaññutāya ca. Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme dukkhaṃ viharati savidhātaṃ saupāyāsaṃ sapariḷāhaṃ; kāyassa bhedā paraṃ maraṇā duggati pāṭikaṅkhā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:246",
+      "pali": "‘‘Cakkhu sotañca ghānañca, jivhā kāyo tathā mano;"
+    },
+    {
+      "id": "s0504m:247",
+      "pali": "Etāni yassa dvārāni, aguttānidha bhikkhuno."
+    },
+    {
+      "id": "s0504m:248",
+      "pali": "‘‘Bhojanamhi amattaññū, indriyesu asaṃvuto;"
+    },
+    {
+      "id": "s0504m:249",
+      "pali": "Kāyadukkhaṃ cetodukkhaṃ, dukkhaṃ so adhigacchati."
+    },
+    {
+      "id": "s0504m:250",
+      "pali": "‘‘Ḍayhamānena kāyena, ḍayhamānena cetasā;"
+    },
+    {
+      "id": "s0504m:251",
+      "pali": "Divā vā yadi vā rattiṃ, dukkhaṃ viharati tādiso’’ti."
+    },
+    {
+      "id": "s0504m:252",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:253",
+      "pali": "2. Sukhavihārasuttaṃ"
+    },
+    {
+      "id": "s0504m:254",
+      "pali": "29 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:255",
+      "pali": "‘‘Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhaṃ viharati avighātaṃ anupāyāsaṃ apariḷāhaṃ; kāyassa bhedā paraṃ maraṇā sugati pāṭikaṅkhā . Katamehi dvīhi? Indriyesu guttadvāratāya ca, bhojane mattaññutāya ca. Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhaṃ viharati avighātaṃ anupāyāsaṃ apariḷāhaṃ; kāyassa bhedā paraṃ maraṇā sugati pāṭikaṅkhā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:256",
+      "pali": "‘‘Cakkhu sotañca ghānañca, jivhā kāyo tathā mano;"
+    },
+    {
+      "id": "s0504m:257",
+      "pali": "Etāni yassa dvārāni, suguttānidha bhikkhuno."
+    },
+    {
+      "id": "s0504m:258",
+      "pali": "‘‘Bhojanamhi ca mattaññū, indriyesu ca saṃvuto;"
+    },
+    {
+      "id": "s0504m:259",
+      "pali": "Kāyasukhaṃ cetosukhaṃ, sukhaṃ so adhigacchati."
+    },
+    {
+      "id": "s0504m:260",
+      "pali": "‘‘Aḍayhamānena kāyena, aḍayhamānena cetasā;"
+    },
+    {
+      "id": "s0504m:261",
+      "pali": "Divā vā yadi vā rattiṃ, sukhaṃ viharati tādiso’’ti."
+    },
+    {
+      "id": "s0504m:262",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:263",
+      "pali": "3. Tapanīyasuttaṃ"
+    },
+    {
+      "id": "s0504m:264",
+      "pali": "30 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:265",
+      "pali": "‘‘Dveme, bhikkhave, dhammā tapanīyā. Katame dve? Idha, bhikkhave, ekacco akatakalyāṇo hoti, akatakusalo, akatabhīruttāṇo, katapāpo, kataluddo, katakibbiso. So ‘akataṃ me kalyāṇa’ntipi tappati, ‘kataṃ me pāpa’ntipi tappati. Ime kho, bhikkhave, dve dhammā tapanīyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:266",
+      "pali": "‘‘Kāyaduccaritaṃ katvā, vacīduccaritāni ca;"
+    },
+    {
+      "id": "s0504m:267",
+      "pali": "Manoduccaritaṃ katvā, yañcaññaṃ dosasañhitaṃ."
+    },
+    {
+      "id": "s0504m:268",
+      "pali": "‘‘Akatvā kusalaṃ kammaṃ, katvānākusalaṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:269",
+      "pali": "Kāyassa bhedā duppañño, nirayaṃ sopapajjatī’’ti ."
+    },
+    {
+      "id": "s0504m:270",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:271",
+      "pali": "4. Atapanīyasuttaṃ"
+    },
+    {
+      "id": "s0504m:272",
+      "pali": "31 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:273",
+      "pali": "‘‘Dveme, bhikkhave, dhammā atapanīyā. Katame dve? Idha, bhikkhave, ekacco katakalyāṇo hoti, katakusalo, katabhīruttāṇo, akatapāpo, akataluddo, akatakibbiso. So ‘kataṃ me kalyāṇa’ntipi na tappati, ‘akataṃ me pāpa’ntipi na tappati. Ime kho, bhikkhave, dve dhammā atapanīyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:274",
+      "pali": "‘‘Kāyaduccaritaṃ hitvā, vacīduccaritāni ca;"
+    },
+    {
+      "id": "s0504m:275",
+      "pali": "Manoduccaritaṃ hitvā, yañcaññaṃ dosasañhitaṃ."
+    },
+    {
+      "id": "s0504m:276",
+      "pali": "‘‘Akatvākusalaṃ kammaṃ, katvāna kusalaṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:277",
+      "pali": "Kāyassa bhedā sappañño, saggaṃ so upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:278",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:279",
+      "pali": "5. Paṭhamasīlasuttaṃ"
+    },
+    {
+      "id": "s0504m:280",
+      "pali": "32 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:281",
+      "pali": "‘‘Dvīhi, bhikkhave, dhammehi samannāgato puggalo yathābhataṃ nikkhitto evaṃ niraye. Katamehi dvīhi? Pāpakena ca sīlena, pāpikāya ca diṭṭhiyā. Imehi kho, bhikkhave, dvīhi dhammehi samannāgato puggalo yathābhataṃ nikkhitto evaṃ niraye’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:282",
+      "pali": "‘‘Pāpakena ca sīlena, pāpikāya ca diṭṭhiyā;"
+    },
+    {
+      "id": "s0504m:283",
+      "pali": "Etehi dvīhi dhammehi, yo samannāgato naro;"
+    },
+    {
+      "id": "s0504m:284",
+      "pali": "Kāyassa bhedā duppañño, nirayaṃ sopapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:285",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:286",
+      "pali": "6. Dutiyasīlasuttaṃ"
+    },
+    {
+      "id": "s0504m:287",
+      "pali": "33 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:288",
+      "pali": "‘‘Dvīhi, bhikkhave, dhammehi samannāgato puggalo yathābhataṃ nikkhitto evaṃ sagge. Katamehi dvīhi ? Bhaddakena ca sīlena, bhaddikāya ca diṭṭhiyā. Imehi kho, bhikkhave, dvīhi dhammehi samannāgato puggalo yathābhataṃ nikkhitto evaṃ sagge’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:289",
+      "pali": "‘‘Bhaddakena ca sīlena, bhaddikāya ca diṭṭhiyā;"
+    },
+    {
+      "id": "s0504m:290",
+      "pali": "Etehi dvīhi dhammehi, yo samannāgato naro;"
+    },
+    {
+      "id": "s0504m:291",
+      "pali": "Kāyassa bhedā sappañño, saggaṃ so upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:292",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:293",
+      "pali": "7. Ātāpīsuttaṃ"
+    },
+    {
+      "id": "s0504m:294",
+      "pali": "34 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:295",
+      "pali": "‘‘Anātāpī, bhikkhave, bhikkhu anottāpī abhabbo sambodhāya, abhabbo nibbānāya, abhabbo anuttarassa yogakkhemassa adhigamāya. Ātāpī ca kho, bhikkhave, bhikkhu ottāpī bhabbo sambodhāya, bhabbo nibbānāya, bhabbo anuttarassa yogakkhemassa adhigamāyā’’ti. Etamatthaṃ bhagavā avoca . Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:296",
+      "pali": "‘‘Anātāpī anottāpī, kusīto hīnavīriyo;"
+    },
+    {
+      "id": "s0504m:297",
+      "pali": "Yo thīnamiddhabahulo, ahirīko anādaro;"
+    },
+    {
+      "id": "s0504m:298",
+      "pali": "Abhabbo tādiso bhikkhu, phuṭṭhuṃ sambodhimuttamaṃ."
+    },
+    {
+      "id": "s0504m:299",
+      "pali": "‘‘Yo ca satimā nipako jhāyī, ātāpī ottāpī ca appamatto;"
+    },
+    {
+      "id": "s0504m:300",
+      "pali": "Saṃyojanaṃ jātijarāya chetvā, idheva sambodhimanuttaraṃ phuse’’ti."
+    },
+    {
+      "id": "s0504m:301",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:302",
+      "pali": "8. Paṭhamanakuhanasuttaṃ"
+    },
+    {
+      "id": "s0504m:303",
+      "pali": "35 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:304",
+      "pali": "‘‘Nayidaṃ, bhikkhave, brahmacariyaṃ vussati janakuhanatthaṃ, na janalapanatthaṃ, na lābhasakkārasilokānisaṃsatthaṃ, na ‘iti maṃ jano jānātū’ti. Atha kho idaṃ, bhikkhave , brahmacariyaṃ vussati saṃvaratthañceva pahānatthañcā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:305",
+      "pali": "‘‘Saṃvaratthaṃ pahānatthaṃ, brahmacariyaṃ anītihaṃ;"
+    },
+    {
+      "id": "s0504m:306",
+      "pali": "Adesayi so bhagavā, nibbānogadhagāminaṃ."
+    },
+    {
+      "id": "s0504m:307",
+      "pali": "‘‘Esa maggo mahattehi , anuyāto mahesibhi ;"
+    },
+    {
+      "id": "s0504m:308",
+      "pali": "Ye ye taṃ paṭipajjanti, yathā buddhena desitaṃ;"
+    },
+    {
+      "id": "s0504m:309",
+      "pali": "Dukkhassantaṃ karissanti, satthusāsanakārino’’ti."
+    },
+    {
+      "id": "s0504m:310",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:311",
+      "pali": "9. Dutiyanakuhanasuttaṃ"
+    },
+    {
+      "id": "s0504m:312",
+      "pali": "36 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:313",
+      "pali": "‘‘Nayidaṃ, bhikkhave, brahmacariyaṃ vussati janakuhanatthaṃ, na janalapanatthaṃ, na lābhasakkārasilokānisaṃsatthaṃ, na ‘iti maṃ jano jānātū’ti. Atha kho idaṃ, bhikkhave, brahmacariyaṃ vussati abhiññatthañceva pariññatthañcā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:314",
+      "pali": "‘‘Abhiññatthaṃ pariññatthaṃ, brahmacariyaṃ anītihaṃ;"
+    },
+    {
+      "id": "s0504m:315",
+      "pali": "Adesayi so bhagavā, nibbānogadhagāminaṃ."
+    },
+    {
+      "id": "s0504m:316",
+      "pali": "‘‘Esa maggo mahattehi, anuyāto mahesibhi;"
+    },
+    {
+      "id": "s0504m:317",
+      "pali": "Ye ye taṃ paṭipajjanti, yathā buddhena desitaṃ;"
+    },
+    {
+      "id": "s0504m:318",
+      "pali": "Dukkhassantaṃ karissanti, satthusāsanakārino’’ti."
+    },
+    {
+      "id": "s0504m:319",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:320",
+      "pali": "10. Somanassasuttaṃ"
+    },
+    {
+      "id": "s0504m:321",
+      "pali": "37 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:322",
+      "pali": "‘‘Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhasomanassabahulo viharati, yoni cassa āraddhā hoti āsavānaṃ khayāya. Katamehi dvīhi? Saṃvejanīyesu ṭhānesu saṃvejanena, saṃviggassa ca yoniso padhānena. Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhasomanassabahulo viharati, yoni cassa āraddhā hoti āsavānaṃ khayāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:323",
+      "pali": "‘‘Saṃvejanīyaṭṭhānesu , saṃvijjetheva paṇḍito;"
+    },
+    {
+      "id": "s0504m:324",
+      "pali": "Ātāpī nipako bhikkhu, paññāya samavekkhiya."
+    },
+    {
+      "id": "s0504m:325",
+      "pali": "‘‘Evaṃ vihārī ātāpī, santavutti anuddhato;"
+    },
+    {
+      "id": "s0504m:326",
+      "pali": "Cetosamathamanuyutto, khayaṃ dukkhassa pāpuṇe’’ti."
+    },
+    {
+      "id": "s0504m:327",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:328",
+      "pali": "Paṭhamo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:329",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:330",
+      "pali": "Dve ca bhikkhū tapanīyā, tapanīyā paratthehi;"
+    },
+    {
+      "id": "s0504m:331",
+      "pali": "Ātāpī nakuhanā dve , somanassena te dasāti."
+    },
+    {
+      "id": "s0504m:332",
+      "pali": "2. Dutiyavaggo"
+    },
+    {
+      "id": "s0504m:333",
+      "pali": "1. Vitakkasuttaṃ"
+    },
+    {
+      "id": "s0504m:334",
+      "pali": "38 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:335",
+      "pali": "‘‘Tathāgataṃ, bhikkhave, arahantaṃ sammāsambuddhaṃ dve vitakkā bahulaṃ samudācaranti – khemo ca vitakko, paviveko ca . Abyāpajjhārāmo , bhikkhave, tathāgato abyāpajjharato. Tamenaṃ, bhikkhave, tathāgataṃ abyāpajjhārāmaṃ abyāpajjharataṃ eseva vitakko bahulaṃ samudācarati – ‘imāyāhaṃ iriyāya na kiñci byābādhemi tasaṃ vā thāvaraṃ vā’ti."
+    },
+    {
+      "id": "s0504m:336",
+      "pali": "‘‘Pavivekārāmo , bhikkhave, tathāgato pavivekarato. Tamenaṃ, bhikkhave, tathāgataṃ pavivekārāmaṃ pavivekarataṃ eseva vitakko bahulaṃ samudācarati – ‘yaṃ akusalaṃ taṃ pahīna’nti."
+    },
+    {
+      "id": "s0504m:337",
+      "pali": "‘‘Tasmātiha, bhikkhave, tumhepi abyāpajjhārāmā viharatha abyāpajjharatā. Tesaṃ vo, bhikkhave, tumhākaṃ abyāpajjhārāmānaṃ viharataṃ abyāpajjharatānaṃ eseva vitakko bahulaṃ samudācarissati – ‘imāya mayaṃ iriyāya na kiñci byābādhema tasaṃ vā thāvaraṃ vā’ti."
+    },
+    {
+      "id": "s0504m:338",
+      "pali": "‘‘Pavivekārāmā, bhikkhave, viharatha pavivekaratā. Tesaṃ vo, bhikkhave, tumhākaṃ pavivekārāmānaṃ viharataṃ pavivekaratānaṃ eseva vitakko bahulaṃ samudācarissati – ‘kiṃ akusalaṃ, kiṃ appahīnaṃ, kiṃ pajahāmā’’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:339",
+      "pali": "‘‘Tathāgataṃ buddhamasayhasāhinaṃ, duve vitakkā samudācaranti naṃ;"
+    },
+    {
+      "id": "s0504m:340",
+      "pali": "Khemo vitakko paṭhamo udīrito, tato viveko dutiyo pakāsito."
+    },
+    {
+      "id": "s0504m:341",
+      "pali": "‘‘Tamonudaṃ pāragataṃ mahesiṃ, taṃ pattipattaṃ vasimaṃ anāsavaṃ;"
+    },
+    {
+      "id": "s0504m:342",
+      "pali": "Visantaraṃ taṇhakkhaye vimuttaṃ, taṃ ve muniṃ antimadehadhāriṃ;"
+    },
+    {
+      "id": "s0504m:343",
+      "pali": "Mārañjahaṃ brūmi jarāya pāraguṃ."
+    },
+    {
+      "id": "s0504m:344",
+      "pali": "‘‘Sele yathā pabbatamuddhaniṭṭhito, yathāpi passe janataṃ samantato;"
+    },
+    {
+      "id": "s0504m:345",
+      "pali": "Tathūpamaṃ dhammamayaṃ sumedho, pāsādamāruyha samantacakkhu;"
+    },
+    {
+      "id": "s0504m:346",
+      "pali": "Sokāvatiṇṇaṃ janatamapetasoko, avekkhati jātijarābhibhūta’’nti."
+    },
+    {
+      "id": "s0504m:347",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:348",
+      "pali": "2. Desanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:349",
+      "pali": "39 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:350",
+      "pali": "‘‘Tathāgatassa, bhikkhave, arahato sammāsambuddhassa dve dhammadesanā pariyāyena bhavanti. Katamā dve? ‘Pāpaṃ pāpakato passathā’ti – ayaṃ paṭhamā dhammadesanā; ‘pāpaṃ pāpakato disvā tattha nibbindatha virajjatha vimuccathā’ti – ayaṃ dutiyā dhammadesanā. Tathāgatassa, bhikkhave, arahato sammāsambuddhassa imā dve dhammadesanā pariyāyena bhavantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:351",
+      "pali": "‘‘Tathāgatassa buddhassa, sabbabhūtānukampino;"
+    },
+    {
+      "id": "s0504m:352",
+      "pali": "Pariyāyavacanaṃ passa, dve ca dhammā pakāsitā."
+    },
+    {
+      "id": "s0504m:353",
+      "pali": "‘‘Pāpakaṃ passatha cetaṃ , tattha cāpi virajjatha;"
+    },
+    {
+      "id": "s0504m:354",
+      "pali": "Tato virattacittāse, dukkhassantaṃ karissathā’’ti."
+    },
+    {
+      "id": "s0504m:355",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:356",
+      "pali": "3. Vijjāsuttaṃ"
+    },
+    {
+      "id": "s0504m:357",
+      "pali": "40 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:358",
+      "pali": "‘‘Avijjā , bhikkhave, pubbaṅgamā akusalānaṃ dhammānaṃ samāpattiyā anvadeva ahirikaṃ anottappaṃ; vijjā ca kho, bhikkhave, pubbaṅgamā kusalānaṃ dhammānaṃ samāpattiyā anvadeva hirottappa’’nti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:359",
+      "pali": "‘‘Yā kācimā duggatiyo, asmiṃ loke paramhi ca;"
+    },
+    {
+      "id": "s0504m:360",
+      "pali": "Avijjāmūlikā sabbā, icchālobhasamussayā."
+    },
+    {
+      "id": "s0504m:361",
+      "pali": "‘‘Yato ca hoti pāpiccho, ahirīko anādaro;"
+    },
+    {
+      "id": "s0504m:362",
+      "pali": "Tato pāpaṃ pasavati, apāyaṃ tena gacchati."
+    },
+    {
+      "id": "s0504m:363",
+      "pali": "‘‘Tasmā chandañca lobhañca, avijjañca virājayaṃ;"
+    },
+    {
+      "id": "s0504m:364",
+      "pali": "Vijjaṃ uppādayaṃ bhikkhu, sabbā duggatiyo jahe’’ti."
+    },
+    {
+      "id": "s0504m:365",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:366",
+      "pali": "4. Paññāparihīnasuttaṃ"
+    },
+    {
+      "id": "s0504m:367",
+      "pali": "41 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:368",
+      "pali": "‘‘Te, bhikkhave, sattā suparihīnā ye ariyāya paññāya parihīnā. Te diṭṭheva dhamme dukkhaṃ viharanti savighātaṃ saupāyāsaṃ sapariḷāhaṃ; kāyassa bhedā paraṃ maraṇā duggati pāṭikaṅkhā. Te , bhikkhave, sattā aparihīnā ye ariyāya paññāya aparihīnā. Te diṭṭheva dhamme sukhaṃ viharanti avighātaṃ anupāyāsaṃ apariḷāhaṃ; kāyassa bhedā paraṃ maraṇā sugati pāṭikaṅkhā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:369",
+      "pali": "‘‘Paññāya parihānena, passa lokaṃ sadevakaṃ;"
+    },
+    {
+      "id": "s0504m:370",
+      "pali": "Niviṭṭhaṃ nāmarūpasmiṃ, idaṃ saccanti maññati."
+    },
+    {
+      "id": "s0504m:371",
+      "pali": "‘‘Paññā hi seṭṭhā lokasmiṃ, yāyaṃ nibbedhagāminī;"
+    },
+    {
+      "id": "s0504m:372",
+      "pali": "Yāya sammā pajānāti, jātibhavaparikkhayaṃ."
+    },
+    {
+      "id": "s0504m:373",
+      "pali": "‘‘Tesaṃ devā manussā ca, sambuddhānaṃ satīmataṃ;"
+    },
+    {
+      "id": "s0504m:374",
+      "pali": "Pihayanti hāsapaññānaṃ , sarīrantimadhārina’’nti."
+    },
+    {
+      "id": "s0504m:375",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:376",
+      "pali": "5. Sukkadhammasuttaṃ"
+    },
+    {
+      "id": "s0504m:377",
+      "pali": "42 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:378",
+      "pali": "‘‘Dveme, bhikkhave, sukkā dhammā lokaṃ pālenti. Katame dve? Hirī ca, ottappañca. Ime ce, bhikkhave, dve sukkā dhammā lokaṃ na pāleyyuṃ, nayidha paññāyetha mātāti vā mātucchāti vā mātulānīti vā ācariyabhariyāti vā garūnaṃ dārāti vā. Sambhedaṃ loko agamissa yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā . Yasmā ca kho, bhikkhave, ime dve sukkā dhammā lokaṃ pālenti tasmā paññāyati mātāti vā mātucchāti vā mātulānīti vā ācariyabhariyāti vā garūnaṃ dārāti vā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:379",
+      "pali": "‘‘Yesaṃ ce hiriottappaṃ, sabbadā ca na vijjati;"
+    },
+    {
+      "id": "s0504m:380",
+      "pali": "Vokkantā sukkamūlā te, jātimaraṇagāmino."
+    },
+    {
+      "id": "s0504m:381",
+      "pali": "‘‘Yesañca hiriottappaṃ, sadā sammā upaṭṭhitā;"
+    },
+    {
+      "id": "s0504m:382",
+      "pali": "Virūḷhabrahmacariyā te, santo khīṇapunabbhavā’’ti."
+    },
+    {
+      "id": "s0504m:383",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:384",
+      "pali": "6. Ajātasuttaṃ"
+    },
+    {
+      "id": "s0504m:385",
+      "pali": "43 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:386",
+      "pali": "‘‘Atthi, bhikkhave , ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ. No cetaṃ, bhikkhave, abhavissa ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṃ paññāyetha. Yasmā ca kho, bhikkhave, atthi ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṃ paññāyatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:387",
+      "pali": "‘‘Jātaṃ bhūtaṃ samuppannaṃ, kataṃ saṅkhatamaddhuvaṃ;"
+    },
+    {
+      "id": "s0504m:388",
+      "pali": "Jarāmaraṇasaṅghāṭaṃ, roganīḷaṃ pabhaṅguraṃ ."
+    },
+    {
+      "id": "s0504m:389",
+      "pali": "‘‘Āhāranettippabhavaṃ, nālaṃ tadabhinandituṃ;"
+    },
+    {
+      "id": "s0504m:390",
+      "pali": "Tassa nissaraṇaṃ santaṃ, atakkāvacaraṃ dhuvaṃ."
+    },
+    {
+      "id": "s0504m:391",
+      "pali": "‘‘Ajātaṃ asamuppannaṃ, asokaṃ virajaṃ padaṃ;"
+    },
+    {
+      "id": "s0504m:392",
+      "pali": "Nirodho dukkhadhammānaṃ, saṅkhārūpasamo sukho’’ti."
+    },
+    {
+      "id": "s0504m:393",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:394",
+      "pali": "7. Nibbānadhātusuttaṃ"
+    },
+    {
+      "id": "s0504m:395",
+      "pali": "44 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:396",
+      "pali": "‘‘Dvemā, bhikkhave, nibbānadhātuyo. Katame dve? Saupādisesā ca nibbānadhātu, anupādisesā ca nibbānadhātu."
+    },
+    {
+      "id": "s0504m:397",
+      "pali": "‘‘Katamā ca, bhikkhave, saupādisesā nibbānadhātu? Idha, bhikkhave, bhikkhu arahaṃ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṃyojano sammadaññā vimutto. Tassa tiṭṭhanteva pañcindriyāni yesaṃ avighātattā manāpāmanāpaṃ paccanubhoti, sukhadukkhaṃ paṭisaṃvedeti . Tassa yo rāgakkhayo, dosakkhayo, mohakkhayo – ayaṃ vuccati, bhikkhave, saupādisesā nibbānadhātu."
+    },
+    {
+      "id": "s0504m:398",
+      "pali": "‘‘Katamā ca, bhikkhave, anupādisesā nibbānadhātu? Idha, bhikkhave, bhikkhu arahaṃ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṃyojano sammadaññā vimutto. Tassa idheva, bhikkhave, sabbavedayitāni anabhinanditāni sīti bhavissanti . Ayaṃ vuccati, bhikkhave, anupādisesā nibbānadhātu. Imā kho, bhikkhave, dve nibbānadhātuyo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:399",
+      "pali": "‘‘Duve imā cakkhumatā pakāsitā, nibbānadhātū anissitena tādinā;"
+    },
+    {
+      "id": "s0504m:400",
+      "pali": "Ekā hi dhātu idha diṭṭhadhammikā, saupādisesā bhavanettisaṅkhayā;"
+    },
+    {
+      "id": "s0504m:401",
+      "pali": "Anupādisesā pana samparāyikā, yamhi nirujjhanti bhavāni sabbaso."
+    },
+    {
+      "id": "s0504m:402",
+      "pali": "‘‘Ye etadaññāya padaṃ asaṅkhataṃ, vimuttacittā bhavanettisaṅkhayā;"
+    },
+    {
+      "id": "s0504m:403",
+      "pali": "Te dhammasārādhigamā khaye ratā, pahaṃsu te sabbabhavāni tādino’’ti."
+    },
+    {
+      "id": "s0504m:404",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:405",
+      "pali": "8. Paṭisallānasuttaṃ"
+    },
+    {
+      "id": "s0504m:406",
+      "pali": "45 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:407",
+      "pali": "‘‘Paṭisallānārāmā , bhikkhave, viharatha paṭisallānaratā, ajjhattaṃ cetosamathamanuyuttā, anirākatajjhānā, vipassanāya samannāgatā, brūhetā suññāgārānaṃ . Paṭisallānārāmānaṃ, bhikkhave, viharataṃ paṭisallānaratānaṃ ajjhattaṃ cetosamathamanuyuttānaṃ anirākatamajjhānānaṃ vipassanāya samannāgatānaṃ brūhetānaṃ suññāgārānaṃ dvinnaṃ phalānaṃ aññataraṃ phalaṃ pāṭikaṅkhaṃ – diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:408",
+      "pali": "‘‘Ye santacittā nipakā, satimanto ca jhāyino;"
+    },
+    {
+      "id": "s0504m:409",
+      "pali": "Sammā dhammaṃ vipassanti, kāmesu anapekkhino."
+    },
+    {
+      "id": "s0504m:410",
+      "pali": "‘‘Appamādaratā santā, pamāde bhayadassino;"
+    },
+    {
+      "id": "s0504m:411",
+      "pali": "Abhabbā parihānāya, nibbānasseva santike’’ti."
+    },
+    {
+      "id": "s0504m:412",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:413",
+      "pali": "9. Sikkhānisaṃsasuttaṃ"
+    },
+    {
+      "id": "s0504m:414",
+      "pali": "46 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:415",
+      "pali": "‘‘Sikkhānisaṃsā , bhikkhave, viharatha paññuttarā vimuttisārā satādhipateyyā. Sikkhānisaṃsānaṃ, bhikkhave, viharataṃ paññuttarānaṃ vimuttisārānaṃ satādhipateyyānaṃ dvinnaṃ phalānaṃ aññataraṃ phalaṃ pāṭikaṅkhaṃ – diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:416",
+      "pali": "‘‘Paripuṇṇasikkhaṃ apahānadhammaṃ, paññuttaraṃ jātikhayantadassiṃ;"
+    },
+    {
+      "id": "s0504m:417",
+      "pali": "Taṃ ve muniṃ antimadehadhāriṃ, mārañjahaṃ brūmi jarāya pāraguṃ."
+    },
+    {
+      "id": "s0504m:418",
+      "pali": "‘‘Tasmā sadā jhānaratā samāhitā, ātāpino jātikhayantadassino;"
+    },
+    {
+      "id": "s0504m:419",
+      "pali": "Māraṃ sasenaṃ abhibhuyya bhikkhavo, bhavatha jātimaraṇassa pāragā’’ti."
+    },
+    {
+      "id": "s0504m:420",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:421",
+      "pali": "10. Jāgariyasuttaṃ"
+    },
+    {
+      "id": "s0504m:422",
+      "pali": "47 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:423",
+      "pali": "‘‘Jāgaro cassa, bhikkhave, bhikkhu vihareyya sato sampajāno samāhito pamudito vippasanno ca tattha kālavipassī ca kusalesu dhammesu. Jāgarassa, bhikkhave, bhikkhuno viharato satassa sampajānassa samāhitassa pamuditassa vippasannassa tattha kālavipassino kusalesu dhammesu dvinnaṃ phalānaṃ aññataraṃ phalaṃ pāṭikaṅkhaṃ – diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:424",
+      "pali": "‘‘Jāgarantā suṇāthetaṃ, ye suttā te pabujjhatha;"
+    },
+    {
+      "id": "s0504m:425",
+      "pali": "Suttā jāgaritaṃ seyyo, natthi jāgarato bhayaṃ."
+    },
+    {
+      "id": "s0504m:426",
+      "pali": "‘‘Yo jāgaro ca satimā sampajāno, samāhito mudito vippasanno ca;"
+    },
+    {
+      "id": "s0504m:427",
+      "pali": "Kālena so sammā dhammaṃ parivīmaṃsamāno, ekodibhūto vihane tamaṃ so."
+    },
+    {
+      "id": "s0504m:428",
+      "pali": "‘‘Tasmā have jāgariyaṃ bhajetha, ātāpī bhikkhu nipako jhānalābhī;"
+    },
+    {
+      "id": "s0504m:429",
+      "pali": "Saṃyojanaṃ jātijarāya chetvā, idheva sambodhimanuttaraṃ phuse’’ti."
+    },
+    {
+      "id": "s0504m:430",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:431",
+      "pali": "11. Āpāyikasuttaṃ"
+    },
+    {
+      "id": "s0504m:432",
+      "pali": "48 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:433",
+      "pali": "‘‘Dveme, bhikkhave, āpāyikā nerayikā idamappahāya. Katame dve? Yo ca abrahmacārī brahmacāripaṭiñño, yo ca paripuṇṇaṃ parisuddhaṃ brahmacariyaṃ carantaṃ amūlakena abrahmacariyena anuddhaṃseti. Ime kho, bhikkhave, dve āpāyikā nerayikā idamappahāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:434",
+      "pali": "‘‘Abhūtavādī nirayaṃ upeti, yo vāpi katvā na karomi cāha;"
+    },
+    {
+      "id": "s0504m:435",
+      "pali": "Ubhopi te pecca samā bhavanti, nihīnakammā manujā parattha."
+    },
+    {
+      "id": "s0504m:436",
+      "pali": "‘‘Kāsāvakaṇṭhā bahavo, pāpadhammā asaññatā;"
+    },
+    {
+      "id": "s0504m:437",
+      "pali": "Pāpā pāpehi kammehi, nirayaṃ te upapajjare."
+    },
+    {
+      "id": "s0504m:438",
+      "pali": "‘‘Seyyo ayoguḷo bhutto, tatto aggisikhūpamo;"
+    },
+    {
+      "id": "s0504m:439",
+      "pali": "Yañce bhuñjeyya dussīlo, raṭṭhapiṇḍamasaññato’’ti."
+    },
+    {
+      "id": "s0504m:440",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Ekādasamaṃ."
+    },
+    {
+      "id": "s0504m:441",
+      "pali": "12. Diṭṭhigatasuttaṃ"
+    },
+    {
+      "id": "s0504m:442",
+      "pali": "49 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:443",
+      "pali": "‘‘Dvīhi, bhikkhave, diṭṭhigatehi pariyuṭṭhitā devamanussā olīyanti eke, atidhāvanti eke; cakkhumanto ca passanti."
+    },
+    {
+      "id": "s0504m:444",
+      "pali": "‘‘Kathañca, bhikkhave, olīyanti eke? Bhavārāmā, bhikkhave, devamanussā bhavaratā bhavasammuditā tesaṃ bhavanirodhāya dhamme desiyamāne cittaṃ na pakkhandati na pasīdati na santiṭṭhati nādhimuccati. Evaṃ kho, bhikkhave, olīyanti eke."
+    },
+    {
+      "id": "s0504m:445",
+      "pali": "‘‘Kathañca , bhikkhave, atidhāvanti eke? Bhaveneva kho paneke aṭṭīyamānā harāyamānā jigucchamānā vibhavaṃ abhinandanti – yato kira, bho, ayaṃ attā kāyassa bhedā paraṃ maraṇā ucchijjati vinassati na hoti paraṃ maraṇā; etaṃ santaṃ etaṃ paṇītaṃ etaṃ yāthāvanti. Evaṃ kho, bhikkhave, atidhāvanti eke."
+    },
+    {
+      "id": "s0504m:446",
+      "pali": "‘‘Kathañca, bhikkhave, cakkhumanto passanti? Idha bhikkhu bhūtaṃ bhūtato passati; bhūtaṃ bhūtato disvā bhūtassa nibbidāya virāgāya nirodhāya paṭipanno hoti. Evaṃ kho, bhikkhave, cakkhumanto passantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:447",
+      "pali": "‘‘Ye bhūtaṃ bhūtato disvā, bhūtassa ca atikkamaṃ;"
+    },
+    {
+      "id": "s0504m:448",
+      "pali": "Yathābhūte vimuccanti, bhavataṇhā parikkhayā."
+    },
+    {
+      "id": "s0504m:449",
+      "pali": "‘‘Sa ve bhūtapariñño, so vītataṇho bhavābhave;"
+    },
+    {
+      "id": "s0504m:450",
+      "pali": "Bhūtassa vibhavā bhikkhu, nāgacchati punabbhava’’nti."
+    },
+    {
+      "id": "s0504m:451",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dvādasamaṃ."
+    },
+    {
+      "id": "s0504m:452",
+      "pali": "Dutiyo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:453",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:454",
+      "pali": "Dve indriyā dve tapanīyā, sīlena apare duve;"
+    },
+    {
+      "id": "s0504m:455",
+      "pali": "Anottāpī kuhanā dve ca, saṃvejanīyena te dasa."
+    },
+    {
+      "id": "s0504m:456",
+      "pali": "Vitakkā desanā vijjā, paññā dhammena pañcamaṃ;"
+    },
+    {
+      "id": "s0504m:457",
+      "pali": "Ajātaṃ dhātusallānaṃ, sikkhā jāgariyena ca;"
+    },
+    {
+      "id": "s0504m:458",
+      "pali": "Apāyadiṭṭhiyā ceva , bāvīsati pakāsitāti."
+    },
+    {
+      "id": "s0504m:459",
+      "pali": "Dukanipāto niṭṭhito."
+    },
+    {
+      "id": "s0504m:460",
+      "pali": "3. Tikanipāto"
+    },
+    {
+      "id": "s0504m:461",
+      "pali": "1. Paṭhamavaggo"
+    },
+    {
+      "id": "s0504m:462",
+      "pali": "1. Mūlasuttaṃ"
+    },
+    {
+      "id": "s0504m:463",
+      "pali": "50 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:464",
+      "pali": "‘‘Tīṇimāni, bhikkhave, akusalamūlāni. Katamāni tīṇi? Lobho akusalamūlaṃ, doso akusalamūlaṃ, moho akusalamūlaṃ – imāni kho, bhikkhave, tīṇi akusalamūlānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:465",
+      "pali": "‘‘Lobho doso ca moho ca, purisaṃ pāpacetasaṃ;"
+    },
+    {
+      "id": "s0504m:466",
+      "pali": "Hiṃsanti attasambhūtā, tacasāraṃva samphala’’nti."
+    },
+    {
+      "id": "s0504m:467",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:468",
+      "pali": "2. Dhātusuttaṃ"
+    },
+    {
+      "id": "s0504m:469",
+      "pali": "51 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:470",
+      "pali": "‘‘Tisso imā, bhikkhave, dhātuyo. Katamā tisso? Rūpadhātu, arūpadhātu, nirodhadhātu – imā kho, bhikkhave, tisso dhātuyo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:471",
+      "pali": "‘‘Rūpadhātuṃ pariññāya, arūpesu asaṇṭhitā;"
+    },
+    {
+      "id": "s0504m:472",
+      "pali": "Nirodhe ye vimuccanti, te janā maccuhāyino."
+    },
+    {
+      "id": "s0504m:473",
+      "pali": "‘‘Kāyena amataṃ dhātuṃ, phusayitvā nirūpadhiṃ;"
+    },
+    {
+      "id": "s0504m:474",
+      "pali": "Upadhippaṭinissaggaṃ, sacchikatvā anāsavo;"
+    },
+    {
+      "id": "s0504m:475",
+      "pali": "Deseti sammāsambuddho, asokaṃ virajaṃ pada’’nti."
+    },
+    {
+      "id": "s0504m:476",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. dutiyaṃ."
+    },
+    {
+      "id": "s0504m:477",
+      "pali": "3. Paṭhamavedanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:478",
+      "pali": "52 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:479",
+      "pali": "‘‘Tisso imā, bhikkhave, vedanā. Katamā tisso? Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā –"
+    },
+    {
+      "id": "s0504m:480",
+      "pali": "Imā kho, bhikkhave, tisso vedanā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:481",
+      "pali": "‘‘Samāhito sampajāno, sato buddhassa sāvako;"
+    },
+    {
+      "id": "s0504m:482",
+      "pali": "Vedanā ca pajānāti, vedanānañca sambhavaṃ."
+    },
+    {
+      "id": "s0504m:483",
+      "pali": "‘‘Yattha cetā nirujjhanti, maggañca khayagāminaṃ;"
+    },
+    {
+      "id": "s0504m:484",
+      "pali": "Vedanānaṃ khayā bhikkhu, nicchāto parinibbuto’’ti."
+    },
+    {
+      "id": "s0504m:485",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:486",
+      "pali": "4. Dutiyavedanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:487",
+      "pali": "53 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:488",
+      "pali": "‘‘Tisso imā , bhikkhave, vedanā. Katamā tisso? Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā. Sukhā, bhikkhave, vedanā dukkhato daṭṭhabbā; dukkhā vedanā sallato daṭṭhabbā; adukkhamasukhā vedanā aniccato daṭṭhabbā. Yato kho, bhikkhave, bhikkhuno sukhā vedanā dukkhato diṭṭhā hoti, dukkhā vedanā sallato diṭṭhā hoti, adukkhamasukhā vedanā aniccato diṭṭhā hoti; ayaṃ vuccati, bhikkhave, ‘bhikkhu ariyo sammaddaso acchecchi , taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:489",
+      "pali": "‘‘Yo sukhaṃ dukkhato adda , dukkhamaddakkhi sallato;"
+    },
+    {
+      "id": "s0504m:490",
+      "pali": "Adukkhamasukhaṃ santaṃ, adakkhi naṃ aniccato."
+    },
+    {
+      "id": "s0504m:491",
+      "pali": "‘‘Sa ve sammaddaso bhikkhu, yato tattha vimuccati;"
+    },
+    {
+      "id": "s0504m:492",
+      "pali": "Abhiññāvosito santo, sa ve yogātigo munī’’ti."
+    },
+    {
+      "id": "s0504m:493",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:494",
+      "pali": "5. Paṭhamaesanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:495",
+      "pali": "54 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:496",
+      "pali": "‘‘Tisso imā, bhikkhave, esanā. Katamā tisso? Kāmesanā, bhavesanā, brahmacariyesanā – imā kho, bhikkhave, tisso esanā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:497",
+      "pali": "‘‘Samāhito sampajāno, sato buddhassa sāvako;"
+    },
+    {
+      "id": "s0504m:498",
+      "pali": "Esanā ca pajānāti, esanānañca sambhavaṃ."
+    },
+    {
+      "id": "s0504m:499",
+      "pali": "‘‘Yattha cetā nirujjhanti, maggañca khayagāminaṃ;"
+    },
+    {
+      "id": "s0504m:500",
+      "pali": "Esanānaṃ khayā bhikkhu, nicchāto parinibbuto’’ti."
+    },
+    {
+      "id": "s0504m:501",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:502",
+      "pali": "6. Dutiyaesanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:503",
+      "pali": "55 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:504",
+      "pali": "‘‘Tisso imā, bhikkhave, esanā. Katamā tisso? Kāmesanā, bhavesanā, brahmacariyesanā – imā kho, bhikkhave, tisso esanā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:505",
+      "pali": "‘‘Kāmesanā bhavesanā, brahmacariyesanā saha;"
+    },
+    {
+      "id": "s0504m:506",
+      "pali": "Iti saccaparāmāso, diṭṭhiṭṭhānā samussayā."
+    },
+    {
+      "id": "s0504m:507",
+      "pali": "‘‘Sabbarāgavirattassa, taṇhakkhayavimuttino;"
+    },
+    {
+      "id": "s0504m:508",
+      "pali": "Esanā paṭinissaṭṭhā, diṭṭhiṭṭhānā samūhatā;"
+    },
+    {
+      "id": "s0504m:509",
+      "pali": "Esanānaṃ khayā bhikkhu, nirāso akathaṃkathī’’ti."
+    },
+    {
+      "id": "s0504m:510",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:511",
+      "pali": "7. Paṭhamaāsavasuttaṃ"
+    },
+    {
+      "id": "s0504m:512",
+      "pali": "56 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:513",
+      "pali": "‘‘Tayome, bhikkhave, āsavā. Katame tayo? Kāmāsavo, bhavāsavo, avijjāsavo – ime kho, bhikkhave, tayo āsavā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:514",
+      "pali": "‘‘Samāhito sampajāno, sato buddhassa sāvako;"
+    },
+    {
+      "id": "s0504m:515",
+      "pali": "Āsave ca pajānāti, āsavānañca sambhavaṃ."
+    },
+    {
+      "id": "s0504m:516",
+      "pali": "‘‘Yattha cetā nirujjhanti, maggañca khayagāminaṃ;"
+    },
+    {
+      "id": "s0504m:517",
+      "pali": "Āsavānaṃ khayā bhikkhu, nicchāto parinibbuto’’ti."
+    },
+    {
+      "id": "s0504m:518",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:519",
+      "pali": "8. Dutiyaāsavasuttaṃ"
+    },
+    {
+      "id": "s0504m:520",
+      "pali": "57 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:521",
+      "pali": "‘‘Tayome, bhikkhave, āsavā. Katame tayo? Kāmāsavo, bhavāsavo, avijjāsavo – ime kho, bhikkhave, tayo āsavā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:522",
+      "pali": "‘‘Yassa kāmāsavo khīṇo, avijjā ca virājitā;"
+    },
+    {
+      "id": "s0504m:523",
+      "pali": "Bhavāsavo parikkhīṇo, vippamutto nirūpadhi;"
+    },
+    {
+      "id": "s0504m:524",
+      "pali": "Dhāreti antimaṃ dehaṃ, jetvā māraṃ savāhini’’nti ."
+    },
+    {
+      "id": "s0504m:525",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:526",
+      "pali": "9. Taṇhāsuttaṃ"
+    },
+    {
+      "id": "s0504m:527",
+      "pali": "58 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:528",
+      "pali": "‘‘Tisso imā, bhikkhave, taṇhā. Katamā tisso? Kāmataṇhā, bhavataṇhā, vibhavataṇhā – imā kho, bhikkhave, tisso taṇhā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:529",
+      "pali": "‘‘Taṇhāyogena saṃyuttā, rattacittā bhavābhave;"
+    },
+    {
+      "id": "s0504m:530",
+      "pali": "Te yogayuttā mārassa, ayogakkhemino janā;"
+    },
+    {
+      "id": "s0504m:531",
+      "pali": "Sattā gacchanti saṃsāraṃ, jātīmaraṇagāmino."
+    },
+    {
+      "id": "s0504m:532",
+      "pali": "‘‘Ye ca taṇhaṃ pahantvāna, vītataṇhā bhavābhave;"
+    },
+    {
+      "id": "s0504m:533",
+      "pali": "Te ve pāraṅgatā loke, ye pattā āsavakkhaya’’nti."
+    },
+    {
+      "id": "s0504m:534",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:535",
+      "pali": "10. Māradheyyasuttaṃ"
+    },
+    {
+      "id": "s0504m:536",
+      "pali": "59 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:537",
+      "pali": "‘‘Tīhi, bhikkhave, dhammehi samannāgato bhikkhu atikkamma māradheyyaṃ ādiccova virocati. Katamehi tīhi? Idha, bhikkhave, bhikkhu asekhena sīlakkhandhena samannāgato hoti, asekhena samādhikkhandhena samannāgato hoti, asekhena paññākkhandhena samannāgato hoti – imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu atikkamma māradheyyaṃ ādiccova virocatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:538",
+      "pali": "‘‘Sīlaṃ samādhi paññā ca, yassa ete subhāvitā;"
+    },
+    {
+      "id": "s0504m:539",
+      "pali": "Atikkamma māradheyyaṃ, ādiccova virocatī’’ti."
+    },
+    {
+      "id": "s0504m:540",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:541",
+      "pali": "Paṭhamo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:542",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:543",
+      "pali": "Mūladhātu atha vedanā duve, esanā ca duve āsavā duve;"
+    },
+    {
+      "id": "s0504m:544",
+      "pali": "Taṇhāto ca atha māradheyyato, vaggamāhu paṭhamanti muttamanti."
+    },
+    {
+      "id": "s0504m:545",
+      "pali": "2. Dutiyavaggo"
+    },
+    {
+      "id": "s0504m:546",
+      "pali": "1. Puññakiriyavatthusuttaṃ"
+    },
+    {
+      "id": "s0504m:547",
+      "pali": "60 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:548",
+      "pali": "‘‘Tīṇimāni, bhikkhave, puññakiriyavatthūni. Katamāni tīṇi? Dānamayaṃ puññakiriyavatthu, sīlamayaṃ puññakiriyavatthu, bhāvanāmayaṃ puññakiriyavatthu – imāni kho, bhikkhave, tīṇi puññakiriyavatthūnī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:549",
+      "pali": "‘‘Puññameva so sikkheyya, āyataggaṃ sukhudrayaṃ;"
+    },
+    {
+      "id": "s0504m:550",
+      "pali": "Dānañca samacariyañca, mettacittañca bhāvaye."
+    },
+    {
+      "id": "s0504m:551",
+      "pali": "‘‘Ete dhamme bhāvayitvā, tayo sukhasamuddaye;"
+    },
+    {
+      "id": "s0504m:552",
+      "pali": "Abyāpajjhaṃ sukhaṃ lokaṃ, paṇḍito upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:553",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:554",
+      "pali": "2. Cakkhusuttaṃ"
+    },
+    {
+      "id": "s0504m:555",
+      "pali": "61 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:556",
+      "pali": "‘‘Tīṇimāni, bhikkhave, cakkhūni. Katamāni tīṇi? Maṃsacakkhu, dibbacakkhu, paññācakkhu – imāni kho, bhikkhave, tīṇi cakkhūnī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:557",
+      "pali": "‘‘Maṃsacakkhu dibbacakkhu, paññācakkhu anuttaraṃ;"
+    },
+    {
+      "id": "s0504m:558",
+      "pali": "Etāni tīṇi cakkhūni, akkhāsi purisuttamo."
+    },
+    {
+      "id": "s0504m:559",
+      "pali": "‘‘Maṃsacakkhussa uppādo, maggo dibbassa cakkhuno;"
+    },
+    {
+      "id": "s0504m:560",
+      "pali": "Yato ñāṇaṃ udapādi, paññācakkhu anuttaraṃ;"
+    },
+    {
+      "id": "s0504m:561",
+      "pali": "Yassa cakkhussa paṭilābhā, sabbadukkhā pamuccatī’’ti."
+    },
+    {
+      "id": "s0504m:562",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:563",
+      "pali": "3. Indriyasuttaṃ"
+    },
+    {
+      "id": "s0504m:564",
+      "pali": "62 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:565",
+      "pali": "‘‘Tīṇimāni, bhikkhave, indriyāni. Katamāni tīṇi? Anaññātaññassāmītindriyaṃ, aññindriyaṃ, aññātāvindriyaṃ – imāni kho, bhikkhave, tīṇi indriyānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:566",
+      "pali": "‘‘Sekhassa sikkhamānassa, ujumaggānusārino;"
+    },
+    {
+      "id": "s0504m:567",
+      "pali": "Khayasmiṃ paṭhamaṃ ñāṇaṃ, tato aññā anantarā."
+    },
+    {
+      "id": "s0504m:568",
+      "pali": "‘‘Tato aññā vimuttassa, ñāṇaṃ ve hoti tādino;"
+    },
+    {
+      "id": "s0504m:569",
+      "pali": "Akuppā me vimuttīti, bhavasaṃyojanakkhayā."
+    },
+    {
+      "id": "s0504m:570",
+      "pali": "‘‘Sa ve indriyasampanno, santo santipade rato;"
+    },
+    {
+      "id": "s0504m:571",
+      "pali": "Dhāreti antimaṃ dehaṃ, jetvā māraṃ savāhini’’nti."
+    },
+    {
+      "id": "s0504m:572",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:573",
+      "pali": "4. Addhāsuttaṃ"
+    },
+    {
+      "id": "s0504m:574",
+      "pali": "63 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:575",
+      "pali": "‘‘Tayome, bhikkhave, addhā. Katame tayo? Atīto addhā, anāgato addhā, paccuppanno addhā – ime kho, bhikkhave, tayo addhā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:576",
+      "pali": "‘‘Akkheyyasaññino sattā, akkheyyasmiṃ patiṭṭhitā;"
+    },
+    {
+      "id": "s0504m:577",
+      "pali": "Akkheyyaṃ apariññāya, yogamāyanti maccuno."
+    },
+    {
+      "id": "s0504m:578",
+      "pali": "‘‘Akkheyyañca pariññāya, akkhātāraṃ na maññati;"
+    },
+    {
+      "id": "s0504m:579",
+      "pali": "Phuṭṭho vimokkho manasā, santipadamanuttaraṃ."
+    },
+    {
+      "id": "s0504m:580",
+      "pali": "‘‘Sa ve akkheyyasampanno, santo santipade rato;"
+    },
+    {
+      "id": "s0504m:581",
+      "pali": "Saṅkhāyasevī dhammaṭṭho, saṅkhyaṃ nopeti vedagū’’ti."
+    },
+    {
+      "id": "s0504m:582",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:583",
+      "pali": "5. Duccaritasuttaṃ"
+    },
+    {
+      "id": "s0504m:584",
+      "pali": "64 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:585",
+      "pali": "‘‘Tīṇimāni, bhikkhave, duccaritāni. Katamāni tīṇi? Kāyaduccaritaṃ, vacīduccaritaṃ, manoduccaritaṃ – imāni kho, bhikkhave, tīṇi duccaritānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:586",
+      "pali": "‘‘Kāyaduccaritaṃ katvā, vacīduccaritāni ca;"
+    },
+    {
+      "id": "s0504m:587",
+      "pali": "Manoduccaritaṃ katvā, yañcaññaṃ dosasaṃhitaṃ."
+    },
+    {
+      "id": "s0504m:588",
+      "pali": "‘‘Akatvā kusalaṃ kammaṃ, katvānākusalaṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:589",
+      "pali": "Kāyassa bhedā duppañño, nirayaṃ sopapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:590",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:591",
+      "pali": "6. Sucaritasuttaṃ"
+    },
+    {
+      "id": "s0504m:592",
+      "pali": "65 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:593",
+      "pali": "‘‘Tīṇimāni, bhikkhave, sucaritāni. Katamāni tīṇi? Kāyasucaritaṃ, vacīsucaritaṃ, manosucaritaṃ – imāni kho, bhikkhave, tīṇi sucaritānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:594",
+      "pali": "‘‘Kāyaduccaritaṃ hitvā, vacīduccaritāni ca;"
+    },
+    {
+      "id": "s0504m:595",
+      "pali": "Manoduccaritaṃ hitvā, yañcaññaṃ dosasaṃhitaṃ."
+    },
+    {
+      "id": "s0504m:596",
+      "pali": "‘‘Akatvākusalaṃ kammaṃ, katvāna kusalaṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:597",
+      "pali": "Kāyassa bhedā sappañño, saggaṃ so upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:598",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:599",
+      "pali": "7. Soceyyasuttaṃ"
+    },
+    {
+      "id": "s0504m:600",
+      "pali": "66 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:601",
+      "pali": "‘‘Tīṇimāni, bhikkhave, soceyyāni. Katamāni tīṇi? Kāyasoceyyaṃ, vacīsoceyyaṃ, manosoceyyaṃ – imāni kho, bhikkhave, tīṇi soceyyānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:602",
+      "pali": "‘‘Kāyasuciṃ vacīsuciṃ , cetosucimanāsavaṃ;"
+    },
+    {
+      "id": "s0504m:603",
+      "pali": "Suciṃ soceyyasampannaṃ, āhu sabbappahāyina’’nti ."
+    },
+    {
+      "id": "s0504m:604",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:605",
+      "pali": "8. Moneyyasuttaṃ"
+    },
+    {
+      "id": "s0504m:606",
+      "pali": "67 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:607",
+      "pali": "‘‘Tīṇimāni, bhikkhave, moneyyāni. Katamāni tīṇi? Kāyamoneyyaṃ, vacīmoneyyaṃ, manomoneyyaṃ – imāni kho, bhikkhave, tīṇi moneyyānī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:608",
+      "pali": "‘‘Kāyamuniṃ vacīmuniṃ, manomunimanāsavaṃ;"
+    },
+    {
+      "id": "s0504m:609",
+      "pali": "Muniṃ moneyyasampannaṃ, āhu ninhātapāpaka’’nti ."
+    },
+    {
+      "id": "s0504m:610",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:611",
+      "pali": "9. Paṭhamarāgasuttaṃ"
+    },
+    {
+      "id": "s0504m:612",
+      "pali": "68 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:613",
+      "pali": "‘‘Yassa kassaci, bhikkhave, rāgo appahīno, doso appahīno, moho appahīno – ayaṃ vuccati, bhikkhave, ‘baddho mārassa paṭimukkassa mārapāso yathākāmakaraṇīyo pāpimato’. Yassa kassaci, bhikkhave, rāgo pahīno, doso pahīno, moho pahīno – ayaṃ vuccati, bhikkhave, ‘abaddho mārassa omukkassa mārapāso na yathā kāmakaraṇīyo pāpimato’’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:614",
+      "pali": "‘‘Yassa rāgo ca doso ca, avijjā ca virājitā;"
+    },
+    {
+      "id": "s0504m:615",
+      "pali": "Taṃ bhāvitattaññataraṃ, brahmabhūtaṃ tathāgataṃ;"
+    },
+    {
+      "id": "s0504m:616",
+      "pali": "Buddhaṃ verabhayātītaṃ, āhu sabbappahāyina’’nti."
+    },
+    {
+      "id": "s0504m:617",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:618",
+      "pali": "10. Dutiyarāgasuttaṃ"
+    },
+    {
+      "id": "s0504m:619",
+      "pali": "69 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:620",
+      "pali": "‘‘Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā rāgo appahīno, doso appahīno, moho appahīno – ayaṃ vuccati, bhikkhave, na ‘atari samuddaṃ saūmiṃ savīciṃ sāvaṭṭaṃ sagahaṃ sarakkhasaṃ’. Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā rāgo pahīno, doso pahīno, moho pahīno – ayaṃ vuccati, bhikkhave, ‘atari samuddaṃ saūmiṃ savīciṃ sāvaṭṭaṃ sagahaṃ sarakkhasaṃ, tiṇṇo pāraṅgato thale tiṭṭhati brāhmaṇo’’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:621",
+      "pali": "‘‘Yassa rāgo ca doso ca, avijjā ca virājitā;"
+    },
+    {
+      "id": "s0504m:622",
+      "pali": "Somaṃ samuddaṃ sagahaṃ sarakkhasaṃ, saūmibhayaṃ duttaraṃ accatāri."
+    },
+    {
+      "id": "s0504m:623",
+      "pali": "‘‘Saṅgātigo maccujaho nirūpadhi, pahāsi dukkhaṃ apunabbhavāya;"
+    },
+    {
+      "id": "s0504m:624",
+      "pali": "Atthaṅgato so na pamāṇameti, amohayi maccurājanti brūmī’’ti."
+    },
+    {
+      "id": "s0504m:625",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:626",
+      "pali": "Dutiyo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:627",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:628",
+      "pali": "Puññaṃ cakkhu atha indriyāni , addhā ca caritaṃ duve soci ;"
+    },
+    {
+      "id": "s0504m:629",
+      "pali": "Muno atha rāgaduve, puna vaggamāhu dutiyamuttamanti."
+    },
+    {
+      "id": "s0504m:630",
+      "pali": "3. Tatiyavaggo"
+    },
+    {
+      "id": "s0504m:631",
+      "pali": "1. Micchādiṭṭhikasuttaṃ"
+    },
+    {
+      "id": "s0504m:632",
+      "pali": "70 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:633",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā ariyānaṃ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:634",
+      "pali": "‘‘Taṃ kho panāhaṃ, bhikkhave, nāññassa samaṇassa vā brāhmaṇassa vā sutvā vadāmi. Diṭṭhā mayā, bhikkhave, sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā ariyānaṃ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā. Api ca, bhikkhave, yadeva sāmaṃ ñātaṃ sāmaṃ diṭṭhaṃ sāmaṃ viditaṃ tadevāhaṃ vadāmi."
+    },
+    {
+      "id": "s0504m:635",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā ariyānaṃ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:636",
+      "pali": "‘‘Micchā manaṃ paṇidhāya, micchā vācañca bhāsiya ;"
+    },
+    {
+      "id": "s0504m:637",
+      "pali": "Micchā kammāni katvāna, kāyena idha puggalo."
+    },
+    {
+      "id": "s0504m:638",
+      "pali": "‘‘Appassutāpuññakaro , appasmiṃ idha jīvite;"
+    },
+    {
+      "id": "s0504m:639",
+      "pali": "Kāyassa bhedā duppañño, nirayaṃ sopapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:640",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:641",
+      "pali": "2. Sammādiṭṭhikasuttaṃ"
+    },
+    {
+      "id": "s0504m:642",
+      "pali": "71 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:643",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṃ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapannā."
+    },
+    {
+      "id": "s0504m:644",
+      "pali": "‘‘Taṃ kho panāhaṃ, bhikkhave, nāññassa samaṇassa vā brāhmaṇassa vā sutvā vadāmi. Diṭṭhā mayā , bhikkhave, sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṃ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapannā. Api ca, bhikkhave, yadeva sāmaṃ ñātaṃ sāmaṃ diṭṭhaṃ sāmaṃ viditaṃ tadevāhaṃ vadāmi."
+    },
+    {
+      "id": "s0504m:645",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṃ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapannā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:646",
+      "pali": "‘‘Sammā manaṃ paṇidhāya, sammā vācañca bhāsiya ;"
+    },
+    {
+      "id": "s0504m:647",
+      "pali": "Sammā kammāni katvāna, kāyena idha puggalo."
+    },
+    {
+      "id": "s0504m:648",
+      "pali": "‘‘Bahussuto puññakaro, appasmiṃ idha jīvite;"
+    },
+    {
+      "id": "s0504m:649",
+      "pali": "Kāyassa bhedā sappañño, saggaṃ so upapajjatī’’ti."
+    },
+    {
+      "id": "s0504m:650",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:651",
+      "pali": "3. Nissaraṇiyasuttaṃ"
+    },
+    {
+      "id": "s0504m:652",
+      "pali": "72 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:653",
+      "pali": "‘‘Tisso imā, bhikkhave, nissaraṇiyā dhātuyo. Katamā tisso? Kāmānametaṃ nissaraṇaṃ yadidaṃ nekkhammaṃ, rūpānametaṃ nissaraṇaṃ yadidaṃ āruppaṃ, yaṃ kho pana kiñci bhūtaṃ saṅkhataṃ paṭiccasamuppannaṃ nirodho tassa nissaraṇaṃ – imā kho, bhikkhave, tisso nissaraṇiyā dhātuyo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:654",
+      "pali": "‘‘Kāmanissaraṇaṃ ñatvā, rūpānañca atikkamaṃ;"
+    },
+    {
+      "id": "s0504m:655",
+      "pali": "Sabbasaṅkhārasamathaṃ, phusaṃ ātāpi sabbadā."
+    },
+    {
+      "id": "s0504m:656",
+      "pali": "‘‘Sa ve sammaddaso bhikkhu, yato tattha vimuccati;"
+    },
+    {
+      "id": "s0504m:657",
+      "pali": "Abhiññāvosito santo, sa ve yogātigo munī’’ti."
+    },
+    {
+      "id": "s0504m:658",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:659",
+      "pali": "4. Santatarasuttaṃ"
+    },
+    {
+      "id": "s0504m:660",
+      "pali": "73 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:661",
+      "pali": "‘‘Rūpehi, bhikkhave, arūpā santatarā, arūpehi nirodho santataro’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:662",
+      "pali": "‘‘Ye ca rūpūpagā sattā, ye ca arūpaṭṭhāyino ;"
+    },
+    {
+      "id": "s0504m:663",
+      "pali": "Nirodhaṃ appajānantā, āgantāro punabbhavaṃ."
+    },
+    {
+      "id": "s0504m:664",
+      "pali": "‘‘Ye ca rūpe pariññāya, arūpesu asaṇṭhitā;"
+    },
+    {
+      "id": "s0504m:665",
+      "pali": "Nirodhe ye vimuccanti, te janā maccuhāyino."
+    },
+    {
+      "id": "s0504m:666",
+      "pali": "‘‘Kāyena amataṃ dhātuṃ, phusayitvā nirūpadhiṃ;"
+    },
+    {
+      "id": "s0504m:667",
+      "pali": "Upadhippaṭinissaggaṃ, sacchikatvā anāsavo;"
+    },
+    {
+      "id": "s0504m:668",
+      "pali": "Deseti sammāsambuddho, asokaṃ virajaṃ pada’’nti."
+    },
+    {
+      "id": "s0504m:669",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:670",
+      "pali": "5. Puttasuttaṃ"
+    },
+    {
+      "id": "s0504m:671",
+      "pali": "74 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:672",
+      "pali": "‘‘Tayome, bhikkhave, puttā santo saṃvijjamānā lokasmiṃ. Katame tayo? Atijāto, anujāto, avajātoti."
+    },
+    {
+      "id": "s0504m:673",
+      "pali": "‘‘Kathañca , bhikkhave, putto atijāto hoti? Idha, bhikkhave, puttassa mātāpitaro honti na buddhaṃ saraṇaṃ gatā, na dhammaṃ saraṇaṃ gatā, na saṅghaṃ saraṇaṃ gatā; pāṇātipātā appaṭiviratā, adinnādānā appaṭiviratā, kāmesumicchācārā appaṭiviratā, musāvādā appaṭiviratā, surāmerayamajjapamādaṭṭhānā appaṭiviratā, dussīlā pāpadhammā. Putto ca nesaṃ hoti buddhaṃ saraṇaṃ gato, dhammaṃ saraṇaṃ gato, saṅghaṃ saraṇaṃ gato; pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato, sīlavā kalyāṇadhammo. Evaṃ kho, bhikkhave, putto atijāto hoti."
+    },
+    {
+      "id": "s0504m:674",
+      "pali": "‘‘Kathañca , bhikkhave, putto anujāto hoti? Idha, bhikkhave, puttassa mātāpitaro honti buddhaṃ saraṇaṃ gatā, dhammaṃ saraṇaṃ gatā, saṅghaṃ saraṇaṃ gatā; pāṇātipātā paṭiviratā, adinnādānā paṭiviratā, kāmesumicchācārā paṭiviratā, musāvādā paṭiviratā, surāmerayamajjapamādaṭṭhānā paṭiviratā, sīlavanto kalyāṇadhammā. Puttopi nesaṃ hoti buddhaṃ saraṇaṃ gato, dhammaṃ saraṇaṃ gato, saṅghaṃ saraṇaṃ gato; pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato, sīlavā kalyāṇadhammo. Evaṃ kho, bhikkhave, putto anujāto hoti."
+    },
+    {
+      "id": "s0504m:675",
+      "pali": "‘‘Kathañca , bhikkhave, putto avajāto hoti? Idha, bhikkhave, puttassa mātāpitaro honti buddhaṃ saraṇaṃ gatā, dhammaṃ saraṇaṃ gatā, saṅghaṃ saraṇaṃ gatā; pāṇātipātā paṭiviratā, adinnādānā paṭiviratā, kāmesumicchācārā paṭiviratā, musāvādā paṭiviratā, surāmerayamajjapamādaṭṭhānā paṭiviratā, sīlavanto kalyāṇadhammā. Putto ca nesaṃ hoti na buddhaṃ saraṇaṃ gato, na dhammaṃ saraṇaṃ gato, na saṅghaṃ saraṇaṃ gato; pāṇātipātā appaṭivirato, adinnādānā appaṭivirato, kāmesumicchācārā appaṭivirato, musāvādā appaṭivirato, surāmerayamajjapamādaṭṭhānā appaṭivirato, dussīlo pāpadhammo. Evaṃ kho, bhikkhave, putto avajāto hoti. Ime kho, bhikkhave, tayo puttā santo saṃvijjamānā lokasmi’’nti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:676",
+      "pali": "‘‘Atijātaṃ anujātaṃ, puttamicchanti paṇḍitā;"
+    },
+    {
+      "id": "s0504m:677",
+      "pali": "Avajātaṃ na icchanti, yo hoti kulagandhano."
+    },
+    {
+      "id": "s0504m:678",
+      "pali": "‘‘Ete kho puttā lokasmiṃ, ye bhavanti upāsakā;"
+    },
+    {
+      "id": "s0504m:679",
+      "pali": "Saddhā sīlena sampannā, vadaññū vītamaccharā;"
+    },
+    {
+      "id": "s0504m:680",
+      "pali": "Cando abbhaghanā mutto, parisāsu virocare’’ti."
+    },
+    {
+      "id": "s0504m:681",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:682",
+      "pali": "6. Avuṭṭhikasuttaṃ"
+    },
+    {
+      "id": "s0504m:683",
+      "pali": "75 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:684",
+      "pali": "‘‘Tayome, bhikkhave, puggalā santo saṃvijjamānā lokasmiṃ. Katame tayo? Avuṭṭhikasamo , padesavassī, sabbatthābhivassī."
+    },
+    {
+      "id": "s0504m:685",
+      "pali": "‘‘Kathañca , bhikkhave, puggalo avuṭṭhikasamo hoti? Idha, bhikkhave, ekacco puggalo sabbesaññeva na dātā hoti, samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṃ annaṃ pānaṃ vatthaṃ yānaṃ mālāgandhavilepanaṃ seyyāvasathapadīpeyyaṃ. Evaṃ kho, bhikkhave, puggalo avuṭṭhikasamo hoti."
+    },
+    {
+      "id": "s0504m:686",
+      "pali": "‘‘Kathañca, bhikkhave, puggalo padesavassī hoti? Idha, bhikkhave, ekacco puggalo ekaccānaṃ dātā (hoti) , ekaccānaṃ na dātā hoti samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṃ annaṃ pānaṃ vatthaṃ yānaṃ mālāgandhavilepanaṃ seyyāvasathapadīpeyyaṃ. Evaṃ kho, bhikkhave, puggalo padesavassī hoti."
+    },
+    {
+      "id": "s0504m:687",
+      "pali": "‘‘Kathañca, bhikkhave, puggalo sabbatthābhivassī hoti? Idha, bhikkhave, ekacco puggalo sabbesaṃva deti, samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṃ annaṃ pānaṃ vatthaṃ yānaṃ mālāgandhavilepanaṃ seyyāvasathapadīpeyyaṃ. Evaṃ kho, bhikkhave, puggalo sabbatthābhivassī hoti. Ime kho, bhikkhave, tayo puggalā santo saṃvijjamānā lokasmi’’nti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:688",
+      "pali": "‘‘Na samaṇe na brāhmaṇe, na kapaṇaddhikavanibbake;"
+    },
+    {
+      "id": "s0504m:689",
+      "pali": "Laddhāna saṃvibhājeti, annaṃ pānañca bhojanaṃ;"
+    },
+    {
+      "id": "s0504m:690",
+      "pali": "Taṃ ve avuṭṭhikasamoti, āhu naṃ purisādhamaṃ."
+    },
+    {
+      "id": "s0504m:691",
+      "pali": "‘‘Ekaccānaṃ na dadāti, ekaccānaṃ pavecchati;"
+    },
+    {
+      "id": "s0504m:692",
+      "pali": "Taṃ ve padesavassīti, āhu medhāvino janā."
+    },
+    {
+      "id": "s0504m:693",
+      "pali": "‘‘Subhikkhavāco puriso, sabbabhūtānukampako;"
+    },
+    {
+      "id": "s0504m:694",
+      "pali": "Āmodamāno pakireti, detha dethāti bhāsati."
+    },
+    {
+      "id": "s0504m:695",
+      "pali": "‘‘Yathāpi megho thanayitvā, gajjayitvā pavassati;"
+    },
+    {
+      "id": "s0504m:696",
+      "pali": "Thalaṃ ninnañca pūreti, abhisandantova vārinā."
+    },
+    {
+      "id": "s0504m:697",
+      "pali": "‘‘Evameva idhekacco, puggalo hoti tādiso;"
+    },
+    {
+      "id": "s0504m:698",
+      "pali": "Dhammena saṃharitvāna, uṭṭhānādhigataṃ dhanaṃ;"
+    },
+    {
+      "id": "s0504m:699",
+      "pali": "Tappeti annapānena, sammā patte vanibbake’’ti."
+    },
+    {
+      "id": "s0504m:700",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:701",
+      "pali": "7. Sukhapatthanāsuttaṃ"
+    },
+    {
+      "id": "s0504m:702",
+      "pali": "76 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:703",
+      "pali": "‘‘Tīṇimāni, bhikkhave, sukhāni patthayamāno sīlaṃ rakkheyya paṇḍito. Katamāni tīṇi? Pasaṃsā me āgacchatūti sīlaṃ rakkheyya paṇḍito, bhogā me uppajjantūti sīlaṃ rakkheyya paṇḍito, kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjissāmīti sīlaṃ rakkheyya paṇḍito. Imāni kho, bhikkhave, tīṇi sukhāni patthayamāno sīlaṃ rakkheyya paṇḍito’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:704",
+      "pali": "‘‘Sīlaṃ rakkheyya medhāvī, patthayāno tayo sukhe;"
+    },
+    {
+      "id": "s0504m:705",
+      "pali": "Pasaṃsaṃ vittalābhañca, pecca sagge pamodanaṃ."
+    },
+    {
+      "id": "s0504m:706",
+      "pali": "‘‘Akarontopi ce pāpaṃ, karontamupasevati;"
+    },
+    {
+      "id": "s0504m:707",
+      "pali": "Saṅkiyo hoti pāpasmiṃ, avaṇṇo cassa rūhati."
+    },
+    {
+      "id": "s0504m:708",
+      "pali": "‘‘Yādisaṃ kurute mittaṃ, yādisaṃ cūpasevati;"
+    },
+    {
+      "id": "s0504m:709",
+      "pali": "Sa ve tādisako hoti, sahavāso hi tādiso."
+    },
+    {
+      "id": "s0504m:710",
+      "pali": "‘‘Sevamāno sevamānaṃ, samphuṭṭho samphusaṃ paraṃ;"
+    },
+    {
+      "id": "s0504m:711",
+      "pali": "Saro diddho kalāpaṃva, alittamupalimpati;"
+    },
+    {
+      "id": "s0504m:712",
+      "pali": "Upalepabhayā dhīro, neva pāpasakhā siyā."
+    },
+    {
+      "id": "s0504m:713",
+      "pali": "‘‘Pūtimacchaṃ kusaggena, yo naro upanayhati;"
+    },
+    {
+      "id": "s0504m:714",
+      "pali": "Kusāpi pūti vāyanti, evaṃ bālūpasevanā."
+    },
+    {
+      "id": "s0504m:715",
+      "pali": "‘‘Tagarañca palāsena, yo naro upanayhati;"
+    },
+    {
+      "id": "s0504m:716",
+      "pali": "Pattāpi surabhi vāyanti, evaṃ dhīrūpasevanā."
+    },
+    {
+      "id": "s0504m:717",
+      "pali": "‘‘Tasmā pattapuṭasseva , ñatvā sampākamattano;"
+    },
+    {
+      "id": "s0504m:718",
+      "pali": "Asante nupaseveyya, sante seveyya paṇḍito;"
+    },
+    {
+      "id": "s0504m:719",
+      "pali": "Asanto nirayaṃ nenti, santo pāpenti suggati’’nti."
+    },
+    {
+      "id": "s0504m:720",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:721",
+      "pali": "8. Bhidurasuttaṃ"
+    },
+    {
+      "id": "s0504m:722",
+      "pali": "77 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:723",
+      "pali": "‘‘Bhidurāyaṃ , bhikkhave, kāyo, viññāṇaṃ virāgadhammaṃ, sabbe upadhī aniccā dukkhā vipariṇāmadhammā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:724",
+      "pali": "‘‘Kāyañca bhiduraṃ ñatvā, viññāṇañca virāgunaṃ ;"
+    },
+    {
+      "id": "s0504m:725",
+      "pali": "Upadhīsu bhayaṃ disvā, jātimaraṇamaccagā;"
+    },
+    {
+      "id": "s0504m:726",
+      "pali": "Sampatvā paramaṃ santiṃ, kālaṃ kaṅkhati bhāvitatto’’ti."
+    },
+    {
+      "id": "s0504m:727",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:728",
+      "pali": "9. Dhātusosaṃsandanasuttaṃ"
+    },
+    {
+      "id": "s0504m:729",
+      "pali": "78 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:730",
+      "pali": "‘‘Dhātuso, bhikkhave, sattā sattehi saddhiṃ saṃsandanti samenti. Hīnādhimuttikā sattā hīnādhimuttikehi sattehi saddhiṃ saṃsandanti samenti, kalyāṇādhimuttikā sattā kalyāṇādhimuttikehi sattehi saddhiṃ saṃsandanti samenti."
+    },
+    {
+      "id": "s0504m:731",
+      "pali": "‘‘Atītampi, bhikkhave, addhānaṃ dhātusova sattā sattehi saddhiṃ saṃsandiṃsu samiṃsu. Hīnādhimuttikā sattā hīnādhimuttikehi sattehi saddhiṃ saṃsandiṃsu samiṃsu, kalyāṇādhimuttikā sattā kalyāṇādhimuttikehi sattehi saddhiṃ saṃsandiṃsu samiṃsu."
+    },
+    {
+      "id": "s0504m:732",
+      "pali": "‘‘Anāgatampi , bhikkhave, addhānaṃ dhātusova sattā sattehi saddhiṃ saṃsandissanti samessanti. Hīnādhimuttikā sattā hīnādhimuttikehi sattehi saddhiṃ saṃsandissanti samessanti, kalyāṇādhimuttikā sattā kalyāṇādhimuttikehi sattehi saddhiṃ saṃsandissanti samessanti."
+    },
+    {
+      "id": "s0504m:733",
+      "pali": "‘‘Etarahipi, bhikkhave, paccuppanaṃ addhānaṃ dhātusova sattā sattehi saddhiṃ saṃsandanti samenti. Hīnādhimuttikā sattā hīnādhimuttikehi sattehi saddhiṃ saṃsandanti samenti, kalyāṇādhimuttikā sattā kalyāṇādhimuttikehi sattehi saddhiṃ saṃsandanti samentī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:734",
+      "pali": "‘‘Saṃsaggā vanatho jāto, asaṃsaggena chijjati;"
+    },
+    {
+      "id": "s0504m:735",
+      "pali": "Parittaṃ dārumāruyha, yathā sīde mahaṇṇave."
+    },
+    {
+      "id": "s0504m:736",
+      "pali": "‘‘Evaṃ kusītamāgamma, sādhujīvīpi sīdati;"
+    },
+    {
+      "id": "s0504m:737",
+      "pali": "Tasmā taṃ parivajjeyya, kusītaṃ hīnavīriyaṃ."
+    },
+    {
+      "id": "s0504m:738",
+      "pali": "‘‘Pavivittehi ariyehi, pahitattehi jhāyibhi;"
+    },
+    {
+      "id": "s0504m:739",
+      "pali": "Niccaṃ āraddhavīriyehi, paṇḍitehi sahāvase’’ti."
+    },
+    {
+      "id": "s0504m:740",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:741",
+      "pali": "10. Parihānasuttaṃ"
+    },
+    {
+      "id": "s0504m:742",
+      "pali": "79 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:743",
+      "pali": "‘‘Tayome, bhikkhave, dhammā sekhassa bhikkhuno parihānāya saṃvattanti. Katame tayo? Idha, bhikkhave, sekho bhikkhu kammārāmo hoti, kammarato, kammārāmatamanuyutto; bhassārāmo hoti, bhassarato, bhassārāmatamanuyutto; niddārāmo hoti, niddārato, niddārāmatamanuyutto. Ime kho, bhikkhave, tayo dhammā sekhassa bhikkhuno parihānāya saṃvattanti."
+    },
+    {
+      "id": "s0504m:744",
+      "pali": "‘‘Tayome, bhikkhave, dhammā sekhassa bhikkhuno aparihānāya saṃvattanti. Katame tayo? Idha, bhikkhave, sekho bhikkhu na kammārāmo hoti, na kammarato, na kammārāmatamanuyutto; na bhassārāmo hoti, na bhassarato, na bhassārāmatamanuyutto; na niddārāmo hoti, na niddārato , na niddārāmatamanuyutto. Ime kho, bhikkhave, tayo dhammā sekhassa bhikkhuno aparihānāya saṃvattantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:745",
+      "pali": "‘‘Kammārāmo bhassārāmo , niddārāmo ca uddhato;"
+    },
+    {
+      "id": "s0504m:746",
+      "pali": "Abhabbo tādiso bhikkhu, phuṭṭhuṃ sambodhimuttamaṃ."
+    },
+    {
+      "id": "s0504m:747",
+      "pali": "‘‘Tasmā hi appakiccassa, appamiddho anuddhato;"
+    },
+    {
+      "id": "s0504m:748",
+      "pali": "Bhabbo so tādiso bhikkhu, phuṭṭhuṃ sambodhimuttama’’nti."
+    },
+    {
+      "id": "s0504m:749",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:750",
+      "pali": "Tatiyo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:751",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:752",
+      "pali": "Dve diṭṭhī nissaraṇaṃ rūpaṃ, putto avuṭṭhikena ca;"
+    },
+    {
+      "id": "s0504m:753",
+      "pali": "Sukhā ca bhiduro dhātu, parihānena te dasāti."
+    },
+    {
+      "id": "s0504m:754",
+      "pali": "4. Catutthavaggo"
+    },
+    {
+      "id": "s0504m:755",
+      "pali": "1. Vitakkasuttaṃ"
+    },
+    {
+      "id": "s0504m:756",
+      "pali": "80 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:757",
+      "pali": "‘‘Tayome, bhikkhave, akusalavitakkā. Katame tayo? Anavaññattipaṭisaṃyutto vitakko, lābhasakkārasilokapaṭisaṃyutto vitakko, parānuddayatāpaṭisaṃyutto vitakko. Ime kho, bhikkhave, tayo akusalavitakkā’’ti . Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:758",
+      "pali": "‘‘Anavaññattisaṃyutto, lābhasakkāragāravo;"
+    },
+    {
+      "id": "s0504m:759",
+      "pali": "Sahanandī amaccehi, ārā saṃyojanakkhayā."
+    },
+    {
+      "id": "s0504m:760",
+      "pali": "‘‘Yo ca puttapasuṃ hitvā, vivāhe saṃharāni ca;"
+    },
+    {
+      "id": "s0504m:761",
+      "pali": "Bhabbo so tādiso bhikkhu, phuṭṭhuṃ sambodhimuttama’’nti."
+    },
+    {
+      "id": "s0504m:762",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:763",
+      "pali": "2. Sakkārasuttaṃ"
+    },
+    {
+      "id": "s0504m:764",
+      "pali": "81 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:765",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā sakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:766",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā asakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:767",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā sakkārena ca asakkārena ca tadubhayena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:768",
+      "pali": "‘‘Taṃ kho panāhaṃ, bhikkhave, nāññassa samaṇassa vā brāhmaṇassa vā sutvā vadāmi; ( ) api ca, bhikkhave, yadeva me sāmaṃ ñātaṃ sāmaṃ diṭṭhaṃ sāmaṃ viditaṃ tamevāhaṃ vadāmi."
+    },
+    {
+      "id": "s0504m:769",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā sakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:770",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā asakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā."
+    },
+    {
+      "id": "s0504m:771",
+      "pali": "‘‘Diṭṭhā mayā, bhikkhave, sattā sakkārena ca asakkārena ca tadubhayena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:772",
+      "pali": "‘‘Yassa sakkariyamānassa, asakkārena cūbhayaṃ;"
+    },
+    {
+      "id": "s0504m:773",
+      "pali": "Samādhi na vikampati, appamādavihārino ."
+    },
+    {
+      "id": "s0504m:774",
+      "pali": "‘‘Taṃ jhāyinaṃ sātatikaṃ, sukhumaṃ diṭṭhivipassakaṃ ;"
+    },
+    {
+      "id": "s0504m:775",
+      "pali": "Upādānakkhayārāmaṃ, āhu sappuriso itī’’ti."
+    },
+    {
+      "id": "s0504m:776",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:777",
+      "pali": "3. Devasaddasuttaṃ"
+    },
+    {
+      "id": "s0504m:778",
+      "pali": "82 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:779",
+      "pali": "‘‘Tayome, bhikkhave, devesu devasaddā niccharanti samayā samayaṃ upādāya. Katame tayo? Yasmiṃ, bhikkhave, samaye ariyasāvako kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajjāya ceteti, tasmiṃ samaye devesu devasaddo niccharati – ‘eso ariyasāvako mārena saddhiṃ saṅgāmāya cetetī’ti. Ayaṃ, bhikkhave, paṭhamo devesu devasaddo niccharati samayā samayaṃ upādāya."
+    },
+    {
+      "id": "s0504m:780",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, yasmiṃ samaye ariyasāvako sattannaṃ bodhipakkhiyānaṃ dhammānaṃ bhāvanānuyogamanuyutto viharati, tasmiṃ samaye devesu devasaddo niccharati – ‘eso ariyasāvako mārena saddhiṃ saṅgāmetī’ti. Ayaṃ, bhikkhave, dutiyo devesu devasaddo niccharati samayā samayaṃ upādāya."
+    },
+    {
+      "id": "s0504m:781",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, yasmiṃ samaye ariyasāvako āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharati, tasmiṃ samaye devesu devasaddo niccharati – ‘eso ariyasāvako vijitasaṅgāmo tameva saṅgāmasīsaṃ abhivijiya ajjhāvasatī’ti. Ayaṃ, bhikkhave, tatiyo devesu devasaddo niccharati samayā samayaṃ upādāya. Ime kho, bhikkhave, tayo devesu devasaddā niccharanti samayā samayaṃ upādāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:782",
+      "pali": "‘‘Disvā vijitasaṅgāmaṃ, sammāsambuddhasāvakaṃ;"
+    },
+    {
+      "id": "s0504m:783",
+      "pali": "Devatāpi namassanti, mahantaṃ vītasāradaṃ."
+    },
+    {
+      "id": "s0504m:784",
+      "pali": "‘‘Namo te purisājañña, yo tvaṃ dujjayamajjhabhū;"
+    },
+    {
+      "id": "s0504m:785",
+      "pali": "Jetvāna maccuno senaṃ, vimokkhena anāvaraṃ."
+    },
+    {
+      "id": "s0504m:786",
+      "pali": "‘‘Iti hetaṃ namassanti, devatā pattamānasaṃ;"
+    },
+    {
+      "id": "s0504m:787",
+      "pali": "Tañhi tassa na passanti, yena maccuvasaṃ vaje’’ti."
+    },
+    {
+      "id": "s0504m:788",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:789",
+      "pali": "4. Pañcapubbanimittasuttaṃ"
+    },
+    {
+      "id": "s0504m:790",
+      "pali": "83 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:791",
+      "pali": "‘‘Yadā, bhikkhave, devo devakāyā cavanadhammo hoti, pañcassa pubbanimittāni pātubhavanti – mālā milāyanti, vatthāni kilissanti, kacchehi sedā muccanti, kāye dubbaṇṇiyaṃ okkamati, sake devo devāsane nābhiramatīti. Tamenaṃ, bhikkhave, devā ‘cavanadhammo ayaṃ devaputto’ti iti viditvā tīhi vācāhi anumodenti – ‘ito, bho, sugatiṃ gaccha, sugatiṃ gantvā suladdhalābhaṃ labha, suladdhalābhaṃ labhitvā suppatiṭṭhito bhavāhī’’’ti."
+    },
+    {
+      "id": "s0504m:792",
+      "pali": "Evaṃ vutte, aññataro bhikkhu bhagavantaṃ etadavoca – ‘‘kinnu kho, bhante, devānaṃ sugatigamanasaṅkhātaṃ; kiñca, bhante, devānaṃ suladdhalābhasaṅkhātaṃ ; kiṃ pana, bhante, devānaṃ suppatiṭṭhitasaṅkhāta’’nti?"
+    },
+    {
+      "id": "s0504m:793",
+      "pali": "‘‘Manussattaṃ kho, bhikkhu , devānaṃ sugatigamanasaṅkhātaṃ; yaṃ manussabhūto samāno tathāgatappavedite dhammavinaye saddhaṃ paṭilabhati. Idaṃ kho, bhikkhu , devānaṃ suladdhalābhasaṅkhātaṃ; sā kho panassa saddhā niviṭṭhā hoti mūlajātā patiṭṭhitā daḷhā asaṃhāriyā samaṇena vā brāhmaṇena vā devena vā mārena vā brahmunā vā kenaci vā lokasmiṃ. Idaṃ kho, bhikkhu , devānaṃ suppatiṭṭhitasaṅkhāta’’nti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:794",
+      "pali": "‘‘Yadā devo devakāyā, cavati āyusaṅkhayā;"
+    },
+    {
+      "id": "s0504m:795",
+      "pali": "Tayo saddā niccharanti, devānaṃ anumodataṃ."
+    },
+    {
+      "id": "s0504m:796",
+      "pali": "‘‘‘Ito bho sugatiṃ gaccha, manussānaṃ sahabyataṃ;"
+    },
+    {
+      "id": "s0504m:797",
+      "pali": "Manussabhūto saddhamme, labha saddhaṃ anuttaraṃ."
+    },
+    {
+      "id": "s0504m:798",
+      "pali": "‘‘‘Sā te saddhā niviṭṭhassa, mūlajātā patiṭṭhitā;"
+    },
+    {
+      "id": "s0504m:799",
+      "pali": "Yāvajīvaṃ asaṃhīrā, saddhamme suppavedite."
+    },
+    {
+      "id": "s0504m:800",
+      "pali": "‘‘‘Kāyaduccaritaṃ hitvā, vacīduccaritāni ca;"
+    },
+    {
+      "id": "s0504m:801",
+      "pali": "Manoduccaritaṃ hitvā, yañcaññaṃ dosasañhitaṃ."
+    },
+    {
+      "id": "s0504m:802",
+      "pali": "‘‘‘Kāyena kusalaṃ katvā, vācāya kusalaṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:803",
+      "pali": "Manasā kusalaṃ katvā, appamāṇaṃ nirūpadhiṃ."
+    },
+    {
+      "id": "s0504m:804",
+      "pali": "‘‘‘Tato opadhikaṃ puññaṃ, katvā dānena taṃ bahuṃ;"
+    },
+    {
+      "id": "s0504m:805",
+      "pali": "Aññepi macce saddhamme, brahmacariye nivesaya’ ."
+    },
+    {
+      "id": "s0504m:806",
+      "pali": "‘‘Imāya anukampāya, devā devaṃ yadā vidū;"
+    },
+    {
+      "id": "s0504m:807",
+      "pali": "Cavantaṃ anumodenti, ehi deva punappuna’’nti."
+    },
+    {
+      "id": "s0504m:808",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:809",
+      "pali": "5. Bahujanahitasuttaṃ"
+    },
+    {
+      "id": "s0504m:810",
+      "pali": "84 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:811",
+      "pali": "‘‘Tayome puggalā loke uppajjamānā uppajjanti bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ. Katame tayo? Idha, bhikkhave, tathāgato loke uppajjati arahaṃ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṃ buddho bhagavā. So dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Ayaṃ, bhikkhave, paṭhamo puggalo loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ."
+    },
+    {
+      "id": "s0504m:812",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, tasseva satthu sāvako arahaṃ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṃyojano sammadaññā vimutto. So dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Ayaṃ, bhikkhave, dutiyo puggalo loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ."
+    },
+    {
+      "id": "s0504m:813",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, tasseva satthu sāvako sekho hoti pāṭipado bahussuto sīlavatūpapanno. Sopi dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Ayaṃ, bhikkhave, tatiyo puggalo loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ. Ime kho, bhikkhave, tayo puggalā loke uppajjamānā uppajjanti bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussāna’’nti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:814",
+      "pali": "‘‘Satthā hi loke paṭhamo mahesi, tassanvayo sāvako bhāvitatto;"
+    },
+    {
+      "id": "s0504m:815",
+      "pali": "Athāparo pāṭipadopi sekho, bahussuto sīlavatūpapanno."
+    },
+    {
+      "id": "s0504m:816",
+      "pali": "‘‘Ete tayo devamanussaseṭṭhā, pabhaṅkarā dhammamudīrayantā;"
+    },
+    {
+      "id": "s0504m:817",
+      "pali": "Apāpuranti amatassa dvāraṃ, yogā pamocenti hujjanaṃ te."
+    },
+    {
+      "id": "s0504m:818",
+      "pali": "‘‘Ye satthavāhena anuttarena, sudesitaṃ maggamanukkamanti ;"
+    },
+    {
+      "id": "s0504m:819",
+      "pali": "Idheva dukkhassa karonti antaṃ, ye appamattā sugatassa sāsane’’ti."
+    },
+    {
+      "id": "s0504m:820",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:821",
+      "pali": "6. Asubhānupassīsuttaṃ"
+    },
+    {
+      "id": "s0504m:822",
+      "pali": "85 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:823",
+      "pali": "‘‘Asubhānupassī, bhikkhave, kāyasmiṃ viharatha; ānāpānassati ca vo ajjhattaṃ parimukhaṃ sūpaṭṭhitā hotu; sabbasaṅkhāresu aniccānupassino viharatha. Asubhānupassīnaṃ, bhikkhave, kāyasmiṃ viharataṃ yo subhāya dhātuyā rāgānusayo so pahīyati . Ānāpānassatiyā ajjhattaṃ parimukhaṃ sūpaṭṭhititāya ye bāhirā vitakkāsayā vighātapakkhikā, te na honti. Sabbasaṅkhāresu aniccānupassīnaṃ viharataṃ yā avijjā sā pahīyati, yā vijjā sā uppajjatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:824",
+      "pali": "‘‘Asubhānupassī kāyasmiṃ, ānāpāne paṭissato;"
+    },
+    {
+      "id": "s0504m:825",
+      "pali": "Sabbasaṅkhārasamathaṃ, passaṃ ātāpi sabbadā."
+    },
+    {
+      "id": "s0504m:826",
+      "pali": "‘‘Sa ve sammaddaso bhikkhu, yato tattha vimuccati;"
+    },
+    {
+      "id": "s0504m:827",
+      "pali": "Abhiññāvosito santo, sa ve yogātigo munī’’ti."
+    },
+    {
+      "id": "s0504m:828",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:829",
+      "pali": "7. Dhammānudhammapaṭipannasuttaṃ"
+    },
+    {
+      "id": "s0504m:830",
+      "pali": "86 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:831",
+      "pali": "‘‘Dhammānudhammapaṭipannassa bhikkhuno ayamanudhammo hoti veyyākaraṇāya – dhammānudhammapaṭipannoyanti bhāsamāno dhammaññeva bhāsati no adhammaṃ, vitakkayamāno vā dhammavitakkaññeva vitakketi no adhammavitakkaṃ, tadubhayaṃ vā pana abhinivejjetvā upekkhako viharati sato sampajāno’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:832",
+      "pali": "‘‘Dhammārāmo dhammarato, dhammaṃ anuvicintayaṃ;"
+    },
+    {
+      "id": "s0504m:833",
+      "pali": "Dhammaṃ anussaraṃ bhikkhu, saddhammā na parihāyati."
+    },
+    {
+      "id": "s0504m:834",
+      "pali": "‘‘Caraṃ vā yadi vā tiṭṭhaṃ, nisinno uda vā sayaṃ;"
+    },
+    {
+      "id": "s0504m:835",
+      "pali": "Ajjhattaṃ samayaṃ cittaṃ, santimevādhigacchatī’’ti."
+    },
+    {
+      "id": "s0504m:836",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:837",
+      "pali": "8. Andhakaraṇasuttaṃ"
+    },
+    {
+      "id": "s0504m:838",
+      "pali": "87 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:839",
+      "pali": "‘‘Tayome , bhikkhave, akusalavitakkā andhakaraṇā acakkhukaraṇā aññāṇakaraṇā paññānirodhikā vighātapakkhikā anibbānasaṃvattanikā . Katame tayo? Kāmavitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṃvattaniko. Byāpādavitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṃvattaniko. Vihiṃsāvitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṃvattaniko. Ime kho, bhikkhave, tayo akusalavitakkā andhakaraṇā acakkhukaraṇā aññāṇakaraṇā paññānirodhikā vighātapakkhikā anibbānasaṃvattanikā."
+    },
+    {
+      "id": "s0504m:840",
+      "pali": "‘‘Tayome, bhikkhave, kusalavitakkā anandhakaraṇā cakkhukaraṇā ñāṇakaraṇā paññāvuddhikā avighātapakkhikā nibbānasaṃvattanikā. Katame tayo? Nekkhammavitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṃvattaniko. Abyāpādavitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṃvattaniko. Avihiṃsāvitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṃvattaniko. Ime kho, bhikkhave, tayo kusalavitakkā anandhakaraṇā cakkhukaraṇā ñāṇakaraṇā paññāvuddhikā avighātapakkhikā nibbānasaṃvattanikā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:841",
+      "pali": "‘‘Tayo vitakke kusale vitakkaye, tayo pana akusale nirākare;"
+    },
+    {
+      "id": "s0504m:842",
+      "pali": "Sa ve vitakkāni vicāritāni, sameti vuṭṭhīva rajaṃ samūhataṃ;"
+    },
+    {
+      "id": "s0504m:843",
+      "pali": "Sa ve vitakkūpasamena cetasā, idheva so santipadaṃ samajjhagā’’ti."
+    },
+    {
+      "id": "s0504m:844",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:845",
+      "pali": "9. Antarāmalasuttaṃ"
+    },
+    {
+      "id": "s0504m:846",
+      "pali": "88 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:847",
+      "pali": "‘‘Tayome, bhikkhave, antarāmalā antarāamittā antarāsapattā antarāvadhakā antarāpaccatthikā. Katame tayo? Lobho, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. Doso, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. Moho, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. Ime kho, bhikkhave, tayo antarāmalā antarāamittā antarāsapattā antarāvadhakā antarāpaccatthikā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:848",
+      "pali": "‘‘Anatthajanano lobho, lobho cittappakopano;"
+    },
+    {
+      "id": "s0504m:849",
+      "pali": "Bhayamantarato jātaṃ, taṃ jano nāvabujjhati."
+    },
+    {
+      "id": "s0504m:850",
+      "pali": "‘‘Luddho atthaṃ na jānāti, luddho dhammaṃ na passati;"
+    },
+    {
+      "id": "s0504m:851",
+      "pali": "Andhatamaṃ tadā hoti, yaṃ lobho sahate naraṃ."
+    },
+    {
+      "id": "s0504m:852",
+      "pali": "‘‘Yo ca lobhaṃ pahantvāna, lobhaneyye na lubbhati;"
+    },
+    {
+      "id": "s0504m:853",
+      "pali": "Lobho pahīyate tamhā, udabindūva pokkharā."
+    },
+    {
+      "id": "s0504m:854",
+      "pali": "‘‘Anatthajanano doso, doso cittappakopano;"
+    },
+    {
+      "id": "s0504m:855",
+      "pali": "Bhayamantarato jātaṃ, taṃ jano nāvabujjhati."
+    },
+    {
+      "id": "s0504m:856",
+      "pali": "‘‘Duṭṭho atthaṃ na jānāti, duṭṭho dhammaṃ na passati;"
+    },
+    {
+      "id": "s0504m:857",
+      "pali": "Andhatamaṃ tadā hoti, yaṃ doso sahate naraṃ."
+    },
+    {
+      "id": "s0504m:858",
+      "pali": "‘‘Yo ca dosaṃ pahantvāna, dosaneyye na dussati;"
+    },
+    {
+      "id": "s0504m:859",
+      "pali": "Doso pahīyate tamhā, tālapakkaṃva bandhanā."
+    },
+    {
+      "id": "s0504m:860",
+      "pali": "‘‘Anatthajanano moho, moho cittappakopano;"
+    },
+    {
+      "id": "s0504m:861",
+      "pali": "Bhayamantarato jātaṃ, taṃ jano nāvabujjhati."
+    },
+    {
+      "id": "s0504m:862",
+      "pali": "‘‘Mūḷho atthaṃ na jānāti, mūḷho dhammaṃ na passati;"
+    },
+    {
+      "id": "s0504m:863",
+      "pali": "Andhatamaṃ tadā hoti, yaṃ moho sahate naraṃ."
+    },
+    {
+      "id": "s0504m:864",
+      "pali": "‘‘Yo ca mohaṃ pahantvāna, mohaneyye na muyhati;"
+    },
+    {
+      "id": "s0504m:865",
+      "pali": "Mohaṃ vihanti so sabbaṃ, ādiccovudayaṃ tama’’nti."
+    },
+    {
+      "id": "s0504m:866",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:867",
+      "pali": "10. Devadattasuttaṃ"
+    },
+    {
+      "id": "s0504m:868",
+      "pali": "89 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:869",
+      "pali": "‘‘Tīhi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. Katamehi tīhi? Pāpicchatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. Pāpamittatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. Sati kho pana uttarikaraṇīye oramattakena visesādhigamena antarā vosānaṃ āpādi. Imehi kho, bhikkhave, tīhi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:870",
+      "pali": "‘‘Mā jātu koci lokasmiṃ, pāpiccho udapajjatha;"
+    },
+    {
+      "id": "s0504m:871",
+      "pali": "Tadamināpi jānātha, pāpicchānaṃ yathā gati."
+    },
+    {
+      "id": "s0504m:872",
+      "pali": "‘‘Paṇḍitoti samaññāto, bhāvitattoti sammato;"
+    },
+    {
+      "id": "s0504m:873",
+      "pali": "Jalaṃva yasasā aṭṭhā, devadattoti vissuto ."
+    },
+    {
+      "id": "s0504m:874",
+      "pali": "‘‘So pamāṇamanuciṇṇo , āsajja naṃ tathāgataṃ;"
+    },
+    {
+      "id": "s0504m:875",
+      "pali": "Avīcinirayaṃ patto, catudvāraṃ bhayānakaṃ."
+    },
+    {
+      "id": "s0504m:876",
+      "pali": "‘‘Aduṭṭhassa hi yo dubbhe, pāpakammaṃ akubbato;"
+    },
+    {
+      "id": "s0504m:877",
+      "pali": "Tameva pāpaṃ phusati , duṭṭhacittaṃ anādaraṃ."
+    },
+    {
+      "id": "s0504m:878",
+      "pali": "‘‘Samuddaṃ visakumbhena, yo maññeyya padūsituṃ;"
+    },
+    {
+      "id": "s0504m:879",
+      "pali": "Na so tena padūseyya, bhesmā hi udadhi mahā."
+    },
+    {
+      "id": "s0504m:880",
+      "pali": "‘‘Evameva tathāgataṃ, yo vādena vihiṃsati;"
+    },
+    {
+      "id": "s0504m:881",
+      "pali": "Sammaggataṃ santacittaṃ, vādo tamhi na rūhati."
+    },
+    {
+      "id": "s0504m:882",
+      "pali": "‘‘Tādisaṃ mittaṃ kubbetha, tañca seveyya paṇḍito;"
+    },
+    {
+      "id": "s0504m:883",
+      "pali": "Yassa maggānugo bhikkhu, khayaṃ dukkhassa pāpuṇe’’ti."
+    },
+    {
+      "id": "s0504m:884",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:885",
+      "pali": "Catuttho vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:886",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:887",
+      "pali": "Vitakkāsakkārasadda, cavanaloke asubhaṃ;"
+    },
+    {
+      "id": "s0504m:888",
+      "pali": "Dhammaandhakāramalaṃ, devadattena te dasāti."
+    },
+    {
+      "id": "s0504m:889",
+      "pali": "5. Pañcamavaggo"
+    },
+    {
+      "id": "s0504m:890",
+      "pali": "1. Aggappasādasuttaṃ"
+    },
+    {
+      "id": "s0504m:891",
+      "pali": "90 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:892",
+      "pali": "‘‘Tayome, bhikkhave, aggappasādā. Katame tayo? Yāvatā, bhikkhave, sattā apadā vā dvipadā vā catuppadā vā bahuppadā vā rūpino vā arūpino vā saññino vā asaññino vā nevasaññināsaññino vā, tathāgato tesaṃ aggamakkhāyati arahaṃ sammāsambuddho . Ye, bhikkhave, buddhe pasannā, agge te pasannā. Agge kho pana pasannānaṃ aggo vipāko hoti."
+    },
+    {
+      "id": "s0504m:893",
+      "pali": "‘‘Yāvatā, bhikkhave, dhammā saṅkhatā vā asaṅkhatā vā, virāgo tesaṃ aggamakkhāyati, yadidaṃ madanimmadano pipāsavinayo ālayasamugghāto vaṭṭupacchedo taṇhakkhayo virāgo nirodho nibbānaṃ. Ye, bhikkhave, virāge dhamme pasannā, agge te pasannā. Agge kho pana pasannānaṃ aggo vipāko hoti."
+    },
+    {
+      "id": "s0504m:894",
+      "pali": "‘‘Yāvatā , bhikkhave, saṅghā vā gaṇā vā, tathāgatasāvakasaṅgho tesaṃ aggamakkhāyati, yadidaṃ cattāri purisayugāni aṭṭha purisapuggalā esa bhagavato sāvakasaṅgho āhuneyyo pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṃ puññakkhettaṃ lokassa. Ye, bhikkhave, saṅghe pasannā, agge te pasannā. Agge kho pana pasannānaṃ aggo vipāko hoti. Ime kho, bhikkhave, tayo aggappasādā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:895",
+      "pali": "‘‘Aggato ve pasannānaṃ, aggaṃ dhammaṃ vijānataṃ;"
+    },
+    {
+      "id": "s0504m:896",
+      "pali": "Agge buddhe pasannānaṃ, dakkhiṇeyye anuttare."
+    },
+    {
+      "id": "s0504m:897",
+      "pali": "‘‘Agge dhamme pasannānaṃ, virāgūpasame sukhe;"
+    },
+    {
+      "id": "s0504m:898",
+      "pali": "Agge saṅghe pasannānaṃ, puññakkhette anuttare."
+    },
+    {
+      "id": "s0504m:899",
+      "pali": "‘‘Aggasmiṃ dānaṃ dadataṃ, aggaṃ puññaṃ pavaḍḍhati;"
+    },
+    {
+      "id": "s0504m:900",
+      "pali": "Aggaṃ āyu ca vaṇṇo ca, yaso kitti sukhaṃ balaṃ."
+    },
+    {
+      "id": "s0504m:901",
+      "pali": "‘‘Aggassa dātā medhāvī, aggadhammasamāhito;"
+    },
+    {
+      "id": "s0504m:902",
+      "pali": "Devabhūto manusso vā, aggappatto pamodatī’’ti."
+    },
+    {
+      "id": "s0504m:903",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:904",
+      "pali": "2. Jīvikasuttaṃ"
+    },
+    {
+      "id": "s0504m:905",
+      "pali": "91 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:906",
+      "pali": "‘‘Antamidaṃ, bhikkhave, jīvikānaṃ yadidaṃ piṇḍolyaṃ. Abhisāpoyaṃ , bhikkhave, lokasmiṃ – ‘piṇḍolo vicarasi pattapāṇī’ti. Tañca kho etaṃ, bhikkhave, kulaputtā upenti atthavasikā, atthavasaṃ paṭicca; neva rājābhinītā, na corābhinītā, na iṇaṭṭā, na bhayaṭṭā, na ājīvikāpakatā. Api ca kho ‘otiṇṇamhā jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi dukkhotiṇṇā dukkhaparetā , appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethā’ti. Evaṃ pabbajito cāyaṃ, bhikkhave, kulaputto so ca hoti abhijjhālu kāmesu tibbasārāgo, byāpannacitto paduṭṭhamanasaṅkappo, muṭṭhassati asampajāno asamāhito vibbhantacitto pākatindriyo. Seyyathāpi, bhikkhave, chavālātaṃ ubhatopadittaṃ majjhe gūthagataṃ neva gāme kaṭṭhatthaṃ pharati na araññeः tathūpamāhaṃ, bhikkhave, imaṃ puggalaṃ vadāmi gihibhogā parihīno sāmaññatthañca na paripūretī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:907",
+      "pali": "‘‘Gihibhogā parihīno, sāmaññatthañca dubbhago;"
+    },
+    {
+      "id": "s0504m:908",
+      "pali": "Paridhaṃsamāno pakireti, chavālātaṃva nassati."
+    },
+    {
+      "id": "s0504m:909",
+      "pali": "‘‘Kāsāvakaṇṭhā bahavo, pāpadhammā asaññatā;"
+    },
+    {
+      "id": "s0504m:910",
+      "pali": "Pāpā pāpehi kammehi, nirayaṃ te upapajjare."
+    },
+    {
+      "id": "s0504m:911",
+      "pali": "‘‘Seyyo ayoguḷo bhutto, tatto aggisikhūpamo;"
+    },
+    {
+      "id": "s0504m:912",
+      "pali": "Yañce bhuñjeyya dussīlo, raṭṭhapiṇḍamasaññato’’ti."
+    },
+    {
+      "id": "s0504m:913",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:914",
+      "pali": "3. Saṅghāṭikaṇṇasuttaṃ"
+    },
+    {
+      "id": "s0504m:915",
+      "pali": "92 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:916",
+      "pali": "‘‘Saṅghāṭikaṇṇe cepi, bhikkhave , bhikkhu gahetvā piṭṭhito piṭṭhito anubandho assa pāde pādaṃ nikkhipanto, so ca hoti abhijjhālu kāmesu tibbasārāgo byāpannacitto paduṭṭhamanasaṅkappo muṭṭhassati asampajāno asamāhito vibbhantacitto pākatindriyo; atha kho so ārakāva mayhaṃ, ahañca tassa. Taṃ kissa hetu? Dhammañhi so, bhikkhave, bhikkhu na passati. Dhammaṃ apassanto na maṃ passati ."
+    },
+    {
+      "id": "s0504m:917",
+      "pali": "‘‘Yojanasate cepi so, bhikkhave, bhikkhu vihareyya. So ca hoti anabhijjhālu kāmesu na tibbasārāgo abyāpannacitto apaduṭṭhamanasaṅkappo upaṭṭhitassati sampajāno samāhito ekaggacitto saṃvutindriyo; atha kho so santikeva mayhaṃ, ahañca tassa. Taṃ kissa hetu? Dhammaṃ hi so, bhikkhave, bhikkhu passati; dhammaṃ passanto maṃ passatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:918",
+      "pali": "‘‘Anubandhopi ce assa, mahiccho ca vighātavā;"
+    },
+    {
+      "id": "s0504m:919",
+      "pali": "Ejānugo anejassa, nibbutassa anibbuto;"
+    },
+    {
+      "id": "s0504m:920",
+      "pali": "Giddho so vītagedhassa, passa yāvañca ārakā."
+    },
+    {
+      "id": "s0504m:921",
+      "pali": "‘‘Yo ca dhammamabhiññāya, dhammamaññāya paṇḍito;"
+    },
+    {
+      "id": "s0504m:922",
+      "pali": "Rahadova nivāte ca, anejo vūpasammati."
+    },
+    {
+      "id": "s0504m:923",
+      "pali": "‘‘Anejo so anejassa, nibbutassa ca nibbuto;"
+    },
+    {
+      "id": "s0504m:924",
+      "pali": "Agiddho vītagedhassa, passa yāvañca santike’’ti."
+    },
+    {
+      "id": "s0504m:925",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:926",
+      "pali": "4. Aggisuttaṃ"
+    },
+    {
+      "id": "s0504m:927",
+      "pali": "93 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:928",
+      "pali": "‘‘Tayome, bhikkhave, aggī. Katame tayo? Rāgaggi, dosaggi, mohaggi – ime kho, bhikkhave, tayo aggī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:929",
+      "pali": "‘‘Rāgaggi dahati macce, ratte kāmesu mucchite;"
+    },
+    {
+      "id": "s0504m:930",
+      "pali": "Dosaggi pana byāpanne, nare pāṇātipātino."
+    },
+    {
+      "id": "s0504m:931",
+      "pali": "‘‘Mohaggi pana sammūḷhe, ariyadhamme akovide;"
+    },
+    {
+      "id": "s0504m:932",
+      "pali": "Ete aggī ajānantā, sakkāyābhiratā pajā."
+    },
+    {
+      "id": "s0504m:933",
+      "pali": "‘‘Te vaḍḍhayanti nirayaṃ, tiracchānañca yoniyo;"
+    },
+    {
+      "id": "s0504m:934",
+      "pali": "Asuraṃ pettivisayaṃ, amuttā mārabandhanā."
+    },
+    {
+      "id": "s0504m:935",
+      "pali": "‘‘Ye ca rattindivā yuttā, sammāsambuddhasāsane;"
+    },
+    {
+      "id": "s0504m:936",
+      "pali": "Te nibbāpenti rāgaggiṃ, niccaṃ asubhasaññino."
+    },
+    {
+      "id": "s0504m:937",
+      "pali": "‘‘Dosaggiṃ pana mettāya, nibbāpenti naruttamā;"
+    },
+    {
+      "id": "s0504m:938",
+      "pali": "Mohaggiṃ pana paññāya, yāyaṃ nibbedhagāminī."
+    },
+    {
+      "id": "s0504m:939",
+      "pali": "‘‘Te nibbāpetvā nipakā, rattindivamatanditā;"
+    },
+    {
+      "id": "s0504m:940",
+      "pali": "Asesaṃ parinibbanti, asesaṃ dukkhamaccaguṃ."
+    },
+    {
+      "id": "s0504m:941",
+      "pali": "‘‘Ariyaddasā vedaguno, sammadaññāya paṇḍitā;"
+    },
+    {
+      "id": "s0504m:942",
+      "pali": "Jātikkhayamabhiññāya, nāgacchanti punabbhava’’nti."
+    },
+    {
+      "id": "s0504m:943",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:944",
+      "pali": "5. Upaparikkhasuttaṃ"
+    },
+    {
+      "id": "s0504m:945",
+      "pali": "94 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:946",
+      "pali": "‘‘Tathā tathā, bhikkhave, bhikkhu upaparikkheyya yathā yathāssa upaparikkhato bahiddhā cassa viññāṇaṃ avikkhittaṃ avisaṭaṃ ajjhattaṃ asaṇṭhitaṃ anupādāya na paritasseyya. Bahiddhā, bhikkhave, viññāṇe avikkhitte avisaṭe sati ajjhattaṃ asaṇṭhite anupādāya aparitassato āyatiṃ jātijarāmaraṇadukkhasamudayasambhavo na hotī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:947",
+      "pali": "‘‘Sattasaṅgappahīnassa, netticchinnassa bhikkhuno;"
+    },
+    {
+      "id": "s0504m:948",
+      "pali": "Vikkhīṇo jātisaṃsāro, natthi tassa punabbhavo’’ti."
+    },
+    {
+      "id": "s0504m:949",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:950",
+      "pali": "6. Kāmūpapattisuttaṃ"
+    },
+    {
+      "id": "s0504m:951",
+      "pali": "95 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:952",
+      "pali": "‘‘Tisso imā, bhikkhave, kāmūpapattiyo . Katamā tisso? Paccupaṭṭhitakāmā, nimmānaratino , paranimmitavasavattino – imā kho, bhikkhave, tisso kāmūpapattiyo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:953",
+      "pali": "‘‘Paccupaṭṭhitakāmā ca, ye devā vasavattino;"
+    },
+    {
+      "id": "s0504m:954",
+      "pali": "Nimmānaratino devā, ye caññe kāmabhogino;"
+    },
+    {
+      "id": "s0504m:955",
+      "pali": "Itthabhāvaññathābhāvaṃ , saṃsāraṃ nātivattare."
+    },
+    {
+      "id": "s0504m:956",
+      "pali": "‘‘Etamādīnavaṃ ñatvā, kāmabhogesu paṇḍito;"
+    },
+    {
+      "id": "s0504m:957",
+      "pali": "Sabbe pariccaje kāme, ye dibbā ye ca mānusā."
+    },
+    {
+      "id": "s0504m:958",
+      "pali": "‘‘Piyarūpasātagadhitaṃ , chetvā sotaṃ duraccayaṃ;"
+    },
+    {
+      "id": "s0504m:959",
+      "pali": "Asesaṃ parinibbanti, asesaṃ dukkhamaccaguṃ."
+    },
+    {
+      "id": "s0504m:960",
+      "pali": "‘‘Ariyaddasā vedaguno, sammadaññāya paṇḍitā;"
+    },
+    {
+      "id": "s0504m:961",
+      "pali": "Jātikkhayamabhiññāya, nāgacchanti punabbhava’’nti."
+    },
+    {
+      "id": "s0504m:962",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:963",
+      "pali": "7. Kāmayogasuttaṃ"
+    },
+    {
+      "id": "s0504m:964",
+      "pali": "96 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:965",
+      "pali": "‘‘Kāmayogayutto, bhikkhave, bhavayogayutto āgāmī hoti āgantā itthattaṃ. Kāmayogavisaṃyutto, bhikkhave, bhavayogayutto anāgāmī hoti anāgantā itthattaṃ. Kāmayogavisaṃyutto, bhikkhave, bhavayogavisaṃyutto arahā hoti, khīṇāsavo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:966",
+      "pali": "‘‘Kāmayogena saṃyuttā, bhavayogena cūbhayaṃ;"
+    },
+    {
+      "id": "s0504m:967",
+      "pali": "Sattā gacchanti saṃsāraṃ, jātimaraṇagāmino."
+    },
+    {
+      "id": "s0504m:968",
+      "pali": "‘‘Ye ca kāme pahantvāna, appattā āsavakkhayaṃ;"
+    },
+    {
+      "id": "s0504m:969",
+      "pali": "Bhavayogena saṃyuttā, anāgāmīti vuccare."
+    },
+    {
+      "id": "s0504m:970",
+      "pali": "‘‘Ye ca kho chinnasaṃsayā, khīṇamānapunabbhavā;"
+    },
+    {
+      "id": "s0504m:971",
+      "pali": "Te ve pāraṅgatā loke, ye pattā āsavakkhaya’’nti."
+    },
+    {
+      "id": "s0504m:972",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:973",
+      "pali": "97 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:974",
+      "pali": "‘‘Kalyāṇasīlo, bhikkhave, bhikkhu kalyāṇadhammo kalyāṇapañño imasmiṃ dhammavinaye ‘kevalī vusitavā uttamapuriso’ti vuccati –"
+    },
+    {
+      "id": "s0504m:975",
+      "pali": "‘‘Kathañca , bhikkhave, bhikkhu kalyāṇasīlo hoti? Idha, bhikkhave, bhikkhu sīlavā hoti, pātimokkhasaṃvarasaṃvuto viharati, ācāragocarasampanno aṇumattesu vajjesu bhayadassāvī, samādāya sikkhati sikkhāpadesu. Evaṃ kho, bhikkhave, bhikkhu kalyāṇasīlo hoti. Iti kalyāṇasīlo."
+    },
+    {
+      "id": "s0504m:976",
+      "pali": "‘‘Kalyāṇadhammo ca kathaṃ hoti? Idha, bhikkhave, bhikkhu sattannaṃ bodhipakkhiyānaṃ dhammānaṃ bhāvanānuyogamanuyutto viharati. Evaṃ kho, bhikkhave, bhikkhu kalyāṇadhammo hoti. Iti kalyāṇasīlo, kalyāṇadhammo."
+    },
+    {
+      "id": "s0504m:977",
+      "pali": "‘‘Kalyāṇapañño ca kathaṃ hoti ? Idha, bhikkhave, bhikkhu āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharati. Evaṃ kho, bhikkhave, bhikkhu kalyāṇapañño hoti."
+    },
+    {
+      "id": "s0504m:978",
+      "pali": "‘‘Iti kalyāṇasīlo kalyāṇadhammo kalyāṇapañño imasmiṃ dhammavinaye ‘kevalī vusitavā uttamapuriso’ti vuccatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:979",
+      "pali": "‘‘Yassa kāyena vācāya, manasā natthi dukkaṭaṃ;"
+    },
+    {
+      "id": "s0504m:980",
+      "pali": "Taṃ ve kalyāṇasīloti, āhu bhikkhuṃ hirīmanaṃ ."
+    },
+    {
+      "id": "s0504m:981",
+      "pali": "‘‘Yassa dhammā subhāvitā, satta sambodhigāmino;"
+    },
+    {
+      "id": "s0504m:982",
+      "pali": "Taṃ ve kalyāṇadhammoti, āhu bhikkhuṃ anussadaṃ."
+    },
+    {
+      "id": "s0504m:983",
+      "pali": "‘‘Yo dukkhassa pajānāti, idheva khayamattano;"
+    },
+    {
+      "id": "s0504m:984",
+      "pali": "Taṃ ve kalyāṇapaññoti, āhu bhikkhuṃ anāsavaṃ."
+    },
+    {
+      "id": "s0504m:985",
+      "pali": "‘‘Tehi dhammehi sampannaṃ, anīghaṃ chinnasaṃsayaṃ;"
+    },
+    {
+      "id": "s0504m:986",
+      "pali": "Asitaṃ sabbalokassa, āhu sabbapahāyina’’nti."
+    },
+    {
+      "id": "s0504m:987",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:988",
+      "pali": "9. Dānasuttaṃ"
+    },
+    {
+      "id": "s0504m:989",
+      "pali": "98 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:990",
+      "pali": "‘‘Dvemāni , bhikkhave, dānāni – āmisadānañca dhammadānañca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ dānānaṃ yadidaṃ – dhammadānaṃ."
+    },
+    {
+      "id": "s0504m:991",
+      "pali": "‘‘Dveme, bhikkhave, saṃvibhāgā – āmisasaṃvibhāgo ca dhammasaṃvibhāgo ca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ saṃvibhāgānaṃ yadidaṃ – dhammasaṃvibhāgo."
+    },
+    {
+      "id": "s0504m:992",
+      "pali": "‘‘Dveme , bhikkhave, anuggahā – āmisānuggaho ca dhammānuggaho ca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ anuggahānaṃ yadidaṃ – dhammānuggaho’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:993",
+      "pali": "‘‘Yamāhu dānaṃ paramaṃ anuttaraṃ, yaṃ saṃvibhāgaṃ bhagavā avaṇṇayi ;"
+    },
+    {
+      "id": "s0504m:994",
+      "pali": "Aggamhi khettamhi pasannacitto, viññū pajānaṃ ko na yajetha kāle."
+    },
+    {
+      "id": "s0504m:995",
+      "pali": "‘‘Ye ceva bhāsanti suṇanti cūbhayaṃ, pasannacittā sugatassa sāsane;"
+    },
+    {
+      "id": "s0504m:996",
+      "pali": "Tesaṃ so attho paramo visujjhati, ye appamattā sugatassa sāsane’’ti."
+    },
+    {
+      "id": "s0504m:997",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:998",
+      "pali": "10. Tevijjasuttaṃ"
+    },
+    {
+      "id": "s0504m:999",
+      "pali": "99 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1000",
+      "pali": "‘‘Dhammenāhaṃ, bhikkhave, tevijjaṃ brāhmaṇaṃ paññāpemi, nāññaṃ lapitalāpanamattena."
+    },
+    {
+      "id": "s0504m:1001",
+      "pali": "‘‘Kathañcāhaṃ, bhikkhave, dhammena tevijjaṃ brāhmaṇaṃ paññāpemi, nāññaṃ lapitalāpanamattena? Idha, bhikkhave, bhikkhu anekavihitaṃ pubbenivāsaṃ anussarati, seyyathidaṃ – ekampi jātiṃ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṃsampi jātiyo cattālīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi anekepi saṃvaṭṭakappe anekepi vivaṭṭakappe anekepi saṃvaṭṭavivaṭṭakappe – ‘amutrāsiṃ evaṃnāmo evaṃgotto evaṃvaṇṇo evamāhāro evaṃsukhadukkhappaṭisaṃvedī evamāyupariyanto. So tato cuto amutra udapādiṃ. Tatrāpāsiṃ evaṃnāmo evaṃgotto evaṃvaṇṇo evamāhāro evaṃsukhadukkhappaṭisaṃvedī evamāyupariyanto. So tato cuto idhūpapanno’ti . Iti sākāraṃ sauddesaṃ anekavihitaṃ pubbenivāsaṃ anussarati. Ayamassa paṭhamā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṃ appamattassa ātāpino pahitattassa viharato."
+    },
+    {
+      "id": "s0504m:1002",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena satte passati cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāti – ‘ime vata bhonto sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā ariyānaṃ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapannā. Ime vā pana bhonto sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṃ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā. Te kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapannā’ti. Iti dibbena cakkhunā visuddhena atikkantamānusakena satte passati cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāti. Ayamassa dutiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṃ appamattassa ātāpino pahitattassa viharato."
+    },
+    {
+      "id": "s0504m:1003",
+      "pali": "‘‘Puna caparaṃ, bhikkhave, bhikkhu āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharati. Ayamassa tatiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṃ appamattassa ātāpino pahitattassa viharato. Evaṃ kho ahaṃ, bhikkhave, dhammena tevijjaṃ brāhmaṇaṃ paññāpemi, nāññaṃ lapitalāpanamattenā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1004",
+      "pali": "‘‘Pubbenivāsaṃ yovedi , saggāpāyañca passati;"
+    },
+    {
+      "id": "s0504m:1005",
+      "pali": "Atho jātikkhayaṃ patto, abhiññāvosito muni."
+    },
+    {
+      "id": "s0504m:1006",
+      "pali": "‘‘Etāhi tīhi vijjāhi, tevijjo hoti brāhmaṇo;"
+    },
+    {
+      "id": "s0504m:1007",
+      "pali": "Tamahaṃ vadāmi tevijjaṃ, nāññaṃ lapitalāpana’’nti."
+    },
+    {
+      "id": "s0504m:1008",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:1009",
+      "pali": "Pañcamo vaggo niṭṭhito."
+    },
+    {
+      "id": "s0504m:1010",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:1011",
+      "pali": "Pasāda jīvita saṅghāṭi , aggi upaparikkhayā;"
+    },
+    {
+      "id": "s0504m:1012",
+      "pali": "Upapatti kāma kalyāṇaṃ, dānaṃ dhammena te dasāti."
+    },
+    {
+      "id": "s0504m:1013",
+      "pali": "Tikanipāto niṭṭhito."
+    },
+    {
+      "id": "s0504m:1014",
+      "pali": "4. Catukkanipāto"
+    },
+    {
+      "id": "s0504m:1015",
+      "pali": "1. Brāhmaṇadhammayāgasuttaṃ"
+    },
+    {
+      "id": "s0504m:1016",
+      "pali": "100 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1017",
+      "pali": "‘‘Ahamasmi, bhikkhave, brāhmaṇo yācayogo sadā payatapāṇi antimadehadharo anuttaro bhisakko sallakatto. Tassa me tumhe puttā orasā mukhato jātā dhammajā dhammanimmitā dhammadāyādā, no āmisadāyādā."
+    },
+    {
+      "id": "s0504m:1018",
+      "pali": "‘‘Dvemāni, bhikkhave, dānāni – āmisadānañca dhammadānañca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ dānānaṃ yadidaṃ – dhammadānaṃ."
+    },
+    {
+      "id": "s0504m:1019",
+      "pali": "‘‘Dveme, bhikkhave, saṃvibhāgā – āmisasaṃvibhāgo ca dhammasaṃvibhāgo ca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ saṃvibhāgānaṃ yadidaṃ – dhammasaṃvibhāgo."
+    },
+    {
+      "id": "s0504m:1020",
+      "pali": "‘‘Dveme, bhikkhave, anuggahā – āmisānuggaho ca dhammānuggaho ca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ anuggahānaṃ yadidaṃ – dhammānuggaho."
+    },
+    {
+      "id": "s0504m:1021",
+      "pali": "‘‘Dveme, bhikkhave, yāgā – āmisayāgo ca dhammayāgo ca. Etadaggaṃ, bhikkhave, imesaṃ dvinnaṃ yāgānaṃ yadidaṃ – dhammayāgo’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1022",
+      "pali": "‘‘Yo dhammayāgaṃ ayajī amaccharī, tathāgato sabbabhūtānukampī ;"
+    },
+    {
+      "id": "s0504m:1023",
+      "pali": "Taṃ tādisaṃ devamanussaseṭṭhaṃ, sattā namassanti bhavassa pāragu’’nti."
+    },
+    {
+      "id": "s0504m:1024",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Paṭhamaṃ."
+    },
+    {
+      "id": "s0504m:1025",
+      "pali": "2. Sulabhasuttaṃ"
+    },
+    {
+      "id": "s0504m:1026",
+      "pali": "101 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1027",
+      "pali": "‘‘Cattārimāni, bhikkhave, appāni ceva sulabhāni ca, tāni ca anavajjāni. Katamāni cattāri? Paṃsukūlaṃ, bhikkhave, cīvarānaṃ appañca sulabhañca, tañca anavajjaṃ. Piṇḍiyālopo , bhikkhave, bhojanānaṃ appañca sulabhañca, tañca anavajjaṃ. Rukkhamūlaṃ, bhikkhave , senāsanānaṃ appañca sulabhañca, tañca anavajjaṃ. Pūtimuttaṃ, bhikkhave, bhesajjānaṃ appañca sulabhañca tañca anavajjaṃ. Imāni kho, bhikkhave, cattāri appāni ceva sulabhāni ca, tāni ca anavajjāni. Yato kho, bhikkhave, bhikkhu appena ca tuṭṭho hoti sulabhena ca (anavajjena ca) , imassāhaṃ aññataraṃ sāmaññaṅganti vadāmī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1028",
+      "pali": "‘‘Anavajjena tuṭṭhassa, appena sulabhena ca;"
+    },
+    {
+      "id": "s0504m:1029",
+      "pali": "Na senāsanamārabbha, cīvaraṃ pānabhojanaṃ;"
+    },
+    {
+      "id": "s0504m:1030",
+      "pali": "Vighāto hoti cittassa, disā nappaṭihaññati."
+    },
+    {
+      "id": "s0504m:1031",
+      "pali": "‘‘Ye cassa dhammā akkhātā, sāmaññassānulomikā;"
+    },
+    {
+      "id": "s0504m:1032",
+      "pali": "Adhiggahitā tuṭṭhassa, appamattassa bhikkhuno’’ti ."
+    },
+    {
+      "id": "s0504m:1033",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dutiyaṃ."
+    },
+    {
+      "id": "s0504m:1034",
+      "pali": "3. Āsavakkhayasuttaṃ"
+    },
+    {
+      "id": "s0504m:1035",
+      "pali": "102 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1036",
+      "pali": "‘‘Jānatohaṃ, bhikkhave, passato āsavānaṃ khayaṃ vadāmi , no ajānato no apassato. Kiñca, bhikkhave, jānato, kiṃ passato āsavānaṃ khayo hoti? Idaṃ dukkhanti, bhikkhave, jānato passato āsavānaṃ khayo hoti. Ayaṃ dukkhasamudayoti, bhikkhave, jānato passato āsavānaṃ khayo hoti. Ayaṃ dukkhanirodhoti, bhikkhave, jānato passato āsavānaṃ khayo hoti. Ayaṃ dukkhanirodhagāminī paṭipadāti, bhikkhave, jānato passato āsavānaṃ khayo hoti. Evaṃ kho , bhikkhave, jānato evaṃ passato āsavānaṃ khayo hotī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1037",
+      "pali": "‘‘Sekhassa sikkhamānassa, ujumaggānusārino;"
+    },
+    {
+      "id": "s0504m:1038",
+      "pali": "Khayasmiṃ paṭhamaṃ ñāṇaṃ, tato aññā anantarā."
+    },
+    {
+      "id": "s0504m:1039",
+      "pali": "‘‘Tato aññā vimuttassa, vimuttiñāṇamuttamaṃ;"
+    },
+    {
+      "id": "s0504m:1040",
+      "pali": "Uppajjati khaye ñāṇaṃ, khīṇā saṃyojanā iti."
+    },
+    {
+      "id": "s0504m:1041",
+      "pali": "‘‘Na tvevidaṃ kusītena, bālenamavijānatā;"
+    },
+    {
+      "id": "s0504m:1042",
+      "pali": "Nibbānaṃ adhigantabbaṃ, sabbaganthappamocana’’nti."
+    },
+    {
+      "id": "s0504m:1043",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Tatiyaṃ."
+    },
+    {
+      "id": "s0504m:1044",
+      "pali": "4. Samaṇabrāhmaṇasuttaṃ"
+    },
+    {
+      "id": "s0504m:1045",
+      "pali": "103 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1046",
+      "pali": "‘‘Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā ‘idaṃ dukkha’nti yathābhūtaṃ nappajānanti; ‘ayaṃ dukkhasamudayo’ti yathābhūtaṃ nappajānanti; ‘ayaṃ dukkhanirodho’ti yathābhūtaṃ nappajānanti; ‘ayaṃ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṃ nappajānanti – na me te, bhikkhave, samaṇā vā brāhmaṇā vā samaṇesu vā samaṇasammatā brāhmaṇesu vā brāhmaṇasammatā, na ca panete āyasmanto sāmaññatthaṃ vā brahmaññatthaṃ vā diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharanti."
+    },
+    {
+      "id": "s0504m:1047",
+      "pali": "‘‘Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā ‘idaṃ dukkha’nti yathābhūtaṃ pajānanti; ‘ayaṃ dukkhasamudayo’ti yathābhūtaṃ pajānanti; ‘ayaṃ dukkhanirodho’ti yathābhūtaṃ pajānanti; ‘ayaṃ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṃ pajānanti – te kho me, bhikkhave, samaṇā vā brāhmaṇā vā samaṇesu ceva samaṇasammatā brāhmaṇesu ca brāhmaṇasammatā, te ca panāyasmanto sāmaññatthañca brahmaññatthañca diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1048",
+      "pali": "‘‘Ye dukkhaṃ nappajānanti, atho dukkhassa sambhavaṃ;"
+    },
+    {
+      "id": "s0504m:1049",
+      "pali": "Yattha ca sabbaso dukkhaṃ, asesaṃ uparujjhati;"
+    },
+    {
+      "id": "s0504m:1050",
+      "pali": "Tañca maggaṃ na jānanti, dukkhūpasamagāminaṃ."
+    },
+    {
+      "id": "s0504m:1051",
+      "pali": "‘‘Cetovimuttihīnā te, atho paññāvimuttiyā;"
+    },
+    {
+      "id": "s0504m:1052",
+      "pali": "Abhabbā te antakiriyāya, te ve jātijarūpagā."
+    },
+    {
+      "id": "s0504m:1053",
+      "pali": "‘‘Ye ca dukkhaṃ pajānanti, atho dukkhassa sambhavaṃ;"
+    },
+    {
+      "id": "s0504m:1054",
+      "pali": "Yattha ca sabbaso dukkhaṃ, asesaṃ uparujjhati;"
+    },
+    {
+      "id": "s0504m:1055",
+      "pali": "Tañca maggaṃ pajānanti, dukkhūpasamagāminaṃ."
+    },
+    {
+      "id": "s0504m:1056",
+      "pali": "‘‘Cetovimuttisampannā, atho paññāvimuttiyā;"
+    },
+    {
+      "id": "s0504m:1057",
+      "pali": "Bhabbā te antakiriyāya, na te jātijarūpagā’’ti."
+    },
+    {
+      "id": "s0504m:1058",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Catutthaṃ."
+    },
+    {
+      "id": "s0504m:1059",
+      "pali": "5. Sīlasampannasuttaṃ"
+    },
+    {
+      "id": "s0504m:1060",
+      "pali": "104 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1061",
+      "pali": "‘‘Ye te, bhikkhave, bhikkhū sīlasampannā samādhisampannā paññāsampannā vimuttisampannā vimuttiñāṇadassanasampannā ovādakā viññāpakā sandassakā samādapakā samuttejakā sampahaṃsakā alaṃsamakkhātāro saddhammassa dassanampahaṃ, bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi; savanampahaṃ, bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi; upasaṅkamanampahaṃ, bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi; payirupāsanampahaṃ, bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi; anussaraṇampahaṃ, bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi; anupabbajjampahaṃ , bhikkhave, tesaṃ bhikkhūnaṃ bahūpakāraṃ vadāmi. Taṃ kissa hetu? Tathārūpe, bhikkhave, bhikkhū sevato bhajato payirupāsato aparipūropi sīlakkhandho bhāvanāpāripūriṃ gacchati, aparipūropi samādhikkhandho bhāvanāpāripūriṃ gacchati, aparipūropi paññākkhandho bhāvanāpāripūriṃ gacchati, aparipūropi vimuttikkhandho bhāvanāpāripūriṃ gacchati, aparipūropi vimuttiñāṇadassanakkhandho bhāvanāpāripūriṃ gacchati. Evarūpā ca te, bhikkhave, bhikkhū satthārotipi vuccanti, satthavāhātipi vuccanti, raṇañjahātipi vuccanti, tamonudātipi vuccanti, ālokakarātipi vuccanti, obhāsakarātipi vuccanti, pajjotakarātipi vuccanti, ukkādhārātipi vuccanti, pabhaṅkarātipi vuccanti, ariyātipi vuccanti, cakkhumantotipi vuccantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1062",
+      "pali": "‘‘Pāmojjakaraṇaṃ ṭhānaṃ , etaṃ hoti vijānataṃ;"
+    },
+    {
+      "id": "s0504m:1063",
+      "pali": "Yadidaṃ bhāvitattānaṃ, ariyānaṃ dhammajīvinaṃ."
+    },
+    {
+      "id": "s0504m:1064",
+      "pali": "‘‘Te jotayanti saddhammaṃ, bhāsayanti pabhaṅkarā;"
+    },
+    {
+      "id": "s0504m:1065",
+      "pali": "Ālokakaraṇā dhīrā, cakkhumanto raṇañjahā."
+    },
+    {
+      "id": "s0504m:1066",
+      "pali": "‘‘Yesaṃ ve sāsanaṃ sutvā, sammadaññāya paṇḍitā;"
+    },
+    {
+      "id": "s0504m:1067",
+      "pali": "Jātikkhayamabhiññāya , nāgacchanti punabbhava’’nti."
+    },
+    {
+      "id": "s0504m:1068",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Pañcamaṃ."
+    },
+    {
+      "id": "s0504m:1069",
+      "pali": "6. Taṇhuppādasuttaṃ"
+    },
+    {
+      "id": "s0504m:1070",
+      "pali": "105 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1071",
+      "pali": "‘‘Cattārome, bhikkhave, taṇhuppādā, yattha bhikkhuno taṇhā uppajjamānā uppajjati. Katame cattāro? Cīvarahetu vā, bhikkhave, bhikkhuno taṇhā uppajjamānā uppajjati; piṇḍapātahetu vā, bhikkhave, bhikkhuno taṇhā uppajjamānā uppajjati; senāsanahetu vā, bhikkhave, bhikkhuno taṇhā uppajjamānā uppajjati; itibhavābhavahetu vā, bhikkhave, bhikkhuno taṇhā uppajjamānā uppajjati. Ime kho, bhikkhave, cattāro taṇhuppādā yattha bhikkhuno taṇhā uppajjamānā uppajjatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1072",
+      "pali": "‘‘Taṇhādutiyo puriso, dīghamaddhāna saṃsaraṃ;"
+    },
+    {
+      "id": "s0504m:1073",
+      "pali": "Itthabhāvaññathābhāvaṃ, saṃsāraṃ nātivattati."
+    },
+    {
+      "id": "s0504m:1074",
+      "pali": "‘‘Etamādīnavaṃ ñatvā, taṇhaṃ dukkhassa sambhavaṃ;"
+    },
+    {
+      "id": "s0504m:1075",
+      "pali": "Vītataṇho anādāno, sato bhikkhu paribbaje’’ti."
+    },
+    {
+      "id": "s0504m:1076",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Chaṭṭhaṃ."
+    },
+    {
+      "id": "s0504m:1077",
+      "pali": "7. Sabrahmakasuttaṃ"
+    },
+    {
+      "id": "s0504m:1078",
+      "pali": "106 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1079",
+      "pali": "‘‘Sabrahmakāni, bhikkhave, tāni kulāni yesaṃ puttānaṃ mātāpitaro ajjhāgāre pūjitā honti. Sapubbadevatāni , bhikkhave, tāni kulāni yesaṃ puttānaṃ mātāpitaro ajjhāgāre pūjitā honti. Sapubbācariyakāni, bhikkhave, tāni kulāni yesaṃ puttānaṃ mātāpitaro ajjhāgāre pūjitā honti. Sāhuneyyakāni, bhikkhave, tāni kulāni yesaṃ puttānaṃ mātāpitaro ajjhāgāre pūjitā honti."
+    },
+    {
+      "id": "s0504m:1080",
+      "pali": "‘‘‘Brahmā’ti, bhikkhave, mātāpitūnaṃ etaṃ adhivacanaṃ. ‘Pubbadevatā’ti, bhikkhave, mātāpitūnaṃ etaṃ adhivacanaṃ. ‘Pubbācariyā’ti, bhikkhave, mātāpitūnaṃ etaṃ adhivacanaṃ. ‘Āhuneyyā’ti, bhikkhave, mātāpitūnaṃ etaṃ adhivacanaṃ. Taṃ kissa hetu? Bahukārā, bhikkhave, mātāpitaro puttānaṃ āpādakā posakā imassa lokassa dassetāro’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1081",
+      "pali": "‘‘Brahmāti mātāpitaro, pubbācariyāti vuccare;"
+    },
+    {
+      "id": "s0504m:1082",
+      "pali": "Āhuneyyā ca puttānaṃ, pajāya anukampakā."
+    },
+    {
+      "id": "s0504m:1083",
+      "pali": "‘‘Tasmā hi ne namasseyya, sakkareyya ca paṇḍito;"
+    },
+    {
+      "id": "s0504m:1084",
+      "pali": "Annena atha pānena, vatthena sayanena ca;"
+    },
+    {
+      "id": "s0504m:1085",
+      "pali": "Ucchādanena nhāpanena , pādānaṃ dhovanena ca."
+    },
+    {
+      "id": "s0504m:1086",
+      "pali": "‘‘Tāya naṃ pāricariyāya, mātāpitūsu paṇḍitā;"
+    },
+    {
+      "id": "s0504m:1087",
+      "pali": "Idheva naṃ pasaṃsanti, pecca sagge pamodatī’’ti."
+    },
+    {
+      "id": "s0504m:1088",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Sattamaṃ."
+    },
+    {
+      "id": "s0504m:1089",
+      "pali": "8. Bahukārasuttaṃ"
+    },
+    {
+      "id": "s0504m:1090",
+      "pali": "107 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1091",
+      "pali": "‘‘Bahukārā , bhikkhave, brāhmaṇagahapatikā tumhākaṃ ye vo paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārehi. Tumhepi, bhikkhave, bahukārā brāhmaṇagahapatikānaṃ yaṃ nesaṃ dhammaṃ desetha ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāsetha. Evamidaṃ, bhikkhave, aññamaññaṃ nissāya brahmacariyaṃ vussati oghassa nittharaṇatthāya sammā dukkhassa antakiriyāyā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1092",
+      "pali": "‘‘Sāgārā anagārā ca, ubho aññoññanissitā;"
+    },
+    {
+      "id": "s0504m:1093",
+      "pali": "Ārādhayanti saddhammaṃ, yogakkhemaṃ anuttaraṃ."
+    },
+    {
+      "id": "s0504m:1094",
+      "pali": "‘‘Sāgāresu ca cīvaraṃ, paccayaṃ sayanāsanaṃ;"
+    },
+    {
+      "id": "s0504m:1095",
+      "pali": "Anagārā paṭicchanti, parissayavinodanaṃ."
+    },
+    {
+      "id": "s0504m:1096",
+      "pali": "‘‘Sugataṃ pana nissāya, gahaṭṭhā gharamesino;"
+    },
+    {
+      "id": "s0504m:1097",
+      "pali": "Saddahānā arahataṃ, ariyapaññāya jhāyino."
+    },
+    {
+      "id": "s0504m:1098",
+      "pali": "‘‘Idha dhammaṃ caritvāna, maggaṃ sugatigāminaṃ;"
+    },
+    {
+      "id": "s0504m:1099",
+      "pali": "Nandino devalokasmiṃ, modanti kāmakāmino’’ti."
+    },
+    {
+      "id": "s0504m:1100",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Aṭṭhamaṃ."
+    },
+    {
+      "id": "s0504m:1101",
+      "pali": "9. Kuhasuttaṃ"
+    },
+    {
+      "id": "s0504m:1102",
+      "pali": "108 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1103",
+      "pali": "‘‘Ye keci, bhikkhave, bhikkhū kuhā thaddhā lapā siṅgī unnaḷā asamāhitā, na me te , bhikkhave, bhikkhū māmakā. Apagatā ca te, bhikkhave, bhikkhū imasmā dhammavinayā; na ca te imasmiṃ dhammavinaye vuddhiṃ virūḷhiṃ vepullaṃ āpajjanti. Ye ca kho, bhikkhave, bhikkhū nikkuhā nillapā dhīrā atthaddhā susamāhitā, te kho me, bhikkhave, bhikkhū māmakā. Anapagatā ca te, bhikkhave, bhikkhū imasmā dhammavinayā; te ca imasmiṃ dhammavinaye vuddhiṃ virūḷhiṃ vepullaṃ āpajjantī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1104",
+      "pali": "‘‘Kuhā thaddhā lapā siṅgī, unnaḷā asamāhitā;"
+    },
+    {
+      "id": "s0504m:1105",
+      "pali": "Na te dhamme virūhanti, sammāsambuddhadesite."
+    },
+    {
+      "id": "s0504m:1106",
+      "pali": "‘‘Nikkuhā nillapā dhīrā, atthaddhā susamāhitā;"
+    },
+    {
+      "id": "s0504m:1107",
+      "pali": "Te ve dhamme virūhanti, sammāsambuddhadesite’’ti."
+    },
+    {
+      "id": "s0504m:1108",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Navamaṃ."
+    },
+    {
+      "id": "s0504m:1109",
+      "pali": "10. Nadīsotasuttaṃ"
+    },
+    {
+      "id": "s0504m:1110",
+      "pali": "109 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1111",
+      "pali": "‘‘Seyyathāpi , bhikkhave, puriso nadiyā sotena ovuyheyya piyarūpasātarūpena. Tamenaṃ cakkhumā puriso tīre ṭhito disvā evaṃ vadeyya – ‘kiñcāpi kho tvaṃ, ambho purisa, nadiyā sotena ovuyhasi piyarūpasātarūpena, atthi cettha heṭṭhā rahado saūmi sāvaṭṭo sagaho sarakkhaso yaṃ tvaṃ, ambho purisa, rahadaṃ pāpuṇitvā maraṇaṃ vā nigacchasi maraṇamattaṃ vā dukkha’nti. Atha kho so, bhikkhave, puriso tassa purisassa saddaṃ sutvā hatthehi ca pādehi ca paṭisotaṃ vāyameyya."
+    },
+    {
+      "id": "s0504m:1112",
+      "pali": "‘‘Upamā kho me ayaṃ, bhikkhave, katā atthassa viññāpanāya. Ayaṃ cettha attho – ‘nadiyā soto’ti kho, bhikkhave, taṇhāyetaṃ adhivacanaṃ."
+    },
+    {
+      "id": "s0504m:1113",
+      "pali": "‘‘‘Piyarūpaṃ sātarūpa’nti kho, bhikkhave, channetaṃ ajjhattikānaṃ āyatanānaṃ adhivacanaṃ."
+    },
+    {
+      "id": "s0504m:1114",
+      "pali": "‘‘‘Heṭṭhā rahado’ti kho, bhikkhave, pañcannaṃ orambhāgiyānaṃ saṃyojanānaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1115",
+      "pali": "‘‘‘Ūmibhaya’nti kho , bhikkhave, kodhupāyāsassetaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1116",
+      "pali": "‘‘‘Āvaṭṭa’nti kho , bhikkhave, pañcannetaṃ kāmaguṇānaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1117",
+      "pali": "‘‘‘Gaharakkhaso’ti kho , bhikkhave, mātugāmassetaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1118",
+      "pali": "‘‘‘Paṭisoto’ti kho, bhikkhave, nekkhammassetaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1119",
+      "pali": "‘‘‘Hatthehi ca pādehi ca vāyāmo’ti kho, bhikkhave, vīriyārambhassetaṃ adhivacanaṃ;"
+    },
+    {
+      "id": "s0504m:1120",
+      "pali": "‘‘‘Cakkhumā puriso tīre ṭhitoti kho, bhikkhave, tathāgatassetaṃ adhivacanaṃ arahato sammāsambuddhassā’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1121",
+      "pali": "‘‘Sahāpi dukkhena jaheyya kāme, yogakkhemaṃ āyatiṃ patthayāno;"
+    },
+    {
+      "id": "s0504m:1122",
+      "pali": "Sammappajāno suvimuttacitto, vimuttiyā phassaye tattha tattha;"
+    },
+    {
+      "id": "s0504m:1123",
+      "pali": "Sa vedagū vūsitabrahmacariyo, lokantagū pāragatoti vuccatī’’ti."
+    },
+    {
+      "id": "s0504m:1124",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dasamaṃ."
+    },
+    {
+      "id": "s0504m:1125",
+      "pali": "11. Carasuttaṃ"
+    },
+    {
+      "id": "s0504m:1126",
+      "pali": "110 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1127",
+      "pali": "‘‘Carato cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu adhivāseti nappajahati na vinodeti na byantīkaroti anabhāvaṃ gameti. Carampi, bhikkhave, bhikkhu evaṃbhūto anātāpī anottāpī satataṃ samitaṃ kusīto hīnavīriyoti vuccati."
+    },
+    {
+      "id": "s0504m:1128",
+      "pali": "‘‘Ṭhitassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu adhivāseti nappajahati na vinodeti na byantīkaroti na anabhāvaṃ gameti. Ṭhitopi, bhikkhave, bhikkhu evaṃbhūto anātāpī anottāpī satataṃ samitaṃ kusīto hīnavīriyoti vuccati."
+    },
+    {
+      "id": "s0504m:1129",
+      "pali": "‘‘Nisinnassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu adhivāseti nappajahati na vinodeti na byantīkaroti na anabhāvaṃ gameti. Nisinnopi, bhikkhave, bhikkhu evaṃbhūto anātāpī anottāpī satataṃ samitaṃ kusīto hīnavīriyoti vuccati."
+    },
+    {
+      "id": "s0504m:1130",
+      "pali": "‘‘Sayānassa cepi, bhikkhave, bhikkhuno jāgarassa uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu adhivāseti nappajahati na vinodeti na byantīkaroti na anabhāvaṃ gameti. Sayānopi, bhikkhave, bhikkhu jāgaro evaṃbhūto anātāpī anottāpī satataṃ samitaṃ kusīto hīnavīriyoti vuccati."
+    },
+    {
+      "id": "s0504m:1131",
+      "pali": "‘‘Carato cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṃ gameti. Carampi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1132",
+      "pali": "‘‘Ṭhitassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṃ gameti. Ṭhitopi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1133",
+      "pali": "‘‘Nisinnassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṃ gameti. Nisinnopi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1134",
+      "pali": "‘‘Sayānassa cepi, bhikkhave, bhikkhuno jāgarassa uppajjati kāmavitakko vā byāpādavitakko vā vihiṃsāvitakko vā. Tañce, bhikkhave, bhikkhu nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṃ gameti. Sayānopi, bhikkhave, bhikkhu jāgaro evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1135",
+      "pali": "‘‘Caraṃ vā yadi vā tiṭṭhaṃ, nisinno uda vā sayaṃ;"
+    },
+    {
+      "id": "s0504m:1136",
+      "pali": "Yo vitakkaṃ vitakketi, pāpakaṃ gehanissitaṃ."
+    },
+    {
+      "id": "s0504m:1137",
+      "pali": "‘‘Kummaggaṃ paṭipanno so, mohaneyyesu mucchito;"
+    },
+    {
+      "id": "s0504m:1138",
+      "pali": "Abhabbo tādiso bhikkhu, phuṭṭhuṃ sambodhimuttamaṃ."
+    },
+    {
+      "id": "s0504m:1139",
+      "pali": "‘‘Yo ca caraṃ vā tiṭṭhaṃ vā , nisinno uda vā sayaṃ;"
+    },
+    {
+      "id": "s0504m:1140",
+      "pali": "Vitakkaṃ samayitvāna, vitakkūpasame rato;"
+    },
+    {
+      "id": "s0504m:1141",
+      "pali": "Bhabbo so tādiso bhikkhu, phuṭṭhuṃ sambodhimuttama’’nti."
+    },
+    {
+      "id": "s0504m:1142",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Ekādasamaṃ."
+    },
+    {
+      "id": "s0504m:1143",
+      "pali": "12. Sampannasīlasuttaṃ"
+    },
+    {
+      "id": "s0504m:1144",
+      "pali": "111 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1145",
+      "pali": "‘‘Sampannasīlā, bhikkhave, viharatha sampannapātimokkhā; pātimokkhasaṃvarasaṃvutā viharatha ācāragocarasampannā aṇumattesu vajjesu bhayadassāvino; samādāya sikkhatha sikkhāpadesu."
+    },
+    {
+      "id": "s0504m:1146",
+      "pali": "‘‘Sampannasīlānaṃ vo, bhikkhave, viharataṃ sampannapātimokkhānaṃ pātimokkhasaṃvarasaṃvutānaṃ viharataṃ ācāragocarasampannānaṃ aṇumattesu vajjesu bhayadassāvīnaṃ samādāya sikkhataṃ sikkhāpadesu kimassa uttari karaṇīyaṃ ?"
+    },
+    {
+      "id": "s0504m:1147",
+      "pali": "‘‘Carato cepi, bhikkhave, bhikkhuno bhijjhā vigatā hoti, byāpādo vigato hoti , thinamiddhaṃ vigataṃ hoti, uddhaccakukkuccaṃ vigataṃ hoti, vicikicchā pahīnā hoti, āraddhaṃ hoti vīriyaṃ asallīnaṃ, upaṭṭhitā sati asammuṭṭhā , passaddho kāyo asāraddho, samāhitaṃ cittaṃ ekaggaṃ . Carampi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1148",
+      "pali": "‘‘Ṭhitassa cepi, bhikkhave, bhikkhuno abhijjhā vigatā hoti byāpādo…pe… thinamiddhaṃ… uddhaccakukkuccaṃ… vicikicchā pahīnā hoti, āraddhaṃ hoti vīriyaṃ asallīnaṃ , upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṃ cittaṃ ekaggaṃ. Ṭhitopi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1149",
+      "pali": "‘‘Nisinnassa cepi, bhikkhave, bhikkhuno abhijjhā vigatā hoti, byāpādo…pe… thinamiddhaṃ… uddhaccakukkuccaṃ… vicikicchā pahīnā hoti, āraddhaṃ hoti vīriyaṃ asallīnaṃ, upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṃ cittaṃ ekaggaṃ. Nisinnopi, bhikkhave, bhikkhu evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccati."
+    },
+    {
+      "id": "s0504m:1150",
+      "pali": "‘‘Sayānassa cepi , bhikkhave, bhikkhuno jāgarassa abhijjhā vigatā hoti byāpādo…pe… thinamiddhaṃ… uddhaccakukkuccaṃ… vicikicchā pahīnā hoti, āraddhaṃ hoti vīriyaṃ asallīnaṃ, upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṃ cittaṃ ekaggaṃ. Sayānopi, bhikkhave, bhikkhu jāgaro evaṃbhūto ātāpī ottāpī satataṃ samitaṃ āraddhavīriyo pahitattoti vuccatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1151",
+      "pali": "‘‘Yataṃ care yataṃ tiṭṭhe, yataṃ acche yataṃ saye;"
+    },
+    {
+      "id": "s0504m:1152",
+      "pali": "Yataṃ samiñjaye bhikkhu, yatamenaṃ pasāraye."
+    },
+    {
+      "id": "s0504m:1153",
+      "pali": "‘‘Uddhaṃ tiriyaṃ apācīnaṃ, yāvatā jagato gati;"
+    },
+    {
+      "id": "s0504m:1154",
+      "pali": "Samavekkhitā ca dhammānaṃ, khandhānaṃ udayabbayaṃ."
+    },
+    {
+      "id": "s0504m:1155",
+      "pali": "‘‘Evaṃ vihārimātāpiṃ, santavuttimanuddhataṃ;"
+    },
+    {
+      "id": "s0504m:1156",
+      "pali": "Cetosamathasāmīciṃ, sikkhamānaṃ sadā sataṃ;"
+    },
+    {
+      "id": "s0504m:1157",
+      "pali": "Satataṃ pahitattoti, āhu bhikkhuṃ tathāvidha’’nti."
+    },
+    {
+      "id": "s0504m:1158",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Dvādasamaṃ."
+    },
+    {
+      "id": "s0504m:1159",
+      "pali": "13. Lokasuttaṃ"
+    },
+    {
+      "id": "s0504m:1160",
+      "pali": "112 . Vuttañhetaṃ bhagavatā, vuttamarahatāti me sutaṃ –"
+    },
+    {
+      "id": "s0504m:1161",
+      "pali": "‘‘Loko, bhikkhave, tathāgatena abhisambuddhoः lokasmā tathāgato visaṃyutto. Lokasamudayo, bhikkhave, tathāgatena abhisambuddho ः lokasamudayo tathāgatassa pahīno. Lokanirodho, bhikkhave, tathāgatena abhisambuddhoः lokanirodho tathāgatassa sacchikato. Lokanirodhagāminī paṭipadā, bhikkhave, tathāgatena abhisambuddhāः lokanirodhagāminī paṭipadā tathāgatassa bhāvitā."
+    },
+    {
+      "id": "s0504m:1162",
+      "pali": "‘‘Yaṃ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṃ sutaṃ mutaṃ viññātaṃ pattaṃ pariyesitaṃ anuvicaritaṃ manasā yasmā taṃ tathāgatena abhisambuddhaṃ, tasmā tathāgatoti vuccati."
+    },
+    {
+      "id": "s0504m:1163",
+      "pali": "‘‘Yañca, bhikkhave, rattiṃ tathāgato anuttaraṃ sammāsambodhiṃ abhisambujjhati, yañca rattiṃ anupādisesāya nibbānadhātuyā parinibbāyati, yaṃ etasmiṃ antare bhāsati lapati niddisati, sabbaṃ taṃ tatheva hoti no aññathā, tasmā tathāgatoti vuccati."
+    },
+    {
+      "id": "s0504m:1164",
+      "pali": "‘‘Yathāvādī, bhikkhave, tathāgato tathākārī, yathākārī tathāvādī, iti yathāvādī tathākārī yathākārī tathāvādī, tasmā tathāgatoti vuccati."
+    },
+    {
+      "id": "s0504m:1165",
+      "pali": "‘‘Sadevake, bhikkhave, loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya tathāgato abhibhū anabhibhūto aññadatthudaso vasavattī, tasmā tathāgatoti vuccatī’’ti. Etamatthaṃ bhagavā avoca. Tatthetaṃ iti vuccati –"
+    },
+    {
+      "id": "s0504m:1166",
+      "pali": "‘‘Sabbalokaṃ abhiññāya, sabbaloke yathātathaṃ;"
+    },
+    {
+      "id": "s0504m:1167",
+      "pali": "Sabbalokavisaṃyutto, sabbaloke anūpayo ."
+    },
+    {
+      "id": "s0504m:1168",
+      "pali": "‘‘Sa ve sabbābhibhū dhīro, sabbaganthappamocano;"
+    },
+    {
+      "id": "s0504m:1169",
+      "pali": "Phuṭṭhāssa paramā santi, nibbānaṃ akutobhayaṃ."
+    },
+    {
+      "id": "s0504m:1170",
+      "pali": "‘‘Esa khīṇāsavo buddho, anīgho chinnasaṃsayo;"
+    },
+    {
+      "id": "s0504m:1171",
+      "pali": "Sabbakammakkhayaṃ patto, vimutto upadhisaṅkhaye."
+    },
+    {
+      "id": "s0504m:1172",
+      "pali": "‘‘Esa so bhagavā buddho, esa sīho anuttaro;"
+    },
+    {
+      "id": "s0504m:1173",
+      "pali": "Sadevakassa lokassa, brahmacakkaṃ pavattayi."
+    },
+    {
+      "id": "s0504m:1174",
+      "pali": "‘‘Iti devā manussā ca, ye buddhaṃ saraṇaṃ gatā;"
+    },
+    {
+      "id": "s0504m:1175",
+      "pali": "Saṅgamma taṃ namassanti, mahantaṃ vītasāradaṃ."
+    },
+    {
+      "id": "s0504m:1176",
+      "pali": "‘‘Danto damayataṃ seṭṭho, santo samayataṃ isi;"
+    },
+    {
+      "id": "s0504m:1177",
+      "pali": "Mutto mocayataṃ aggo, tiṇṇo tārayataṃ varo."
+    },
+    {
+      "id": "s0504m:1178",
+      "pali": "‘‘Iti hetaṃ namassanti, mahantaṃ vītasāradaṃ;"
+    },
+    {
+      "id": "s0504m:1179",
+      "pali": "Sadevakasmiṃ lokasmiṃ, natthi te paṭipuggalo’’ti."
+    },
+    {
+      "id": "s0504m:1180",
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. Terasamaṃ."
+    },
+    {
+      "id": "s0504m:1181",
+      "pali": "Catukkanipāto niṭṭhito."
+    },
+    {
+      "id": "s0504m:1182",
+      "pali": "Tassuddānaṃ –"
+    },
+    {
+      "id": "s0504m:1183",
+      "pali": "Brāhmaṇasulabhā jānaṃ, samaṇasīlā taṇhā brahmā;"
+    },
+    {
+      "id": "s0504m:1184",
+      "pali": "Bahukārā kuhapurisā , cara sampanna lokena terasāti."
+    },
+    {
+      "id": "s0504m:1185",
+      "pali": "Suttasaṅgaho –"
+    },
+    {
+      "id": "s0504m:1186",
+      "pali": "Sattavisekanipātaṃ, dukkaṃ bāvīsasuttasaṅgahitaṃ;"
+    },
+    {
+      "id": "s0504m:1187",
+      "pali": "Samapaññāsamathatikaṃ, terasa catukkañca iti yamidaṃ."
+    },
+    {
+      "id": "s0504m:1188",
+      "pali": "Dvidasuttarasuttasate, saṅgāyitvā samādahiṃsu purā;"
+    },
+    {
+      "id": "s0504m:1189",
+      "pali": "Arahanto ciraṭṭhitiyā, tamāhu nāmena itivuttanti."
+    },
+    {
+      "id": "s0504m:1190",
+      "pali": "Itivuttakapāḷi niṭṭhitā."
+    }
+  ]
+}
