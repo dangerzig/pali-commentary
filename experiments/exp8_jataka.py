@@ -19,35 +19,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 import numpy as np
 from scipy.spatial.distance import cdist
 
-from data_loader import load_raw_documents, binary_labels, VRI_NAMES
+from data_loader import load_raw_documents, binary_labels
 from features import word_frequency_matrix, euclidean_distance_matrix
 
-# The six known boundary texts (for reference)
-MISCLASSIFIED_IDS = ['s0515m', 's0516m', 's0517m', 's0518m', 's0519m', 's0520m']
-
-# Key discriminative words from prior experiments
-DISCRIMINATIVE_WORDS = [
-    'ti', 'bhikkhave', 'kho', 'nti', 'tattha', 'viya', 'vuttaṃ',
-    'aha', 'pe', 'me', 'bhikkhu', 'bhagavā', 'kāraṇaṃ', 'attho', 'nāma',
-]
-
-# Short display names
-SHORT_NAMES = {
-    's0515m': 'Mahāniddesa',
-    's0516m': 'Cūḷaniddesa',
-    's0517m': 'Nettippakaraṇa',
-    's0518m': 'Milindapañha',
-    's0519m': 'Peṭakopadesa',
-    's0520m': 'Suttasaṅgaha',
-}
-
-
-def get_doc_index(documents, file_id):
-    """Return index of a document by file_id."""
-    for i, d in enumerate(documents):
-        if d.file_id == file_id:
-            return i
-    return None
+from shared import (MISCLASSIFIED_IDS, DISCRIMINATIVE_WORDS, SHORT_NAMES,
+                    get_doc_index)
 
 
 def main():

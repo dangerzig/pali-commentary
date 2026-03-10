@@ -15,13 +15,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import numpy as np
-from sklearn.cluster import KMeans
-
 from data_loader import load_raw_documents, load_lemmatized_documents, binary_labels
-from features import (word_frequency_matrix, tfidf_matrix, char_ngram_matrix,
-                       euclidean_distance_matrix)
-from clustering import run_kmeans, evaluate_clustering
+from features import word_frequency_matrix, tfidf_matrix, char_ngram_matrix
+from clustering import run_kmeans
 from visualization import plot_pca, plot_confusion_comparison
 
 

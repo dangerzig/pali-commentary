@@ -23,7 +23,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 import numpy as np
 from sklearn.cluster import KMeans
-from collections import Counter
 
 from data_loader import load_raw_documents, binary_labels
 from features import word_frequency_matrix, euclidean_distance_matrix
@@ -77,7 +76,8 @@ def run_kmeans_experiment(documents, feature_matrix, feature_names, tag="raw"):
     print(f"  Misclassified: {len(misclassified)}")
     for fid in misclassified:
         doc = next(d for d in documents if d.file_id == fid)
-        print(f"    {fid}: true={doc.label}, predicted={'canon' if labels_true[documents.index(doc)] == 1 else 'commentary'}")
+        predicted = 'canon' if doc.label != 'canon' else 'commentary'
+        print(f"    {fid}: true={doc.label}, predicted={predicted}")
 
     # Check if we matched the original paper's results
     expected_misclass = {'s0507m', 's0515m', 's0516m'}

@@ -80,8 +80,8 @@ class Document:
     label: str            # e.g., 'canon'
     suffix: str           # e.g., 'mul'
     text: str = ''        # raw text content
-    tokens: list = field(default_factory=list)  # tokenized words
-    lemmas: list = field(default_factory=list)   # lemmatized words (if available)
+    tokens: list[str] = field(default_factory=list)  # tokenized words
+    lemmas: list[str] = field(default_factory=list)   # lemmatized words (if available)
     word_counts: Counter = field(default_factory=Counter)
     lemma_counts: Counter = field(default_factory=Counter)
 

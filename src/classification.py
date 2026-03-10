@@ -5,6 +5,8 @@ Logistic regression, SVM, random forest, gradient boosting.
 Evaluated with leave-one-out cross-validation.
 """
 
+from typing import Optional
+
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
@@ -16,16 +18,16 @@ from sklearn.preprocessing import StandardScaler
 from data_loader import Document, binary_labels
 
 
-def get_classifiers() -> dict:
+def get_classifiers() -> dict[str, tuple]:
     """Return dict of classifier name -> (classifier, needs_scaling)."""
     return {
         'Logistic Regression (L1)': (
-            LogisticRegression(solver='liblinear', C=1.0, l1_ratio=1.0,
+            LogisticRegression(solver='liblinear', C=1.0, penalty='l1',
                                random_state=42, max_iter=1000),
             True
         ),
         'Logistic Regression (L2)': (
-            LogisticRegression(solver='lbfgs', C=1.0, l1_ratio=0.0,
+            LogisticRegression(solver='lbfgs', C=1.0,
                                random_state=42, max_iter=1000),
             True
         ),
@@ -51,7 +53,7 @@ def get_classifiers() -> dict:
 
 def run_loo_cv(feature_matrix: np.ndarray,
                documents: list[Document],
-               classifier_name: str = None) -> list[dict]:
+               classifier_name: Optional[str] = None) -> list[dict]:
     """Run leave-one-out cross-validation for all (or one) classifier(s).
 
     Args:
@@ -135,7 +137,7 @@ def get_logistic_coefficients(feature_matrix: np.ndarray,
     scaler = StandardScaler()
     X = scaler.fit_transform(feature_matrix)
 
-    lr = LogisticRegression(solver='liblinear', C=1.0, l1_ratio=1.0,
+    lr = LogisticRegression(solver='liblinear', C=1.0, penalty='l1',
                              random_state=42, max_iter=1000)
     lr.fit(X, true_labels)
 

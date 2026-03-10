@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pali-commentary"
+version = "0.1.0"
+description = "Computational classification of canonical vs. commentarial Pali texts"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Dan Zigmond"},
+]
+dependencies = [
+    "numpy>=2.3",
+    "pandas>=3.0",
+    "scikit-learn>=1.8",
+    "scipy>=1.17",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+    "umap-learn>=0.5",
+    "gensim>=4.4",
+    "hdbscan>=0.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "mypy>=1.0",
+    "flake8>=7.0",
+]

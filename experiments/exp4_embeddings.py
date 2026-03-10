@@ -14,12 +14,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 import numpy as np
-import tempfile
 
-from data_loader import load_raw_documents, load_lemmatized_documents, binary_labels
+from data_loader import load_raw_documents, load_lemmatized_documents
 from clustering import run_kmeans, run_spectral, run_gmm, run_agglomerative
 from classification import run_loo_cv
-from visualization import plot_umap, plot_pca, plot_confusion_comparison, RESULTS_DIR
+from visualization import plot_umap, plot_pca, plot_confusion_comparison
 
 
 def train_fasttext_model(documents, use_lemmas=False, vector_size=100,

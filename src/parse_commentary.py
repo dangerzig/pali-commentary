@@ -20,8 +20,8 @@ with the existing lemmatization pipeline.
 
 import json
 import re
-import sys
 from pathlib import Path
+from typing import Optional
 
 VRI_RAW_DIR = Path.home() / "pali-canon" / "data" / "vri-raw"
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "commentary_parsed"
@@ -90,9 +90,9 @@ def parse_vri_commentary(filepath: Path) -> dict:
     }
 
 
-def parse_all_commentaries(input_dir: Path = None,
-                           output_dir: Path = None,
-                           suffixes: list[str] = None) -> list[Path]:
+def parse_all_commentaries(input_dir: Optional[Path] = None,
+                           output_dir: Optional[Path] = None,
+                           suffixes: Optional[list[str]] = None) -> list[Path]:
     """Parse all commentary files and write JSON outputs.
 
     Args:
@@ -129,8 +129,8 @@ def parse_all_commentaries(input_dir: Path = None,
     return output_files
 
 
-def parse_canon_files(input_dir: Path = None,
-                      output_dir: Path = None) -> list[Path]:
+def parse_canon_files(input_dir: Optional[Path] = None,
+                      output_dir: Optional[Path] = None) -> list[Path]:
     """Parse canonical .mul.txt files into JSON format for consistency.
 
     This is useful if we want to lemmatize the canonical texts directly

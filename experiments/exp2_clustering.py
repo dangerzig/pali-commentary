@@ -17,12 +17,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import numpy as np
-from data_loader import load_raw_documents, load_lemmatized_documents, binary_labels
+from data_loader import load_raw_documents, load_lemmatized_documents
 from features import word_frequency_matrix, tfidf_matrix
 from clustering import (run_kmeans, run_spectral, run_gmm,
                          run_agglomerative, run_hdbscan)
-from visualization import plot_pca, plot_dendrogram, plot_confusion_comparison
+from visualization import plot_confusion_comparison
 
 
 def run_all_clustering(documents, feature_matrix, feature_names, tag=""):

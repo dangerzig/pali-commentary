@@ -8,7 +8,6 @@ processing the parsed commentary JSON files.
 
 import json
 import sys
-import sqlite3
 from pathlib import Path
 from collections import Counter
 
@@ -88,7 +87,6 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     total_stats = Counter()
-    unknown_words = Counter()
 
     for i, input_path in enumerate(parsed_files):
         output_path = OUTPUT_DIR / input_path.name

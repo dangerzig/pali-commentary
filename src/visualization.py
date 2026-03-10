@@ -4,11 +4,12 @@ Visualization functions for Pāli text classification experiments.
 PCA and UMAP plots, colored by label, with misclassification markers.
 """
 
+from typing import Optional
+
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.decomposition import PCA
 from pathlib import Path
 
@@ -36,8 +37,7 @@ def plot_pca(feature_matrix: np.ndarray,
              file_ids: list[str],
              title: str = 'PCA of Document Features',
              filename: str = 'pca.png',
-             misclassified: list[str] = None,
-             cluster_labels: np.ndarray = None,
+             misclassified: Optional[list[str]] = None,
              annotate_all: bool = False,
              figsize: tuple = (12, 8)) -> str:
     """Create a PCA scatter plot colored by document label.
@@ -49,7 +49,6 @@ def plot_pca(feature_matrix: np.ndarray,
         title: Plot title.
         filename: Output filename (saved to results/).
         misclassified: List of file_ids to highlight.
-        cluster_labels: If provided, show cluster assignments.
         annotate_all: If True, label all points.
         figsize: Figure size.
 
@@ -120,7 +119,7 @@ def plot_umap(feature_matrix: np.ndarray,
               file_ids: list[str],
               title: str = 'UMAP of Document Features',
               filename: str = 'umap.png',
-              misclassified: list[str] = None,
+              misclassified: Optional[list[str]] = None,
               n_neighbors: int = 15,
               min_dist: float = 0.1,
               figsize: tuple = (12, 8)) -> str:
@@ -194,8 +193,6 @@ def plot_dendrogram(distance_matrix: np.ndarray,
 
     fig, ax = plt.subplots(figsize=figsize)
 
-    # Color labels by type
-    label_colors = [LABEL_COLORS.get(l, '#999999') for l in labels]
     display_labels = file_ids
 
     dendrogram(

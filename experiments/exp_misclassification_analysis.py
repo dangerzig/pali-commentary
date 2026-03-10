@@ -28,41 +28,12 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from scipy.spatial.distance import cdist
 
-from data_loader import load_raw_documents, binary_labels, VRI_NAMES
+from data_loader import load_raw_documents, binary_labels
 from features import word_frequency_matrix, euclidean_distance_matrix
 from visualization import LABEL_COLORS, RESULTS_DIR
 
-# The six consistently misclassified texts
-MISCLASSIFIED_IDS = ['s0515m', 's0516m', 's0517m', 's0518m', 's0519m', 's0520m']
-
-# Canon texts misclassified as non-canon
-CANON_AS_NONCANON = ['s0515m', 's0516m', 's0517m', 's0519m']
-# Paracanonical texts misclassified as canon
-NONCANON_AS_CANON = ['s0518m', 's0520m']
-
-# Key discriminative words from prior experiments
-DISCRIMINATIVE_WORDS = [
-    'ti', 'bhikkhave', 'kho', 'nti', 'tattha', 'viya', 'vuttam',
-    'aha', 'pe', 'me', 'bhikkhu', 'bhagavā', 'kāraṇā', 'attho', 'nāma',
-]
-
-# Short display names for the six texts
-SHORT_NAMES = {
-    's0515m': 'Mahāniddesa',
-    's0516m': 'Cūḷaniddesa',
-    's0517m': 'Nettippakaraṇa',
-    's0518m': 'Milindapañha',
-    's0519m': 'Peṭakopadesa',
-    's0520m': 'Suttasaṅgaha',
-}
-
-
-def get_doc_index(documents, file_id):
-    """Return index of a document by file_id."""
-    for i, d in enumerate(documents):
-        if d.file_id == file_id:
-            return i
-    return None
+from shared import (MISCLASSIFIED_IDS, CANON_AS_NONCANON, NONCANON_AS_CANON,
+                    DISCRIMINATIVE_WORDS, SHORT_NAMES, get_doc_index)
 
 
 def section_1_document_statistics(documents, labels):

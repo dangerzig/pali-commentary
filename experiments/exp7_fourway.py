@@ -30,9 +30,10 @@ from sklearn.metrics import (accuracy_score, classification_report,
                              confusion_matrix)
 from sklearn.decomposition import PCA
 
-from data_loader import load_raw_documents, VRI_NAMES
+from data_loader import load_raw_documents
 from features import word_frequency_matrix, tfidf_matrix
 from visualization import LABEL_COLORS, RESULTS_DIR
+from shared import MISCLASSIFIED_IDS
 
 
 CLASS_ORDER = ['canon', 'commentary', 'subcommentary', 'paracanonical']
@@ -143,7 +144,7 @@ def plot_fourway_pca(X, labels, documents, filename):
         )
 
     # Annotate boundary texts and paracanonical
-    boundary_ids = {'s0515m', 's0516m', 's0517m', 's0518m', 's0519m', 's0520m'}
+    boundary_ids = set(MISCLASSIFIED_IDS)
     for i, d in enumerate(documents):
         if d.file_id in boundary_ids or d.label == 'paracanonical':
             ax.annotate(

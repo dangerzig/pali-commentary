@@ -17,12 +17,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-from data_loader import load_raw_documents, load_lemmatized_documents, binary_labels
+from data_loader import load_raw_documents, load_lemmatized_documents
 from features import word_frequency_matrix, tfidf_matrix
 from classification import run_loo_cv, get_feature_importance, get_logistic_coefficients
 from visualization import RESULTS_DIR
