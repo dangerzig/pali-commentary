@@ -33,7 +33,7 @@ from sklearn.decomposition import PCA
 from data_loader import load_raw_documents
 from features import word_frequency_matrix, tfidf_matrix
 from visualization import LABEL_COLORS, RESULTS_DIR
-from shared import MISCLASSIFIED_IDS
+from shared import MISCLASSIFIED_IDS, get_data_dir
 
 
 CLASS_ORDER = ['canon', 'commentary', 'subcommentary', 'paracanonical']
@@ -171,7 +171,7 @@ def main():
     print("=" * 60)
 
     # Load all documents with 4-way labels
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     labels = [d.label for d in documents]
     n_docs = len(documents)
 

@@ -33,7 +33,8 @@ from features import word_frequency_matrix, euclidean_distance_matrix
 from visualization import LABEL_COLORS, RESULTS_DIR
 
 from shared import (MISCLASSIFIED_IDS, CANON_AS_NONCANON, NONCANON_AS_CANON,
-                    DISCRIMINATIVE_WORDS, SHORT_NAMES, get_doc_index)
+                    DISCRIMINATIVE_WORDS, SHORT_NAMES, get_doc_index,
+                    get_data_dir)
 
 
 def section_1_document_statistics(documents, labels):
@@ -391,8 +392,11 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
     intercept = lr.intercept_[0]
 
     # 2x3 panel figure
-    fig, axes = plt.subplots(2, 3, figsize=(18, 10))
-    axes = axes.flatten()
+    n_panels = len(MISCLASSIFIED_IDS)
+    ncols = min(3, n_panels)
+    nrows = (n_panels + ncols - 1) // ncols
+    fig, axes = plt.subplots(nrows, ncols, figsize=(18, 5 * nrows))
+    axes = np.array(axes).flatten() if n_panels > 1 else [axes]
 
     for panel_idx, fid in enumerate(MISCLASSIFIED_IDS):
         ax = axes[panel_idx]
@@ -449,6 +453,9 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
             print(f"      {feature_names[i]:<20} contribution={contributions[i]:>8.4f}  "
                   f"(coef={coefs[i]:.4f}, x_scaled={x_scaled[i]:.4f})")
 
+    for i in range(n_panels, len(axes)):
+        axes[i].set_visible(False)
+
     plt.suptitle('Decision Decomposition: Words Driving (Mis)classification\n'
                  '(blue = toward canon, red = toward non-canon)', fontsize=13)
     plt.tight_layout()
@@ -503,8 +510,11 @@ def section_5_nearest_neighbors(documents, labels, matrix):
         print()
 
     # Figure: show neighbor relationships
-    fig, axes = plt.subplots(2, 3, figsize=(16, 9))
-    axes = axes.flatten()
+    n_panels = len(MISCLASSIFIED_IDS)
+    ncols = min(3, n_panels)
+    nrows = (n_panels + ncols - 1) // ncols
+    fig, axes = plt.subplots(nrows, ncols, figsize=(16, 4.5 * nrows))
+    axes = np.array(axes).flatten() if n_panels > 1 else [axes]
 
     for panel_idx, fid in enumerate(MISCLASSIFIED_IDS):
         ax = axes[panel_idx]
@@ -528,6 +538,10 @@ def section_5_nearest_neighbors(documents, labels, matrix):
         true_str = 'canon' if true_lbl == 0 else 'non-canon'
         ax.set_title(f"{SHORT_NAMES[fid]}\n(true: {true_str}, purity: {r['purity']:.0%})",
                      fontsize=9)
+
+    # Hide unused axes
+    for i in range(n_panels, len(axes)):
+        axes[i].set_visible(False)
 
     from matplotlib.patches import Patch
     legend_elements = [
@@ -646,18 +660,22 @@ def main():
     print("Analyzing why 6 boundary texts are consistently misclassified\n")
 
     # Load data
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     labels = binary_labels(documents)
     file_ids = [d.file_id for d in documents]
     print(f"Loaded {len(documents)} documents "
           f"({sum(1 for l in labels if l == 0)} canon, "
           f"{sum(1 for l in labels if l == 1)} non-canon)")
 
-    # Verify all misclassified texts are present
+    # Filter boundary text lists to those present in current data
+    global MISCLASSIFIED_IDS, CANON_AS_NONCANON, NONCANON_AS_CANON
     found = set(d.file_id for d in documents)
-    for fid in MISCLASSIFIED_IDS:
-        if fid not in found:
-            print(f"  WARNING: {fid} not found in loaded documents!")
+    missing = [fid for fid in MISCLASSIFIED_IDS if fid not in found]
+    if missing:
+        print(f"  Note: {missing} not in current data (split into PTS volumes)")
+    MISCLASSIFIED_IDS = [fid for fid in MISCLASSIFIED_IDS if fid in found]
+    CANON_AS_NONCANON = [fid for fid in CANON_AS_NONCANON if fid in found]
+    NONCANON_AS_CANON = [fid for fid in NONCANON_AS_CANON if fid in found]
     print()
 
     # Build feature matrix (top 1000 word frequencies)

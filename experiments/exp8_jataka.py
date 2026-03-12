@@ -23,7 +23,7 @@ from data_loader import load_raw_documents, binary_labels
 from features import word_frequency_matrix, euclidean_distance_matrix
 
 from shared import (MISCLASSIFIED_IDS, DISCRIMINATIVE_WORDS, SHORT_NAMES,
-                    get_doc_index)
+                    get_doc_index, get_data_dir)
 
 
 def main():
@@ -31,7 +31,7 @@ def main():
     print("=" * 60)
 
     # Load data
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     labels = binary_labels(documents)
     file_ids = [d.file_id for d in documents]
     print(f"Loaded {len(documents)} documents\n")
@@ -40,8 +40,11 @@ def main():
     matrix, feature_names = word_frequency_matrix(documents, top_n=1000)
     print(f"Feature matrix: {matrix.shape[0]} docs x {matrix.shape[1]} features\n")
 
-    # Find Jātaka documents
-    jataka_ids = [d.file_id for d in documents if d.file_id.startswith('s0510')]
+    # Find canonical Jātaka documents only (VRI: s0513m/s0514m; PTS: ja1-ja6)
+    jataka_ids = [d.file_id for d in documents
+                  if d.label == 'canon' and (
+                      d.file_id.startswith('s0513m') or d.file_id.startswith('s0514m')
+                      or d.file_id.startswith('ja'))]
     if not jataka_ids:
         print("ERROR: No Jātaka documents found!")
         return
@@ -86,16 +89,20 @@ def main():
 
     # Compare with boundary texts and class statistics
     canon_log_ratios = [log_ratio[i] for i in ref_canon_idx]
-    boundary_log_ratios = [log_ratio[get_doc_index(documents, fid)]
-                           for fid in MISCLASSIFIED_IDS]
+    boundary_log_ratios = []
+    for fid in MISCLASSIFIED_IDS:
+        idx = get_doc_index(documents, fid)
+        if idx is not None:
+            boundary_log_ratios.append(float(log_ratio[idx]))
 
     print(f"\nReference statistics:")
     print(f"  Canon mean log ratio:     {np.mean(canon_log_ratios):>10.4f} "
           f"(sd = {np.std(canon_log_ratios):.4f})")
     print(f"  Canon min log ratio:      {np.min(canon_log_ratios):>10.4f}")
     print(f"  Canon max log ratio:      {np.max(canon_log_ratios):>10.4f}")
-    print(f"  Boundary texts range:     "
-          f"{min(boundary_log_ratios):>10.4f} to {max(boundary_log_ratios):.4f}")
+    if boundary_log_ratios:
+        print(f"  Boundary texts range:     "
+              f"{min(boundary_log_ratios):>10.4f} to {max(boundary_log_ratios):.4f}")
 
     # Rank the Jātaka among all canonical texts by log ratio
     canon_with_jataka = [(documents[i].file_id, log_ratio[i])
@@ -190,6 +197,8 @@ def main():
         print("-" * (35 + 11 * len(available_words)))
         for fid in MISCLASSIFIED_IDS:
             idx = get_doc_index(documents, fid)
+            if idx is None:
+                continue
             name = SHORT_NAMES.get(fid, fid)
             print(f"{name:<35}", end='')
             for z in z_matrix[idx]:

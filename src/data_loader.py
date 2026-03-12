@@ -20,7 +20,9 @@ from typing import Optional
 PALI_TOKEN_RE = re.compile(r'[^a-zA-ZāīūṭḍṇṅñṃḷĀĪŪṬḌṆṄÑṂḶ]+')
 
 RAW_DATA_DIR = Path(__file__).parent.parent / "data" / "raw"
+RAW_PTS_DIR = Path(__file__).parent.parent / "data" / "raw-pts"
 LEMMATIZED_DIR = Path(__file__).parent.parent / "data" / "lemmatized"
+LEMMATIZED_PTS_DIR = Path(__file__).parent.parent / "data" / "lemmatized-pts"
 
 # Also check pali-canon lemmatized data for canonical texts
 CANON_LEMMATIZED_DIR = Path.home() / "pali-canon" / "data" / "lemmatized"
@@ -32,23 +34,30 @@ LABEL_MAP = {
     'nrf': 'paracanonical',
 }
 
-# Mapping from VRI file codes to human-readable names
+# Mapping from VRI/CST4 file codes to human-readable names.
+# The s05xx codes follow the CSCD Khuddakanikāya ordering (verified
+# against actual file contents), which differs from some published lists.
 VRI_NAMES = {
-    's0101': 'DN vol.1 (Sīlakkhandhavagga)',
-    's0102': 'DN vol.2 (Mahāvagga)',
-    's0103': 'DN vol.3 (Pāthikavagga)',
-    's0201': 'MN vol.1 (Mūlapaṇṇāsa)',
-    's0202': 'MN vol.2 (Majjhimapaṇṇāsa)',
-    's0203': 'MN vol.3 (Uparipaṇṇāsa)',
-    's0301': 'SN vol.1 (Sagāthāvagga)',
-    's0302': 'SN vol.2 (Nidānavagga)',
-    's0303': 'SN vol.3 (Khandhavagga)',
-    's0304': 'SN vol.4 (Saḷāyatanavagga)',
-    's0305': 'SN vol.5 (Mahāvagga)',
-    's0401': 'AN vol.1 (Ekakanipāta–Tikanipāta)',
-    's0402': 'AN vol.2 (Catukkanipāta–Chakanipāta)',
-    's0403': 'AN vol.3 (Sattakanipāta–Navakanipāta)',
-    's0404': 'AN vol.4 (Dasakanipāta–Ekādasakanipāta)',
+    # Dīgha Nikāya
+    's0101': 'D I (Sīlakkhandhavagga)',
+    's0102': 'D II (Mahāvagga)',
+    's0103': 'D III (Pāthikavagga)',
+    # Majjhima Nikāya
+    's0201': 'M I (Mūlapaṇṇāsa)',
+    's0202': 'M II (Majjhimapaṇṇāsa)',
+    's0203': 'M III (Uparipaṇṇāsa)',
+    # Saṃyutta Nikāya
+    's0301': 'S I (Sagāthāvagga)',
+    's0302': 'S II (Nidānavagga)',
+    's0303': 'S III (Khandhavagga)',
+    's0304': 'S IV (Saḷāyatanavagga)',
+    's0305': 'S V (Mahāvagga)',
+    # Aṅguttara Nikāya (VRI splits by nipāta; PTS volumes differ)
+    's0401': 'AN Ekakanipāta',
+    's0402': 'AN Dukanipāta–Catukkanipāta',
+    's0403': 'AN Pañcakanipāta–Sattakanipāta',
+    's0404': 'AN Aṭṭhakanipāta–Ekādasakanipāta',
+    # Khuddaka Nikāya
     's0501': 'Khuddakapāṭha',
     's0502': 'Dhammapada',
     's0503': 'Udāna',
@@ -58,17 +67,41 @@ VRI_NAMES = {
     's0507': 'Petavatthu',
     's0508': 'Theragāthā',
     's0509': 'Therīgāthā',
-    's0510': 'Jātaka',
-    's0511': 'Niddesa (Mahāniddesa)',  # Actually split: s0515m, s0516m
-    's0512': 'Paṭisambhidāmagga',
-    's0513': 'Apadāna',
-    's0514': 'Buddhavaṃsa + Cariyāpiṭaka',
+    's0510': 'Apadāna',
+    's0511': 'Buddhavaṃsa',
+    's0512': 'Cariyāpiṭaka',
+    's0513': 'Jātaka (Part 1)',
+    's0514': 'Jātaka (Part 2)',
     's0515': 'Mahāniddesa',
     's0516': 'Cūḷaniddesa',
-    's0517': 'Nettippakaraṇa',
+    's0517': 'Paṭisambhidāmagga',
     's0518': 'Milindapañha',
-    's0519': 'Peṭakopadesa',
-    's0520': 'Suttasaṅgaha',
+    's0519': 'Nettippakaraṇa',
+    's0520': 'Peṭakopadesa',
+}
+
+# Mapping from PTS-reorganised file IDs to PTS volume names.
+# Used when loading from data/raw-pts/.
+PTS_NAMES = {
+    # AN PTS volumes (merged from VRI nipāta files)
+    'an1': 'A I',
+    'an2': 'A II',
+    'an3': 'A III',
+    'an4': 'A IV',
+    'an5': 'A V',
+    # Jātaka PTS volumes (split from VRI parts)
+    'ja1': 'J I',
+    'ja2': 'J II',
+    'ja3': 'J III',
+    'ja4': 'J IV',
+    'ja5': 'J V',
+    'ja6': 'J VI',
+    # Paṭisambhidāmagga PTS volumes (split from single VRI file)
+    'ps1': 'Paṭis I',
+    'ps2': 'Paṭis II',
+    # Apadāna PTS volumes (re-split from VRI parts)
+    'ap1': 'Ap I',
+    'ap2': 'Ap II',
 }
 
 
@@ -88,7 +121,11 @@ class Document:
     @property
     def name(self) -> str:
         """Human-readable name for this document."""
-        base = self.file_id[:-1]  # strip the letter suffix (m/a/t)
+        # Check PTS names first (for reorganised files like 'an1', 'ja3')
+        if self.file_id in PTS_NAMES:
+            return f"{self.file_id} ({PTS_NAMES[self.file_id]})"
+        # Then check VRI names (strip the letter suffix: m/a/t)
+        base = self.file_id[:-1]
         name = VRI_NAMES.get(base, base)
         return f"{self.file_id} ({name})"
 
@@ -144,7 +181,7 @@ def load_raw_documents(data_dir: Optional[Path] = None,
         data_dir = RAW_DATA_DIR
 
     documents = []
-    for filepath in sorted(data_dir.glob('s*.txt')):
+    for filepath in sorted(data_dir.glob('*.txt')):
         file_id, suffix, label = parse_filename(filepath.name)
 
         if include_labels and label not in include_labels:
@@ -286,8 +323,17 @@ def binary_labels(documents: list[Document]) -> list[int]:
 
 
 if __name__ == '__main__':
-    # Quick test
-    docs = load_raw_documents()
+    import sys
+    use_pts = '--pts' in sys.argv
+
+    if use_pts:
+        data_dir = RAW_PTS_DIR
+        print(f"Loading from PTS-reorganised data: {data_dir}")
+    else:
+        data_dir = RAW_DATA_DIR
+        print(f"Loading from VRI data: {data_dir}")
+
+    docs = load_raw_documents(data_dir=data_dir)
     print(f"Loaded {len(docs)} documents")
 
     for label in ['canon', 'commentary', 'subcommentary', 'paracanonical']:
@@ -297,4 +343,4 @@ if __name__ == '__main__':
 
     print(f"\nFirst 5 documents:")
     for d in docs[:5]:
-        print(f"  {d.file_id}: {d.label} ({len(d.tokens):,} tokens)")
+        print(f"  {d.name}: {d.label} ({len(d.tokens):,} tokens)")

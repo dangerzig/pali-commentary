@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 
 from data_loader import load_raw_documents, binary_labels
 from visualization import RESULTS_DIR, LABEL_COLORS
+from shared import get_data_dir
 
 
 class CharNgramLM:
@@ -168,7 +169,7 @@ def main():
     print("Experiment 6: Language Model Perplexity")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     n_docs = len(documents)
     true_labels = binary_labels(documents)
     canon_docs = [d for d in documents if d.label == 'canon']

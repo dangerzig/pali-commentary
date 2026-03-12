@@ -15,20 +15,23 @@ from features import word_frequency_matrix, tfidf_matrix
 from clustering import run_kmeans, run_spectral, run_gmm
 from classification import run_loo_cv, get_logistic_coefficients
 from visualization import plot_pca, plot_confusion_comparison
+from shared import get_data_dir, get_lemma_dir
 
 
 def main():
     print("Lemmatized Feature Experiments")
     print("=" * 60)
 
-    documents = load_raw_documents()
-    documents = load_lemmatized_documents(raw_docs=documents)
+    documents = load_raw_documents(data_dir=get_data_dir())
+    documents = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     n_with_lemmas = sum(1 for d in documents if len(d.lemmas) > 0)
     print(f"Loaded {len(documents)} documents, {n_with_lemmas} with lemmatized data\n")
 
     if n_with_lemmas < len(documents):
-        print("ERROR: Not all documents have lemmatized data")
-        return
+        missing = [d.file_id for d in documents if not d.lemmas]
+        print(f"Note: {len(missing)} documents lack lemmatized data: {missing}")
+        print("Filtering to documents with lemmatized data only.\n")
+        documents = [d for d in documents if d.lemmas]
 
     file_ids = [d.file_id for d in documents]
     doc_labels = [d.label for d in documents]

@@ -19,6 +19,7 @@ from data_loader import load_raw_documents, load_lemmatized_documents, binary_la
 from features import word_frequency_matrix, tfidf_matrix, char_ngram_matrix
 from clustering import run_kmeans
 from visualization import plot_pca, plot_confusion_comparison
+from shared import get_data_dir, get_lemma_dir
 
 
 def run_feature_experiment(documents, feature_matrix, feature_names, method_name):
@@ -33,7 +34,7 @@ def main():
     print("Experiment 1: Feature Comparison")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     labels_true = binary_labels(documents)
     file_ids = [d.file_id for d in documents]
     doc_labels = [d.label for d in documents]
@@ -86,7 +87,7 @@ def main():
 
     # --- Lemmatized features if available ---
     print("\nChecking for lemmatized data...")
-    docs_lemma = load_lemmatized_documents(raw_docs=documents)
+    docs_lemma = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     n_with_lemmas = sum(1 for d in docs_lemma if len(d.lemmas) > 0)
 
     if n_with_lemmas == n_docs:

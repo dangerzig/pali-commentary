@@ -13,8 +13,18 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from pathlib import Path
 
-RESULTS_DIR = Path(__file__).parent.parent / "results"
-RESULTS_DIR.mkdir(exist_ok=True)
+def _get_results_dir() -> Path:
+    """Return results dir, respecting --pts flag."""
+    import sys
+    base = Path(__file__).parent.parent
+    if '--pts' in sys.argv:
+        d = base / "results-pts"
+    else:
+        d = base / "results"
+    d.mkdir(exist_ok=True)
+    return d
+
+RESULTS_DIR = _get_results_dir()
 
 # Color scheme for document types
 LABEL_COLORS = {

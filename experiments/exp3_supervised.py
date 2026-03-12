@@ -25,6 +25,7 @@ from data_loader import load_raw_documents, load_lemmatized_documents
 from features import word_frequency_matrix, tfidf_matrix
 from classification import run_loo_cv, get_feature_importance, get_logistic_coefficients
 from visualization import RESULTS_DIR
+from shared import get_data_dir, get_lemma_dir
 
 
 def print_results_table(results: list[dict], tag: str = ""):
@@ -69,7 +70,7 @@ def main():
     print("Experiment 3: Supervised Classification")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     n_docs = len(documents)
     print(f"Loaded {n_docs} documents\n")
 
@@ -111,7 +112,7 @@ def main():
 
     # --- Lemmatized features if available ---
     print("\n\nChecking for lemmatized data...")
-    docs_lemma = load_lemmatized_documents(raw_docs=documents)
+    docs_lemma = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     n_with_lemmas = sum(1 for d in docs_lemma if len(d.lemmas) > 0)
 
     if n_with_lemmas == n_docs:

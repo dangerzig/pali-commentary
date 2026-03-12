@@ -27,6 +27,7 @@ from sklearn.cluster import KMeans
 from data_loader import load_raw_documents, binary_labels
 from features import word_frequency_matrix, euclidean_distance_matrix
 from visualization import plot_pca, plot_dendrogram
+from shared import get_data_dir, get_lemma_dir
 
 
 def run_kmeans_experiment(documents, feature_matrix, feature_names, tag="raw"):
@@ -122,7 +123,7 @@ def main():
     print("=" * 60)
 
     # Load all Sutta Pitaka documents
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     print(f"\nLoaded {len(documents)} documents:")
     for label in ['canon', 'commentary', 'subcommentary', 'paracanonical']:
         subset = [d for d in documents if d.label == label]
@@ -141,7 +142,7 @@ def main():
 
     # --- Now try with lemmatized features if available ---
     from data_loader import load_lemmatized_documents
-    docs_with_lemmas = load_lemmatized_documents(raw_docs=documents)
+    docs_with_lemmas = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     docs_with_lemma_data = [d for d in docs_with_lemmas if len(d.lemmas) > 0]
 
     if len(docs_with_lemma_data) > 0:

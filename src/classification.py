@@ -53,13 +53,16 @@ def get_classifiers() -> dict[str, tuple]:
 
 def run_loo_cv(feature_matrix: np.ndarray,
                documents: list[Document],
-               classifier_name: Optional[str] = None) -> list[dict]:
-    """Run leave-one-out cross-validation for all (or one) classifier(s).
+               classifier_name: Optional[str] = None,
+               cv=None) -> list[dict]:
+    """Run cross-validation for all (or one) classifier(s).
 
     Args:
         feature_matrix: (n_docs, n_features) array.
         documents: List of Document objects.
         classifier_name: If provided, only run this classifier.
+        cv: Cross-validation splitter. Defaults to LeaveOneOut().
+            Use StratifiedKFold(10) for faster results on large feature sets.
 
     Returns:
         List of result dicts with accuracy, precision, recall, F1,
@@ -67,7 +70,8 @@ def run_loo_cv(feature_matrix: np.ndarray,
     """
     true_labels = np.array(binary_labels(documents))
     file_ids = [d.file_id for d in documents]
-    loo = LeaveOneOut()
+    if cv is None:
+        cv = LeaveOneOut()
 
     classifiers = get_classifiers()
     if classifier_name:
@@ -80,8 +84,7 @@ def run_loo_cv(feature_matrix: np.ndarray,
             scaler = StandardScaler()
             X = scaler.fit_transform(X)
 
-        # LOO cross-validation
-        predictions = cross_val_predict(clf, X, true_labels, cv=loo)
+        predictions = cross_val_predict(clf, X, true_labels, cv=cv)
 
         misclassified = [file_ids[i] for i in range(len(documents))
                          if predictions[i] != true_labels[i]]

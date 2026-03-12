@@ -16,9 +16,12 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 import numpy as np
 
 from data_loader import load_raw_documents, load_lemmatized_documents
+from sklearn.model_selection import StratifiedKFold
+
 from clustering import run_kmeans, run_spectral, run_gmm, run_agglomerative
 from classification import run_loo_cv
 from visualization import plot_umap, plot_pca, plot_confusion_comparison
+from shared import get_data_dir, get_lemma_dir
 
 
 def train_fasttext_model(documents, use_lemmas=False, vector_size=100,
@@ -73,7 +76,7 @@ def main():
     print("Experiment 4: Document Embeddings (FastText)")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     file_ids = [d.file_id for d in documents]
     doc_labels = [d.label for d in documents]
     n_docs = len(documents)
@@ -104,9 +107,10 @@ def main():
         print(f"  {name}: accuracy={acc:.4f}, misclassified={len(mis)} {mis}")
         results[f'{name} (FastText raw)'] = acc
 
-    # Supervised (LOO-CV)
-    print("\nSupervised classification on raw FastText embeddings:")
-    sup_results = run_loo_cv(emb_raw, documents)
+    # Supervised (10-fold stratified CV — faster than LOO for embeddings)
+    print("\nSupervised classification on raw FastText embeddings (10-fold CV):")
+    cv10 = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
+    sup_results = run_loo_cv(emb_raw, documents, cv=cv10)
     for r in sup_results:
         print(f"  {r['method']}: accuracy={r['accuracy']:.4f}, misclassified={r['n_misclassified']}")
         results[f"{r['method']} (FastText raw)"] = r['accuracy']
@@ -135,7 +139,7 @@ def main():
 
     # --- Lemmatized FastText if available ---
     print("\n\nChecking for lemmatized data...")
-    docs_lemma = load_lemmatized_documents(raw_docs=documents)
+    docs_lemma = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     n_with_lemmas = sum(1 for d in docs_lemma if len(d.lemmas) > 0)
 
     if n_with_lemmas == n_docs:

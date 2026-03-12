@@ -19,6 +19,7 @@ from data_loader import load_raw_documents
 from clustering import run_kmeans, run_spectral, run_gmm, run_agglomerative
 from classification import run_loo_cv
 from visualization import plot_umap, plot_pca, plot_confusion_comparison
+from shared import get_data_dir
 
 
 def compute_transformer_embeddings(documents, model_name='paraphrase-multilingual-MiniLM-L12-v2',
@@ -65,7 +66,7 @@ def main():
     print("Experiment 5: Transformer-based Approaches")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     file_ids = [d.file_id for d in documents]
     doc_labels = [d.label for d in documents]
     n_docs = len(documents)

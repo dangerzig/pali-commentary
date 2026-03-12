@@ -22,6 +22,7 @@ from features import word_frequency_matrix, tfidf_matrix
 from clustering import (run_kmeans, run_spectral, run_gmm,
                          run_agglomerative, run_hdbscan)
 from visualization import plot_confusion_comparison
+from shared import get_data_dir, get_lemma_dir
 
 
 def run_all_clustering(documents, feature_matrix, feature_names, tag=""):
@@ -60,7 +61,7 @@ def main():
     print("Experiment 2: Clustering Algorithm Comparison")
     print("=" * 60)
 
-    documents = load_raw_documents()
+    documents = load_raw_documents(data_dir=get_data_dir())
     file_ids = [d.file_id for d in documents]
     doc_labels = [d.label for d in documents]
     n_docs = len(documents)
@@ -87,7 +88,7 @@ def main():
 
     # --- Lemmatized ---
     print("\n\nChecking for lemmatized data...")
-    docs_lemma = load_lemmatized_documents(raw_docs=documents)
+    docs_lemma = load_lemmatized_documents(lemma_dir=get_lemma_dir(), raw_docs=documents)
     n_with_lemmas = sum(1 for d in docs_lemma if len(d.lemmas) > 0)
 
     if n_with_lemmas == n_docs:
