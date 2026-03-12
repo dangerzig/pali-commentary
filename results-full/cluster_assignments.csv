@@ -1,0 +1,138 @@
+filename,text_name,label,pitaka,k2,k3,k4,k5,k6
+abh01a.att.txt,Aṭṭhasālinī,commentary,abhidhamma,1,0,3,1,2
+abh01m.mul.txt,Dhammasaṅgaṇī,canon,abhidhamma,0,1,1,4,1
+abh01t.tik.txt,Dhammasaṅgaṇī-mūlaṭīkā,subcommentary,abhidhamma,1,0,3,1,2
+abh02a.att.txt,Sammohavinodanī,commentary,abhidhamma,1,0,3,1,2
+abh02m.mul.txt,Vibhaṅga,canon,abhidhamma,0,1,1,4,1
+abh02t.tik.txt,Vibhaṅga-mūlaṭīkā,subcommentary,abhidhamma,1,0,3,1,2
+abh03a.att.txt,Pañcappakaraṇaṭṭhakathā,commentary,abhidhamma,1,0,3,1,2
+abh03m1.mul.txt,Dhātukathā,canon,abhidhamma,0,1,3,4,1
+abh03m10.mul.txt,Paṭṭhāna IV,canon,abhidhamma,0,1,0,2,4
+abh03m11.mul.txt,Paṭṭhāna V,canon,abhidhamma,0,1,0,2,1
+abh03m2.mul.txt,Puggalapaññatti,canon,abhidhamma,0,1,1,4,5
+abh03m3.mul.txt,Kathāvatthu,canon,abhidhamma,0,1,1,4,1
+abh03m4.mul.txt,Yamaka I,canon,abhidhamma,0,1,3,3,1
+abh03m5.mul.txt,Yamaka II,canon,abhidhamma,0,1,3,4,1
+abh03m6.mul.txt,Yamaka III,canon,abhidhamma,0,1,3,3,1
+abh03m7.mul.txt,Paṭṭhāna I (Duka-paṭṭhāna),canon,abhidhamma,0,1,0,2,4
+abh03m8.mul.txt,Paṭṭhāna II,canon,abhidhamma,0,1,0,2,4
+abh03m9.mul.txt,Paṭṭhāna III,canon,abhidhamma,0,1,0,2,4
+abh03t.tik.txt,Pañcapakaraṇa-mūlaṭīkā,subcommentary,abhidhamma,1,0,3,1,2
+abh08t.nrf.txt,Abhidhammāvatāra-purāṇaṭīkā,subcommentary,abhidhamma,1,0,3,1,2
+an1.mul.txt,A I,canon,sutta,0,1,1,4,5
+an2.mul.txt,A II,canon,sutta,0,1,1,4,5
+an3.mul.txt,A III,canon,sutta,0,1,1,4,5
+an4.mul.txt,A IV,canon,sutta,0,1,1,4,5
+an5.mul.txt,A V,canon,sutta,0,1,1,4,5
+ap1.mul.txt,Ap I,canon,sutta,0,2,2,0,3
+ap2.mul.txt,Ap II,canon,sutta,0,2,2,0,3
+ja1.mul.txt,J I,canon,sutta,0,1,2,4,1
+ja2.mul.txt,J II,canon,sutta,0,2,2,4,3
+ja3.mul.txt,J III,canon,sutta,0,2,2,4,3
+ja4.mul.txt,J IV,canon,sutta,0,2,2,4,3
+ja5.mul.txt,J V,canon,sutta,0,2,2,4,3
+ja6.mul.txt,J VI,canon,sutta,0,2,2,4,3
+ps1.mul.txt,Paṭis I,canon,sutta,0,1,1,4,1
+ps2.mul.txt,Paṭis II,canon,sutta,0,1,1,4,1
+s0101a.att.txt,Sumaṅgalavilāsinī I,commentary,sutta,1,0,3,0,2
+s0101m.mul.txt,Dīgha Nikāya I (Sīlakkhandhavagga),canon,sutta,0,1,1,4,5
+s0101t.tik.txt,Līnatthavaṇṇanā (DN I),subcommentary,sutta,1,0,3,1,2
+s0102a.att.txt,Sumaṅgalavilāsinī II,commentary,sutta,1,0,3,0,2
+s0102m.mul.txt,Dīgha Nikāya II (Mahāvagga),canon,sutta,0,1,1,4,5
+s0102t.tik.txt,Līnatthavaṇṇanā (DN II),subcommentary,sutta,1,0,3,1,2
+s0103a.att.txt,Sumaṅgalavilāsinī III,commentary,sutta,1,0,3,0,2
+s0103m.mul.txt,Dīgha Nikāya III (Pāthikavagga),canon,sutta,0,1,1,4,5
+s0103t.tik.txt,Līnatthavaṇṇanā (DN III),subcommentary,sutta,1,0,3,1,2
+s0201a.att.txt,Papañcasūdanī I,commentary,sutta,1,0,3,0,2
+s0201m.mul.txt,Majjhima Nikāya I (Mūlapaṇṇāsa),canon,sutta,0,1,1,4,5
+s0201t.tik.txt,Līnatthavaṇṇanā (MN I),subcommentary,sutta,1,0,3,1,2
+s0202a.att.txt,Papañcasūdanī II,commentary,sutta,1,0,3,0,2
+s0202m.mul.txt,Majjhima Nikāya II (Majjhimapaṇṇāsa),canon,sutta,0,1,1,4,5
+s0202t.tik.txt,Līnatthavaṇṇanā (MN II),subcommentary,sutta,1,0,3,1,2
+s0203a.att.txt,Papañcasūdanī III,commentary,sutta,1,0,3,0,2
+s0203m.mul.txt,Majjhima Nikāya III (Uparipaṇṇāsa),canon,sutta,0,1,1,4,5
+s0203t.tik.txt,Līnatthavaṇṇanā (MN III),subcommentary,sutta,1,0,3,1,2
+s0301a.att.txt,Sāratthappakāsinī I,commentary,sutta,1,0,3,0,2
+s0301m.mul.txt,Saṃyutta Nikāya I (Sagāthāvagga),canon,sutta,0,1,1,4,5
+s0301t.tik.txt,Līnatthavaṇṇanā (SN I),subcommentary,sutta,1,0,3,1,2
+s0302a.att.txt,Sāratthappakāsinī II,commentary,sutta,1,0,3,0,2
+s0302m.mul.txt,Saṃyutta Nikāya II (Nidānavagga),canon,sutta,0,1,1,4,5
+s0302t.tik.txt,Līnatthavaṇṇanā (SN II),subcommentary,sutta,1,0,3,1,2
+s0303a.att.txt,Sāratthappakāsinī III,commentary,sutta,1,0,3,0,2
+s0303m.mul.txt,Saṃyutta Nikāya III (Khandhavagga),canon,sutta,0,1,1,4,5
+s0303t.tik.txt,Līnatthavaṇṇanā (SN III),subcommentary,sutta,1,0,3,1,2
+s0304a.att.txt,Sāratthappakāsinī IV,commentary,sutta,1,0,3,0,2
+s0304m.mul.txt,Saṃyutta Nikāya IV (Saḷāyatanavagga),canon,sutta,0,1,1,4,5
+s0304t.tik.txt,Līnatthavaṇṇanā (SN IV),subcommentary,sutta,1,0,3,1,2
+s0305a.att.txt,Sāratthappakāsinī V,commentary,sutta,1,0,3,0,2
+s0305m.mul.txt,Saṃyutta Nikāya V (Mahāvagga),canon,sutta,0,1,1,4,5
+s0305t.tik.txt,Līnatthavaṇṇanā (SN V),subcommentary,sutta,1,0,3,1,2
+s0401a.att.txt,Manorathapūraṇī I,commentary,sutta,1,2,2,0,3
+s0401t.tik.txt,Sāratthamañjūsā (AN I),subcommentary,sutta,1,0,3,1,2
+s0402a.att.txt,Manorathapūraṇī II,commentary,sutta,1,0,3,0,2
+s0402t.tik.txt,Sāratthamañjūsā (AN II),subcommentary,sutta,1,0,3,1,2
+s0403a.att.txt,Manorathapūraṇī III,commentary,sutta,1,0,3,0,2
+s0403t.tik.txt,Sāratthamañjūsā (AN III),subcommentary,sutta,1,0,3,1,2
+s0404a.att.txt,Manorathapūraṇī IV,commentary,sutta,1,0,3,0,2
+s0404t.tik.txt,Sāratthamañjūsā (AN IV),subcommentary,sutta,1,0,3,1,2
+s0501a.att.txt,Paramatthajotikā I (Khuddakapāṭha-aṭṭhakathā),commentary,sutta,1,0,3,1,2
+s0501m.mul.txt,Khuddakapāṭha,canon,sutta,0,1,1,4,1
+s0501t.nrf.txt,Nettivibhāvinī,subcommentary,sutta,1,0,3,1,2
+s0502a.att.txt,Dhammapadaṭṭhakathā,commentary,sutta,1,2,2,0,3
+s0502m.mul.txt,Dhammapada,canon,sutta,0,1,2,4,1
+s0503a.att.txt,Paramatthadīpanī (Udāna-aṭṭhakathā),commentary,sutta,1,0,3,0,2
+s0503m.mul.txt,Udāna,canon,sutta,0,1,1,4,0
+s0504a.att.txt,Paramatthadīpanī (Itivuttaka-aṭṭhakathā),commentary,sutta,1,0,3,1,2
+s0504m.mul.txt,Itivuttaka,canon,sutta,0,1,1,4,5
+s0505a.att.txt,Paramatthajotikā II (Suttanipāta-aṭṭhakathā),commentary,sutta,1,0,3,0,2
+s0505m.mul.txt,Suttanipāta,canon,sutta,0,1,1,4,5
+s0506a.att.txt,Paramatthadīpanī (Vimānavatthu-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0506m.mul.txt,Vimānavatthu,canon,sutta,0,2,2,0,3
+s0507a.att.txt,Paramatthadīpanī (Petavatthu-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0507m.mul.txt,Petavatthu,canon,sutta,0,2,2,0,3
+s0508a1.att.txt,Paramatthadīpanī (Theragāthā-aṭṭhakathā) I,commentary,sutta,1,2,2,0,3
+s0508a2.att.txt,Paramatthadīpanī (Theragāthā-aṭṭhakathā) II,commentary,sutta,1,2,2,0,3
+s0508m.mul.txt,Theragāthā,canon,sutta,0,2,2,4,3
+s0509a.att.txt,Paramatthadīpanī (Therīgāthā-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0509m.mul.txt,Therīgāthā,canon,sutta,0,2,2,4,3
+s0510a.att.txt,Visuddhajanavilāsinī (Apadāna-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0511a.att.txt,Madhuratthavilāsinī (Buddhavaṃsa-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0511m.mul.txt,Buddhavaṃsa,canon,sutta,0,2,2,0,3
+s0512a.att.txt,Paramatthadīpanī (Cariyāpiṭaka-aṭṭhakathā),commentary,sutta,1,2,2,0,3
+s0512m.mul.txt,Cariyāpiṭaka,canon,sutta,0,2,2,0,3
+s0513a1.att.txt,Jātakaṭṭhavaṇṇanā I,commentary,sutta,1,2,2,0,3
+s0513a2.att.txt,Jātakaṭṭhavaṇṇanā II,commentary,sutta,1,2,2,0,3
+s0513a3.att.txt,Jātakaṭṭhavaṇṇanā III,commentary,sutta,1,2,2,0,3
+s0513a4.att.txt,Jātakaṭṭhavaṇṇanā IV,commentary,sutta,1,2,2,0,3
+s0514a1.att.txt,Jātakaṭṭhavaṇṇanā V,commentary,sutta,1,2,2,0,3
+s0514a2.att.txt,Jātakaṭṭhavaṇṇanā VI,commentary,sutta,1,2,2,0,3
+s0514a3.att.txt,Jātakaṭṭhavaṇṇanā VII,commentary,sutta,1,2,2,0,3
+s0515a.att.txt,Saddhammapajjotikā (Mahāniddesa-aṭṭhakathā),commentary,sutta,1,0,3,1,2
+s0515m.mul.txt,Mahāniddesa,canon,sutta,0,1,1,4,1
+s0516a.att.txt,Saddhammapajjotikā (Cūḷaniddesa-aṭṭhakathā),commentary,sutta,1,0,3,1,2
+s0516m.mul.txt,Cūḷaniddesa,canon,sutta,0,1,1,4,1
+s0517a.att.txt,Saddhammappakāsinī (Paṭisambhidāmagga-aṭṭhakathā),commentary,sutta,1,0,3,1,2
+s0518m.nrf.txt,Milindapañha,paracanonical,sutta,0,0,3,0,3
+s0519a.att.txt,Nettippakaraṇa-aṭṭhakathā,commentary,sutta,1,0,3,1,2
+s0519m.mul.txt,Nettippakaraṇa,canon,sutta,0,1,1,4,1
+s0519t.tik.txt,Nettippakaraṇa-ṭīkā,subcommentary,sutta,1,0,3,1,2
+s0520m.nrf.txt,Peṭakopadesa,paracanonical,sutta,0,1,1,4,1
+vin01a.att.txt,Samantapāsādikā I,commentary,vinaya,1,0,3,0,2
+vin01m.mul.txt,Pārājikapāḷi,canon,vinaya,0,1,1,0,0
+vin01t1.tik.txt,Sāratthadīpanī-ṭīkā I,subcommentary,vinaya,1,0,3,1,2
+vin01t2.tik.txt,Sāratthadīpanī-ṭīkā II,subcommentary,vinaya,1,0,3,1,2
+vin02a1.att.txt,Samantapāsādikā II,commentary,vinaya,1,0,3,0,2
+vin02a2.att.txt,Samantapāsādikā III,commentary,vinaya,1,0,3,0,2
+vin02a3.att.txt,Samantapāsādikā IV,commentary,vinaya,1,0,3,0,2
+vin02a4.att.txt,Samantapāsādikā V,commentary,vinaya,1,0,3,1,2
+vin02m1.mul.txt,Pācittiyapāḷi,canon,vinaya,0,1,1,0,0
+vin02m2.mul.txt,Mahāvaggapāḷi,canon,vinaya,0,1,1,0,0
+vin02m3.mul.txt,Cūḷavaggapāḷi,canon,vinaya,0,1,1,0,0
+vin02m4.mul.txt,Parivārapāḷi,canon,vinaya,0,1,1,4,1
+vin02t.tik.txt,Sāratthadīpanī-ṭīkā III,subcommentary,vinaya,1,0,3,1,2
+vin05t.nrf.txt,Vinayasaṅgaha-aṭṭhakathā,commentary,vinaya,1,0,3,0,2
+vin06t.nrf.txt,Vajirabuddhi-ṭīkā,subcommentary,vinaya,1,0,3,1,2
+vin07t.nrf.txt,Vimativinodanī-ṭīkā,subcommentary,vinaya,1,0,3,1,2
+vin08t.nrf.txt,Vinayālaṅkāra-ṭīkā,subcommentary,vinaya,1,0,3,1,2
+vin09t.nrf.txt,Kaṅkhāvitaraṇī-purāṇaṭīkā,subcommentary,vinaya,1,0,3,1,2
+vin11t.nrf.txt,Vinayavinicchaya-ṭīkā,subcommentary,vinaya,1,0,3,1,2
