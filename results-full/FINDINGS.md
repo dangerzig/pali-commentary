@@ -117,11 +117,57 @@ Paṭṭhāna (5).
    discourse/exegetical register distinction is primarily a feature of prose
    didactic texts, not of all Pāli literature.
 
+## Sutta Piṭaka Results (PTS-aligned, 100 texts)
+
+After a code review that fixed LOO-CV data leakage (StandardScaler was previously
+fitted on the full dataset before splitting into folds; now properly wrapped in
+a sklearn Pipeline), all experiments were rerun. Results are nearly identical;
+the fix had minimal practical impact with N=100.
+
+### Unsupervised clustering (unchanged)
+
+| Method | Features | Accuracy | Misclassified |
+|--------|----------|----------|---------------|
+| K-means | Word freq (1000) | 99% | 1 (Peṭ) |
+| Spectral | Word freq (1000) | 99% | 1 (Peṭ) |
+| K-means | FastText embeddings | 61% | 39 |
+| K-means | Transformer (MiniLM) | 94% | 6 |
+
+### Supervised LOO-CV (after Pipeline fix)
+
+| Method | Features | Accuracy | Misclassified |
+|--------|----------|----------|---------------|
+| LR (L1) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
+| LR (L2) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
+| SVM (linear) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
+| LR (L1) | Word freq (1000) | 98% | 2 (s0518m, s0520m) |
+| Random Forest | Word freq (1000) | 98% | 2 (s0518m, s0520m) |
+| SVM (RBF) | Transformer (MiniLM) | 98% | 2 |
+| LR (L1/L2) | FastText (raw) | 99% | 1 |
+
+### Four-way classification (exp7)
+
+| Method | Features | Accuracy |
+|--------|----------|----------|
+| LR / SVM / RF | TF-IDF (2000) | 94% |
+| SVM / RF | Word freq (1000) | 93% |
+
+### Key verified statistics (for the paper)
+
+- Perplexity ratio: 184x (canon mean 411, non-canon mean 75,401)
+- Peṭakopadesa: sole text misclassified by every method
+- Nidd I: 79,302 words, TTR 0.17; Nidd II: 53,866 words, TTR 0.20
+- Nettippakaraṇa: 127 occurrences of *pe*
+- Milindapañha: *kāraṇaṃ* z = 4.31, *kho* z = 1.40, 118 *kāraṇaṃ* tokens,
+  5,553 unique words (32%), *kāraṇaṃ* LR contribution +3.17 / net score +2.77
+- Peṭakopadesa: *tattha* z = 5.9
+- Distance ratios: Nidd II 0.004, Mil −0.015, Nett 0.154, Peṭ 0.150
+
 ## Implications for the paper
 
-The paper currently describes "two dominant registers in the Sutta Piṭaka and its
+The paper describes "two dominant registers in the Sutta Piṭaka and its
 commentaries" and notes (Section 4.3) that the Jātaka is the hardest text to
-classify. These cross-piṭaka results:
+classify. The cross-piṭaka results:
 
 - Confirm that the two registers extend beyond the Sutta Piṭaka (universal finding)
 - Identify the narrative/verse register as a genuine third register, not just noise
