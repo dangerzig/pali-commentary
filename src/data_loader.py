@@ -124,8 +124,8 @@ class Document:
         # Check PTS names first (for reorganised files like 'an1', 'ja3')
         if self.file_id in PTS_NAMES:
             return f"{self.file_id} ({PTS_NAMES[self.file_id]})"
-        # Then check VRI names (strip the letter suffix: m/a/t)
-        base = self.file_id[:-1]
+        # Strip trailing letter suffix and optional digit (e.g., 's0402m1' -> 's0402')
+        base = re.sub(r'[mat]\d*$', '', self.file_id)
         name = VRI_NAMES.get(base, base)
         return f"{self.file_id} ({name})"
 
@@ -184,7 +184,7 @@ def load_raw_documents(data_dir: Optional[Path] = None,
     for filepath in sorted(data_dir.glob('*.txt')):
         file_id, suffix, label = parse_filename(filepath.name)
 
-        if include_labels and label not in include_labels:
+        if include_labels is not None and label not in include_labels:
             continue
 
         text = filepath.read_text(encoding='utf-8')

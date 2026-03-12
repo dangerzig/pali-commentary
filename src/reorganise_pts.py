@@ -112,7 +112,6 @@ def split_jataka(src_dir: Path) -> dict[str, str]:
 
     # Combined line list for stories that span both files
     combined = lines1 + lines2
-    offset2 = len(lines1)  # line offset for file 2 content
 
     volumes = {}
     vol_names = ['ja1.mul.txt', 'ja2.mul.txt', 'ja3.mul.txt',

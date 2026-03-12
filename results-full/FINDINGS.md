@@ -27,12 +27,15 @@ z-scored before clustering and PCA.
 
 ## Results
 
-### k=2: Perfect canon/non-canon separation (100%)
+### k=2: Near-perfect canon/non-canon separation (98.5%)
 
-The binary register distinction identified in the Sutta Piṭaka paper extends
-perfectly to the entire Tipiṭaka. All 60 canonical and paracanonical texts
-cluster together; all 77 commentary and sub-commentary texts cluster together.
-Not a single Vinaya or Abhidhamma text is misclassified.
+The binary register distinction identified in the Sutta Piṭaka paper extends to
+the entire Tipiṭaka. All 58 canonical texts cluster together with the 2
+paracanonical texts (Milindapañha and Peṭakopadesa); all 77 commentary and
+sub-commentary texts cluster together. Not a single Vinaya or Abhidhamma text is
+misclassified. The only "errors" are the two paracanonical texts clustering with
+canon, consistent with the Sutta-only experiments. If paracanonical texts are
+treated as canonical (their status in the Burmese tradition), accuracy is 100%.
 
 This confirms that the discourse register and exegetical register are not
 artefacts of the Sutta Piṭaka alone but pervade the entire Pāli literary

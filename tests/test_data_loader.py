@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from data_loader import (
     parse_filename, tokenize_pali, binary_labels, load_raw_documents,
-    VRI_NAMES, RAW_DATA_DIR,
+    VRI_NAMES, PTS_NAMES, RAW_DATA_DIR, Document,
 )
 
 
@@ -73,10 +73,33 @@ class TestDocumentName:
     def test_name_property(self, sample_documents):
         doc = sample_documents[0]
         assert 's0101m' in doc.name
-        assert 'DN vol.1' in doc.name
+        assert 'D I' in doc.name
 
     def test_short_id(self, sample_documents):
         assert sample_documents[0].short_id == 's0101m'
+
+    def test_multipart_file_id(self):
+        """Multi-part IDs like s0402m1 should resolve to base code s0402."""
+        doc = Document(file_id='s0402m1', filename='s0402m1.mul.txt',
+                       label='canon', suffix='mul')
+        assert 'AN Dukanipāta' in doc.name
+
+    def test_multipart_file_id_m2(self):
+        doc = Document(file_id='s0402m2', filename='s0402m2.mul.txt',
+                       label='canon', suffix='mul')
+        assert 'AN Dukanipāta' in doc.name
+
+    def test_pts_name_takes_priority(self):
+        """PTS-reorganised IDs (e.g., 'an1') should use PTS_NAMES."""
+        doc = Document(file_id='an1', filename='an1.mul.txt',
+                       label='canon', suffix='mul')
+        assert 'A I' in doc.name
+
+    def test_unknown_base_falls_back(self):
+        """Unknown file IDs should fall back to displaying the base code."""
+        doc = Document(file_id='s9999m', filename='s9999m.mul.txt',
+                       label='canon', suffix='mul')
+        assert 's9999' in doc.name
 
 
 class TestLoadRawDocuments:

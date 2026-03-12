@@ -6,8 +6,8 @@ piṭaka membership, genre, and PTS volume correspondence.
 """
 
 import csv
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
 VRI_RAW_DIR = Path.home() / "pali-canon" / "data" / "vri-raw"
 OUTPUT_CSV = Path(__file__).resolve().parent.parent / "data" / "vri_inventory.csv"
@@ -374,7 +374,6 @@ def main():
             print(f"  {m}")
 
     # Summary statistics
-    from collections import Counter
     labels = Counter(r["correct_label"] for r in rows)
     pitakas = Counter(r["pitaka"] for r in rows)
     mislabelled_count = sum(1 for r in rows if r["mislabelled"])

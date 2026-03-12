@@ -103,14 +103,14 @@ def main():
 
     # Remove VRI files that were replaced by PTS versions
     # (AN nipāta files, original Jātaka/Paṭis/Apadāna files)
-    vri_replaced = [
+    vri_replaced = {
         "s0401m.mul.txt", "s0402m1.mul.txt", "s0402m2.mul.txt", "s0402m3.mul.txt",
         "s0403m1.mul.txt", "s0403m2.mul.txt", "s0403m3.mul.txt",
         "s0404m1.mul.txt", "s0404m2.mul.txt", "s0404m3.mul.txt", "s0404m4.mul.txt",
         "s0513m.mul.txt", "s0514m.mul.txt",
         "s0517m.mul.txt",
         "s0510m1.mul.txt", "s0510m2.mul.txt",
-    ]
+    }
     removed = 0
     for fname in vri_replaced:
         p = DST_DIR / fname
@@ -140,6 +140,8 @@ def main():
         writer = csv.writer(f)
         writer.writerow(["filename", "label", "pitaka", "text_name"])
         for row in rows:
+            if row["pitaka"] not in INCLUDED_PITAKAS:
+                continue
             if row["correct_label"] not in INCLUDED_LABELS:
                 continue
             fname = row["vri_file"]

@@ -11,7 +11,6 @@ Also runs PCA for visualisation.
 
 import csv
 import re
-import sys
 from collections import Counter
 from pathlib import Path
 
@@ -22,15 +21,15 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import adjusted_rand_score, confusion_matrix
+from sklearn.metrics import adjusted_rand_score
 
 # Paths
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw-full"
 LABELS_CSV = DATA_DIR / "LABELS.csv"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results-full"
 
-# Pāli tokenisation (same as data_loader.py)
-PALI_TOKEN_RE = re.compile(r"[^a-zA-Zāīūñṇṭḍṅḷṃṁ]+")
+# Pāli tokenisation (matches data_loader.py)
+PALI_TOKEN_RE = re.compile(r'[^a-zA-ZāīūṭḍṇṅñṃḷĀĪŪṬḌṆṄÑṂḶ]+')
 
 
 def tokenize(text: str) -> list[str]:
@@ -95,14 +94,20 @@ def build_feature_matrix(documents, n_features=1000):
 
 
 def binary_label(label):
-    """Convert to binary canon/non-canon."""
-    return "canon" if label in ("canon", "paracanonical") else "non-canon"
+    """Convert to binary canon/non-canon.
+
+    Paracanonical texts are treated as non-canon for ground truth,
+    consistent with data_loader.binary_labels(). Their classification
+    as canonical by the clustering is then a finding, not an assumption.
+    """
+    return "canon" if label == "canon" else "non-canon"
 
 
 def run_kmeans(X, k, random_state=42):
-    """Run k-means and return cluster assignments."""
+    """Run k-means and return (cluster_assignments, inertia)."""
     km = KMeans(n_clusters=k, n_init=20, random_state=random_state)
-    return km.fit_predict(X)
+    clusters = km.fit_predict(X)
+    return clusters, km.inertia_
 
 
 def evaluate_k2_vs_binary(clusters, labels):
@@ -156,14 +161,12 @@ def main():
     print("\nRunning k-means clustering...")
     results = {}
     for k in range(2, 7):
-        clusters = run_kmeans(X_scaled, k)
-        inertia = KMeans(n_clusters=k, n_init=20, random_state=42).fit(X_scaled).inertia_
+        clusters, inertia = run_kmeans(X_scaled, k)
 
         if k == 2:
             accuracy = evaluate_k2_vs_binary(clusters, labels)
             print(f"  k={k}: accuracy vs canon/non-canon = {accuracy:.1%}")
         else:
-            # Compare with ARI against binary labels
             binary_numeric = [0 if binary_label(l) == "canon" else 1 for l in labels]
             ari = adjusted_rand_score(binary_numeric, clusters)
             print(f"  k={k}: ARI vs binary = {ari:.3f}, inertia = {inertia:.1f}")
@@ -233,16 +236,16 @@ def main():
         "vinaya": "tab:green",
         "abhidhamma": "tab:purple",
     }
-    plotted_combos = set()
-    for i, (label, pitaka) in enumerate(zip(labels, pitakas)):
-        marker = label_markers.get(label, "x")
-        color = pitaka_colors.get(pitaka, "gray")
-        combo = (label, pitaka)
-        show_label = combo not in plotted_combos
-        plotted_combos.add(combo)
-        ax.scatter(X_pca[i, 0], X_pca[i, 1],
-                   c=color, marker=marker, s=50, alpha=0.7,
-                   label=f"{pitaka.title()} {label}" if show_label else None)
+    for label, marker in label_markers.items():
+        for pitaka, color in pitaka_colors.items():
+            mask = [(l == label and p == pitaka)
+                    for l, p in zip(labels, pitakas)]
+            if not any(mask):
+                continue
+            idx = [i for i, m in enumerate(mask) if m]
+            ax.scatter(X_pca[idx, 0], X_pca[idx, 1],
+                       c=color, marker=marker, s=50, alpha=0.7,
+                       label=f"{pitaka.title()} {label}")
     ax.set_xlabel(f"PC1 ({var_explained[0]:.1%} variance)")
     ax.set_ylabel(f"PC2 ({var_explained[1]:.1%} variance)")
     ax.set_title("Full corpus: PCA by piṭaka and label")
@@ -265,7 +268,7 @@ def main():
     ax.set_title("Elbow plot")
 
     # Cluster plots for k=2..6
-    cmap = plt.cm.get_cmap("tab10")
+    cmap = plt.colormaps["tab10"]
     for idx, k in enumerate(range(2, 7)):
         ax = axes[(idx + 1) // 3, (idx + 1) % 3]
         clusters = results[k]["clusters"]
