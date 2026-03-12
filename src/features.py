@@ -10,7 +10,6 @@ Supports:
 """
 
 import numpy as np
-from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.spatial.distance import pdist, squareform
 
@@ -57,7 +56,7 @@ def word_frequency_matrix(documents: list[Document],
     top_words = sorted_words[:top_n]
 
     # Build matrix
-    matrix = np.zeros((len(documents), top_n))
+    matrix = np.zeros((len(documents), len(top_words)))
     for i, (c, total) in enumerate(zip(counters, doc_totals)):
         for j, word in enumerate(top_words):
             matrix[i, j] = c[word] / total if total > 0 else 0

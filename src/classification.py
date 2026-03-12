@@ -13,6 +13,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.model_selection import LeaveOneOut, cross_val_predict
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from data_loader import Document, binary_labels
@@ -79,12 +80,12 @@ def run_loo_cv(feature_matrix: np.ndarray,
 
     results = []
     for name, (clf, needs_scaling) in classifiers.items():
-        X = feature_matrix.copy()
         if needs_scaling:
-            scaler = StandardScaler()
-            X = scaler.fit_transform(X)
+            estimator = make_pipeline(StandardScaler(), clf)
+        else:
+            estimator = clf
 
-        predictions = cross_val_predict(clf, X, true_labels, cv=cv)
+        predictions = cross_val_predict(estimator, feature_matrix, true_labels, cv=cv)
 
         misclassified = [file_ids[i] for i in range(len(documents))
                          if predictions[i] != true_labels[i]]

@@ -14,10 +14,12 @@ from data_loader import Document, binary_labels
 
 def align_cluster_labels(cluster_labels: np.ndarray,
                          true_labels: np.ndarray) -> np.ndarray:
-    """Align cluster labels to match true labels (handle label permutation).
+    """Align binary cluster labels to match true labels (handle label permutation).
 
     Since clustering doesn't know which cluster is "canon" vs "commentary",
     we try both permutations and pick the one with higher accuracy.
+
+    Only works for binary (0/1) labels. For multi-class, use Hungarian matching.
     """
     cluster_labels = np.array(cluster_labels)
     true_labels = np.array(true_labels)

@@ -10,7 +10,7 @@ Also runs PCA for visualisation.
 """
 
 import csv
-import re
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -23,19 +23,14 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import adjusted_rand_score
 
+# Add src/ to path for imports
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+from data_loader import tokenize_pali as tokenize
+
 # Paths
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw-full"
 LABELS_CSV = DATA_DIR / "LABELS.csv"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results-full"
-
-# Pāli tokenisation (matches data_loader.py)
-PALI_TOKEN_RE = re.compile(r'[^a-zA-ZāīūṭḍṇṅñṃḷĀĪŪṬḌṆṄÑṂḶ]+')
-
-
-def tokenize(text: str) -> list[str]:
-    text = text.replace('ṁ', 'ṃ')
-    tokens = PALI_TOKEN_RE.split(text.lower())
-    return [t for t in tokens if t]
 
 
 def load_corpus():

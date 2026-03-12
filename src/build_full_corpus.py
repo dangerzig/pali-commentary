@@ -17,6 +17,9 @@ import csv
 import shutil
 from pathlib import Path
 
+from data_loader import PTS_NAMES
+from reorganise_pts import ALL_REPLACED
+
 INVENTORY_CSV = Path(__file__).resolve().parent.parent / "data" / "vri_inventory.csv"
 SUTTA_PTS_DIR = Path(__file__).resolve().parent.parent / "data" / "raw-pts"
 VRI_RAW_DIR = Path.home() / "pali-canon" / "data" / "vri-raw"
@@ -102,17 +105,8 @@ def main():
         pitaka_counts["sutta"] = pitaka_counts.get("sutta", 0) + 1
 
     # Remove VRI files that were replaced by PTS versions
-    # (AN nipāta files, original Jātaka/Paṭis/Apadāna files)
-    vri_replaced = {
-        "s0401m.mul.txt", "s0402m1.mul.txt", "s0402m2.mul.txt", "s0402m3.mul.txt",
-        "s0403m1.mul.txt", "s0403m2.mul.txt", "s0403m3.mul.txt",
-        "s0404m1.mul.txt", "s0404m2.mul.txt", "s0404m3.mul.txt", "s0404m4.mul.txt",
-        "s0513m.mul.txt", "s0514m.mul.txt",
-        "s0517m.mul.txt",
-        "s0510m1.mul.txt", "s0510m2.mul.txt",
-    }
     removed = 0
-    for fname in vri_replaced:
+    for fname in ALL_REPLACED:
         p = DST_DIR / fname
         if p.exists():
             p.unlink()
@@ -145,7 +139,7 @@ def main():
             if row["correct_label"] not in INCLUDED_LABELS:
                 continue
             fname = row["vri_file"]
-            if fname in vri_replaced:
+            if fname in ALL_REPLACED:
                 continue
             if not (DST_DIR / fname).exists():
                 continue
@@ -156,14 +150,7 @@ def main():
                 continue
             # Determine PTS name
             stem = fname.split(".")[0]
-            pts_name_map = {
-                "an1": "A I", "an2": "A II", "an3": "A III", "an4": "A IV", "an5": "A V",
-                "ja1": "J I", "ja2": "J II", "ja3": "J III",
-                "ja4": "J IV", "ja5": "J V", "ja6": "J VI",
-                "ps1": "Paṭis I", "ps2": "Paṭis II",
-                "ap1": "Ap I", "ap2": "Ap II",
-            }
-            name = pts_name_map.get(stem, stem)
+            name = PTS_NAMES.get(stem, stem)
             writer.writerow([fname, "canon", "sutta", name])
 
     print(f"\nWrote label map to {label_map_path.name}")

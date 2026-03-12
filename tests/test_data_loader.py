@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from data_loader import (
     parse_filename, tokenize_pali, binary_labels, load_raw_documents,
+    load_lemmatized_tokens, get_document_labels,
     VRI_NAMES, PTS_NAMES, RAW_DATA_DIR, Document,
 )
 
@@ -100,6 +101,100 @@ class TestDocumentName:
         doc = Document(file_id='s9999m', filename='s9999m.mul.txt',
                        label='canon', suffix='mul')
         assert 's9999' in doc.name
+
+
+class TestGetDocumentLabels:
+    def test_returns_parallel_lists(self, sample_documents):
+        file_ids, labels = get_document_labels(sample_documents)
+        assert file_ids == ['s0101m', 's0201m', 's0101a', 's0201a']
+        assert labels == ['canon', 'canon', 'commentary', 'commentary']
+
+    def test_empty(self):
+        file_ids, labels = get_document_labels([])
+        assert file_ids == []
+        assert labels == []
+
+
+class TestLoadLemmatizedTokens:
+    def test_flat_segments(self, tmp_path):
+        """Test parsing JSON with top-level 'segments' key."""
+        data = {
+            "segments": [
+                {"tokens": [
+                    {"lemma": "dhamma", "pos": "noun"},
+                    {"lemma": "buddha", "pos": "noun"},
+                ]},
+                {"tokens": [
+                    {"pos": "eng", "lemma": "the"},  # should be skipped
+                    {"lemma": "bhikkhu", "pos": "noun"},
+                ]},
+            ]
+        }
+        json_path = tmp_path / "test.json"
+        import json
+        json_path.write_text(json.dumps(data))
+        lemmas = load_lemmatized_tokens(json_path)
+        assert lemmas == ["dhamma", "buddha", "bhikkhu"]
+
+    def test_suttas_structure(self, tmp_path):
+        """Test parsing JSON with 'suttas' containing 'segments'."""
+        data = {
+            "suttas": [
+                {"segments": [
+                    {"tokens": [{"lemma": "sutta"}]},
+                ]},
+                {"segments": [
+                    {"tokens": [{"lemma": "vinaya"}]},
+                ]},
+            ]
+        }
+        json_path = tmp_path / "test.json"
+        import json
+        json_path.write_text(json.dumps(data))
+        lemmas = load_lemmatized_tokens(json_path)
+        assert lemmas == ["sutta", "vinaya"]
+
+    def test_items_structure(self, tmp_path):
+        """Test parsing JSON with 'items' containing 'segments'."""
+        data = {
+            "items": [
+                {"segments": [
+                    {"tokens": [{"lemma": "kamma"}]},
+                ]},
+            ]
+        }
+        json_path = tmp_path / "test.json"
+        import json
+        json_path.write_text(json.dumps(data))
+        lemmas = load_lemmatized_tokens(json_path)
+        assert lemmas == ["kamma"]
+
+    def test_sandhi_components(self, tmp_path):
+        """Test that sandhi-decomposed words use component lemmas."""
+        data = {
+            "segments": [
+                {"tokens": [
+                    {"lemma": "compound", "components": [
+                        {"lemma": "part1"},
+                        {"lemma": "part2"},
+                    ]},
+                ]},
+            ]
+        }
+        json_path = tmp_path / "test.json"
+        import json
+        json_path.write_text(json.dumps(data))
+        lemmas = load_lemmatized_tokens(json_path)
+        assert lemmas == ["part1", "part2"]
+
+    def test_empty_segments(self, tmp_path):
+        """Test JSON with segments that have no tokens."""
+        data = {"segments": [{"text": "no tokens here"}]}
+        json_path = tmp_path / "test.json"
+        import json
+        json_path.write_text(json.dumps(data))
+        lemmas = load_lemmatized_tokens(json_path)
+        assert lemmas == []
 
 
 class TestLoadRawDocuments:

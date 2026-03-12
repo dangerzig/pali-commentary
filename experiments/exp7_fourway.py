@@ -74,16 +74,17 @@ def run_fourway_loo_cv(X, labels, documents):
     results = []
 
     for name, (clf, needs_scaling) in classifiers.items():
-        X_work = X.copy()
-        if needs_scaling:
-            scaler = StandardScaler()
-            X_work = scaler.fit_transform(X_work)
-
         preds = np.zeros(len(y), dtype=int)
-        for train_idx, test_idx in loo.split(X_work):
+        for train_idx, test_idx in loo.split(X):
             clf_copy = type(clf)(**clf.get_params())
-            clf_copy.fit(X_work[train_idx], y[train_idx])
-            preds[test_idx] = clf_copy.predict(X_work[test_idx])
+            if needs_scaling:
+                scaler = StandardScaler()
+                X_train = scaler.fit_transform(X[train_idx])
+                X_test = scaler.transform(X[test_idx])
+            else:
+                X_train, X_test = X[train_idx], X[test_idx]
+            clf_copy.fit(X_train, y[train_idx])
+            preds[test_idx] = clf_copy.predict(X_test)
 
         acc = accuracy_score(y, preds)
         pred_labels = le.inverse_transform(preds)

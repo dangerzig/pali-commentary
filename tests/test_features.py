@@ -35,11 +35,10 @@ class TestWordFrequencyMatrix:
 
     def test_top_n_exceeds_vocab(self, sample_documents):
         matrix, names = word_frequency_matrix(sample_documents, top_n=10000)
-        # Should not crash; matrix width is top_n, names may be fewer
+        # When top_n exceeds vocab, matrix width should match actual vocab
         assert matrix.shape[0] == 4
-        assert matrix.shape[1] == 10000
-        # Actual vocab is smaller, so most columns are zero-padded
-        assert len(names) <= 10000
+        assert matrix.shape[1] == len(names)
+        assert len(names) < 10000  # actual vocab is smaller
 
 
 class TestTfidfMatrix:
