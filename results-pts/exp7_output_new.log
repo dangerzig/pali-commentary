@@ -1,0 +1,148 @@
+Experiment 7: Four-Way Classification
+============================================================
+Loaded 100 documents
+  canon: 40
+  commentary: 39
+  subcommentary: 16
+  paracanonical: 5
+
+Features: TF-IDF (top 2000)
+
+  Logistic Regression (L2): accuracy = 0.9400 (6 misclassified)
+    ps2: canon -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0518m: paracanonical -> commentary
+    s0519a: commentary -> subcommentary
+    s0519m: canon -> paracanonical
+    s0520m: paracanonical -> canon
+
+  SVM (linear): accuracy = 0.9400 (6 misclassified)
+    ps2: canon -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0518m: paracanonical -> commentary
+    s0519a: commentary -> subcommentary
+    s0519m: canon -> paracanonical
+    s0520m: paracanonical -> canon
+
+  Random Forest: accuracy = 0.9400 (6 misclassified)
+    s0104t: paracanonical -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0501t: paracanonical -> subcommentary
+    s0518m: paracanonical -> canon
+    s0519a: commentary -> subcommentary
+    s0520m: paracanonical -> canon
+
+  Gradient Boosting: accuracy = 0.8500 (15 misclassified)
+    s0104t: paracanonical -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0202a: commentary -> canon
+    s0303t: subcommentary -> commentary
+    s0401t: subcommentary -> commentary
+    s0403a: commentary -> canon
+    s0403t: subcommentary -> commentary
+    s0404t: subcommentary -> commentary
+    s0501t: paracanonical -> subcommentary
+    s0503a: commentary -> canon
+    s0505m: canon -> commentary
+    s0511a: commentary -> canon
+    s0518m: paracanonical -> canon
+    s0519m: canon -> paracanonical
+    s0520m: paracanonical -> canon
+
+Best TF-IDF: Logistic Regression (L2)
+               precision    recall  f1-score   support
+
+        canon       0.97      0.95      0.96        40
+   commentary       0.97      0.97      0.97        39
+paracanonical       0.67      0.40      0.50         5
+subcommentary       0.84      1.00      0.91        16
+
+     accuracy                           0.94       100
+    macro avg       0.86      0.83      0.84       100
+ weighted avg       0.94      0.94      0.94       100
+
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp7_fourway_confusion_tfidf.png
+
+
+Features: Word frequency (top 1000)
+
+  Logistic Regression (L2): accuracy = 0.9200 (8 misclassified)
+    ps2: canon -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0501t: paracanonical -> commentary
+    s0504m: canon -> paracanonical
+    s0518m: paracanonical -> commentary
+    s0519a: commentary -> subcommentary
+    s0519m: canon -> paracanonical
+    s0520m: paracanonical -> canon
+
+  SVM (linear): accuracy = 0.9300 (7 misclassified)
+    ps2: canon -> subcommentary
+    s0501m: canon -> paracanonical
+    s0501t: paracanonical -> commentary
+    s0504m: canon -> paracanonical
+    s0518m: paracanonical -> canon
+    s0519m: canon -> paracanonical
+    s0520m: paracanonical -> canon
+
+  Random Forest: accuracy = 0.9300 (7 misclassified)
+    s0104t: paracanonical -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0403t: subcommentary -> commentary
+    s0501t: paracanonical -> commentary
+    s0518m: paracanonical -> canon
+    s0519a: commentary -> subcommentary
+    s0520m: paracanonical -> canon
+
+  Gradient Boosting: accuracy = 0.8300 (17 misclassified)
+    ps2: canon -> subcommentary
+    s0104t: paracanonical -> subcommentary
+    s0105t: paracanonical -> subcommentary
+    s0401t: subcommentary -> commentary
+    s0403a: commentary -> canon
+    s0403t: subcommentary -> commentary
+    s0501m: canon -> subcommentary
+    s0501t: paracanonical -> commentary
+    s0504a: commentary -> canon
+    s0507m: canon -> subcommentary
+    s0509a: commentary -> canon
+    s0512a: commentary -> subcommentary
+    s0516m: canon -> subcommentary
+    s0518m: paracanonical -> canon
+    s0519m: canon -> paracanonical
+    s0519t: subcommentary -> canon
+    s0520m: paracanonical -> canon
+
+Best Word Freq: SVM (linear)
+               precision    recall  f1-score   support
+
+        canon       0.95      0.90      0.92        40
+   commentary       0.97      1.00      0.99        39
+paracanonical       0.40      0.40      0.40         5
+subcommentary       0.94      1.00      0.97        16
+
+     accuracy                           0.93       100
+    macro avg       0.82      0.82      0.82       100
+ weighted avg       0.93      0.93      0.93       100
+
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp7_fourway_confusion_freq.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp7_fourway_confusion.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp7_fourway_pca.png
+
+
+============================================================
+SUMMARY: 4-Way Classification Results
+============================================================
+
+Features             Method                      Accuracy  Misc
+--------------------------------------------------------------
+  TF-IDF 2000        Logistic Regression (L2)      0.9400     6
+  TF-IDF 2000        SVM (linear)                  0.9400     6
+  TF-IDF 2000        Random Forest                 0.9400     6
+  TF-IDF 2000        Gradient Boosting             0.8500    15
+  Word freq 1000     Logistic Regression (L2)      0.9200     8
+  Word freq 1000     SVM (linear)                  0.9300     7
+  Word freq 1000     Random Forest                 0.9300     7
+  Word freq 1000     Gradient Boosting             0.8300    17
+
+Experiment 7 complete.

@@ -1,0 +1,296 @@
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+/opt/homebrew/lib/python3.12/site-packages/sklearn/cluster/_spectral.py:706: UserWarning: The spectral clustering API has changed. ``fit``now constructs an affinity matrix from data. To use a custom affinity matrix, set ``affinity=precomputed``.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/opt/homebrew/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+/opt/homebrew/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+Experiment 4: Document Embeddings (FastText)
+============================================================
+Loaded 100 documents
+
+Training FastText on raw word forms...
+  Training FastText on 53591 sentences...
+  Vocabulary size: 88770
+Computing document embeddings...
+  Embedding matrix: (100, 100)
+
+Clustering on raw FastText embeddings:
+  K-means: accuracy=0.6100, misclassified=39 ['an1', 'an2', 'an3', 'an4', 'an5', 'ps1', 'ps2', 's0103m', 's0201m', 's0202a', 's0203m', 's0301a', 's0302m', 's0303m', 's0304m', 's0305m', 's0401a', 's0502a', 's0504m', 's0505a', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0513a1', 's0513a2', 's0513a3', 's0513a4', 's0514a1', 's0514a2', 's0514a3', 's0515m', 's0516m', 's0518m', 's0519m']
+  Spectral: accuracy=0.6200, misclassified=38 ['an1', 'an2', 'an3', 'an4', 'an5', 'ps1', 'ps2', 's0103m', 's0201m', 's0202a', 's0203m', 's0301a', 's0302m', 's0303m', 's0304m', 's0305m', 's0401a', 's0502a', 's0504m', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0513a1', 's0513a2', 's0513a3', 's0513a4', 's0514a1', 's0514a2', 's0514a3', 's0515m', 's0516m', 's0518m', 's0519m']
+  GMM: accuracy=0.6100, misclassified=39 ['an1', 'an2', 'an3', 'an4', 'an5', 'ps1', 'ps2', 's0103m', 's0201m', 's0202a', 's0203m', 's0301a', 's0302m', 's0303m', 's0304m', 's0305m', 's0401a', 's0502a', 's0504m', 's0505a', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0513a1', 's0513a2', 's0513a3', 's0513a4', 's0514a1', 's0514a2', 's0514a3', 's0515m', 's0516m', 's0518m', 's0519m']
+  Agglom. (ward): accuracy=0.6200, misclassified=38 ['ps1', 'ps2', 's0101a', 's0102a', 's0103a', 's0201a', 's0202a', 's0203a', 's0301a', 's0302a', 's0303a', 's0304a', 's0305a', 's0401a', 's0402a', 's0403a', 's0404a', 's0501a', 's0502a', 's0503a', 's0505a', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0513a1', 's0513a2', 's0513a3', 's0513a4', 's0514a1', 's0514a2', 's0514a3', 's0518m', 's0519m']
+
+Supervised classification on raw FastText embeddings (10-fold CV):
+  Logistic Regression (L1): accuracy=0.9900, misclassified=1
+  Logistic Regression (L2): accuracy=0.9900, misclassified=1
+  SVM (linear): accuracy=0.9800, misclassified=2
+  SVM (RBF): accuracy=0.9700, misclassified=3
+  Random Forest: accuracy=0.9900, misclassified=1
+  Gradient Boosting: accuracy=0.9600, misclassified=4
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_umap_fasttext_raw.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_pca_fasttext_raw.png
+
+
+Trying different vector sizes...
+  Training FastText on 53591 sentences...
+  Vocabulary size: 88770
+  dim=50: accuracy=0.6000, misclassified=40
+  Training FastText on 53591 sentences...
+  Vocabulary size: 88770
+  dim=200: accuracy=0.6100, misclassified=39
+  Training FastText on 53591 sentences...
+  Vocabulary size: 88770
+  dim=300: accuracy=0.6100, misclassified=39
+
+
+Checking for lemmatized data...
+All 100 documents have lemmatized versions.
+Training FastText on lemmas...
+  Training FastText on 63957 sentences...
+  Vocabulary size: 39141
+
+Clustering on lemmatized FastText embeddings:
+  K-means: accuracy=0.6100, misclassified=39
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_umap_fasttext_lemma.png
+
+
+Summary:
+Method                                     Accuracy
+----------------------------------------------------
+Logistic Regression (L1) (FastText raw)      0.9900
+Logistic Regression (L2) (FastText raw)      0.9900
+Random Forest (FastText raw)                 0.9900
+SVM (linear) (FastText raw)                  0.9800
+SVM (RBF) (FastText raw)                     0.9700
+Gradient Boosting (FastText raw)             0.9600
+Spectral (FastText raw)                      0.6200
+Agglom. (ward) (FastText raw)                0.6200
+K-means (FastText raw)                       0.6100
+GMM (FastText raw)                           0.6100
+K-means (FastText d=200)                     0.6100
+K-means (FastText d=300)                     0.6100
+K-means (FastText lemma)                     0.6100
+K-means (FastText d=50)                      0.6000
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_comparison.png
+
+Experiment 4 complete.
