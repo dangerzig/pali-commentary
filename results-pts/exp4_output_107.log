@@ -1,0 +1,63 @@
+  warn(
+Experiment 4: Document Embeddings (FastText)
+============================================================
+Loaded 107 documents
+
+Training FastText on raw word forms...
+  Training FastText on 53594 sentences...
+  Vocabulary size: 88770
+Computing document embeddings...
+  Embedding matrix: (107, 100)
+
+Clustering on raw FastText embeddings:
+  K-means: accuracy=0.6355, misclassified=39 ['an1', 'an2', 'an3', 'an4', 'an5', 'dhpa1', 'dhpa2', 'dhpa3', 'dhpa4', 'jaa1', 'jaa2', 'jaa3', 'jaa4', 'jaa5', 'jaa6', 'mp1', 'ps1', 'ps2', 's0103m', 's0201m', 's0203m', 's0302m', 's0303m', 's0304m', 's0305m', 's0504m', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0515m', 's0516m', 's0518m', 's0519m', 'spk1']
+  Spectral: accuracy=0.7009, misclassified=32 ['an5', 'dhpa1', 'dhpa2', 'dhpa3', 'dhpa4', 'jaa1', 'jaa2', 'jaa3', 'jaa4', 'jaa5', 'jaa6', 'mp1', 'ps1', 'ps2', 's0302m', 's0303m', 's0304m', 's0305m', 's0504m', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0515m', 's0516m', 's0518m', 's0519m', 'spk1']
+  GMM: accuracy=0.6822, misclassified=34 ['an5', 'dhpa1', 'dhpa2', 'dhpa3', 'dhpa4', 'jaa1', 'jaa2', 'jaa3', 'jaa4', 'jaa5', 'jaa6', 'mna3', 'mp1', 'ps1', 'ps2', 's0302m', 's0303m', 's0304m', 's0305m', 's0504m', 's0505a', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0515m', 's0516m', 's0518m', 's0519m', 'spk1']
+  Agglom. (ward): accuracy=0.6075, misclassified=42 ['an1', 'an2', 'an3', 'an4', 'an5', 'dhpa1', 'dhpa2', 'dhpa3', 'dhpa4', 'jaa1', 'jaa2', 'jaa3', 'jaa4', 'jaa5', 'jaa6', 'mp1', 'ps1', 'ps2', 's0101m', 's0102m', 's0103m', 's0201m', 's0202m', 's0203m', 's0301m', 's0302m', 's0303m', 's0304m', 's0305m', 's0503m', 's0504m', 's0506a', 's0507a', 's0508a1', 's0508a2', 's0509a', 's0510a', 's0511a', 's0512a', 's0515m', 's0516m', 's0519m']
+
+Supervised classification on raw FastText embeddings (10-fold CV):
+  Logistic Regression (L1): accuracy=0.9813, misclassified=2
+  Logistic Regression (L2): accuracy=0.9813, misclassified=2
+  SVM (linear): accuracy=0.9720, misclassified=3
+  SVM (RBF): accuracy=0.9720, misclassified=3
+  Random Forest: accuracy=0.9813, misclassified=2
+  Gradient Boosting: accuracy=0.8785, misclassified=13
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_umap_fasttext_raw.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_pca_fasttext_raw.png
+
+
+Trying different vector sizes...
+  Training FastText on 53594 sentences...
+  Vocabulary size: 88770
+  dim=50: accuracy=0.6262, misclassified=40
+  Training FastText on 53594 sentences...
+  Vocabulary size: 88770
+  dim=200: accuracy=0.6355, misclassified=39
+  Training FastText on 53594 sentences...
+  Vocabulary size: 88770
+  dim=300: accuracy=0.7570, misclassified=26
+
+
+Checking for lemmatized data...
+Only 66/107 have lemmatized data. Skipping.
+
+
+Summary:
+Method                                     Accuracy
+----------------------------------------------------
+Logistic Regression (L1) (FastText raw)      0.9813
+Logistic Regression (L2) (FastText raw)      0.9813
+Random Forest (FastText raw)                 0.9813
+SVM (linear) (FastText raw)                  0.9720
+SVM (RBF) (FastText raw)                     0.9720
+Gradient Boosting (FastText raw)             0.8785
+K-means (FastText d=300)                     0.7570
+Spectral (FastText raw)                      0.7009
+GMM (FastText raw)                           0.6822
+K-means (FastText raw)                       0.6355
+K-means (FastText d=200)                     0.6355
+K-means (FastText d=50)                      0.6262
+Agglom. (ward) (FastText raw)                0.6075
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp4_comparison.png
+
+Experiment 4 complete.

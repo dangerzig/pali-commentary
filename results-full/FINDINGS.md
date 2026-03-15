@@ -117,51 +117,110 @@ Paṭṭhāna (5).
    discourse/exegetical register distinction is primarily a feature of prose
    didactic texts, not of all Pāli literature.
 
-## Sutta Piṭaka Results (PTS-aligned, 100 texts)
+## Sutta Piṭaka Results (PTS-aligned, 107 texts)
 
-After a code review that fixed LOO-CV data leakage (StandardScaler was previously
-fitted on the full dataset before splitting into folds; now properly wrapped in
-a sklearn Pipeline), all experiments were rerun. Results are nearly identical;
-the fix had minimal practical impact with N=100.
+Commentary and sub-commentary files were reorganised to PTS volume boundaries
+(Ps 3→5, Spk 5→3, Mp 4→5, DhpA 1→4, It-a 1→2, Ja-a 7→6, Sdp 1→3,
+MN-ṭ 3→5, SN-ṭ 5→3, AN-ṭ 4→5), bringing the total from 100 to 107 documents:
+40 canon, 45 commentary, 17 sub-commentary, 5 paracanonical.
 
-### Unsupervised clustering (unchanged)
+All experiments were rerun. Results are essentially unchanged from the 100-text
+runs; the reorganisation has no material effect on any finding.
 
-| Method | Features | Accuracy | Misclassified |
-|--------|----------|----------|---------------|
-| K-means | Word freq (1000) | 99% | 1 (Peṭ) |
-| Spectral | Word freq (1000) | 99% | 1 (Peṭ) |
-| K-means | FastText embeddings | 61% | 39 |
-| K-means | Transformer (MiniLM) | 94% | 6 |
-
-### Supervised LOO-CV (after Pipeline fix)
+### Unsupervised clustering
 
 | Method | Features | Accuracy | Misclassified |
 |--------|----------|----------|---------------|
-| LR (L1) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
-| LR (L2) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
-| SVM (linear) | TF-IDF (2000) | 98% | 2 (s0519m, s0520m) |
-| LR (L1) | Word freq (1000) | 98% | 2 (s0518m, s0520m) |
-| Random Forest | Word freq (1000) | 98% | 2 (s0518m, s0520m) |
-| SVM (RBF) | Transformer (MiniLM) | 98% | 2 |
-| LR (L1/L2) | FastText (raw) | 99% | 1 |
+| K-means | Word freq (1000) | 99.07% | 1 (Peṭ) |
+| Spectral | Word freq (1000) | 98.13% | 2 (Nidd II, Peṭ) |
+| GMM | Word freq (1000) | 99.07% | 1 (Peṭ) |
+| K-means | TF-IDF (2000) | 97.20% | 3 (Nidd II, Mil, Peṭ) |
+| K-means | FastText embeddings | 63.6% | 39 |
+| K-means | Transformer (MiniLM) | 92.5% | 8 |
+
+Previous (100 texts): K-means word freq 99% (1 Peṭ), Spectral 99% (1 Peṭ).
+Change: Spectral now also misclassifies Nidd II; all other methods unchanged.
+
+### Supervised LOO-CV
+
+| Method | Features | Accuracy | Misclassified |
+|--------|----------|----------|---------------|
+| LR (L1) | TF-IDF (2000) | 98.13% | 2 (Nett, Peṭ) |
+| LR (L2) | TF-IDF (2000) | 97.20% | 3 (Paṭis II, Nett, Peṭ) |
+| SVM (linear) | TF-IDF (2000) | 98.13% | 2 (Nett, Peṭ) |
+| LR (L1) | Word freq (1000) | 98.13% | 2 (Mil, Peṭ) |
+| LR (L2) | Word freq (1000) | 96.26% | 4 (Paṭis II, Mil, Nett, Peṭ) |
+| SVM (linear) | Word freq (1000) | 98.13% | 2 (Nett, Peṭ) |
+| Random Forest | Word freq (1000) | 98.13% | 2 (Mil, Peṭ) |
+| LR (L1/L2) | FastText (raw) | 98.1% | 2 |
+| SVM (RBF) | Transformer (MiniLM) | 98.1% | 2 |
+
+Previous (100 texts): Best methods 98% (2 misclassified).
+Change: Best methods still 98%; LR L2 slightly weaker (picks up Paṭis II after
+the split into two small volumes). No change in best-method results.
+
+### Perplexity (exp6)
+
+| Metric | 100 texts | 107 texts | Change |
+|--------|-----------|-----------|--------|
+| Canon mean word perplexity | 411 | 410.82 | Negligible |
+| Non-canon mean word perplexity | 75,401 | 75,751 | Negligible |
+| Perplexity ratio | 184x | 184x | Same |
+| Word trigram best accuracy | 100% | 100% | Same |
+| Char 5-gram best accuracy | 92% | 91.6% | Same |
 
 ### Four-way classification (exp7)
 
-| Method | Features | Accuracy |
-|--------|----------|----------|
-| LR / SVM / RF | TF-IDF (2000) | 94% |
-| SVM / RF | Word freq (1000) | 93% |
+| Method | Features | Accuracy | Misclassified |
+|--------|----------|----------|---------------|
+| SVM (linear) | TF-IDF (2000) | 94.4% | 6 |
+| LR (L2) | TF-IDF (2000) | 93.5% | 7 |
+| Random Forest | TF-IDF (2000) | 93.5% | 7 |
+| SVM (linear) | Word freq (1000) | 95.3% | 5 |
+| LR (L2) | Word freq (1000) | 92.5% | 8 |
+| Random Forest | Word freq (1000) | 92.5% | 8 |
+
+Previous (100 texts): LR/SVM/RF TF-IDF 94%, SVM/RF word freq 93%.
+Change: SVM word freq improves to 95.3%; TF-IDF essentially unchanged.
+Some new sub-commentary misclassifications (AN-ṭ I) from the reorganised files.
 
 ### Key verified statistics (for the paper)
 
-- Perplexity ratio: 184x (canon mean 411, non-canon mean 75,401)
-- Peṭakopadesa: sole text misclassified by every method
+- Perplexity ratio: 184x (canon mean 411, non-canon mean 75,751)
+- Peṭakopadesa: sole text misclassified by every unsupervised method
 - Nidd I: 79,302 words, TTR 0.17; Nidd II: 53,866 words, TTR 0.20
-- Nettippakaraṇa: 127 occurrences of *pe*
-- Milindapañha: *kāraṇaṃ* z = 4.31, *kho* z = 1.40, 118 *kāraṇaṃ* tokens,
-  5,553 unique words (32%), *kāraṇaṃ* LR contribution +3.17 / net score +2.77
-- Peṭakopadesa: *tattha* z = 5.9
-- Distance ratios: Nidd II 0.004, Mil −0.015, Nett 0.154, Peṭ 0.150
+- Milindapañha: *kāraṇaṃ* z = 4.48, *kho* z = 1.46, unique words 5,553 (32.4%),
+  *kāraṇaṃ* LR contribution +2.98 / net score +2.63
+- Peṭakopadesa: *tattha* z = 6.04
+- Distance ratios: Nidd I 0.036, Nidd II −0.005, Mil −0.019, Nett 0.148, Peṭ 0.146
+
+Previous (100 texts): Mil *kāraṇaṃ* z = 4.31, Peṭ *tattha* z = 5.9,
+distance ratios Nidd II 0.004, Mil −0.015, Nett 0.154, Peṭ 0.150.
+Changes are all small shifts from the larger non-canon reference set (67 vs 60).
+
+### VRI-to-PTS reorganisation summary
+
+Canonical (unchanged from earlier runs):
+- AN: 11 VRI nipāta files → 5 PTS volumes (A I-V)
+- Jātaka: 2 VRI files → 6 PTS volumes (J I-VI)
+- Paṭisambhidāmagga: 1 VRI file → 2 PTS volumes (Paṭis I-II)
+- Apadāna: 2 VRI files → 2 PTS volumes (Ap I-II, corrected boundary)
+
+Commentary (new):
+- Papañcasūdanī (MN-a): 3 VRI → 5 PTS (Ps I-V)
+- Sāratthappakāsinī (SN-a): 5 VRI → 3 PTS (Spk I-III)
+- Manorathapūraṇī (AN-a): 4 VRI → 5 PTS (Mp I-V)
+- Dhammapadaṭṭhakathā: 1 VRI → 4 PTS (DhpA I-IV)
+- Itivuttaka-aṭṭhakathā: 1 VRI → 2 PTS (It-a I-II)
+- Jātakaṭṭhavaṇṇanā: 7 VRI → 6 PTS (Ja-a I-VI)
+- Saddhammappakāsinī (Paṭis-a): 1 VRI → 3 PTS (Sdp I-III)
+
+Sub-commentary (new):
+- MN Līnatthavaṇṇanā: 3 VRI → 5 PTS (MN-ṭ I-V)
+- SN Līnatthavaṇṇanā: 5 VRI → 3 PTS (SN-ṭ I-III)
+- AN Sāratthamañjūsā: 4 VRI → 5 PTS (AN-ṭ I-V)
+
+Total token count verified: 5,353,931 (unchanged after reorganisation).
 
 ## Implications for the paper
 

@@ -102,6 +102,57 @@ PTS_NAMES = {
     # Apadāna PTS volumes (re-split from VRI parts)
     'ap1': 'Ap I',
     'ap2': 'Ap II',
+    # Papañcasūdanī (MN commentary) PTS volumes
+    'mna1': 'Ps I',
+    'mna2': 'Ps II',
+    'mna3': 'Ps III',
+    'mna4': 'Ps IV',
+    'mna5': 'Ps V',
+    # Sāratthappakāsinī (SN commentary) PTS volumes
+    'spk1': 'Spk I',
+    'spk2': 'Spk II',
+    'spk3': 'Spk III',
+    # Manorathapūraṇī (AN commentary) PTS volumes
+    'mp1': 'Mp I',
+    'mp2': 'Mp II',
+    'mp3': 'Mp III',
+    'mp4': 'Mp IV',
+    'mp5': 'Mp V',
+    # Dhammapadaṭṭhakathā PTS volumes
+    'dhpa1': 'DhpA I',
+    'dhpa2': 'DhpA II',
+    'dhpa3': 'DhpA III',
+    'dhpa4': 'DhpA IV',
+    # Itivuttaka-aṭṭhakathā PTS volumes
+    'ita1': 'It-a I',
+    'ita2': 'It-a II',
+    # Jātakaṭṭhavaṇṇanā PTS volumes
+    'jaa1': 'Ja I',
+    'jaa2': 'Ja II',
+    'jaa3': 'Ja III',
+    'jaa4': 'Ja IV',
+    'jaa5': 'Ja V',
+    'jaa6': 'Ja VI',
+    # Saddhammappakāsinī (Paṭis commentary) PTS volumes
+    'sdp1': 'Sdp I',
+    'sdp2': 'Sdp II',
+    'sdp3': 'Sdp III',
+    # MN Līnatthavaṇṇanā (sub-commentary) matching Ps volumes
+    'mnt1': 'MN-ṭ I',
+    'mnt2': 'MN-ṭ II',
+    'mnt3': 'MN-ṭ III',
+    'mnt4': 'MN-ṭ IV',
+    'mnt5': 'MN-ṭ V',
+    # SN Līnatthavaṇṇanā (sub-commentary) matching Spk volumes
+    'spkt1': 'SN-ṭ I',
+    'spkt2': 'SN-ṭ II',
+    'spkt3': 'SN-ṭ III',
+    # AN Sāratthamañjūsā (sub-commentary) matching Mp volumes
+    'mpt1': 'AN-ṭ I',
+    'mpt2': 'AN-ṭ II',
+    'mpt3': 'AN-ṭ III',
+    'mpt4': 'AN-ṭ IV',
+    'mpt5': 'AN-ṭ V',
 }
 
 

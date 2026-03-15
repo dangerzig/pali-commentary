@@ -31,8 +31,6 @@ JATAKA_SRC_FILES = ['s0513m.mul.txt', 's0514m.mul.txt']
 PATIS_SRC_FILES = ['s0517m.mul.txt']
 APADANA_SRC_FILES = ['s0510m1.mul.txt', 's0510m2.mul.txt']
 
-ALL_REPLACED = set(AN_SRC_FILES + JATAKA_SRC_FILES + PATIS_SRC_FILES + APADANA_SRC_FILES)
-
 # AN PTS volume mapping: PTS vol → list of VRI source files to concatenate
 AN_PTS = {
     'an1.mul.txt': ['s0401m.mul.txt', 's0402m1.mul.txt', 's0402m2.mul.txt'],  # A I (nipātas 1-3)
@@ -58,6 +56,35 @@ NIPATA_RE = re.compile(r'^\d+\.\s+\S+nipāto$', re.IGNORECASE)
 # Vaggo 1 has 12 apadānas (compound numbering "3-1" through "3-10"),
 # so sequential counting must account for this.
 APADANA_VAGGA_RE = re.compile(r'^(\d+)\.\s+\S+vaggo', re.IGNORECASE)
+
+# ── Commentary source files to be replaced by PTS-aligned versions ──
+
+PS_ATT_SRC = ['s0201a.att.txt', 's0202a.att.txt', 's0203a.att.txt']
+SPK_ATT_SRC = ['s0301a.att.txt', 's0302a.att.txt', 's0303a.att.txt',
+               's0304a.att.txt', 's0305a.att.txt']
+MP_ATT_SRC = ['s0401a.att.txt', 's0402a.att.txt', 's0403a.att.txt',
+              's0404a.att.txt']
+DHPA_ATT_SRC = ['s0502a.att.txt']
+ITA_ATT_SRC = ['s0504a.att.txt']
+JAA_ATT_SRC = ['s0513a1.att.txt', 's0513a2.att.txt', 's0513a3.att.txt',
+               's0513a4.att.txt', 's0514a1.att.txt', 's0514a2.att.txt',
+               's0514a3.att.txt']
+SDP_ATT_SRC = ['s0517a.att.txt']
+
+# ── Sub-commentary source files to be replaced ──
+
+PS_TIK_SRC = ['s0201t.tik.txt', 's0202t.tik.txt', 's0203t.tik.txt']
+SPK_TIK_SRC = ['s0301t.tik.txt', 's0302t.tik.txt', 's0303t.tik.txt',
+               's0304t.tik.txt', 's0305t.tik.txt']
+MP_TIK_SRC = ['s0401t.tik.txt', 's0402t.tik.txt', 's0403t.tik.txt',
+              's0404t.tik.txt']
+
+ALL_REPLACED = set(
+    AN_SRC_FILES + JATAKA_SRC_FILES + PATIS_SRC_FILES + APADANA_SRC_FILES +
+    PS_ATT_SRC + SPK_ATT_SRC + MP_ATT_SRC + DHPA_ATT_SRC +
+    ITA_ATT_SRC + JAA_ATT_SRC + SDP_ATT_SRC +
+    PS_TIK_SRC + SPK_TIK_SRC + MP_TIK_SRC
+)
 
 
 def read_file(path: Path) -> str:
@@ -188,6 +215,249 @@ def split_apadana(src_dir: Path) -> dict[str, str]:
     return {
         'ap1.mul.txt': '\n'.join(lines[:split_idx]),
         'ap2.mul.txt': '\n'.join(lines[split_idx:]) + '\n' + text2,
+    }
+
+
+# ── Commentary and sub-commentary reorganisation ──
+
+def find_split_line(lines: list[str], pattern: str, start: int = 0) -> int:
+    """Find the first line index containing the given text pattern.
+
+    Searches from `start` onwards. Raises ValueError if not found.
+    """
+    for i in range(start, len(lines)):
+        if pattern in lines[i]:
+            return i
+    raise ValueError(f"Pattern '{pattern}' not found (searched from line {start})")
+
+
+def reorganise_ps_commentary(src_dir: Path) -> dict[str, str]:
+    """Reorganise Papañcasūdanī (MN commentary) to 5 PTS volumes.
+
+    VRI: 3 files (s0201a = Mūlapaṇṇāsa, s0202a = Majjhimapaṇṇāsa,
+                   s0203a = Uparipaṇṇāsa)
+    PTS: 5 volumes (Ps I = MN 1-10, Ps II = MN 11-50, Ps III = MN 51-100,
+                     Ps IV = MN 101-130, Ps V = MN 131-152)
+    """
+    text1 = read_file(src_dir / 's0201a.att.txt')
+    text2 = read_file(src_dir / 's0202a.att.txt')
+    text3 = read_file(src_dir / 's0203a.att.txt')
+
+    lines1 = text1.split('\n')
+    lines3 = text3.split('\n')
+
+    # Ps I/II: split at Sīhanādavaggo (MN 11 = start of vagga 2)
+    split12 = find_split_line(lines1, '2. Sīhanādavaggo')
+
+    # Ps IV/V: split at Vibhaṅgavaggo (MN 131 = start of vagga 4)
+    split45 = find_split_line(lines3, '4. Vibhaṅgavaggo')
+
+    return {
+        'mna1.att.txt': '\n'.join(lines1[:split12]),
+        'mna2.att.txt': '\n'.join(lines1[split12:]),
+        'mna3.att.txt': text2,
+        'mna4.att.txt': '\n'.join(lines3[:split45]),
+        'mna5.att.txt': '\n'.join(lines3[split45:]),
+    }
+
+
+def reorganise_spk_commentary(src_dir: Path) -> dict[str, str]:
+    """Reorganise Sāratthappakāsinī (SN commentary) to 3 PTS volumes.
+
+    VRI: 5 files (s0301a-s0305a, one per saṃyutta)
+    PTS: 3 volumes (Spk I = Sagāthā, Spk II = Nidāna+Khandha+part Saḷāyatana,
+                     Spk III = rest Saḷāyatana+Mahā)
+    Split in s0304a (Saḷāyatana) at the Koṭṭhika-aniccasutta commentary,
+    which is the first sutta in Spk III (PTS Spk III 1).
+    """
+    text1 = read_file(src_dir / 's0301a.att.txt')
+    text2 = read_file(src_dir / 's0302a.att.txt')
+    text3 = read_file(src_dir / 's0303a.att.txt')
+    text4 = read_file(src_dir / 's0304a.att.txt')
+    text5 = read_file(src_dir / 's0305a.att.txt')
+
+    lines4 = text4.split('\n')
+    split = find_split_line(lines4, 'Koṭṭhikaaniccasuttādivaṇṇanā')
+
+    return {
+        'spk1.att.txt': text1,
+        'spk2.att.txt': text2 + '\n' + text3 + '\n' + '\n'.join(lines4[:split]),
+        'spk3.att.txt': '\n'.join(lines4[split:]) + '\n' + text5,
+    }
+
+
+def reorganise_mp_commentary(src_dir: Path) -> dict[str, str]:
+    """Reorganise Manorathapūraṇī (AN commentary) to 5 PTS volumes.
+
+    VRI: 4 files (s0401a = Eka, s0402a = Duka+Tika+Catukka,
+                   s0403a = Pañcaka+Chakka+Sattaka,
+                   s0404a = Aṭṭhaka+Navaka+Dasaka+Ekādasaka)
+    PTS: 5 volumes (Mp I = Eka vaggos 1-14, Mp II = Eka vaggos 15-20+Duka+Tika,
+                     Mp III = Catukka+Pañcaka+Chakka,
+                     Mp IV = Sattaka+Aṭṭhaka+Navaka,
+                     Mp V = Dasaka+Ekādasaka)
+    """
+    text1 = read_file(src_dir / 's0401a.att.txt')
+    text2 = read_file(src_dir / 's0402a.att.txt')
+    text3 = read_file(src_dir / 's0403a.att.txt')
+    text4 = read_file(src_dir / 's0404a.att.txt')
+
+    lines1 = text1.split('\n')
+    lines2 = text2.split('\n')
+    lines3 = text3.split('\n')
+    lines4 = text4.split('\n')
+
+    split12 = find_split_line(lines1, '15. Aṭṭhānapāḷi')
+    split23 = find_split_line(lines2, 'Catukkanipāta-aṭṭhakathā')
+    split34 = find_split_line(lines3, 'Sattakanipāta-aṭṭhakathā')
+    split45 = find_split_line(lines4, 'Dasakanipāta-aṭṭhakathā')
+
+    return {
+        'mp1.att.txt': '\n'.join(lines1[:split12]),
+        'mp2.att.txt': '\n'.join(lines1[split12:]) + '\n' + '\n'.join(lines2[:split23]),
+        'mp3.att.txt': '\n'.join(lines2[split23:]) + '\n' + '\n'.join(lines3[:split34]),
+        'mp4.att.txt': '\n'.join(lines3[split34:]) + '\n' + '\n'.join(lines4[:split45]),
+        'mp5.att.txt': '\n'.join(lines4[split45:]),
+    }
+
+
+def reorganise_dhpa(src_dir: Path) -> dict[str, str]:
+    """Split Dhammapadaṭṭhakathā into 4 PTS volumes.
+
+    DhpA I = vaggas 1-4, DhpA II = 5-8, DhpA III = 9-20, DhpA IV = 21-26.
+    """
+    text = read_file(src_dir / 's0502a.att.txt')
+    lines = text.split('\n')
+
+    split2 = find_split_line(lines, '5. Bālavaggo')
+    split3 = find_split_line(lines, '9. Pāpavaggo')
+    split4 = find_split_line(lines, '21. Pakiṇṇakavaggo')
+
+    return {
+        'dhpa1.att.txt': '\n'.join(lines[:split2]),
+        'dhpa2.att.txt': '\n'.join(lines[split2:split3]),
+        'dhpa3.att.txt': '\n'.join(lines[split3:split4]),
+        'dhpa4.att.txt': '\n'.join(lines[split4:]),
+    }
+
+
+def reorganise_ita(src_dir: Path) -> dict[str, str]:
+    """Split Itivuttaka-aṭṭhakathā into 2 PTS volumes.
+
+    It-a I = ekanipāta+dukanipāta, It-a II = tikanipāta+catukkanipāta.
+    """
+    text = read_file(src_dir / 's0504a.att.txt')
+    lines = text.split('\n')
+
+    split = find_split_line(lines, '3. Tikanipāto')
+
+    return {
+        'ita1.att.txt': '\n'.join(lines[:split]),
+        'ita2.att.txt': '\n'.join(lines[split:]),
+    }
+
+
+def reorganise_jaa(src_dir: Path) -> dict[str, str]:
+    """Reorganise Jātakaṭṭhavaṇṇanā to 6 PTS volumes.
+
+    VRI: 7 files (s0513a1-a4 + s0514a1-a3)
+    PTS: 6 volumes (Ja I-VI, matching canonical Jātaka volumes)
+    s0513a1-a4 → Ja I-IV (1:1), s0514a1 → Ja V,
+    s0514a2+s0514a3 → Ja VI (Mahānipāta merged).
+    """
+    return {
+        'jaa1.att.txt': read_file(src_dir / 's0513a1.att.txt'),
+        'jaa2.att.txt': read_file(src_dir / 's0513a2.att.txt'),
+        'jaa3.att.txt': read_file(src_dir / 's0513a3.att.txt'),
+        'jaa4.att.txt': read_file(src_dir / 's0513a4.att.txt'),
+        'jaa5.att.txt': read_file(src_dir / 's0514a1.att.txt'),
+        'jaa6.att.txt': read_file(src_dir / 's0514a2.att.txt') + '\n' +
+                        read_file(src_dir / 's0514a3.att.txt'),
+    }
+
+
+def reorganise_sdp(src_dir: Path) -> dict[str, str]:
+    """Split Saddhammappakāsinī (Paṭisambhidāmagga commentary) into 3 PTS volumes.
+
+    Sdp I = Mahāvagga, Sdp II = Yuganaddhavagga, Sdp III = Paññāvagga.
+    """
+    text = read_file(src_dir / 's0517a.att.txt')
+    lines = text.split('\n')
+
+    split2 = find_split_line(lines, '(2) Yuganaddhavaggo')
+    split3 = find_split_line(lines, '(3) Paññāvaggo')
+
+    return {
+        'sdp1.att.txt': '\n'.join(lines[:split2]),
+        'sdp2.att.txt': '\n'.join(lines[split2:split3]),
+        'sdp3.att.txt': '\n'.join(lines[split3:]),
+    }
+
+
+# ── Sub-commentary reorganisation ──
+
+def reorganise_ps_subcomm(src_dir: Path) -> dict[str, str]:
+    """Reorganise MN Līnatthavaṇṇanā to match 5 PTS Papañcasūdanī volumes."""
+    text1 = read_file(src_dir / 's0201t.tik.txt')
+    text2 = read_file(src_dir / 's0202t.tik.txt')
+    text3 = read_file(src_dir / 's0203t.tik.txt')
+
+    lines1 = text1.split('\n')
+    lines3 = text3.split('\n')
+
+    split12 = find_split_line(lines1, '2. Sīhanādavaggo')
+    split45 = find_split_line(lines3, '4. Vibhaṅgavaggo')
+
+    return {
+        'mnt1.tik.txt': '\n'.join(lines1[:split12]),
+        'mnt2.tik.txt': '\n'.join(lines1[split12:]),
+        'mnt3.tik.txt': text2,
+        'mnt4.tik.txt': '\n'.join(lines3[:split45]),
+        'mnt5.tik.txt': '\n'.join(lines3[split45:]),
+    }
+
+
+def reorganise_spk_subcomm(src_dir: Path) -> dict[str, str]:
+    """Reorganise SN Līnatthavaṇṇanā to match 3 PTS Sāratthappakāsinī volumes."""
+    text1 = read_file(src_dir / 's0301t.tik.txt')
+    text2 = read_file(src_dir / 's0302t.tik.txt')
+    text3 = read_file(src_dir / 's0303t.tik.txt')
+    text4 = read_file(src_dir / 's0304t.tik.txt')
+    text5 = read_file(src_dir / 's0305t.tik.txt')
+
+    lines4 = text4.split('\n')
+    split = find_split_line(lines4, 'Koṭṭhikaaniccasuttādivaṇṇanā')
+
+    return {
+        'spkt1.tik.txt': text1,
+        'spkt2.tik.txt': text2 + '\n' + text3 + '\n' + '\n'.join(lines4[:split]),
+        'spkt3.tik.txt': '\n'.join(lines4[split:]) + '\n' + text5,
+    }
+
+
+def reorganise_mp_subcomm(src_dir: Path) -> dict[str, str]:
+    """Reorganise AN Sāratthamañjūsā to match 5 PTS Manorathapūraṇī volumes."""
+    text1 = read_file(src_dir / 's0401t.tik.txt')
+    text2 = read_file(src_dir / 's0402t.tik.txt')
+    text3 = read_file(src_dir / 's0403t.tik.txt')
+    text4 = read_file(src_dir / 's0404t.tik.txt')
+
+    lines1 = text1.split('\n')
+    lines2 = text2.split('\n')
+    lines3 = text3.split('\n')
+    lines4 = text4.split('\n')
+
+    split12 = find_split_line(lines1, '15. Aṭṭhānapāḷi')
+    split23 = find_split_line(lines2, 'Catukkanipāta-ṭīkā')
+    split34 = find_split_line(lines3, 'Sattakanipāta-ṭīkā')
+    split45 = find_split_line(lines4, 'Dasakanipāta-ṭīkā')
+
+    return {
+        'mpt1.tik.txt': '\n'.join(lines1[:split12]),
+        'mpt2.tik.txt': '\n'.join(lines1[split12:]) + '\n' + '\n'.join(lines2[:split23]),
+        'mpt3.tik.txt': '\n'.join(lines2[split23:]) + '\n' + '\n'.join(lines3[:split34]),
+        'mpt4.tik.txt': '\n'.join(lines3[split34:]) + '\n' + '\n'.join(lines4[:split45]),
+        'mpt5.tik.txt': '\n'.join(lines4[split45:]),
     }
 
 
@@ -438,6 +708,70 @@ def reorganise():
     for name, text in ap_vols.items():
         write_file(DST_DIR / name, text)
         print(f"  Ap: → {name} ({len(text):,} chars)")
+
+    # ── Commentary reorganisation ──
+
+    # 6. Papañcasūdanī (MN commentary): 3 VRI → 5 PTS
+    ps_vols = reorganise_ps_commentary(SRC_DIR)
+    for name, text in ps_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  Ps: → {name} ({len(text):,} chars)")
+
+    # 7. Sāratthappakāsinī (SN commentary): 5 VRI → 3 PTS
+    spk_vols = reorganise_spk_commentary(SRC_DIR)
+    for name, text in spk_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  Spk: → {name} ({len(text):,} chars)")
+
+    # 8. Manorathapūraṇī (AN commentary): 4 VRI → 5 PTS
+    mp_vols = reorganise_mp_commentary(SRC_DIR)
+    for name, text in mp_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  Mp: → {name} ({len(text):,} chars)")
+
+    # 9. Dhammapadaṭṭhakathā: 1 VRI → 4 PTS
+    dhpa_vols = reorganise_dhpa(SRC_DIR)
+    for name, text in dhpa_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  DhpA: → {name} ({len(text):,} chars)")
+
+    # 10. Itivuttaka-aṭṭhakathā: 1 VRI → 2 PTS
+    ita_vols = reorganise_ita(SRC_DIR)
+    for name, text in ita_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  It-a: → {name} ({len(text):,} chars)")
+
+    # 11. Jātakaṭṭhavaṇṇanā: 7 VRI → 6 PTS
+    jaa_vols = reorganise_jaa(SRC_DIR)
+    for name, text in jaa_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  Ja-a: → {name} ({len(text):,} chars)")
+
+    # 12. Saddhammappakāsinī (Paṭis commentary): 1 VRI → 3 PTS
+    sdp_vols = reorganise_sdp(SRC_DIR)
+    for name, text in sdp_vols.items():
+        write_file(DST_DIR / name, text)
+        print(f"  Sdp: → {name} ({len(text):,} chars)")
+
+    # ── Sub-commentary reorganisation ──
+
+    # 13. MN Līnatthavaṇṇanā: 3 VRI → 5 PTS (matching Ps volumes)
+    ps_tik = reorganise_ps_subcomm(SRC_DIR)
+    for name, text in ps_tik.items():
+        write_file(DST_DIR / name, text)
+        print(f"  MN-ṭ: → {name} ({len(text):,} chars)")
+
+    # 14. SN Līnatthavaṇṇanā: 5 VRI → 3 PTS (matching Spk volumes)
+    spk_tik = reorganise_spk_subcomm(SRC_DIR)
+    for name, text in spk_tik.items():
+        write_file(DST_DIR / name, text)
+        print(f"  SN-ṭ: → {name} ({len(text):,} chars)")
+
+    # 15. AN Sāratthamañjūsā: 4 VRI → 5 PTS (matching Mp volumes)
+    mp_tik = reorganise_mp_subcomm(SRC_DIR)
+    for name, text in mp_tik.items():
+        write_file(DST_DIR / name, text)
+        print(f"  AN-ṭ: → {name} ({len(text):,} chars)")
 
     # Summary
     all_files = list(DST_DIR.glob('*.txt'))

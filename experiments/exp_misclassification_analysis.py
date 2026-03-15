@@ -353,6 +353,32 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
                 [coords[idx, 1], noncanon_centroid_2d[1]],
                 color=LABEL_COLORS['commentary'], alpha=0.3, linewidth=1, linestyle='--')
 
+    # Draw convex hulls around k-means clusters
+    from scipy.spatial import ConvexHull
+    from sklearn.cluster import KMeans
+
+    # Run k-means in full 1000D space to get actual cluster assignments
+    km = KMeans(n_clusters=2, n_init=50, random_state=42)
+    km_labels = km.fit_predict(matrix)
+    # Align cluster labels: cluster with more canon texts = cluster 0
+    canon_in_0 = sum(1 for i in range(len(labels)) if km_labels[i] == 0 and labels[i] == 0)
+    canon_in_1 = sum(1 for i in range(len(labels)) if km_labels[i] == 1 and labels[i] == 0)
+    if canon_in_1 > canon_in_0:
+        km_labels = 1 - km_labels
+
+    hull_colors = {0: LABEL_COLORS['canon'], 1: LABEL_COLORS['commentary']}
+    hull_labels_display = {0: 'K-means canon cluster', 1: 'K-means non-canon cluster'}
+    for cluster_id in [0, 1]:
+        cluster_coords = coords[km_labels == cluster_id]
+        if len(cluster_coords) >= 3:
+            hull = ConvexHull(cluster_coords)
+            hull_pts = np.append(hull.vertices, hull.vertices[0])
+            ax.plot(cluster_coords[hull_pts, 0], cluster_coords[hull_pts, 1],
+                    color=hull_colors[cluster_id], linewidth=1.5, linestyle='-',
+                    alpha=0.6, label=hull_labels_display[cluster_id])
+            ax.fill(cluster_coords[hull_pts, 0], cluster_coords[hull_pts, 1],
+                    color=hull_colors[cluster_id], alpha=0.08)
+
     # Plot centroids
     ax.scatter(*canon_centroid_2d, marker='X', s=300, c=LABEL_COLORS['canon'],
                edgecolors='black', linewidth=2, zorder=20, label='Canon centroid')

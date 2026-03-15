@@ -1,0 +1,109 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Experiment 5: Transformer-based Approaches
+============================================================
+Loaded 107 documents
+
+Computing transformer embeddings (paraphrase-multilingual-MiniLM-L12-v2)...
+  Loading model: paraphrase-multilingual-MiniLM-L12-v2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7404.45it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  warn(
+    Embedded 1/107 documents (278 chunks)
+    Embedded 10/107 documents (267 chunks)
+    Embedded 20/107 documents (531 chunks)
+    Embedded 30/107 documents (78 chunks)
+    Embedded 40/107 documents (61 chunks)
+    Embedded 50/107 documents (365 chunks)
+    Embedded 60/107 documents (463 chunks)
+    Embedded 70/107 documents (27 chunks)
+    Embedded 80/107 documents (385 chunks)
+    Embedded 90/107 documents (409 chunks)
+    Embedded 100/107 documents (60 chunks)
+  Embedding matrix: (107, 384)
+
+Clustering on transformer embeddings:
+  K-means: accuracy=0.9252, misclassified=8 ['dhpa2', 'dhpa3', 'ps1', 'ps2', 's0511m', 's0515m', 's0516m', 's0518m']
+  Spectral: accuracy=0.9252, misclassified=8 ['dhpa2', 'dhpa3', 'ps1', 'ps2', 's0511m', 's0515m', 's0516m', 's0518m']
+  GMM: accuracy=0.9252, misclassified=8 ['dhpa2', 'dhpa3', 'ps1', 'ps2', 's0511m', 's0515m', 's0516m', 's0518m']
+  Agglom. (ward): accuracy=0.8505, misclassified=16 ['dhpa1', 'dhpa2', 'dhpa3', 'dhpa4', 'jaa1', 'jaa2', 'jaa3', 'jaa4', 'jaa5', 'jaa6', 'ps1', 'ps2', 's0515m', 's0516m', 's0518m', 's0520m']
+
+Supervised classification on transformer embeddings:
+  Logistic Regression (L1): accuracy=0.9533, misclassified=5
+  Logistic Regression (L2): accuracy=0.9720, misclassified=3
+  SVM (linear): accuracy=0.9533, misclassified=5
+  SVM (RBF): accuracy=0.9813, misclassified=2
+  Random Forest: accuracy=0.9720, misclassified=3
+  Gradient Boosting: accuracy=0.9720, misclassified=3
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp5_umap_transformer.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp5_pca_transformer.png
+
+
+Trying different chunk sizes...
+  Loading model: paraphrase-multilingual-MiniLM-L12-v2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8698.34it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+    Embedded 1/107 documents (555 chunks)
+    Embedded 10/107 documents (534 chunks)
+    Embedded 20/107 documents (1061 chunks)
+    Embedded 30/107 documents (156 chunks)
+    Embedded 40/107 documents (122 chunks)
+    Embedded 50/107 documents (730 chunks)
+    Embedded 60/107 documents (926 chunks)
+    Embedded 70/107 documents (54 chunks)
+    Embedded 80/107 documents (769 chunks)
+    Embedded 90/107 documents (817 chunks)
+    Embedded 100/107 documents (120 chunks)
+  chunk_size=100: accuracy=0.9439, misclassified=6
+  Loading model: paraphrase-multilingual-MiniLM-L12-v2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8888.13it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+    Embedded 1/107 documents (111 chunks)
+    Embedded 10/107 documents (107 chunks)
+    Embedded 20/107 documents (213 chunks)
+    Embedded 30/107 documents (32 chunks)
+    Embedded 40/107 documents (25 chunks)
+    Embedded 50/107 documents (146 chunks)
+    Embedded 60/107 documents (186 chunks)
+    Embedded 70/107 documents (11 chunks)
+    Embedded 80/107 documents (154 chunks)
+    Embedded 90/107 documents (164 chunks)
+    Embedded 100/107 documents (24 chunks)
+  chunk_size=500: accuracy=0.9159, misclassified=9
+
+
+Summary:
+Method                                     Accuracy
+----------------------------------------------------
+SVM (RBF) (MiniLM)                           0.9813
+Logistic Regression (L2) (MiniLM)            0.9720
+Random Forest (MiniLM)                       0.9720
+Gradient Boosting (MiniLM)                   0.9720
+Logistic Regression (L1) (MiniLM)            0.9533
+SVM (linear) (MiniLM)                        0.9533
+K-means (MiniLM chunk=100)                   0.9439
+K-means (MiniLM)                             0.9252
+Spectral (MiniLM)                            0.9252
+GMM (MiniLM)                                 0.9252
+K-means (MiniLM chunk=500)                   0.9159
+Agglom. (ward) (MiniLM)                      0.8505
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp5_comparison.png
+
+Experiment 5 complete.
