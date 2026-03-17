@@ -1,0 +1,58 @@
+/Users/danzigmond/pali-commentary/src/visualization.py:255: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+Experiment 2: Clustering Algorithm Comparison
+============================================================
+Loaded 107 documents
+
+Features: Word frequency (top 1000)
+
+Method                      Accuracy  Misclassified Details
+----------------------------------------------------------------------
+K-means                       0.9907              1 s0520m
+Spectral                      0.9813              2 s0516m, s0520m
+GMM                           0.9907              1 s0520m
+Agglom. (ward)                0.9626              4 s0515m, s0516m, s0518m, s0520m
+Agglom. (complete)            0.9626              4 s0102m, s0301m, s0503m, s0520m
+Agglom. (average)             0.6355             39 an1, an2, an3, an4, an5, ap1, ap2, ja1, ja2, ja3, ja4, ja5, ja6, ps1, ps2, s0101m, s0102m, s0103m, s0201m, s0202m, s0203m, s0301m, s0302m, s0303m, s0304m, s0305m, s0501m, s0502m, s0503m, s0505m, s0506m, s0507m, s0508m, s0509m, s0511m, s0512m, s0515m, s0516m, s0519m
+HDBSCAN                       0.1776             88 ap1, ap2, dhpa1, dhpa2, dhpa3, dhpa4, ita1, ita2, ja1, ja2, ja3, ja4, ja5, ja6, jaa1, jaa2, jaa3, jaa4, jaa5, jaa6, mna1, mna2, mna3, mna4, mna5, mnt1, mnt2, mnt3, mnt4, mnt5, mp1, mp2, mp3, mp4, mp5, mpt1, mpt2, mpt3, mpt4, mpt5, ps1, ps2, s0101a, s0101t, s0102a, s0102t, s0103a, s0103t, s0104t, s0105t, s0501a, s0501m, s0501t, s0502m, s0503a, s0505a, s0505m, s0506a, s0506m, s0507a, s0507m, s0508a1, s0508a2, s0508m, s0509a, s0509m, s0510a, s0511a, s0511m, s0512a, s0512m, s0515a, s0515m, s0516a, s0516m, s0518m, s0519a, s0519m, s0519t, sdp1, sdp2, sdp3, spk1, spk2, spk3, spkt1, spkt2, spkt3
+
+
+Features: TF-IDF (top 2000)
+
+Method                      Accuracy  Misclassified Details
+----------------------------------------------------------------------
+K-means                       0.9720              3 s0516m, s0518m, s0520m
+Spectral                      0.9813              2 s0516m, s0520m
+GMM                           0.9720              3 s0516m, s0518m, s0520m
+Agglom. (ward)                0.9533              5 s0501t, s0515m, s0516m, s0518m, s0520m
+Agglom. (complete)            0.7850             23 an1, an2, an3, an4, an5, ps1, ps2, s0101m, s0102m, s0103m, s0201m, s0202m, s0203m, s0301m, s0302m, s0303m, s0304m, s0305m, s0503m, s0504m, s0515m, s0516m, s0520m
+Agglom. (average)             0.6542             37 an1, an2, an3, an4, an5, ja1, ja2, ja3, ja4, ja5, ja6, ps1, ps2, s0101m, s0102m, s0103m, s0201m, s0202m, s0203m, s0301m, s0302m, s0303m, s0304m, s0305m, s0501m, s0502m, s0503m, s0504m, s0505m, s0506m, s0507m, s0508m, s0509m, s0512m, s0515m, s0516m, s0519m
+HDBSCAN                       0.8037             21 ap1, ap2, ja1, ja2, ja3, ja4, ja5, ja6, s0501m, s0502m, s0505m, s0506m, s0507m, s0508m, s0509m, s0511m, s0512m, s0515m, s0516m, s0519m, s0520m
+
+Best method: K-means (word freq) (0.9907)
+
+
+Checking for lemmatized data...
+Only 66/107 have lemmatized data. Skipping.
+
+
+Full Summary:
+Method                                     Accuracy
+----------------------------------------------------
+K-means (word freq)                          0.9907
+GMM (word freq)                              0.9907
+Spectral (word freq)                         0.9813
+Spectral (TF-IDF)                            0.9813
+K-means (TF-IDF)                             0.9720
+GMM (TF-IDF)                                 0.9720
+Agglom. (ward) (word freq)                   0.9626
+Agglom. (complete) (word freq)               0.9626
+Agglom. (ward) (TF-IDF)                      0.9533
+HDBSCAN (TF-IDF)                             0.8037
+Agglom. (complete) (TF-IDF)                  0.7850
+Agglom. (average) (TF-IDF)                   0.6542
+Agglom. (average) (word freq)                0.6355
+HDBSCAN (word freq)                          0.1776
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp2_comparison.png
+
+Experiment 2 complete.

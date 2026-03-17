@@ -1,0 +1,195 @@
+Misclassification Analysis
+======================================================================
+Analyzing why 6 boundary texts are consistently misclassified
+
+Loaded 107 documents (40 canon, 67 non-canon)
+  Note: ['s0517m'] not in current data (split into PTS volumes)
+
+Feature matrix: 107 docs x 1000 features
+
+
+======================================================================
+SECTION 1: Document Statistics
+======================================================================
+Text               Label              Tokens    Vocab     TTR   Hapax  WordLen
+------------------------------------------------------------------------------
+Canon mean         (reference)        35,832    6,561  0.2855  0.5337     7.50
+Non-canon mean     (reference)        57,838   19,448  0.3610  0.7180     8.02
+------------------------------------------------------------------------------
+Mahāniddesa        canon   C->NC      79,302   13,651  0.1721  0.3792     7.53
+Cūḷaniddesa        canon   C->NC      53,866   10,832  0.2011  0.4294     7.68
+Milindapañha       paracanonical NC->C      74,295   17,151  0.2308  0.6081     7.45
+Nettippakaraṇa     canon   C->NC      28,234    7,613  0.2696  0.5634     7.77
+Peṭakopadesa       paracanonical NC->C      32,985    9,054  0.2745  0.6427     7.67
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_doc_statistics.png
+
+======================================================================
+SECTION 2: Key Word Frequency Profiles
+======================================================================
+
+Text                                        ti  bhikkhave        kho        nti     tattha       viya     vuttaṃ       ahaṃ         pe         me    bhikkhu    bhagavā    kāraṇaṃ      attho       nāma
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Canon mean                               -1.11       0.63       0.76      -1.08      -0.87      -1.06      -0.80       0.38       0.60       0.80       0.74       0.30      -0.90      -0.92      -0.74
+Non-canon mean                            0.67      -0.34      -0.43       0.66       0.40       0.68       0.52      -0.15      -0.38      -0.43      -0.41      -0.23       0.46       0.60       0.49
+Mahāniddesa (s0515m)                     -0.32      -0.35      -0.49      -0.48      -1.05      -1.09      -0.86      -0.99       0.87       0.31       0.13       1.27      -0.68      -0.89      -1.28
+Cūḷaniddesa (s0516m)                     -0.14      -0.23      -0.51       0.09      -1.04      -1.20      -0.89      -0.88       2.01      -0.11       0.05       2.56      -0.79      -0.98      -1.30
+Milindapañha (s0518m)                     0.10      -0.37       1.46      -0.41      -0.61      -0.78      -0.85      -0.74      -0.01      -0.48      -0.46      -0.38       4.48      -1.04      -0.59
+Nettippakaraṇa (s0519m)                  -0.73       0.23      -0.18      -0.68       2.92      -1.13      -0.70      -0.98       0.37      -0.48      -0.08       1.00      -0.98      -0.89      -0.74
+Peṭakopadesa (s0520m)                    -1.62      -0.34      -0.62      -1.45       6.04      -1.07      -0.71      -1.03      -0.39      -0.86      -0.43      -0.34       0.90      -0.79      -0.91
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_heatmap.png
+
+======================================================================
+SECTION 3: Feature Space Positioning
+======================================================================
+
+Text                                  d(canon)   d(non-c)  log ratio    True
+----------------------------------------------------------------------------------
+Mahāniddesa (s0515m)                   0.03709    0.04032     0.0363   canon
+Cūḷaniddesa (s0516m)                   0.03056    0.03023    -0.0047   canon
+Milindapañha (s0518m)                  0.05287    0.05061    -0.0190 non-can
+Nettippakaraṇa (s0519m)                0.03013    0.04236     0.1479   canon
+Peṭakopadesa (s0520m)                  0.04598    0.06439     0.1463 non-can
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_distance_ratios.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_pca_centroids.png
+
+======================================================================
+SECTION 4: Decision Decomposition (L1 Logistic Regression)
+======================================================================
+
+  Mahāniddesa (s0515m) - true: canon, decision score: -4.036
+    Top words pushing toward canon (blue):
+      idāni                contribution= -0.8644  (coef=0.7296, x_scaled=-1.1848)
+      tattha               contribution= -0.6492  (coef=0.6169, x_scaled=-1.0523)
+      attano               contribution= -0.5946  (coef=0.6461, x_scaled=-0.9204)
+      kāraṇaṃ              contribution= -0.4492  (coef=0.6648, x_scaled=-0.6757)
+      hutvā                contribution= -0.3998  (coef=0.3591, x_scaled=-1.1134)
+    Top words pushing toward non-canon (red):
+      vijjati              contribution=  0.0849  (coef=-0.1790, x_scaled=-0.4743)
+      ṭī                   contribution= -0.0000  (coef=0.0000, x_scaled=-0.3321)
+      paṇḍito              contribution= -0.0000  (coef=0.0000, x_scaled=-0.0411)
+      tathāgatassa         contribution= -0.0000  (coef=0.0000, x_scaled=-0.7356)
+      dhammehi             contribution=  0.0000  (coef=0.0000, x_scaled=0.1472)
+
+  Cūḷaniddesa (s0516m) - true: canon, decision score: -4.297
+    Top words pushing toward canon (blue):
+      idāni                contribution= -0.8644  (coef=0.7296, x_scaled=-1.1848)
+      tattha               contribution= -0.6408  (coef=0.6169, x_scaled=-1.0387)
+      attano               contribution= -0.6237  (coef=0.6461, x_scaled=-0.9653)
+      tīsu                 contribution= -0.5440  (coef=0.6497, x_scaled=-0.8373)
+      kāraṇaṃ              contribution= -0.5236  (coef=0.6648, x_scaled=-0.7877)
+    Top words pushing toward non-canon (red):
+      vijjati              contribution=  0.0102  (coef=-0.1790, x_scaled=-0.0569)
+      nti                  contribution=  0.0085  (coef=0.0999, x_scaled=0.0852)
+      me                   contribution=  0.0073  (coef=-0.0662, x_scaled=-0.1104)
+      ajjhattaṃ            contribution=  0.0000  (coef=0.0000, x_scaled=0.5973)
+      ṭhatvā               contribution= -0.0000  (coef=0.0000, x_scaled=-0.9959)
+
+  Milindapañha (s0518m) - true: non-canon, decision score: 2.630
+    Top words pushing toward canon (blue):
+      idāni                contribution= -0.8331  (coef=0.7296, x_scaled=-1.1419)
+      attano               contribution= -0.5564  (coef=0.6461, x_scaled=-0.8612)
+      tattha               contribution= -0.3758  (coef=0.6169, x_scaled=-0.6092)
+      hutvā                contribution= -0.3346  (coef=0.3591, x_scaled=-0.9319)
+      katvā                contribution= -0.2629  (coef=0.2786, x_scaled=-0.9437)
+    Top words pushing toward non-canon (red):
+      kāraṇaṃ              contribution=  2.9795  (coef=0.6648, x_scaled=4.4820)
+      kāraṇena             contribution=  1.0775  (coef=0.1453, x_scaled=7.4149)
+      sakkā                contribution=  0.6159  (coef=0.1530, x_scaled=4.0250)
+      vijjati              contribution=  0.0815  (coef=-0.1790, x_scaled=-0.4549)
+      ti                   contribution=  0.0500  (coef=0.4961, x_scaled=0.1008)
+
+  Nettippakaraṇa (s0519m) - true: canon, decision score: -3.011
+    Top words pushing toward canon (blue):
+      idāni                contribution= -0.8644  (coef=0.7296, x_scaled=-1.1848)
+      tīsu                 contribution= -0.7067  (coef=0.6497, x_scaled=-1.0877)
+      attano               contribution= -0.6559  (coef=0.6461, x_scaled=-1.0152)
+      kāraṇaṃ              contribution= -0.6509  (coef=0.6648, x_scaled=-0.9792)
+      vijjati              contribution= -0.5856  (coef=-0.1790, x_scaled=3.2706)
+    Top words pushing toward non-canon (red):
+      tattha               contribution=  1.8016  (coef=0.6169, x_scaled=2.9201)
+      kāraṇena             contribution=  0.1127  (coef=0.1453, x_scaled=0.7757)
+      me                   contribution=  0.0320  (coef=-0.0662, x_scaled=-0.4829)
+      kenaci               contribution=  0.0005  (coef=0.0238, x_scaled=0.0218)
+      ṭī                   contribution= -0.0000  (coef=0.0000, x_scaled=-0.3321)
+
+  Peṭakopadesa (s0520m) - true: non-canon, decision score: 2.678
+    Top words pushing toward canon (blue):
+      idāni                contribution= -0.8292  (coef=0.7296, x_scaled=-1.1365)
+      ti                   contribution= -0.8033  (coef=0.4961, x_scaled=-1.6192)
+      attano               contribution= -0.7591  (coef=0.6461, x_scaled=-1.1750)
+      hutvā                contribution= -0.4182  (coef=0.3591, x_scaled=-1.1647)
+      katvā                contribution= -0.4120  (coef=0.2786, x_scaled=-1.4790)
+    Top words pushing toward non-canon (red):
+      tattha               contribution=  3.7267  (coef=0.6169, x_scaled=6.0405)
+      tīsu                 contribution=  1.6849  (coef=0.6497, x_scaled=2.5934)
+      kāraṇaṃ              contribution=  0.5964  (coef=0.6648, x_scaled=0.8972)
+      kāraṇena             contribution=  0.0643  (coef=0.1453, x_scaled=0.4428)
+      me                   contribution=  0.0569  (coef=-0.0662, x_scaled=-0.8606)
+
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_decision_decomp.png
+
+======================================================================
+SECTION 5: Nearest Neighbor Analysis
+======================================================================
+
+Boundary text                  Neighbor     Label        Distance
+-----------------------------------------------------------------
+  Mahāniddesa                  s0516m       canon         0.02474
+                               s0501a       non-can       0.03350
+                               ita1         non-can       0.03386
+                               mna1         non-can       0.03496
+                               mna2         non-can       0.03592
+                               Purity (true-class neighbors): 20%
+
+  Cūḷaniddesa                  s0515m       canon         0.02474
+                               ita1         non-can       0.02546
+                               s0508a2      non-can       0.02620
+                               s0501a       non-can       0.02625
+                               s0503a       non-can       0.02724
+                               Purity (true-class neighbors): 20%
+
+  Milindapañha                 s0202m       canon         0.04705
+                               s0102a       non-can       0.04889
+                               s0101a       non-can       0.04894
+                               mna4         non-can       0.04936
+                               mna2         non-can       0.04937
+                               Purity (true-class neighbors): 80%
+
+  Nettippakaraṇa               s0501t       non-can       0.02939
+                               s0520m       non-can       0.03008
+                               ita1         non-can       0.03049
+                               s0501a       non-can       0.03158
+                               s0507m       canon         0.03289
+                               Purity (true-class neighbors): 20%
+
+  Peṭakopadesa                 s0519m       canon         0.03008
+                               ja6          canon         0.04429
+                               s0507m       canon         0.04477
+                               ja5          canon         0.04556
+                               ja3          canon         0.04703
+                               Purity (true-class neighbors): 0%
+
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_neighbors.png
+
+======================================================================
+SECTION 6: Vocabulary Overlap Analysis
+======================================================================
+
+Reference vocabulary sizes (excluding boundary texts):
+  Canon-exclusive words:       29,555
+  Non-canon-exclusive words:  377,808
+  Shared words:                74,587
+
+Text                            Canon-excl  NonCan-excl   Shared   Unique    Total
+--------------------------------------------------------------------------------
+  Mahāniddesa                    609 ( 4.5%)  2928 (21.4%)  7581 (55.5%)  2533 (18.6%)    13651
+  Cūḷaniddesa                    488 ( 4.5%)  2027 (18.7%)  6487 (59.9%)  1830 (16.9%)    10832
+  Milindapañha                   325 ( 1.9%)  3093 (18.0%)  8180 (47.7%)  5553 (32.4%)    17151
+  Nettippakaraṇa                 183 ( 2.4%)  1737 (22.8%)  5104 (67.0%)   589 ( 7.7%)     7613
+  Peṭakopadesa                   121 ( 1.3%)  1717 (19.0%)  4669 (51.6%)  2547 (28.1%)     9054
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp_misclass_vocab_overlap.png
+
+======================================================================
+Misclassification analysis complete.
+All figures saved to: /Users/danzigmond/pali-commentary/results-pts
+======================================================================

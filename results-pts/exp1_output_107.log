@@ -1,0 +1,43 @@
+Experiment 1: Feature Comparison
+============================================================
+Loaded 107 documents
+
+Word Frequency Features:
+  Word freq (top 500): accuracy=0.9907, misclassified=1 ['s0520m']
+  Word freq (top 1000): accuracy=0.9907, misclassified=1 ['s0520m']
+  Word freq (top 2000): accuracy=0.9907, misclassified=1 ['s0520m']
+
+TF-IDF Features:
+  TF-IDF (top 1000): accuracy=0.9720, misclassified=3 ['s0516m', 's0518m', 's0520m']
+  TF-IDF (top 2000): accuracy=0.9720, misclassified=3 ['s0516m', 's0518m', 's0520m']
+  TF-IDF (top 5000): accuracy=0.9720, misclassified=3 ['s0516m', 's0518m', 's0520m']
+
+Character N-gram Features:
+  Char 3-3-grams: accuracy=0.9533, misclassified=5 ['ps1', 'ps2', 's0515m', 's0518m', 's0520m']
+  Char 4-4-grams: accuracy=0.9813, misclassified=2 ['s0518m', 's0520m']
+  Char 3-4-grams: accuracy=0.9813, misclassified=2 ['s0518m', 's0520m']
+
+Generating PCA plots for selected methods...
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp1_pca_tfidf2000.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp1_pca_charngrams.png
+
+Checking for lemmatized data...
+Only 66/107 documents have lemmatized data.
+Skipping lemmatized feature experiments.
+
+
+Summary:
+Method                           Accuracy
+------------------------------------------
+Word freq (500)                    0.9907
+Word freq (1000)                   0.9907
+Word freq (2000)                   0.9907
+Char 4-4-grams                     0.9813
+Char 3-4-grams                     0.9813
+TF-IDF (1000)                      0.9720
+TF-IDF (2000)                      0.9720
+TF-IDF (5000)                      0.9720
+Char 3-3-grams                     0.9533
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp1_comparison.png
+
+Experiment 1 complete.

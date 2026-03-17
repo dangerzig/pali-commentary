@@ -1,0 +1,29 @@
+Experiment 6: Language Model Perplexity
+============================================================
+Loaded 107 documents (40 canon, 67 non-canon)
+
+Training character-level 5-gram LM on canon texts only...
+  Vocabulary: 93 characters
+Computing character perplexity for all documents...
+  Canon perplexity: mean=4.72, std=0.98
+  Non-canon perplexity: mean=6.58, std=0.52
+  Best threshold accuracy: 0.9159
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp6_char_perplexity.png
+
+Training word-level trigram LM on canon texts only...
+  Vocabulary: 113936 words
+Computing word perplexity for all documents...
+  Canon perplexity: mean=410.82, std=272.79
+  Non-canon perplexity: mean=75751.45, std=19747.88
+  Best threshold accuracy: 1.0000
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp6_word_perplexity.png
+  Saved: /Users/danzigmond/pali-commentary/results-pts/exp6_perplexity_distributions.png
+
+
+Summary:
+  Character 5-gram LM: best accuracy = 0.9159
+  Word trigram LM: best accuracy = 1.0000
+  Char 5-gram misclassified: ['ja1', 'ja2', 'ja3', 'ja4', 'ja5', 'ja6', 's0512m', 's0518m', 's0520m']
+  Word trigram misclassified: []
+
+Experiment 6 complete.

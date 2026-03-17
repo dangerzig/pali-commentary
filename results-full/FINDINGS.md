@@ -135,8 +135,11 @@ runs; the reorganisation has no material effect on any finding.
 | Spectral | Word freq (1000) | 98.13% | 2 (Nidd II, Peṭ) |
 | GMM | Word freq (1000) | 99.07% | 1 (Peṭ) |
 | K-means | TF-IDF (2000) | 97.20% | 3 (Nidd II, Mil, Peṭ) |
+| K-means | Char 4-grams | 98.13% | 2 (Mil, Peṭ) |
 | K-means | FastText embeddings | 63.6% | 39 |
 | K-means | Transformer (MiniLM) | 92.5% | 8 |
+
+All results above verified by rerunning on 107-doc PTS corpus (March 2026).
 
 Previous (100 texts): K-means word freq 99% (1 Peṭ), Spectral 99% (1 Peṭ).
 Change: Spectral now also misclassifies Nidd II; all other methods unchanged.
