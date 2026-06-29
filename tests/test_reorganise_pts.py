@@ -12,10 +12,20 @@ from reorganise_pts import (
     JATAKA_STORY_RE, NIPATA_RE, APADANA_VAGGA_RE,
     JATAKA_VOL_STARTS, ALL_REPLACED,
     AN_SRC_FILES, JATAKA_SRC_FILES, PATIS_SRC_FILES, APADANA_SRC_FILES,
+    PS_ATT_SRC, SPK_ATT_SRC, MP_ATT_SRC, DHPA_ATT_SRC, ITA_ATT_SRC,
+    JAA_ATT_SRC, SDP_ATT_SRC, PS_TIK_SRC, SPK_TIK_SRC, MP_TIK_SRC,
     concat_files, find_story_line, split_jataka,
     split_patisambhidamagga, split_apadana,
     find_segment_by_pali, merge_an_lemmatized, make_json_doc,
 )
+
+# Source-file groups reorganised into PTS volumes: canonical (.mul) and the
+# commentaries/sub-commentaries (.att/.tik) added when commentary reorg landed.
+CANON_MUL_SRC = (AN_SRC_FILES + JATAKA_SRC_FILES + PATIS_SRC_FILES +
+                 APADANA_SRC_FILES)
+COMMENTARY_SRC = (PS_ATT_SRC + SPK_ATT_SRC + MP_ATT_SRC + DHPA_ATT_SRC +
+                  ITA_ATT_SRC + JAA_ATT_SRC + SDP_ATT_SRC +
+                  PS_TIK_SRC + SPK_TIK_SRC + MP_TIK_SRC)
 
 
 # --- Regex tests ---
@@ -67,9 +77,20 @@ class TestApadanaVaggaRegex:
 
 class TestConstants:
     def test_all_replaced_is_union(self):
-        expected = set(AN_SRC_FILES + JATAKA_SRC_FILES +
-                       PATIS_SRC_FILES + APADANA_SRC_FILES)
+        # ALL_REPLACED is the union of every reorganised source group:
+        # the canonical .mul files PLUS the commentary/sub-commentary .att/.tik.
+        expected = set(CANON_MUL_SRC + COMMENTARY_SRC)
         assert ALL_REPLACED == expected
+
+    def test_all_replaced_includes_canon_mul(self):
+        # Anti-drift: the original canonical .mul set must stay reorganised.
+        assert set(CANON_MUL_SRC) <= ALL_REPLACED
+
+    def test_all_replaced_no_overlap_or_dupes(self):
+        # Each source file appears in exactly one group (no dupes across groups).
+        all_src = CANON_MUL_SRC + COMMENTARY_SRC
+        assert len(all_src) == len(set(all_src))
+        assert len(ALL_REPLACED) == len(all_src)
 
     def test_jataka_vol_starts_sorted(self):
         assert JATAKA_VOL_STARTS == sorted(JATAKA_VOL_STARTS)

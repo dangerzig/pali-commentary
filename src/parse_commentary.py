@@ -63,10 +63,10 @@ def parse_vri_commentary(filepath: Path) -> dict:
         if not para:
             continue
 
-        # Skip very short segments (likely headers or empty lines)
-        # But keep them if they have actual Pali content
-        words = para.split()
-        if len(words) < 2:
+        # Keep any paragraph with actual Pali content, including single-word
+        # section headers (e.g. 'Majjhimanikāye', 'Mūlapaṇṇāsa'); drop only
+        # empties and digit/punctuation-only lines.
+        if not re.search(r'[a-zāīūṭḍṇṅñṃḷ]', para.lower()):
             continue
 
         seg_num += 1

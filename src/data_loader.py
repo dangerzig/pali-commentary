@@ -11,6 +11,8 @@ Labels are derived from filename suffixes:
 
 import json
 import re
+import unicodedata
+import warnings
 from collections import Counter
 from pathlib import Path
 from dataclasses import dataclass, field
@@ -207,9 +209,12 @@ def tokenize_pali(text: str) -> list[str]:
     Splits on any non-Pāli character (punctuation, digits, whitespace).
     Returns lowercase tokens.
     """
-    # Normalize niggahīta variants
+    # NFC-normalize and lowercase FIRST, then fold niggahīta variants, so that
+    # uppercase/combining forms (Ṁ, m+U+0323) are handled too — otherwise a
+    # dot-above niggahīta survives and PALI_TOKEN_RE splits the word at it.
+    text = unicodedata.normalize('NFC', text).lower()
     text = text.replace('ṁ', 'ṃ')
-    tokens = PALI_TOKEN_RE.split(text.lower())
+    tokens = PALI_TOKEN_RE.split(text)
     return [t for t in tokens if t]
 
 
@@ -370,6 +375,13 @@ def binary_labels(documents: list[Document]) -> list[int]:
     This matches the original paper's approach of classifying
     canon vs. non-canon (commentary/subcommentary/paracanonical).
     """
+    # Guard against a file with an unexpected suffix silently becoming
+    # non-canon (parse_filename returns 'unknown' for unmapped suffixes).
+    known = {'canon', 'commentary', 'subcommentary', 'paracanonical'}
+    bad = sorted(d.file_id for d in documents if d.label not in known)
+    if bad:
+        warnings.warn(f"binary_labels: {len(bad)} doc(s) with unexpected label "
+                      f"are treated as non-canon: {bad[:8]}")
     return [0 if d.label == 'canon' else 1 for d in documents]
 
 

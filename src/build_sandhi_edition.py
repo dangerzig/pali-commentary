@@ -138,6 +138,20 @@ def norm_quote(tok: str) -> str:
 
 
 _SHORTEN = {"ā": "a", "ī": "i", "ū": "u"}
+_LENGTHEN = {"a": "ā", "i": "ī", "u": "ū"}
+
+
+def _reconstructs(tok: str, host: str) -> bool:
+    """True if host + iti re-sandhis to the surface token.
+
+    host + iti is either host+ti (long/o/e final absorbs the i) or, for a short
+    final vowel, the lengthened-vowel + ti (hoti+iti -> hotīti).
+    """
+    if tok == host + "ti":
+        return True
+    if host and host[-1] in _LENGTHEN and tok == host[:-1] + _LENGTHEN[host[-1]] + "ti":
+        return True
+    return False
 
 
 def _restore_host(host: str, dpd: "DPD") -> str:
@@ -202,12 +216,18 @@ def resolve_tokens(tokens: list[str], dpd: DPD, stats: Counter,
         # DPD's spurious "jānaṃ + iti" split of the verb jānāti).
         if (pieces and pieces[-1] == "iti" and tok.endswith("ti")
                 and (len(pieces) < 2 or not pieces[-2].endswith("ṃ"))):
-            host = _restore_host(tok[:-2], dpd)  # strip 'ti', restore host
-            # Genuine ambiguity: the token is itself a finite verb AND its host
-            # (DPD's canonical pre-iti piece) is NOT a finite verb. When the host
-            # IS a verb form (hoti -> hotīti, gacchati -> gacchatīti) it is just a
-            # quoted verb and splits cleanly. The canonical piece is used, not the
-            # lengthened surface host (gacchatī), which DPD does not tag as a verb.
+            # Prefer DPD's canonical host piece (gacchati, gahetvā, vijjā) when
+            # it reconstructs to the token, rather than the lengthened surface
+            # host (gacchatī); fall back to a conservative surface strip.
+            canon = pieces[-2] if len(pieces) >= 2 else ""
+            if canon and _reconstructs(tok, canon):
+                host = canon
+            else:
+                host = _restore_host(tok[:-2], dpd)
+            # Genuine ambiguity: the token is itself a finite verb AND no form of
+            # its host is a finite verb (bhaṇeti = verb, or bhaṇe + iti). When a
+            # host form IS a verb (hoti -> hotīti, gacchati -> gacchatīti) it is
+            # just a quoted verb and splits cleanly.
             surface = tok[:-2]
             short = surface[:-1] + _SHORTEN[surface[-1]] if (
                 surface and surface[-1] in _SHORTEN) else surface
@@ -257,7 +277,7 @@ def main():
     print(f"\ninput tokens : {tot_in:,}")
     print(f"output tokens: {tot_out:,}  ({tot_out - tot_in:+,})")
     print("\noperation counts:")
-    for k in ("nti_tokens", "nti_dpd", "nti_mech", "quote_peel",
+    for k in ("nti_tokens", "fwd_ti", "quote_peel", "ambiguous_kept",
               "sandhi_split", "kept"):
         print(f"  {k:14}: {stats[k]:>10,}")
     # sanity: standalone nti should be gone from the output

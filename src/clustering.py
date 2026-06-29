@@ -113,11 +113,14 @@ def run_hdbscan(feature_matrix: np.ndarray, documents: list[Document],
     n_noise = (labels == -1).sum()
     n_clusters = len(set(labels) - {-1})
 
-    if n_clusters < 2:
+    if n_clusters != 2:
+        # The binary canon/non-canon evaluation (align_cluster_labels) only
+        # handles two clusters; 3+ would be silently mis-scored as binary.
         return {
             'method': 'HDBSCAN',
             'accuracy': None,
-            'error': f'Found {n_clusters} clusters (need 2), {n_noise} noise points',
+            'error': f'Found {n_clusters} clusters (need exactly 2), {n_noise} noise points',
+            'n_clusters': n_clusters,
             'n_noise': n_noise,
         }
 

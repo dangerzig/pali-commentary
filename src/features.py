@@ -51,8 +51,10 @@ def word_frequency_matrix(documents: list[Document],
                  for c, total in zip(counters, doc_totals)]
         rel_freqs[word] = np.mean(freqs)
 
-    # Select top-N by mean relative frequency
-    sorted_words = sorted(rel_freqs.keys(), key=lambda w: rel_freqs[w], reverse=True)
+    # Select top-N by mean relative frequency, with the word as a deterministic
+    # tie-break so the feature set is stable across runs (rel_freqs.keys() is a
+    # set, whose iteration order is otherwise non-deterministic for ties).
+    sorted_words = sorted(rel_freqs.keys(), key=lambda w: (-rel_freqs[w], w))
     top_words = sorted_words[:top_n]
 
     # Build matrix
@@ -164,3 +166,53 @@ def get_top_discriminative_words(feature_matrix: np.ndarray,
 
     indices = np.argsort(np.abs(diffs))[::-1][:top_n]
     return [(feature_names[i], diffs[i]) for i in indices]
+
+
+# --- Leak-free CV support (review finding #1) -------------------------------
+# Top-N word selection and IDF must be fit on the training fold only, not the
+# whole corpus, or LOO-CV accuracy is a (mildly) optimistic estimate. These
+# helpers let feature selection run *inside* a CV pipeline.
+
+from sklearn.base import BaseEstimator, TransformerMixin  # noqa: E402
+
+
+class TopNFrequencySelector(BaseEstimator, TransformerMixin):
+    """Select the top-N columns by mean value over the TRAINING rows only.
+
+    Input X is a full-vocabulary relative-frequency matrix (columns = words).
+    Placed first in a CV pipeline, it makes top-N selection fold-internal, so
+    no test document influences which features are used.
+    """
+
+    def __init__(self, top_n: int = 1000):
+        self.top_n = top_n
+
+    def fit(self, X, y=None):
+        X = np.asarray(X)
+        mean = X.mean(axis=0)
+        # rank by descending mean; column index breaks ties deterministically
+        order = np.lexsort((np.arange(X.shape[1]), -mean))
+        self.cols_ = order[:self.top_n]
+        return self
+
+    def transform(self, X):
+        return np.asarray(X)[:, self.cols_]
+
+
+def full_frequency_matrix(documents, use_lemmas: bool = False):
+    """Full-vocabulary relative-frequency matrix (every word), for leak-free CV.
+
+    Computing relative frequencies is per-document (no leakage); only the
+    subsequent top-N *selection* leaks, and TopNFrequencySelector handles that
+    inside the fold. Returns (matrix, vocab).
+    """
+    counters = [d.lemma_counts if use_lemmas else d.word_counts
+                for d in documents]
+    vocab = sorted({w for c in counters for w in c})
+    idx = {w: i for i, w in enumerate(vocab)}
+    matrix = np.zeros((len(documents), len(vocab)))
+    for i, c in enumerate(counters):
+        total = sum(c.values()) or 1
+        for w, n in c.items():
+            matrix[i, idx[w]] = n / total
+    return matrix, vocab

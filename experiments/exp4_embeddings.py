@@ -47,7 +47,10 @@ def train_fasttext_model(documents, use_lemmas=False, vector_size=100,
         window=window,
         min_count=min_count,
         epochs=epochs,
-        workers=4,
+        # Determinism: gensim is only reproducible with a fixed seed AND a
+        # single worker (multi-threaded training is otherwise nondeterministic).
+        workers=1,
+        seed=42,
         sg=1,  # skip-gram
     )
     print(f"  Vocabulary size: {len(model.wv)}")

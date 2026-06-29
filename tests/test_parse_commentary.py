@@ -45,13 +45,17 @@ class TestParseVriCommentary:
         finally:
             path.unlink()
 
-    def test_skips_short_segments(self):
-        content = "x\n\nReal paragraph with some content."
+    def test_drops_nonpali_keeps_pali_headers(self):
+        # Digit/punctuation-only paragraphs are dropped, but single-word Pāli
+        # section headers (e.g. 'Majjhimanikāye') are kept (review finding #15).
+        content = "123\n\nMajjhimanikāye\n\nReal paragraph with content."
         path = self._write_temp_file(content)
         try:
             result = parse_vri_commentary(path)
-            # Single-word segment "x" should be skipped
-            assert len(result['segments']) == 1
+            palis = [s['pali'] for s in result['segments']]
+            assert "123" not in palis              # digit-only dropped
+            assert "Majjhimanikāye" in palis        # single-word Pāli header kept
+            assert len(result['segments']) == 2
         finally:
             path.unlink()
 

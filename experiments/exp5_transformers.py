@@ -30,6 +30,11 @@ def compute_transformer_embeddings(documents, model_name='paraphrase-multilingua
     then averages chunk embeddings per document.
     """
     from sentence_transformers import SentenceTransformer
+    import torch
+
+    # Fix seeds for reproducibility (inference is deterministic for a fixed
+    # model version, but this guards any stochastic init paths).
+    torch.manual_seed(42)
 
     print(f"  Loading model: {model_name}")
     model = SentenceTransformer(model_name)

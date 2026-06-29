@@ -37,6 +37,23 @@ INCLUDED_PITAKAS = {"sutta", "vinaya", "abhidhamma"}
 # copied unchanged by reorganise_pts.py).
 SUTTA_PTS_ONLY = True  # Use raw-pts/ for all Sutta files
 
+# PTS-reorganised Sutta files (an*, ja*, ps*, ap*, mna*, spk*, mp*, dhpa*,
+# ita*, jaa*, sdp*, mnt*, spkt*, mpt*) are labelled by their CST suffix; they
+# are all Sutta-piṭaka. .mul -> canon, .att -> commentary, .tik -> subcommentary.
+PTS_SUFFIX_LABEL = {"mul": "canon", "att": "commentary", "tik": "subcommentary"}
+
+
+def pts_file_label(fname: str) -> tuple:
+    """(label, pitaka) for a PTS-reorganised Sutta file, from its suffix.
+
+    e.g. 'mna1.att.txt' -> ('commentary', 'sutta'); 'an1.mul.txt' ->
+    ('canon', 'sutta'). Replaces the previous hardcoded canon/sutta, which
+    mislabelled every reorganised commentary/sub-commentary as canon.
+    """
+    parts = fname.split(".")
+    suffix = parts[1] if len(parts) >= 3 else "mul"
+    return PTS_SUFFIX_LABEL.get(suffix, "canon"), "sutta"
+
 
 def load_inventory():
     """Load the inventory CSV and return rows as dicts."""
@@ -97,14 +114,18 @@ def main():
     # (an1-an5, ja1-ja6, ps1-ps2, ap1-ap2)
     pts_only_files = pts_files - {row["vri_file"] for row in rows}
     for fname in sorted(pts_only_files):
-        # These are all canonical Sutta files
+        # Label by CST suffix (canon/commentary/subcommentary), not hardcoded canon
         src = SUTTA_PTS_DIR / fname
         shutil.copy2(src, DST_DIR / fname)
         copied += 1
-        label_counts["canon"] = label_counts.get("canon", 0) + 1
-        pitaka_counts["sutta"] = pitaka_counts.get("sutta", 0) + 1
+        label, pitaka = pts_file_label(fname)
+        label_counts[label] = label_counts.get(label, 0) + 1
+        pitaka_counts[pitaka] = pitaka_counts.get(pitaka, 0) + 1
 
-    # Remove VRI files that were replaced by PTS versions
+    # Remove VRI files that were replaced by PTS versions, decrementing the
+    # bucket matching each file's ACTUAL label (ALL_REPLACED now includes
+    # commentary/sub-commentary VRI files, not only canon .mul).
+    inv_by_file = {row["vri_file"]: row for row in rows}
     removed = 0
     for fname in ALL_REPLACED:
         p = DST_DIR / fname
@@ -112,8 +133,10 @@ def main():
             p.unlink()
             removed += 1
             copied -= 1
-            label_counts["canon"] -= 1
-            pitaka_counts["sutta"] -= 1
+            r = inv_by_file.get(fname)
+            if r is not None:
+                label_counts[r["correct_label"]] = label_counts.get(r["correct_label"], 0) - 1
+                pitaka_counts[r["pitaka"]] = pitaka_counts.get(r["pitaka"], 0) - 1
 
     print(f"Built full corpus in {DST_DIR.name}/")
     print(f"  Copied: {copied} files")
@@ -144,14 +167,24 @@ def main():
             if not (DST_DIR / fname).exists():
                 continue
             writer.writerow([fname, row["correct_label"], row["pitaka"], row["text_name"]])
-        # Add PTS-only files
+        # Add PTS-only files, labelled by suffix (not hardcoded canon)
         for fname in sorted(pts_only_files):
             if not (DST_DIR / fname).exists():
                 continue
-            # Determine PTS name
             stem = fname.split(".")[0]
             name = PTS_NAMES.get(stem, stem)
-            writer.writerow([fname, "canon", "sutta", name])
+            label, pitaka = pts_file_label(fname)
+            writer.writerow([fname, label, pitaka, name])
+
+    # Post-build guard: every reorganised .att is commentary, every .tik is
+    # subcommentary, every .mul is canon — fail loudly if this ever regresses.
+    with open(label_map_path) as f:
+        for row in csv.DictReader(f):
+            fn, lab = row["filename"], row["label"]
+            if fn.endswith(".att.txt") and row["filename"].split(".")[0] in PTS_NAMES:
+                assert lab == "commentary", f"{fn} labelled {lab}, expected commentary"
+            elif fn.endswith(".tik.txt") and row["filename"].split(".")[0] in PTS_NAMES:
+                assert lab == "subcommentary", f"{fn} labelled {lab}, expected subcommentary"
 
     print(f"\nWrote label map to {label_map_path.name}")
 

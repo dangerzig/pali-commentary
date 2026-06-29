@@ -8,8 +8,10 @@ across the whole corpus and flags any that fail an independent check:
   - host validity : every host produced by a peel or nti-restoration should be
     a DPD-valid word (headword or deconstructable). A host that DPD does not
     recognise is a suspect split (it may be a non-word the rule invented).
-  - finite-verb peels : a peel applied to a token that is itself a finite verb
-    is a false split. After the POS guard this should be zero.
+  - bad verb peels : peeling a QUOTED verb (hotīti -> hoti ti) is correct, not
+    an error. The error class is peeling a token that is a finite verb whose
+    host is NOT a verb (the bhaṇeti class, which the builder keeps). That count
+    should be zero.
 
 It reports a measured clean-rate (share of transformations whose host is a
 valid word) and lists the flagged residue by frequency for review.
@@ -106,15 +108,31 @@ def main():
     print(f"flagged (invalid host): {sum(flagged.values()):,} occurrences, "
           f"{len(flagged)} distinct  {dict(flagged_policy)}\n")
 
-    # --- Check 2: finite-verb peels (should be ~0) ---
-    fv = Counter()
+    # --- Check 2: bad verb peels (should be 0) ---
+    # Peeling a quoted verb (hotīti -> hoti ti) is correct. The genuine error is
+    # peeling a token that is a finite verb whose host is NOT itself a verb form
+    # (the bhaṇeti ambiguity, which the builder keeps whole, not peels).
+    bad = Counter()
     for policy, inp, outs, key in log:
-        if policy == "peel" and dpd.is_finite_verb(inp):
-            fv[inp] += 1
-    print(f"finite-verb peels (false splits): {sum(fv.values()):,} occ, "
-          f"{len(fv)} distinct")
-    if fv:
-        print("   ", ", ".join(f"{w}({n})" for w, n in fv.most_common(10)))
+        if policy != "peel" or not dpd.is_finite_verb(inp):
+            continue
+        # Replicate the builder's host-form set (surface, shortened, pieces[-2],
+        # emitted host); a peel is legitimate iff ANY of these is a verb form.
+        surface = inp[:-2]
+        forms = {key, surface}
+        if surface and surface[-1] in B._SHORTEN:
+            forms.add(surface[:-1] + B._SHORTEN[surface[-1]])
+        _, pieces = dpd.lookup(inp)
+        if pieces and len(pieces) >= 2:
+            forms.add(pieces[-2])
+        if not any(dpd.is_finite_verb(h) for h in forms):
+            bad[inp] += 1
+    # Near-zero expected; a tiny residue (~0.02%) comes from DPD spuriously
+    # tagging an indeclinable/noun + iti (khalūti, masīti) as a finite verb.
+    print(f"verb tokens peeled with no verb host (DPD POS noise, ~0): "
+          f"{sum(bad.values()):,} occ, {len(bad)} distinct")
+    if bad:
+        print("   ", ", ".join(f"{w}({n})" for w, n in bad.most_common(10)))
 
     # --- Flagged residue, by frequency, for review ---
     print("\ntop flagged invalid-host transformations:")

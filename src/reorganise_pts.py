@@ -88,7 +88,9 @@ ALL_REPLACED = set(
 
 
 def read_file(path: Path) -> str:
-    return path.read_text(encoding='utf-8')
+    # utf-8-sig strips a leading BOM so it can't land mid-text when VRI source
+    # files (UTF-8 with BOM) are concatenated into a single PTS volume.
+    return path.read_text(encoding='utf-8-sig')
 
 
 def write_file(path: Path, text: str):
