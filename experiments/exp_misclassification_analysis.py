@@ -36,6 +36,14 @@ from shared import (MISCLASSIFIED_IDS, CANON_AS_NONCANON, NONCANON_AS_CANON,
                     DISCRIMINATIVE_WORDS, SHORT_NAMES, get_doc_index,
                     get_data_dir)
 
+# Greyscale mode (--gray): for the printed JPTS edition, which is black-and-white.
+# Point positions and all geometry are IDENTICAL to the colour figures; only the
+# appearance switches (luminance-distinct greys plus marker/line/hatch cues so the
+# categories remain legible without colour). The colour figures (default) are kept
+# for the open-access HASP edition.
+GRAY = '--gray' in sys.argv
+GRAY_SUFFIX = '_gray' if GRAY else ''
+
 
 def section_1_document_statistics(documents, labels):
     """Compare basic text statistics of misclassified texts vs. class means."""
@@ -205,13 +213,14 @@ def section_2_keyword_heatmap(documents, labels, matrix, feature_names):
     # Heatmap
     fig, ax = plt.subplots(figsize=(14, 6))
     vmax = np.abs(row_data).max()
-    sns.heatmap(row_data, ax=ax, cmap='RdBu_r', center=0,
+    sns.heatmap(row_data, ax=ax, cmap='Greys' if GRAY else 'RdBu_r', center=0,
                 vmin=-vmax, vmax=vmax,
                 xticklabels=available_words, yticklabels=row_labels,
                 annot=True, fmt='.1f', annot_kws={'fontsize': 8},
                 linewidths=0.5, linecolor='gray')
-    ax.set_title('Discriminative Word Z-Scores\n(blue = canon-like, red = commentary-like)',
-                 fontsize=12)
+    _heat_sub = ('(lighter = canon-like, darker = commentary-like)' if GRAY
+                 else '(blue = canon-like, red = commentary-like)')
+    ax.set_title('Discriminative Word Z-Scores\n' + _heat_sub, fontsize=12)
     ax.tick_params(axis='x', rotation=45)
     ax.tick_params(axis='y', rotation=0)
 
@@ -219,7 +228,7 @@ def section_2_keyword_heatmap(documents, labels, matrix, feature_names):
     ax.axhline(y=2, color='black', linewidth=2)
 
     plt.tight_layout()
-    outpath = RESULTS_DIR / 'exp_misclass_heatmap.png'
+    outpath = RESULTS_DIR / f'exp_misclass_heatmap{GRAY_SUFFIX}.png'
     fig.savefig(outpath, dpi=150, bbox_inches='tight')
     plt.close(fig)
     print(f"  Saved: {outpath}")
@@ -247,7 +256,7 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     dist_to_canon = cdist(matrix, canon_centroid, metric='euclidean').flatten()
     dist_to_noncanon = cdist(matrix, noncanon_centroid, metric='euclidean').flatten()
 
-    # Log distance ratio: positive = closer to non-canon, negative = closer to canon
+    # Log distance ratio: positive = closer to canon, negative = closer to non-canon
     log_ratio = np.log10(dist_to_noncanon / dist_to_canon)
 
     # Print table for misclassified texts
@@ -269,21 +278,33 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     sorted_ratios = log_ratio[sort_idx]
     sorted_labels = labels_arr[sort_idx]
 
+    # appearance only (positions/sort unchanged): GRAY uses light/dark greys and
+    # marks the misclassified bars with hatching instead of gold.
+    if GRAY:
+        c_canon, c_non, c_misc = '#B0B0B0', '#3A3A3A', 'white'
+    else:
+        c_canon, c_non, c_misc = LABEL_COLORS['canon'], LABEL_COLORS['commentary'], '#FFD700'
     colors = []
     for i, fid in enumerate(sorted_ids):
         if fid in misc_set:
-            colors.append('#FFD700')  # gold for misclassified
+            colors.append(c_misc)
         elif sorted_labels[i] == 0:
-            colors.append(LABEL_COLORS['canon'])
+            colors.append(c_canon)
         else:
-            colors.append(LABEL_COLORS['commentary'])
+            colors.append(c_non)
 
     x = np.arange(len(sorted_ids))
     bars = ax.bar(x, sorted_ratios, color=colors, edgecolor='gray', linewidth=0.3)
+    if GRAY:
+        for i, fid in enumerate(sorted_ids):
+            if fid in misc_set:
+                bars[i].set_hatch('////')
+                bars[i].set_edgecolor('black')
+                bars[i].set_linewidth(0.8)
     ax.axhline(y=0, color='black', linewidth=1, linestyle='-')
     ax.set_ylabel('log₁₀(d_noncanon / d_canon)')
     ax.set_title('Distance Ratio to Class Centroids\n'
-                 '(negative = closer to canon, positive = closer to non-canon)')
+                 '(positive = closer to canon, negative = closer to non-canon)')
 
     # Label misclassified bars
     for i, fid in enumerate(sorted_ids):
@@ -297,15 +318,16 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     # Legend
     from matplotlib.patches import Patch
     legend_elements = [
-        Patch(facecolor=LABEL_COLORS['canon'], label='Canon'),
-        Patch(facecolor=LABEL_COLORS['commentary'], label='Non-canon'),
-        Patch(facecolor='#FFD700', label='Misclassified'),
+        Patch(facecolor=c_canon, label='Canon'),
+        Patch(facecolor=c_non, label='Non-canon'),
+        Patch(facecolor=c_misc, edgecolor='black' if GRAY else None,
+              hatch='////' if GRAY else None, label='Misclassified'),
     ]
     ax.legend(handles=legend_elements, loc='upper left')
     ax.set_xticks([])
 
     plt.tight_layout()
-    outpath = RESULTS_DIR / 'exp_misclass_distance_ratios.png'
+    outpath = RESULTS_DIR / f'exp_misclass_distance_ratios{GRAY_SUFFIX}.png'
     fig.savefig(outpath, dpi=150, bbox_inches='tight')
     plt.close(fig)
     print(f"  Saved: {outpath}")
@@ -320,6 +342,27 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
 
     fig, ax = plt.subplots(figsize=(12, 8))
 
+    # --- appearance only: GRAY swaps hues for luminance-distinct greys and adds
+    #     marker/line/hatch cues. Every coordinate, centroid and hull below is
+    #     identical in both modes. ---
+    if GRAY:
+        col = {'canon': '#B0B0B0', 'commentary': '#3A3A3A', 'paracanonical': '#111111'}
+        pt_marker = {0: 'o', 1: 's'}
+        hull_ls = {0: '-', 1: '--'}
+        hull_hatch = {0: None, 1: '////'}
+        conn_col = {'canon': '#777777', 'commentary': '#777777'}
+        conn_ls = {'canon': '--', 'commentary': ':'}
+        centroid_face = {'canon': '#B0B0B0', 'commentary': 'white'}
+    else:
+        col = {'canon': LABEL_COLORS['canon'], 'commentary': LABEL_COLORS['commentary'],
+               'paracanonical': LABEL_COLORS['paracanonical']}
+        pt_marker = {0: 'o', 1: 'o'}
+        hull_ls = {0: '-', 1: '-'}
+        hull_hatch = {0: None, 1: None}
+        conn_col = {'canon': LABEL_COLORS['canon'], 'commentary': LABEL_COLORS['commentary']}
+        conn_ls = {'canon': '--', 'commentary': '--'}
+        centroid_face = {'canon': LABEL_COLORS['canon'], 'commentary': LABEL_COLORS['commentary']}
+
     # Plot all points
     for lbl_name, lbl_val in [('canon', 0), ('commentary', 1)]:
         if lbl_val == 1:
@@ -332,13 +375,13 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
 
         non_misc_mask = mask & np.array([d.file_id not in misc_set for d in documents])
         ax.scatter(coords[non_misc_mask, 0], coords[non_misc_mask, 1],
-                   c=LABEL_COLORS.get(lbl_name, '#999'),
+                   c=col[lbl_name], marker=pt_marker[lbl_val],
                    alpha=0.5, s=40, label=label_display)
 
     # Plot misclassified texts prominently
     for fid in MISCLASSIFIED_IDS:
         idx = get_doc_index(documents, fid)
-        color = LABEL_COLORS['canon'] if labels[idx] == 0 else LABEL_COLORS['paracanonical']
+        color = col['canon'] if labels[idx] == 0 else col['paracanonical']
         ax.scatter(coords[idx, 0], coords[idx, 1],
                    c=color, s=120, edgecolors='black', linewidth=2, zorder=10)
         ax.annotate(SHORT_NAMES[fid], (coords[idx, 0], coords[idx, 1]),
@@ -348,10 +391,10 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
         # Draw lines to both centroids
         ax.plot([coords[idx, 0], canon_centroid_2d[0]],
                 [coords[idx, 1], canon_centroid_2d[1]],
-                color=LABEL_COLORS['canon'], alpha=0.3, linewidth=1, linestyle='--')
+                color=conn_col['canon'], alpha=0.3, linewidth=1, linestyle=conn_ls['canon'])
         ax.plot([coords[idx, 0], noncanon_centroid_2d[0]],
                 [coords[idx, 1], noncanon_centroid_2d[1]],
-                color=LABEL_COLORS['commentary'], alpha=0.3, linewidth=1, linestyle='--')
+                color=conn_col['commentary'], alpha=0.3, linewidth=1, linestyle=conn_ls['commentary'])
 
     # Draw convex hulls around k-means clusters
     from scipy.spatial import ConvexHull
@@ -366,7 +409,7 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     if canon_in_1 > canon_in_0:
         km_labels = 1 - km_labels
 
-    hull_colors = {0: LABEL_COLORS['canon'], 1: LABEL_COLORS['commentary']}
+    hull_colors = {0: col['canon'], 1: col['commentary']}
     hull_labels_display = {0: 'K-means canon cluster', 1: 'K-means non-canon cluster'}
     for cluster_id in [0, 1]:
         cluster_coords = coords[km_labels == cluster_id]
@@ -374,15 +417,19 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
             hull = ConvexHull(cluster_coords)
             hull_pts = np.append(hull.vertices, hull.vertices[0])
             ax.plot(cluster_coords[hull_pts, 0], cluster_coords[hull_pts, 1],
-                    color=hull_colors[cluster_id], linewidth=1.5, linestyle='-',
+                    color=hull_colors[cluster_id], linewidth=1.5,
+                    linestyle=hull_ls[cluster_id],
                     alpha=0.6, label=hull_labels_display[cluster_id])
             ax.fill(cluster_coords[hull_pts, 0], cluster_coords[hull_pts, 1],
-                    color=hull_colors[cluster_id], alpha=0.08)
+                    facecolor='none' if GRAY else hull_colors[cluster_id],
+                    edgecolor=hull_colors[cluster_id] if GRAY else 'none',
+                    hatch=hull_hatch[cluster_id],
+                    alpha=0.35 if GRAY else 0.08)
 
     # Plot centroids
-    ax.scatter(*canon_centroid_2d, marker='X', s=300, c=LABEL_COLORS['canon'],
+    ax.scatter(*canon_centroid_2d, marker='X', s=300, c=centroid_face['canon'],
                edgecolors='black', linewidth=2, zorder=20, label='Canon centroid')
-    ax.scatter(*noncanon_centroid_2d, marker='X', s=300, c=LABEL_COLORS['commentary'],
+    ax.scatter(*noncanon_centroid_2d, marker='X', s=300, c=centroid_face['commentary'],
                edgecolors='black', linewidth=2, zorder=20, label='Non-canon centroid')
 
     var_exp = pca.explained_variance_ratio_
@@ -392,7 +439,7 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     ax.legend(loc='best', fontsize=9)
 
     plt.tight_layout()
-    outpath = RESULTS_DIR / 'exp_misclass_pca_centroids.png'
+    outpath = RESULTS_DIR / f'exp_misclass_pca_centroids{GRAY_SUFFIX}.png'
     fig.savefig(outpath, dpi=150, bbox_inches='tight')
     plt.close(fig)
     print(f"  Saved: {outpath}")
@@ -454,7 +501,12 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
         show_contributions = show_contributions[sort_order]
         show_words = [show_words[i] for i in sort_order]
 
-        colors = ['#2196F3' if c < 0 else '#F44336' for c in show_contributions]
+        # appearance only: GRAY = light grey (toward canon) / dark grey (toward
+        # non-canon); direction is also shown by each bar's side of zero.
+        if GRAY:
+            colors = ['#B0B0B0' if c < 0 else '#3A3A3A' for c in show_contributions]
+        else:
+            colors = ['#2196F3' if c < 0 else '#F44336' for c in show_contributions]
         ax.barh(range(len(show_words)), show_contributions, color=colors,
                 edgecolor='gray', linewidth=0.3)
         ax.set_yticks(range(len(show_words)))
@@ -482,10 +534,12 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
     for i in range(n_panels, len(axes)):
         axes[i].set_visible(False)
 
+    _dec_sub = ('(lighter = toward canon, darker = toward non-canon)' if GRAY
+                else '(blue = toward canon, red = toward non-canon)')
     plt.suptitle('Decision Decomposition: Words Driving (Mis)classification\n'
-                 '(blue = toward canon, red = toward non-canon)', fontsize=13)
+                 + _dec_sub, fontsize=13)
     plt.tight_layout()
-    outpath = RESULTS_DIR / 'exp_misclass_decision_decomp.png'
+    outpath = RESULTS_DIR / f'exp_misclass_decision_decomp{GRAY_SUFFIX}.png'
     fig.savefig(outpath, dpi=150, bbox_inches='tight')
     plt.close(fig)
     print(f"\n  Saved: {outpath}")
