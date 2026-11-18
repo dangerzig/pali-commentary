@@ -44,6 +44,19 @@ from shared import (MISCLASSIFIED_IDS, CANON_AS_NONCANON, NONCANON_AS_CANON,
 GRAY = '--gray' in sys.argv
 GRAY_SUFFIX = '_gray' if GRAY else ''
 
+# JPTS print geometry: every figure is scaled to the text-block width (about
+# 3.93 in) on a 5.43 x 8.5 in page, so on-figure text shrinks by ~0.28x in the
+# book. Size fonts from the desired *printed* point size and the generated
+# figure width, so labels stay legible in print (Kieffer-Pulz asked for at least
+# footnote size). This changes only text sizes (and, for the decision figure, the
+# panel layout); every data coordinate, centroid, and hull is unchanged.
+PRINT_WIDTH_IN = 3.93
+
+
+def _fs(printed_pt, fig_w_in):
+    """Font size that renders at ~printed_pt once the figure is scaled to textwidth."""
+    return printed_pt * fig_w_in / PRINT_WIDTH_IN
+
 
 def section_1_document_statistics(documents, labels):
     """Compare basic text statistics of misclassified texts vs. class means."""
@@ -195,8 +208,11 @@ def section_2_keyword_heatmap(documents, labels, matrix, feature_names):
         noncanon_mean_z,
         z_matrix[misc_indices],
     ])
+    # Wrap the file-id onto a second line so the row labels stay narrow: this
+    # widens the heatmap cells (long single-line labels otherwise squeeze the
+    # 15 columns so tight the in-cell numbers collide). Content is unchanged.
     row_labels = ['Canon mean', 'Non-canon mean'] + \
-                 [f"{SHORT_NAMES[fid]} ({fid})" for fid in MISCLASSIFIED_IDS]
+                 [f"{SHORT_NAMES[fid]}\n({fid})" for fid in MISCLASSIFIED_IDS]
 
     # Print table
     print(f"\n{'Text':<35}", end='')
@@ -211,18 +227,27 @@ def section_2_keyword_heatmap(documents, labels, matrix, feature_names):
         print()
 
     # Heatmap
-    fig, ax = plt.subplots(figsize=(14, 6))
+    _w = 14
+    # Taller than wide at generation so each row has vertical room for its
+    # two-line label and the in-cell number; scaled to textwidth in print.
+    fig, ax = plt.subplots(figsize=(_w, 10.5))
     vmax = np.abs(row_data).max()
     sns.heatmap(row_data, ax=ax, cmap='Greys' if GRAY else 'RdBu_r', center=0,
                 vmin=-vmax, vmax=vmax,
                 xticklabels=available_words, yticklabels=row_labels,
-                annot=True, fmt='.1f', annot_kws={'fontsize': 8},
-                linewidths=0.5, linecolor='gray')
+                annot=True, fmt='.1f', annot_kws={'fontsize': _fs(5.2, _w)},
+                linewidths=0.5, linecolor='gray',
+                cbar_kws={'label': ''})
+    # Enlarge the colour-bar tick labels too (otherwise they print at ~2 pt).
+    cbar = ax.collections[0].colorbar
+    cbar.ax.tick_params(labelsize=_fs(7, _w))
     _heat_sub = ('(lighter = canon-like, darker = commentary-like)' if GRAY
                  else '(blue = canon-like, red = commentary-like)')
-    ax.set_title('Discriminative Word Z-Scores\n' + _heat_sub, fontsize=12)
-    ax.tick_params(axis='x', rotation=45)
-    ax.tick_params(axis='y', rotation=0)
+    ax.set_title('Discriminative Word Z-Scores\n' + _heat_sub, fontsize=_fs(9, _w))
+    # Vertical x labels: 15 words at a legible size cannot fit at 45 deg across the
+    # ~3.9 in text block without colliding; upright they sit one per column.
+    ax.tick_params(axis='x', rotation=90, labelsize=_fs(7.5, _w))
+    ax.tick_params(axis='y', rotation=0, labelsize=_fs(7.5, _w))
 
     # Add horizontal lines to separate means from texts
     ax.axhline(y=2, color='black', linewidth=2)
@@ -270,7 +295,8 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
               f"{log_ratio[idx]:>10.4f} {true_label:>7}")
 
     # --- Distance ratio chart ---
-    fig, ax = plt.subplots(figsize=(14, 6))
+    _w = 14
+    fig, ax = plt.subplots(figsize=(_w, 6))
 
     # Sort by log ratio
     sort_idx = np.argsort(log_ratio)
@@ -302,18 +328,28 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
                 bars[i].set_edgecolor('black')
                 bars[i].set_linewidth(0.8)
     ax.axhline(y=0, color='black', linewidth=1, linestyle='-')
-    ax.set_ylabel('log₁₀(d_noncanon / d_canon)')
+    ax.set_ylabel('log₁₀(d_noncanon / d_canon)', fontsize=_fs(8, _w))
+    ax.tick_params(axis='y', labelsize=_fs(7.5, _w))
     ax.set_title('Distance Ratio to Class Centroids\n'
-                 '(positive = closer to canon, negative = closer to non-canon)')
+                 '(positive = closer to canon, negative = closer to non-canon)',
+                 fontsize=_fs(8, _w))
 
-    # Label misclassified bars
-    for i, fid in enumerate(sorted_ids):
-        if fid in misc_set:
-            ax.annotate(fid, (x[i], sorted_ratios[i]),
-                        fontsize=7, fontweight='bold', rotation=90,
-                        ha='center', va='bottom' if sorted_ratios[i] >= 0 else 'top',
-                        xytext=(0, 3 if sorted_ratios[i] >= 0 else -3),
-                        textcoords='offset points')
+    # Label misclassified bars. The boundary texts cluster near zero, so their
+    # labels would collide; place them horizontally and let adjustText repel them
+    # apart with leader lines back to each bar (bar positions are unchanged).
+    misc_order = [(i, fid) for i, fid in enumerate(sorted_ids) if fid in misc_set]
+    m_x = np.array([x[i] for i, _ in misc_order], dtype=float)
+    mid = m_x.mean()
+    half = max((m_x.max() - m_x.min()) / 2.0, len(sorted_ids) * 0.16)
+    label_xs = np.linspace(mid - half, mid + half, len(misc_order))
+    y_hi = sorted_ratios.max() * 0.88
+    y_lo = sorted_ratios.max() * 0.62
+    for k, ((i, fid), lx) in enumerate(zip(misc_order, label_xs)):
+        ax.annotate(fid, xy=(x[i], sorted_ratios[i]),
+                    xytext=(lx, y_hi if k % 2 == 0 else y_lo),
+                    fontsize=_fs(6.5, _w), fontweight='bold',
+                    ha='center', va='bottom',
+                    arrowprops=dict(arrowstyle='-', color='0.35', lw=0.6))
 
     # Legend
     from matplotlib.patches import Patch
@@ -323,7 +359,9 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
         Patch(facecolor=c_misc, edgecolor='black' if GRAY else None,
               hatch='////' if GRAY else None, label='Misclassified'),
     ]
-    ax.legend(handles=legend_elements, loc='upper left')
+    # Lower right: the right-hand bars are all positive (pointing up), so the
+    # lower-right quadrant is empty in both editions, clear of every bar.
+    ax.legend(handles=legend_elements, loc='lower right', fontsize=_fs(7.5, _w))
     ax.set_xticks([])
 
     plt.tight_layout()
@@ -340,7 +378,8 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
     canon_centroid_2d = pca.transform(canon_centroid).flatten()
     noncanon_centroid_2d = pca.transform(noncanon_centroid).flatten()
 
-    fig, ax = plt.subplots(figsize=(12, 8))
+    _w = 12
+    fig, ax = plt.subplots(figsize=(_w, 8))
 
     # --- appearance only: GRAY swaps hues for luminance-distinct greys and adds
     #     marker/line/hatch cues. Every coordinate, centroid and hull below is
@@ -378,15 +417,32 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
                    c=col[lbl_name], marker=pt_marker[lbl_val],
                    alpha=0.5, s=40, label=label_display)
 
-    # Plot misclassified texts prominently
+    # Fixed label anchors (data coords) in the open areas of the plot, each joined
+    # to its point by a leader line. The three near-coincident central texts
+    # (Milindapanha, Mahaniddesa, Culaniddesa) are fanned into the empty band above
+    # the hull; the two outliers go to the open lower-left. Point positions are
+    # unchanged; only the labels move.
+    # Upper three: a descending right-stagger in the empty band above the hull, in
+    # the same top-to-bottom order as their points' heights, so each leader fans out
+    # below the labels and none crosses another label's text. Lower two: stacked in
+    # the clear lower-centre band. All leaders join labels to the true point.
+    pca_label_xy = {
+        's0518m': (0.0080, 0.0300),    # Milindapanha (highest point -> top label)
+        's0515m': (0.0120, 0.0220),    # Mahaniddesa (middle)
+        's0516m': (0.0170, 0.0140),    # Culaniddesa (lowest of the three)
+        's0519m': (-0.0060, -0.0165),  # Nettippakarana (stacked above Petakopadesa)
+        's0520m': (-0.0060, -0.0210),  # Petakopadesa (clear lower-centre band)
+    }
     for fid in MISCLASSIFIED_IDS:
         idx = get_doc_index(documents, fid)
         color = col['canon'] if labels[idx] == 0 else col['paracanonical']
         ax.scatter(coords[idx, 0], coords[idx, 1],
                    c=color, s=120, edgecolors='black', linewidth=2, zorder=10)
-        ax.annotate(SHORT_NAMES[fid], (coords[idx, 0], coords[idx, 1]),
-                    fontsize=8, fontweight='bold',
-                    xytext=(8, 8), textcoords='offset points')
+        lx, ly = pca_label_xy.get(fid, (coords[idx, 0] + 0.004, coords[idx, 1] + 0.004))
+        ax.annotate(SHORT_NAMES[fid], xy=(coords[idx, 0], coords[idx, 1]),
+                    xytext=(lx, ly), fontsize=_fs(7, _w), fontweight='bold',
+                    ha='center', va='center', zorder=25,
+                    arrowprops=dict(arrowstyle='-', color='0.35', lw=0.6))
 
         # Draw lines to both centroids
         ax.plot([coords[idx, 0], canon_centroid_2d[0]],
@@ -433,10 +489,14 @@ def section_3_feature_space(documents, labels, matrix, feature_names):
                edgecolors='black', linewidth=2, zorder=20, label='Non-canon centroid')
 
     var_exp = pca.explained_variance_ratio_
-    ax.set_xlabel(f'PC1 ({var_exp[0]:.1%} variance)')
-    ax.set_ylabel(f'PC2 ({var_exp[1]:.1%} variance)')
-    ax.set_title('PCA: Misclassified Texts and Class Centroids')
-    ax.legend(loc='best', fontsize=9)
+    ax.set_xlabel(f'PC1 ({var_exp[0]:.1%} variance)', fontsize=_fs(8, _w))
+    ax.set_ylabel(f'PC2 ({var_exp[1]:.1%} variance)', fontsize=_fs(8, _w))
+    ax.tick_params(labelsize=_fs(7, _w))
+    ax.set_title('PCA: Misclassified Texts and Class Centroids', fontsize=_fs(9, _w))
+    # Legend below the axes so it never sits over the data (and so the text labels
+    # can use the whole plot area without colliding with it).
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=3,
+              fontsize=_fs(6.5, _w), frameon=True)
 
     plt.tight_layout()
     outpath = RESULTS_DIR / f'exp_misclass_pca_centroids{GRAY_SUFFIX}.png'
@@ -464,15 +524,14 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
     coefs = lr.coef_[0]
     intercept = lr.intercept_[0]
 
-    # 2x3 panel figure
-    n_panels = len(MISCLASSIFIED_IDS)
-    ncols = min(3, n_panels)
-    nrows = (n_panels + ncols - 1) // ncols
-    fig, axes = plt.subplots(nrows, ncols, figsize=(18, 5 * nrows))
-    axes = np.array(axes).flatten() if n_panels > 1 else [axes]
-
-    for panel_idx, fid in enumerate(MISCLASSIFIED_IDS):
-        ax = axes[panel_idx]
+    # Figure 4 is split into one full-width panel per boundary text (five in all),
+    # stacked as subfigures in the printed edition, so each text's 20 word labels
+    # are legible in the book. The data, words, and bars are identical to the old
+    # single-grid version; only the layout (one file each) and the font sizes
+    # change. Each panel is generated at textwidth so its labels print >= ~7.5 pt.
+    _w = 10
+    saved_paths = []
+    for fid in MISCLASSIFIED_IDS:
         idx = get_doc_index(documents, fid)
         true_label = 'canon' if labels[idx] == 0 else 'non-canon'
 
@@ -507,17 +566,25 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
             colors = ['#B0B0B0' if c < 0 else '#3A3A3A' for c in show_contributions]
         else:
             colors = ['#2196F3' if c < 0 else '#F44336' for c in show_contributions]
+
+        # Taller panel (7.5 vs 6) so the 20 word labels have clear vertical
+        # spacing and the longer Pali words no longer touch their neighbours;
+        # label size raised to a true footnotesize (~8 pt at the 3.93" print
+        # width) per the editor's legibility request.
+        fig, ax = plt.subplots(figsize=(_w, 7.5))
         ax.barh(range(len(show_words)), show_contributions, color=colors,
                 edgecolor='gray', linewidth=0.3)
         ax.set_yticks(range(len(show_words)))
-        ax.set_yticklabels(show_words, fontsize=7)
+        ax.set_ylim(-0.6, len(show_words) - 0.4)
+        ax.set_yticklabels(show_words, fontsize=_fs(8, _w))
+        ax.tick_params(axis='x', labelsize=_fs(7, _w))
         ax.axvline(x=0, color='black', linewidth=0.8)
-        ax.set_xlabel('Contribution to decision', fontsize=8)
+        ax.set_xlabel('Contribution to decision', fontsize=_fs(8, _w))
 
         predicted = 'non-canon' if decision > 0 else 'canon'
         ax.set_title(f"{SHORT_NAMES[fid]} ({fid})\n"
                      f"True: {true_label}, Score: {decision:.2f} -> {predicted}",
-                     fontsize=9)
+                     fontsize=_fs(9, _w))
 
         # Print top contributors
         print(f"\n  {SHORT_NAMES[fid]} ({fid}) - true: {true_label}, "
@@ -531,18 +598,12 @@ def section_4_decision_decomposition(documents, labels, matrix, feature_names):
             print(f"      {feature_names[i]:<20} contribution={contributions[i]:>8.4f}  "
                   f"(coef={coefs[i]:.4f}, x_scaled={x_scaled[i]:.4f})")
 
-    for i in range(n_panels, len(axes)):
-        axes[i].set_visible(False)
-
-    _dec_sub = ('(lighter = toward canon, darker = toward non-canon)' if GRAY
-                else '(blue = toward canon, red = toward non-canon)')
-    plt.suptitle('Decision Decomposition: Words Driving (Mis)classification\n'
-                 + _dec_sub, fontsize=13)
-    plt.tight_layout()
-    outpath = RESULTS_DIR / f'exp_misclass_decision_decomp{GRAY_SUFFIX}.png'
-    fig.savefig(outpath, dpi=150, bbox_inches='tight')
-    plt.close(fig)
-    print(f"\n  Saved: {outpath}")
+        plt.tight_layout()
+        outpath = RESULTS_DIR / f'exp_misclass_decision_{fid}{GRAY_SUFFIX}.png'
+        fig.savefig(outpath, dpi=150, bbox_inches='tight')
+        plt.close(fig)
+        saved_paths.append(outpath)
+        print(f"  Saved: {outpath}")
 
 
 def section_5_nearest_neighbors(documents, labels, matrix):
